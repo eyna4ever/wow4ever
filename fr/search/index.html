@@ -6,20 +6,31 @@
 <title>Recherche — Wiki WoW: Forever</title>
 <meta name="description" content="Rechercher dans les faits confirmés du wiki World of Warcraft: Forever.">
 <meta name="robots" content="noindex,follow">
+<meta name="theme-color" content="#14110d">
+<meta name="color-scheme" content="dark">
 <link rel="canonical" href="https://wow4ever.raveforge.eu/fr/search/">
 <link rel="alternate" hreflang="fr" href="https://wow4ever.raveforge.eu/fr/search/"><link rel="alternate" hreflang="en" href="https://wow4ever.raveforge.eu/en/search/"><link rel="alternate" hreflang="x-default" href="https://wow4ever.raveforge.eu/">
 <link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Recherche — Wiki WoW: Forever", "description": "Rechercher dans les faits confirmés du wiki World of Warcraft: Forever.", "inLanguage": "fr", "url": "https://wow4ever.raveforge.eu/fr/search/", "isBasedOn": []}</script>
+<script src="/assets/nav.js" defer></script>
+<script src="/assets/search.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
-<header class="site-header"><div class="wrap"><a class="brand" href="/fr/">Wiki WoW: Forever</a>
+<header class="site-header"><div class="wrap bar"><a class="brand" href="/fr/">Wiki WoW: Forever</a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="mainnav" hidden>Menu</button>
 <nav class="lang" aria-label="Langue"><a href="/fr/search/" hreflang="fr" lang="fr" aria-current="true">FR</a> <a href="/en/search/" hreflang="en" lang="en">EN</a></nav></div>
-<nav class="main-nav" aria-label="Navigation principale"><div class="wrap"><ul><li><a href="/fr/">Accueil</a></li><li><a href="/fr/launch/">Lancement &amp; accès</a></li><li><a href="/fr/beta/">Bêta</a></li><li><a href="/fr/game/">Le jeu</a></li><li><a href="/fr/zones/">Zones &amp; quêtes</a></li><li><a href="/fr/skyborne/">Éolides</a></li><li><a href="/fr/classes/">Classes</a></li><li><a href="/fr/dungeons-raids/">Donjons &amp; raids</a></li><li><a href="/fr/pvp/">JcJ</a></li><li><a href="/fr/systems/">Systèmes</a></li><li><a href="/fr/sources/">Sources</a></li><li><a href="/fr/search/" aria-current="page">Recherche</a></li></ul></div></nav></header>
+<nav id="mainnav" class="main-nav" aria-label="Navigation principale"><div class="wrap"><ul><li><a href="/fr/">Accueil</a></li><li><a href="/fr/faq/">FAQ</a></li><li><a href="/fr/launch/">Lancement</a></li><li><a href="/fr/beta/">Bêta</a></li><li><a href="/fr/game/">Le jeu</a></li><li><a href="/fr/classes/">Classes</a></li><li><a href="/fr/skyborne/">Éolides</a></li><li><a href="/fr/leveling/">Progression</a></li><li><a href="/fr/zones/">Zones</a></li><li><a href="/fr/dungeons-raids/">Donjons &amp; raids</a></li><li><a href="/fr/pvp/">JcJ</a></li><li><a href="/fr/systems/">Systèmes</a></li><li><a href="/fr/news/">Actualités</a></li><li><a href="/fr/glossary/">Glossaire</a></li><li><a href="/fr/sources/">Sources</a></li><li><a href="/fr/search/" aria-current="page">Recherche</a></li></ul></div></nav></header>
 <main id="main" class="wrap"><h1>Recherche</h1>
-<form id="sf" role="search" data-index="/fr/search/index.json" data-none="Aucun résultat."><label for="q">Rechercher un terme</label>
-<input id="q" name="q" type="search" autocomplete="off"><button type="submit">Recherche</button></form>
-<div id="results" aria-live="polite"></div><noscript><p>La recherche nécessite JavaScript ; utilisez la navigation ci-dessus.</p></noscript></main>
-<script src="/assets/search.js" defer></script>
+<details class="legend"><summary>Légende des statuts</summary><ul><li><span class="badge b-V">VÉRIFIÉ</span> source officielle Blizzard (date indiquée)</li><li><span class="badge b-A">ANNONCÉ</span> annoncé officiellement, pas encore disponible</li><li><span class="badge b-C">À CONFIRMER</span> mécanique de WoW classique ou plausible, non vérifiée pour Forever</li><li><span class="badge b-O">OBSOLÈTE</span> information dépassée</li><li><span class="badge b-K">CONTRIBUTION COMMUNAUTAIRE</span> source communautaire, à valider</li><li><span class="badge b-E">ÉVALUATION ÉDITORIALE</span> avis de la rédaction, pas une donnée officielle</li></ul></details>
+<form id="sf" role="search" data-index="/fr/search/index.json" data-none="Aucun résultat.">
+<label for="q">Rechercher un terme</label> <input id="q" name="q" type="search" autocomplete="off">
+<label>Catégorie <select name="c"><option value="">Tous</option><option value="general">Général</option><option value="guide">Guides</option><option value="launch">Lancement & bêta</option><option value="classes">Classes & races</option><option value="world">Monde & donjons</option><option value="pvp">JcJ</option><option value="systems">Systèmes</option><option value="news">Actualités</option></select></label>
+<label>Classe <select name="k"><option value="">Tous</option><option value="warrior">Guerrier / guerrière</option><option value="paladin">Paladin</option><option value="hunter">Chasseur / chasseresse</option><option value="rogue">Voleur / voleuse</option><option value="priest">Prêtre / prêtresse</option><option value="shaman">Chaman / chamane</option><option value="mage">Mage</option><option value="warlock">Démoniste</option><option value="druid">Druide / druidesse</option></select></label>
+<label>Statut <select name="s"><option value="">Tous</option><option value="V">VÉRIFIÉ</option><option value="A">ANNONCÉ</option><option value="C">À CONFIRMER</option><option value="O">OBSOLÈTE</option><option value="K">CONTRIBUTION COMMUNAUTAIRE</option></select></label>
+<button type="submit">Recherche</button></form>
+<div id="results" aria-live="polite"></div><noscript><p>La recherche nécessite JavaScript ; utilisez la navigation ci-dessus.</p></noscript>
+</main>
 <footer class="site-footer"><div class="wrap"><p>Site indépendant et non officiel de Blizzard Entertainment.</p></div></footer>
 </body>
 </html>
