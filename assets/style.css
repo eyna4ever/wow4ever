@@ -125,3 +125,5 @@ li.fact{background:#13203a}li.f-K{background:#1d1a33}
 .keyfacts{background:var(--parch);color:var(--ink)}.keyfacts dt{color:#6a5532}.keyfacts .qf-t{color:#4a2f0c}.keyfacts .ref{color:#6a5532}
 .wrap{max-width:76rem}
 .classgrid li{background:none;border:0;box-shadow:none}.classgrid a.parch{border:1px solid #b08d4f}
+.banner{margin:0 0 1rem}.banner img{display:block;width:100%;height:auto;aspect-ratio:16/6;object-fit:cover;border:1px solid var(--gold);border-radius:.4rem;background:#13203a}
+.banner figcaption{font-size:.82rem;color:var(--muted);font-style:italic;margin-top:.25rem}
