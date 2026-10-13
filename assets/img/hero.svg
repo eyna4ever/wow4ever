@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-hidden="true">
-<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1a36"/><stop offset=".55" stop-color="#4a3a6b"/><stop offset=".8" stop-color="#c9735a"/><stop offset="1" stop-color="#f0b45e"/></linearGradient>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b3a58"/><stop offset=".55" stop-color="#6a8fae"/><stop offset=".8" stop-color="#e8b884"/><stop offset="1" stop-color="#f4e0b0"/></linearGradient>
 <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b4a72"/><stop offset="1" stop-color="#1a2440"/></linearGradient>
 <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f2a4a"/><stop offset="1" stop-color="#0b1426"/></linearGradient>
 <linearGradient id="isl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e5a4a"/><stop offset=".3" stop-color="#5b4a3a"/><stop offset="1" stop-color="#2a2030"/></linearGradient></defs>

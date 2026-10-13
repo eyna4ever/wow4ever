@@ -7,4 +7,4 @@ ill/*.svg (36 section banners, 960x360: classes, races, dungeons/raids, hubs) ar
 each file and what it depicts is listed on /fr/credits/ and /en/credits/. They are not in-game images and depict no game characters.
 The design mockup (shots/maquette.jpg) is NOT used on the site.
 They do not reproduce or imitate Blizzard logos, crests or artwork. No third-party, Blizzard or AI-generated images are used.
-Fonts: none downloaded; system font stacks only.
+Fonts: Cinzel (assets/fonts/cinzel-latin.woff2, Latin subset), Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel), SIL Open Font License 1.1 (assets/fonts/OFL-Cinzel.txt). Self-hosted; source: github.com/google/fonts/ofl/cinzel. Body text uses system fonts.

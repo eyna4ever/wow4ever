@@ -127,3 +127,31 @@ li.fact{background:#13203a}li.f-K{background:#1d1a33}
 .classgrid li{background:none;border:0;box-shadow:none}.classgrid a.parch{border:1px solid #b08d4f}
 .banner{margin:0 0 1rem}.banner img{display:block;width:100%;height:auto;aspect-ratio:16/6;object-fit:cover;border:1px solid var(--gold);border-radius:.4rem;background:#13203a}
 .banner figcaption{font-size:.82rem;color:var(--muted);font-style:italic;margin-top:.25rem}
+/* ===== Forever identity pass (2026-10-13): teal/azure + bronze + ivory, Cinzel display (OFL, self-hosted) ===== */
+@font-face{font-family:"Cinzel";src:url(/assets/fonts/cinzel-latin.woff2) format("woff2");font-weight:400 900;font-display:swap}
+:root{--bg:#0b1c24;--panel:#11303a;--panel2:#17414c;--fg:#f2ead8;--muted:#b8c6c4;--gold:#c99a52;--gold2:#ecd394;--teal:#3fa9b2;--line:#2a5560;--link:#ecd394;
+--bronze:linear-gradient(180deg,#e9c987,#b07a3c 55%,#7a4f25)}
+body{background:radial-gradient(ellipse at 50% -10%,#1f4f5c 0,#0b1c24 55%) fixed,#0b1c24}
+h1,h2,h3,.brand,.qf-t,.main-nav a,.main-nav summary,.countdown span,.classgrid a{font-family:"Cinzel","Palatino Linotype",Palatino,Georgia,serif;letter-spacing:.03em}
+h1,.brand{color:#f6ecd2;text-shadow:0 2px 0 #0008,0 0 18px #3fa9b244}
+h2{color:var(--gold2)}h3{color:#e9d9b0}
+.site-header{background:linear-gradient(#123744,#0b1f28);border-bottom:0;position:relative}
+.site-header::after{content:"";display:block;height:4px;background:var(--bronze);box-shadow:0 2px 6px #0008}
+.lang a[aria-current]{background:var(--bronze);color:#1c1206}
+.hsearch input,.hsearch button{background:#0a1a21;border-color:var(--gold)}
+h2.orn::before,h2.orn::after{content:"";display:inline-block;width:3.2rem;height:.7rem;vertical-align:middle;margin:0 .6rem;
+background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 14'%3E%3Cpath d='M0 7h24M40 7h24' stroke='%23c99a52' stroke-width='1.5'/%3E%3Cpath d='M32 1l6 6-6 6-6-6z' fill='%23ecd394'/%3E%3Ccircle cx='22' cy='7' r='2' fill='%233fa9b2'/%3E%3Ccircle cx='42' cy='7' r='2' fill='%233fa9b2'/%3E%3C/svg%3E") center/contain no-repeat}
+h2.orn::after{transform:scaleX(-1)}
+.page-hero,.home-hero{background:linear-gradient(160deg,#17414c,#0e2730);border:1px solid #c99a5288;box-shadow:inset 0 0 0 3px #0b1c24,inset 0 0 0 4px #c99a5255,0 4px 14px #0009;border-radius:.5rem}
+.home-hero{padding:0 1rem}
+.emblem{filter:drop-shadow(0 0 10px #3fa9b266)}
+.banner img{border:0;outline:1px solid #c99a52;outline-offset:3px;box-shadow:0 0 0 6px #0b1c24,0 0 0 7px #c99a5266,0 6px 16px #000a}
+.banner figcaption{margin-top:.7rem}
+.countdown{background:#0b1c24cc;border-color:var(--gold);box-shadow:0 0 14px #3fa9b233}
+.countdown span{color:#f6ecd2}
+li.fact{background:#10303a}li.f-K{background:#1b2338}
+.toc,.legend{background:#10303a;border-color:#2a5560}
+.parch{border-color:#a8773d;box-shadow:inset 0 0 0 1px #f6ead055,inset 0 0 22px #a0804a66,0 3px 8px #0008}
+.classgrid img{filter:drop-shadow(0 1px 2px #0006)}
+.site-footer{border-top:0;background:linear-gradient(#0b1f28,#081419)}.site-footer::before{content:"";display:block;height:3px;background:var(--bronze)}
+.classgrid a.parch{background:var(--parch);color:#4a2f0c}
