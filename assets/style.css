@@ -67,3 +67,5 @@ li.f-N{border-left-color:#8c8ca8}li.f-O{border-left-color:#c0574a}li.f-K{border-
 .emblems{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0}.emblems li{padding:.3rem}
 @media (max-width:44rem){.page-hero{grid-template-columns:1fr;text-align:center;justify-items:center}.emblem{width:72px;height:72px}
  .js .main-nav.open{background:#121a2c;border-top:1px solid var(--gold)}.main-nav li a{padding:.7rem .4rem;font-size:1.05rem}}
+.matrix{font-size:.82rem}.matrix td{text-align:center;vertical-align:middle;padding:.3rem}.matrix .badge{font-size:.62rem;white-space:normal}
+.matrix td.m-V{background:#1d3a26}.matrix td.m-N{background:#1a1a22}.matrix th{white-space:nowrap}
