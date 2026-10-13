@@ -35,3 +35,11 @@ input[type=search]{width:min(100%,22rem)}button{font:inherit;padding:.35rem .9re
 .chooser ul{list-style:none;padding:0;font-size:1.25rem}.chooser li{margin:.5rem 0}
 @media (max-width:44rem){h1{font-size:1.6rem}.js .main-nav{display:none}.js .main-nav.open{display:block}.main-nav ul{flex-direction:column;gap:0}.main-nav li a{display:block;padding:.45rem 0;border-bottom:1px solid var(--line)}}
 @media (min-width:44.01rem){.menu-btn{display:none}}
+.b-N{background:#3d3d4d;color:#f0f0ff}
+.intro{font-size:1.08rem;color:var(--muted);border-left:3px solid var(--gold);padding:.2rem 0 .2rem .8rem;margin:.4rem 0 1rem}
+.hero{font-family:Georgia,"Times New Roman",serif;font-size:1.35rem;color:var(--fg);margin:.2rem 0 1rem}
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.8rem}
+.path{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:.4rem;padding:.4rem 1rem}.path h3{margin:.4rem 0}.path p{margin:.2rem 0;color:var(--muted)}
+.launchbox{background:var(--panel2);border:1px solid var(--gold);border-radius:.4rem;padding:0 1rem .4rem;margin-top:1.5rem}.launchbox h2{border:0}
+.toc-t{margin:.3rem 0;font-weight:700;color:var(--gold2)}
+.steps li{margin:.6rem 0}.related{margin-top:2.5rem}
