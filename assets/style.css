@@ -70,3 +70,12 @@ li.f-N{border-left-color:#8c8ca8}li.f-O{border-left-color:#c0574a}li.f-K{border-
 .matrix{font-size:.82rem}.matrix td{text-align:center;vertical-align:middle;padding:.3rem}.matrix .badge{font-size:.62rem;white-space:normal}
 .matrix td.m-V{background:#1d3a26}.matrix td.m-N{background:#1a1a22}.matrix th{white-space:nowrap}
 .matrix td.m-X{background:#2a1c1c;color:#e3c9c0}
+.main-nav li.has-sub{position:relative}
+.main-nav summary{cursor:pointer;font-weight:500;color:var(--link);list-style:none}
+.main-nav summary::-webkit-details-marker{display:none}
+.main-nav summary::after{content:" ▾";font-size:.8em;color:var(--gold)}
+.main-nav details[open] summary::after{content:" ▴"}
+.main-nav ul.sub{list-style:none;margin:0;padding:.4rem .2rem;display:block}
+.main-nav ul.sub a{display:block;padding:.3rem .8rem;white-space:nowrap}
+@media (min-width:44.01rem){.main-nav ul.sub{position:absolute;left:0;top:100%;z-index:20;min-width:14rem;background:#121a2c;border:1px solid var(--gold);border-radius:.4rem;box-shadow:0 6px 18px #000a}}
+@media (max-width:44rem){.main-nav summary{display:block;padding:.7rem .4rem;border-bottom:1px solid var(--line);font-size:1.05rem}.main-nav ul.sub{padding-left:1rem;border-left:2px solid var(--gold);margin:.2rem 0 .4rem .4rem}}
