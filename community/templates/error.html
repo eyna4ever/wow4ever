@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}{{ error.code }}{% endblock %}{% block content %}<section class="panel narrow" role="alert"><div class="eyebrow">{{ error.code }}</div><h1>La demande n’a pas abouti</h1><p>{{ error.description }}</p><a class="button secondary" href="/community/">Retour aux forums</a><a href="/account/">Mon compte</a></section>{% endblock %}

@@ -1,0 +1,256 @@
+[
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/fr/classes/warrior/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/fr/search/?q=guerrier",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/fr/classes/warrior/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/fr/search/?q=guerrier",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/fr/classes/warrior/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/fr/search/?q=guerrier",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/fr/classes/warrior/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/fr/search/?q=guerrier",
+    "pass": true
+  },
+  {
+    "check": "keyboard-skip-link",
+    "pass": true
+  },
+  {
+    "check": "anonymous-login-browser-redirect",
+    "pass": true
+  },
+  {
+    "check": "authenticated-browser-workflows",
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/account/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/privacy/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/fr/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/fr/classes/warrior/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/fr/search/?q=guerrier",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/topics/1",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/new",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/posts/1/edit",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/posts/1/report",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/profiles/2",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/account/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/notifications/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/moderation/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  }
+]

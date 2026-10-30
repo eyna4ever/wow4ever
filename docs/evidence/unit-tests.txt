@@ -1,0 +1,34 @@
+test_anonymous_login_csrf_and_lazy_session (test_community.CommunityTest.test_anonymous_login_csrf_and_lazy_session) ... ok
+test_anonymous_reads_allocate_no_database_sessions (test_community.CommunityTest.test_anonymous_reads_allocate_no_database_sessions) ... ok
+test_atomic_edit_and_hidden_quotes (test_community.CommunityTest.test_atomic_edit_and_hidden_quotes) ... ok
+test_audit_migration_preserves_legacy_entity_meanings (test_community.CommunityTest.test_audit_migration_preserves_legacy_entity_meanings) ... ok
+test_backup_restore_and_idempotent_schema (test_community.CommunityTest.test_backup_restore_and_idempotent_schema) ... ok
+test_category_hierarchy_and_cycle (test_community.CommunityTest.test_category_hierarchy_and_cycle) ... ok
+test_csrf_origin_and_host (test_community.CommunityTest.test_csrf_origin_and_host) ... ok
+test_export_deletion_and_private_history (test_community.CommunityTest.test_export_deletion_and_private_history) ... ok
+test_full_discussion_interactions_and_notifications (test_community.CommunityTest.test_full_discussion_interactions_and_notifications) ... ok
+test_historical_installer_is_inert_and_disclaimer_exact (test_community.CommunityTest.test_historical_installer_is_inert_and_disclaimer_exact) ... ok
+test_local_backup_rotation_and_private_permissions (test_community.CommunityTest.test_local_backup_rotation_and_private_permissions) ... ok
+test_oauth_disabled_is_honest (test_community.CommunityTest.test_oauth_disabled_is_honest) ... ok
+test_oauth_pkce_one_use_and_rotation (test_community.CommunityTest.test_oauth_pkce_one_use_and_rotation) ... ok
+test_oauth_wrong_browser_expiry_issuer_and_provider_error (test_community.CommunityTest.test_oauth_wrong_browser_expiry_issuer_and_provider_error) ... ok
+test_pagination_permalinks_and_no_content_loss (test_community.CommunityTest.test_pagination_permalinks_and_no_content_loss) ... ok
+test_permission_boundaries_and_moderation (test_community.CommunityTest.test_permission_boundaries_and_moderation) ... ok
+test_provider_failure_does_not_authenticate (test_community.CommunityTest.test_provider_failure_does_not_authenticate) ... ok
+test_rate_limit_shared_across_clients_and_purge (test_community.CommunityTest.test_rate_limit_shared_across_clients_and_purge) ... ok
+test_recent_auth_and_last_admin (test_community.CommunityTest.test_recent_auth_and_last_admin) ... ok
+test_retention_actual_cutoffs (test_community.CommunityTest.test_retention_actual_cutoffs) ... ok
+test_secure_cookies_headers_expiration_logout (test_community.CommunityTest.test_secure_cookies_headers_expiration_logout) ... ok
+test_session_activity_writes_are_coalesced (test_community.CommunityTest.test_session_activity_writes_are_coalesced) ... ok
+test_source_allowlist_and_pages (test_community.CommunityTest.test_source_allowlist_and_pages) ... ok
+test_suspension_keeps_privacy_rights (test_community.CommunityTest.test_suspension_keeps_privacy_rights) ... ok
+test_trusted_proxy_uses_distinct_clients_only (test_community.CommunityTest.test_trusted_proxy_uses_distinct_clients_only) ... ok
+test_typed_audit_targets_survive_account_erasure (test_community.CommunityTest.test_typed_audit_targets_survive_account_erasure) ... ok
+test_untrusted_forwarded_header_cannot_reset_budgets (test_community.CommunityTest.test_untrusted_forwarded_header_cannot_reset_budgets) ... ok
+test_wiki_preservation (test_community.CommunityTest.test_wiki_preservation) ... ok
+test_xss_sql_and_quote_boundaries (test_community.CommunityTest.test_xss_sql_and_quote_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 1.412s
+
+OK

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#080d19">
+<title>{% block title %}Communauté{% endblock %} · WoW Forever</title>
+<link rel="stylesheet" href="/assets/style.css"><link rel="stylesheet" href="/assets/community.css">
+</head>
+<body class="community"><a class="skip" href="#main">Aller au contenu</a>
+<header class="community-header"><div class="wrap bar">
+<a class="brand" href="/fr/"><span class="brand-mark" aria-hidden="true">W</span> WoW <span>Forever</span></a>
+<nav aria-label="Navigation principale" class="portal-nav"><a href="/fr/">Encyclopédie</a><a href="/community/" aria-current="{{ 'page' if request.endpoint == 'forum' else 'false' }}">Forums</a><a href="/fr/news/">Actualités</a></nav>
+{% if user %}<a class="account-link" href="/notifications/">Notifications{% if unread %} <span class="badge b-A">{{ unread }} non lues</span>{% endif %}</a><a class="button secondary" href="/account/">{{ user.name }}</a>
+{% else %}<a class="button" href="/account/">Connexion Discord</a>{% endif %}
+</div></header>
+<main id="main" class="wrap community-main">{% block content %}{% endblock %}</main>
+<footer class="portal-footer"><div class="wrap"><a class="brand" href="/fr/">WoW Forever</a><p>Un monde à explorer. Une communauté pour le partager.</p><nav aria-label="Liens utiles"><a href="/privacy/">Confidentialité et données</a><a href="/fr/sources/">Sources du wiki</a><a href="/fr/credits/">Crédits</a>{% if staff %}<a href="/moderation/">Modération</a>{% endif %}</nav><p class="muted">Wiki communautaire consacré exclusivement à World of Warcraft: Forever. Site indépendant et non officiel de Blizzard Entertainment.</p></div></footer>
+</body></html>

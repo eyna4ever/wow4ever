@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily local backup of WoW Forever private staging
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+RandomizedDelaySec=900
+Unit=wow4ever-staging-backup.service
+
+[Install]
+WantedBy=timers.target

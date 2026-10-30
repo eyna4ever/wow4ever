@@ -1,0 +1,7 @@
+{% macro token(csrf) %}<input type="hidden" name="csrf" value="{{ csrf }}">{% endmacro %}
+{% macro pager(page,more,endpoint,topic_id=None,user_id=None) %}
+<nav class="pager" aria-label="Pagination">
+{% if page>1 %}<a class="button secondary" href="{{ url_for(endpoint,page=page-1, **({'topic_id':topic_id} if topic_id else {'user_id':user_id} if user_id else {})) }}{% if request.args.get('q') %}&amp;q={{ request.args.q|urlencode }}{% endif %}{% if request.args.get('category') %}&amp;category={{ request.args.category|urlencode }}{% endif %}{% if request.args.get('filter') %}&amp;filter={{ request.args.filter|urlencode }}{% endif %}">Page précédente</a>{% endif %}
+<span>Page {{ page }}</span>
+{% if more %}<a class="button secondary" href="{{ url_for(endpoint,page=page+1, **({'topic_id':topic_id} if topic_id else {'user_id':user_id} if user_id else {})) }}{% if request.args.get('q') %}&amp;q={{ request.args.q|urlencode }}{% endif %}{% if request.args.get('category') %}&amp;category={{ request.args.category|urlencode }}{% endif %}{% if request.args.get('filter') %}&amp;filter={{ request.args.filter|urlencode }}{% endif %}">Page suivante</a>{% endif %}
+</nav>{% endmacro %}

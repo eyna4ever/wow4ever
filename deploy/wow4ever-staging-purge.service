@@ -1,0 +1,25 @@
+[Unit]
+Description=WoW Forever staging retention cleanup
+
+[Service]
+Type=oneshot
+User=wow4ever-staging
+Group=wow4ever-staging
+WorkingDirectory=/srv/wow4ever-staging/current
+EnvironmentFile=/etc/wow4ever-staging.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/wow4ever-staging/current/.venv/bin/flask --app community.app:create_app purge
+UMask=0077
+StateDirectory=wow4ever-staging
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/wow4ever-staging

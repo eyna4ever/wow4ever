@@ -1,0 +1,7 @@
+{
+  "name": "wow4ever-accessibility-checks",
+  "private": true,
+  "devDependencies": {
+    "axe-core": "4.14.0"
+  }
+}

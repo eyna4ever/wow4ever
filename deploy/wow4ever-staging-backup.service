@@ -1,0 +1,25 @@
+[Unit]
+Description=WoW Forever private staging local SQLite backup
+
+[Service]
+Type=oneshot
+User=wow4ever-staging
+Group=wow4ever-staging
+WorkingDirectory=/srv/wow4ever-staging/current
+EnvironmentFile=/etc/wow4ever-staging.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/wow4ever-staging/current/.venv/bin/flask --app community.app:create_app backup-daily /var/lib/wow4ever-staging-backups --keep-days 30
+UMask=0077
+StateDirectory=wow4ever-staging wow4ever-staging-backups
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/wow4ever-staging /var/lib/wow4ever-staging-backups

@@ -1,0 +1,63 @@
+{
+  "tool": "bandit",
+  "version": "1.9.4",
+  "generated_at": "2026-10-30T11:45:50Z",
+  "findings": [
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "file": "community/app.py",
+      "line": 364,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "file": "community/app.py",
+      "line": 367,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "file": "community/app.py",
+      "line": 465,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "file": "community/app.py",
+      "line": 466,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "file": "community/app.py",
+      "line": 468,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "LOW",
+      "file": "community/app.py",
+      "line": 572,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    },
+    {
+      "id": "B608",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "file": "community/app.py",
+      "line": 655,
+      "review": "SQL identifiers/fragments selected exclusively from server constants; values bound as parameters. See docs/SECURITY.md."
+    }
+  ]
+}

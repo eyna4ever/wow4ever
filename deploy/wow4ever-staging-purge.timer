@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily WoW Forever staging retention
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+RandomizedDelaySec=900
+Unit=wow4ever-staging-purge.service
+
+[Install]
+WantedBy=timers.target

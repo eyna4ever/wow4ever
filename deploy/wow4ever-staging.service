@@ -1,0 +1,33 @@
+[Unit]
+Description=WoW Forever private staging community
+After=network.target
+
+[Service]
+Type=simple
+User=wow4ever-staging
+Group=wow4ever-staging
+WorkingDirectory=/srv/wow4ever-staging/current
+EnvironmentFile=/etc/wow4ever-staging.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/wow4ever-staging/current/.venv/bin/gunicorn 'community.app:create_app()' --bind 127.0.0.1:8014 --workers 2 --timeout 60 --access-logfile /dev/null --error-logfile - --forwarded-allow-ips=
+Restart=on-failure
+RestartSec=5
+UMask=0077
+StateDirectory=wow4ever-staging
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/wow4ever-staging
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target
