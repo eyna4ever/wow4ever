@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily local backup of WoW Forever private community
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+RandomizedDelaySec=900
+Unit=wow4ever-community-backup.service
+
+[Install]
+WantedBy=timers.target

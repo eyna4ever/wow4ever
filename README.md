@@ -61,3 +61,7 @@ Les cinq unités systemd de préproduction comprennent deux timers : purge et sa
 - [Suite donnée à la revue de livraison](docs/REVIEW-FOLLOWUP.md)
 
 La communauté est en français ; les 100 pages du wiki gardent leurs langues et leurs URL. Le Talent Builder et la gestion de guilde sont hors périmètre.
+
+## Build fusionné (wiki en ligne du 28/10)
+
+Le wiki servi est désormais le build statique en ligne, intégré dans `wiki/` par `tools/integrate_wiki.py`. Voir [docs/MERGE.md](docs/MERGE.md) et le plan d’installation [docs/INSTALL-HETZNER.md](docs/INSTALL-HETZNER.md).

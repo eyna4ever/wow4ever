@@ -1,0 +1,25 @@
+[Unit]
+Description=WoW Forever community retention cleanup
+
+[Service]
+Type=oneshot
+User=wow4ever-app
+Group=wow4ever-app
+WorkingDirectory=/srv/wow4ever-app/current
+EnvironmentFile=/etc/wow4ever-community.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/wow4ever-app/current/.venv/bin/flask --app community.app:create_app purge
+UMask=0077
+StateDirectory=wow4ever-community
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/wow4ever-community

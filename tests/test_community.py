@@ -13,7 +13,7 @@ import unittest
 from unittest.mock import Mock, patch
 from urllib.parse import parse_qs, urlsplit
 
-from community.app import ROOT, create_app, digest
+from community.app import ROOT, WIKI_ROOT, create_app, digest
 
 BASE = 'http://localhost:8000'
 
@@ -62,31 +62,59 @@ class CommunityTest(unittest.TestCase):
         self.assertEqual(response.status_code,302,response.data)
         return int(response.location.rsplit('/',1)[1])
 
+    # The bundled pre-redesign wiki (100 pages, commit 9b51f38) was replaced by the CURRENT live static build
+    # (wow4ever-web.tar.gz, deployed 28/10/2026; v6 adds 6 news published 30/10/2026). The old git-based baseline no longer applies: the baseline is now
+    # the SHA-256 of every file of the live tarball, and the only edits (community navigation links) are recorded
+    # in tests/wiki-baseline.json and reversed here to prove that article text, statuses and assets are unchanged.
     def test_wiki_preservation(self):
         baseline=json.loads((ROOT/'tests/wiki-baseline.json').read_text())
-        htmls=list((ROOT/'fr').rglob('*.html'))+list((ROOT/'en').rglob('*.html'))
-        self.assertEqual(len(htmls),100)
-        self.assertEqual({str(p.relative_to(ROOT)) for p in htmls},set(baseline['pages']))
-        has_history=(ROOT/'.git').exists()
-        for file in htmls:
-            with self.subTest(path=file):
-                key=str(file.relative_to(ROOT))
-                if has_history:
-                    original=subprocess.check_output(['git','show',f"{baseline['base_commit']}:{key}"],cwd=ROOT)
-                    self.assertEqual(hashlib.sha256(original).hexdigest(),baseline['pages'][key])
-                current=file.read_text().replace('\n<link rel="stylesheet" href="/assets/community.css">','')
-                current=re.sub(r'<nav aria-label="(?:Communauté|Community \(FR\))"><div class="wrap actions">.*?</div></nav>\n','',current)
-                self.assertEqual(hashlib.sha256(current.encode()).hexdigest(),baseline['pages'][key])
+        self.assertEqual(baseline['tarball_sha256'],'2ed60db2b192585b7963d1561afe49246a41df672f044a4b6aedba8c7bcca885')
+        files={str(p.relative_to(WIKI_ROOT)) for p in WIKI_ROOT.rglob('*') if p.is_file()}
+        self.assertEqual(files,set(baseline['files']))
+        self.assertEqual(sum(1 for f in files if f.endswith('.html')),137)
+        for key in sorted(files):
+            with self.subTest(path=key):
+                data=(WIKI_ROOT/key).read_bytes()
+                if key in baseline['edits']:
+                    text=data.decode()
+                    self.assertIn('Site indépendant et non officiel de Blizzard Entertainment.',text)
+                    for old,new in baseline['edits'][key]:
+                        self.assertEqual(text.count(new),1)
+                        text=text.replace(new,old,1)
+                    data=text.encode()
+                self.assertEqual(hashlib.sha256(data).hexdigest(),baseline['files'][key])
+
+    def test_drafts_not_published(self):
+        # AC2 (forever-news-beta) and CL3 (forever-class-priest) must remain unpublished drafts.
+        for file in WIKI_ROOT.rglob('*.html'):
+            text=file.read_text()
+            self.assertNotIn('forever-news-beta"',text)
+            self.assertNotIn('forever-class-priest',text)
+        self.assertFalse(any('pretre' in str(p) or 'priest' in str(p) for p in WIKI_ROOT.rglob('*')))
 
     def test_source_allowlist_and_pages(self):
-        for file in [*ROOT.joinpath('fr').rglob('*.html'),*ROOT.joinpath('en').rglob('*.html')]:
-            with self.subTest(path=file):
-                self.assertEqual(self.get('/'+str(file.relative_to(ROOT))).status_code,200)
+        for file in WIKI_ROOT.rglob('*'):
+            if file.is_file():
+                with self.subTest(path=file):
+                    key=str(file.relative_to(WIKI_ROOT))
+                    response=self.get('/'+key)
+                    self.assertEqual(response.status_code,200)
+                    if key.endswith('.jpg'):
+                        self.assertEqual(response.mimetype,'image/jpeg')
+                    if key.endswith('.mjs') or key.endswith('.js'):
+                        self.assertEqual(response.mimetype,'text/javascript')
+        self.assertEqual(self.get('/fr/zones/').status_code,200)
+        redirect=self.get('/fr/zones')
+        self.assertEqual((redirect.status_code,redirect.location),(308,'/fr/zones/'))
+        self.assertIn('data-community-link',self.get('/fr/').text)
         for path in ['/community/app.py','/community/schema.sql','/instance/community.sqlite3','/.git/config','/.env',
                      '/requirements.txt','/install.sh','/assets/../community/app.py','/fr/../../community/app.py',
-                     '/tests/wiki-baseline.json','/docs/REPORT.md','/deploy/wow4ever-staging.service','/qa/package.json']:
+                     '/tests/wiki-baseline.json','/docs/REPORT.md','/deploy/wow4ever-staging.service','/qa/package.json',
+                     '/wiki/index.html','/tools/integrate_wiki.py','/community/static/../app.py','/community/static/img/CREDITS.md',
+                     '/fr/../community/app.py','/assets/style.css','/robots.txt','/fr/zones/index.json','/en/x/../../wiki/app.js']:
             self.assertEqual(self.get(path).status_code,404,path)
-        self.assertEqual(self.get('/assets/community.css').status_code,200)
+        self.assertEqual(self.get('/community/static/community.css').status_code,200)
+        self.assertEqual(self.get('/community/static/img/default.svg').status_code,200)
 
     def test_csrf_origin_and_host(self):
         self.assertEqual(self.client.post('/community/new',base_url=BASE,data={}).status_code,403)

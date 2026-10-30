@@ -1,0 +1,33 @@
+[Unit]
+Description=WoW Forever community (production, loopback only)
+After=network.target
+
+[Service]
+Type=simple
+User=wow4ever-app
+Group=wow4ever-app
+WorkingDirectory=/srv/wow4ever-app/current
+EnvironmentFile=/etc/wow4ever-community.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/srv/wow4ever-app/current/.venv/bin/gunicorn 'community.app:create_app()' --bind 127.0.0.1:8014 --workers 2 --timeout 60 --access-logfile /dev/null --error-logfile - --forwarded-allow-ips=
+Restart=on-failure
+RestartSec=5
+UMask=0077
+StateDirectory=wow4ever-community
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/wow4ever-community
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target

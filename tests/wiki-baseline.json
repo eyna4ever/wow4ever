@@ -1,106 +1,1058 @@
 {
-  "base_commit": "9b51f381bba732e084157b7335afb5f6f503c3b5",
-  "algorithm": "sha256",
-  "pages": {
-    "en/beta/index.html": "879dffd576b202218043e1a2c37f5856f75b3bf3e813dba3afcc47a55c707693",
-    "en/classes/compare/index.html": "a944cacf2020f30efcb3957a47317bce9cefecde3aec44cf7780428877ff2a31",
-    "en/classes/druid/index.html": "656eb666a6f800a1593fb232449123d5f899b62e4eaacd3ced8a0888eab01886",
-    "en/classes/hunter/index.html": "e1663ee2f5a23cf96ddb9fb2dea546948e0ef0b468e511053e2bb77f12ff8ccd",
-    "en/classes/index.html": "f9617a88ac9374b913168dec6bd7d37c92ddf60caa91db8712b21ca5f7ed1f18",
-    "en/classes/mage/index.html": "8a22deb0cbe6c988c25092130fb04a76b5298027e234554ea219738c18243581",
-    "en/classes/paladin/index.html": "3fb93787b24982349841d70bcd3b98fad69a998d5cee881244c9cfa53899ed5a",
-    "en/classes/priest/index.html": "0f13c13081ed380c7ecbd2834a145423817e9469bdb31866749c2feb28591321",
-    "en/classes/rogue/index.html": "07768afdfe132b3a952c1d32f35ddea840d415ab71587e1dbe58c7d3cc7252df",
-    "en/classes/shaman/index.html": "cfbbdc949c318b2dac0e7470018d77fd64adbde766a04956573c066768dc5830",
-    "en/classes/warlock/index.html": "2377d8c021b79a8b47f714bdbc914b966550a4882f449ad1b23b08e0cefe352c",
-    "en/classes/warrior/index.html": "c75658fcdcc0ea481128ea115e73595e8bf91c720d3e2e8a38e671dde642826a",
-    "en/credits/index.html": "c28e62c41c3e6981dfbf9870ac1a529b35942e1735fd5e78ff3be5ab3fb31bde",
-    "en/dungeons-raids/alcaz-prison/index.html": "66c416c7b2f80b474578450d8b2c615d083eabcad00abd209d6a5d174522a9c3",
-    "en/dungeons-raids/barrow-deeps/index.html": "f18cfba0e067034b872dd59afe6826675160da9d5766c1885fb6c8b4320aa641",
-    "en/dungeons-raids/blackmaw-hold/index.html": "20c619bf8937a22e8732f40a8340dd9b40032d9d7a0bbcade2a7c161e40795b4",
-    "en/dungeons-raids/city-of-dalaran/index.html": "84c290440b2975f058bf07532f1859c4c20db0c59a4e61729d22f58de3416c6c",
-    "en/dungeons-raids/drowned-city/index.html": "f98c1137b0b9b928888d1cbbd8132e229d40a281251cbcada2eb6d8150c63dbf",
-    "en/dungeons-raids/excavation-site-wetlands/index.html": "301671378f539b6c79047b8567e031545316733a5b8e84c335cfeb2ce1dbd8d5",
-    "en/dungeons-raids/hall-of-thanes/index.html": "a1b20d58d62a79af802078847236ade116af418cae578e43c9d21542b71022af",
-    "en/dungeons-raids/hyjal-summit/index.html": "ede65ad03a3f68f79aafbea5654d61105ed1829dfba97ebd387054d83c91c4f2",
-    "en/dungeons-raids/index.html": "66ba06b8f00d86b4fa41979f3122d4fed60518f100183f470da9975a9b14b3dc",
-    "en/dungeons-raids/kroldok-stronghold/index.html": "c545d0e3991f2abe53c3b522bfb9f07c4f56c617f57f4168e6897d5e80730bc9",
-    "en/dungeons-raids/ruins-of-lordaeron/index.html": "931c5ef195e61c6c5695acd430c716f56d769b063305622b0762b4bb23d67e6c",
-    "en/dungeons-raids/shapers-terrace/index.html": "a1947743b4a1c8726593d10b81f7c54487888140d8de5fee78bd0eb5410bac02",
-    "en/faq/index.html": "b497befa7ea6a598879d4681662130ae378751aeb87e90e3fcdc8f3de22c4712",
-    "en/game/index.html": "0a7d855eb23df998b85dddc9dc9e190f641bb5fb51d8d9d461a30ca33373783c",
-    "en/glossary/index.html": "a8a8c7c91a0b738991b9fd78fdfd1e26b89cefd53606a2c88dc66cb3d05303b3",
-    "en/guide/index.html": "3c1491d9cee4c22be67e13758c53b33fb7bb170afcd936a5bee4c51b6dd32ef0",
-    "en/index.html": "d7d5160dabacad638ac325ee7c19446b51be999b430fa6ff78f888be84559478",
-    "en/launch/index.html": "284d86545828cc552f1f1170b02be8b2a948bd0c9fe1cf328f5528f6c43df78b",
-    "en/leveling/index.html": "0fdddf2d41d3f1e4a50d33b2b11171b0edcac6567837fc955aff17ec11b68f57",
-    "en/news/index.html": "d78ff6fa8c3d2b1af4e09657164fd2e42b2901224c2a23840ac7fc502f19ff23",
-    "en/professions/index.html": "a6a94308d7fc994b987636a07477d4b6e44fc3bd5eb51ecddb5e39495d32da37",
-    "en/pvp/index.html": "62eeb9c5b4282b0135f1cb5b7d180646f6f6a6ce9f9484e113ccdd8f7963b22d",
-    "en/races/dwarf/index.html": "93d51e649c4268d4a3b4e51569dabc4092b4c80d6ba551383ac2333579bc82a7",
-    "en/races/gnome/index.html": "58b219657fd914bbc1e3fd26676f9fd12b6471d9ba5f90127fb4f58b4224265a",
-    "en/races/human/index.html": "8a7a572d38340cc64be3524a282728d79f86d06a88b74f7eb70d4b0256aee47f",
-    "en/races/index.html": "6711b9526774032930c8cfc7b65c6e4d7532f9b35dbd45609871ea16ae46ae39",
-    "en/races/night-elf/index.html": "a7a5f4496d33aa9e3bcf460c5ece5f95330df95ecf6e34d9cdde65c35ae178db",
-    "en/races/orc/index.html": "6fee375060f2b8f35808a8cabc35e6f04da4a8b35ae17224cecdb116a15dbefb",
-    "en/races/skyborne/index.html": "79bd763dc1d3a61e06fb312429466d89c427b34e3f1b05c7123a511af2b71386",
-    "en/races/tauren/index.html": "fb27edd76f3f2d13df5e053a16f64622157c1ad7959ccfe7d648b43a1ea0ce99",
-    "en/races/troll/index.html": "d44caab39a2ebb12151e2d89dbf98a84d1c5ca23888f22ee8b6176620d5eef0f",
-    "en/races/undead/index.html": "eb3a191229bacaeaf4571cc86bc82432a9f3dcfa8226eba92411eb6cafaf2e52",
-    "en/search/index.html": "eb4f5059c02fc385c1ffa36be562a8cf5b5b707d1b67e8e4e528fa2518d6afc0",
-    "en/skyborne/index.html": "5551a3bae0d18623436a6df1bc731ed07064f78a79f2765e1e0a757132c8ea73",
-    "en/sources/index.html": "91ce85352e23e075aa945c6a1390b523df79d7c09f21500eccef47422ed166c3",
-    "en/systems/index.html": "ab5fc362f7372b793d4253dd8a1a30c2ec2f4658518809a0bff3286c491ffffb",
-    "en/zones/index.html": "c3fb2cda66182350dc30f30e4d6d98ec173e162f61b26b18947074d7dcc148ea",
-    "fr/beta/index.html": "492608ad546e9db4b1b15794eaeb4b373d2e439f152b87bbd477412855d64e33",
-    "fr/classes/compare/index.html": "8da31555aaf838735ac839a1e2c9f5fb92f1a0e35734b9dac05608984e74b221",
-    "fr/classes/druid/index.html": "ef13bd0f0eccf0fa812a6dbef1f077956aad42b5446f7f43969f311d2f00c6a5",
-    "fr/classes/hunter/index.html": "b65ba8f666c5f6c1b514ab739b11e994d2561236e17349ee7d448f51ae59e961",
-    "fr/classes/index.html": "12c641c1e4abf8d6e8d5d4b2cbb76f23ab20f1621bd73e7803b7ec48280316a2",
-    "fr/classes/mage/index.html": "6820b9146f0a4046d4c08f02285ffe394a1a22fb3cbf71a601b10f8d26279901",
-    "fr/classes/paladin/index.html": "9d6675d625246b4b84bdc9f49c1e5a1941ad0a98e8e2d88032317ef81b980f2c",
-    "fr/classes/priest/index.html": "61ee3f3bdce793369b0568a1351646ad6611f96364b6ce82cf735b5b2b48805f",
-    "fr/classes/rogue/index.html": "aed1fcec6b38cd39935185a544faa515d392187eeee736713a6eeb3cc7bf9610",
-    "fr/classes/shaman/index.html": "8ec0a7a2db6162c4b17008474400409fba2c0380ab0b0888f6b9af90aee5f8e5",
-    "fr/classes/warlock/index.html": "2399d7eedbcc3c9865b178ba3a432a774585f55faf4aa6623cc4556ca4c20f41",
-    "fr/classes/warrior/index.html": "ec63c62607362e419551d38ccf79748e27c2973b9e719f7c60a38c9f3f83b5e2",
-    "fr/credits/index.html": "641d93c9a95fafd3732f0e6512ff8b2c9d6f1ad0ce1917773425f377a171e1ce",
-    "fr/dungeons-raids/alcaz-prison/index.html": "2d30f5355165e61a5cf3a4888a98ac3deffb6d5c3f958d68bc57d56c170d0f12",
-    "fr/dungeons-raids/barrow-deeps/index.html": "a3441c06b667fcbc62d0f959a5c2883591679613780814b4469fc79e7a6b4a73",
-    "fr/dungeons-raids/blackmaw-hold/index.html": "d66622cc6d1374fc41240a68a0178bbed645d21d068757325116fd102c6efcc3",
-    "fr/dungeons-raids/city-of-dalaran/index.html": "5c33df34ce3c6f142aa8ff1a9a3d8e49cf2209c869e163ff916be6c5c7c40aa1",
-    "fr/dungeons-raids/drowned-city/index.html": "7426e39373b13e005122967cae7ea99d23f9190400808c51e29512d4e7596cdd",
-    "fr/dungeons-raids/excavation-site-wetlands/index.html": "b5e6558b2e2edef7769cfd68ae4fbdc87a4e46b1c41d0d549d5cf567dba3b6fe",
-    "fr/dungeons-raids/hall-of-thanes/index.html": "27e88f570f12a1de631778a78d7955d6d44e996bcf1ad7923bc08c3b536a95e6",
-    "fr/dungeons-raids/hyjal-summit/index.html": "42c473293d2bb57d51d268b88b86133d48096594c3454c35cc89f8d4db215e11",
-    "fr/dungeons-raids/index.html": "3b4b265dee518f1a586caf7f84bc2efe64e710a76c5b1690666efd91ba1f4cc1",
-    "fr/dungeons-raids/kroldok-stronghold/index.html": "1cb5208c7ecd07df4f17b54b6090eb4f9148a78e2b1199aee810214e82ef6739",
-    "fr/dungeons-raids/ruins-of-lordaeron/index.html": "785ae3fb8a8f16ea2fb0a68a81c9ed19fd52a0b06e1f4eb2ac53cf7620de5cfd",
-    "fr/dungeons-raids/shapers-terrace/index.html": "11ac5cb1dab7b4ec1b5318f83f1a74654e046d74c1cbd4e1a11e5ff717d61719",
-    "fr/faq/index.html": "3a9f88f2b5aec6214a0e451ba23e9f655c4edee79eb97477871d7d75ed0c14f8",
-    "fr/game/index.html": "63ad4e0fb880d83eda784560a1c88429685fb4df8d057fa8c1bd0d625d937e46",
-    "fr/glossary/index.html": "1ddf485b4bbf5fcea59ce694e99a55bd9250f93a3cef805efec7c0bfa285f096",
-    "fr/guide/index.html": "77ad2fcd3d4a0675046d837cc97b2600e0ea8d446b3f12952914464c026ca6fb",
-    "fr/index.html": "d0708932ea82321b45218880017135f948c20b91cb9c871feee711f66a849556",
-    "fr/launch/index.html": "32425b7320a8aeff2a9fc7b4de8b09d622740df1376fd01086db6cbbc2c4d61f",
-    "fr/leveling/index.html": "015a3cffe074757b6f3a81d013f5610c07e2273ddbe2fc60653847e3de018dfd",
-    "fr/news/index.html": "284e317a8e0c25399b220608a5b1e4830a4ae44503bc72e31ae096ea1c888349",
-    "fr/professions/index.html": "e0752738a9775b07a895ba2e18dff3ce930bc3c47f4f3bbc13b1dbca7b97f07c",
-    "fr/pvp/index.html": "4b85827b6c04b8506a35d731fc5f7d67f704346637646ac338fa3f726c26f32f",
-    "fr/races/dwarf/index.html": "4ee141795c22272a56e08546d25ef676b56d48181e501e4becb7bdec7d575b67",
-    "fr/races/gnome/index.html": "56f9a18717d725a580d4635d189f356ea0f5f9f3853a4b89d77ec5f5ebe49a82",
-    "fr/races/human/index.html": "98b0799fd4195301a4b303f2a1e35303b0e2f75d60e01fc6aca61b981dec2864",
-    "fr/races/index.html": "50d25657b55a0bf8c25a0fc16a531e23f60145788082098b9ecdd16d1fa1ccd1",
-    "fr/races/night-elf/index.html": "c9bdd814daf17301db2d9e9fbdca59419e6511b5b2742bfb47852540fb63667a",
-    "fr/races/orc/index.html": "3721f322e8964d0ec6ab9e5dc8b693811b532ee668fd522811b958e2acd80fb6",
-    "fr/races/skyborne/index.html": "1d4bd392609a7cc6a5d7f5cb87f54895b61f24d203784ef8e0a63ece02c2666a",
-    "fr/races/tauren/index.html": "f6cc7cf0dab1cf9a34f3b00efca3cf878ccd4f780d9ecf917210329fd0b6cd68",
-    "fr/races/troll/index.html": "2618426ece29a45c04d3559a53eed266fc3be811f7166383b1c322ac9a189a2b",
-    "fr/races/undead/index.html": "c78e46ce2000a94f3df46313edb1322f9b44b1ca45c57e4d4710f39e8f47a710",
-    "fr/search/index.html": "b7babfa06b694fbc8cf21b6cb9eb2bc74e7885cf0157f059502b63b8ad44adb5",
-    "fr/skyborne/index.html": "3825823d043655c3bd1b649d6293c06e12fcfaa3069dc62a693bc60b8ce2b250",
-    "fr/sources/index.html": "6e623d23ccb9da15a3ff342f3d7ec2976c935dccb63d5c9b4ad8bfe5a9db30f3",
-    "fr/systems/index.html": "ae67fe6dc05b18f30e81ea0a5b70bbd6071be4f9f3ccbd535b34941ccf450a2c",
-    "fr/zones/index.html": "4fbde06ab7ac9936ce962a29da8e2f4edf34b2c17e6cf33e5c8255342a29a14a"
-  }
+ "source": "wow4ever-web.tar.gz (static build v6: live 2026-10-28 + 6 news published 2026-10-30)",
+ "tarball_sha256": "2ed60db2b192585b7963d1561afe49246a41df672f044a4b6aedba8c7bcca885",
+ "algorithm": "sha256",
+ "files": {
+  "app.js": "7d0e8a22bb21c5d91fc6ed97cf579de5fc3a2b3d852c3906b18ea551f484ff00",
+  "assets/art-ar01-calendar-1280.jpg": "ebdda6ed30c730d332c1a181c28b34e9f3ec1342a2feeb6540acc65f6a45a8af",
+  "assets/art-ar01-calendar-1280.webp": "a510980eb39f50df1d8331ac8047fe644a11f97e4090971f56d30e7c996a01b1",
+  "assets/art-ar01-calendar-640.webp": "16eddd2dc7210cb720b17a8e5d5539db32f77dc8083b04ac2723e625d01a4822",
+  "assets/art-ar02-beta-recap-1280.jpg": "131bf163b90219fdd8495773069f428f9d58c0997c39fc6d0f8c8003413166bd",
+  "assets/art-ar02-beta-recap-1280.webp": "4792822fbc608789b50261b6d5749a1eab72d5e45b2c597cb7157cb87d0c6e48",
+  "assets/art-ar02-beta-recap-640.webp": "eafa616703e210308a1bd0afeb953a56ae70e97da7c7948a9018daa0fb127bfa",
+  "assets/art-ar03-rulesets-1280.jpg": "fb78ab0cdc42e642192bbebb818d49050379dee08a9408a2d4206a2ebc894612",
+  "assets/art-ar03-rulesets-1280.webp": "4afd8199cf397053f58aa76a6d1ec25ebb928a328ee0f9ee291c29a16eeb628c",
+  "assets/art-ar03-rulesets-640.webp": "a9d5a676f7d9386f9226ee64f84d044246de3463b4874dfb490dfc77113ac526",
+  "assets/art-ar04-prepare-1280.jpg": "82374dca2369cee9c90f80a4cd1833f70a29181f39c8f7d0ecbe412b34961a00",
+  "assets/art-ar04-prepare-1280.webp": "2274c1a87845ae217fe71f7cb760fdcdcac62f7256cf4aecae542287b979c034",
+  "assets/art-ar04-prepare-640.webp": "4ec2c8ddf86a9f7ad9a9a4b4a9f76e0ceecb4e60de58aae260af677e451b8ba9",
+  "assets/art-ar05-raids-1280.jpg": "710a27dacca4ebebb062642ce9dbe8618a1cd46faacc9da21d6f2ad0b8b0a0a6",
+  "assets/art-ar05-raids-1280.webp": "070e4894a59cf9ffd523fb66eefea3f6103237d8c26c7b154155ad272a4f876d",
+  "assets/art-ar05-raids-640.webp": "2d32dfedca4542afbbc78795110814c64b447253c8d3626bc8e80b73e5f9c94d",
+  "assets/art-ar06-pvp-1280.jpg": "d4f141c6aef52d7d72cf6e0cb8141f82e010498136557e9a99c99aec3037a3b3",
+  "assets/art-ar06-pvp-1280.webp": "db7b1843f98a0591589c1a92d18c5737dd787d615d2e6aaa23c4922f70e26f6c",
+  "assets/art-ar06-pvp-640.webp": "fa1aade6a19dd338c981d418c4fb52279453e8f7046828ab822542475dd637c9",
+  "assets/art-ar07-skyborne-1280.jpg": "af4db48af91f2399141ceaf2ba7f2de633512c299ff2bcfe7ca82f441aa1dd8f",
+  "assets/art-ar07-skyborne-1280.webp": "4d597cac40f8c2829b9c28157e939de96c2b6be9a298f17bf3c70593f030d757",
+  "assets/art-ar07-skyborne-640.webp": "19daac7df4df0759d0ff27b2846671937e6edbbd945c43fadcc6569431630d14",
+  "assets/art-ar08-zones-1280.jpg": "f8721d9b64ec81478fee87f737e1e2b6a393af5f41ff798c5f333aee36cb3263",
+  "assets/art-ar08-zones-1280.webp": "a28f947a01f637ab37fd252253c2074404237e6741d093f4c4a8331fa0406c33",
+  "assets/art-ar08-zones-640.webp": "72e4759fb3ea018aed484ef536997bfbd5aac998375ea5aed111b366723d0f50",
+  "assets/art-ar09-classes-1280.jpg": "3b20705318755fbb5fdf1267b616cbb5ff1e3409cc575797726b93a076900863",
+  "assets/art-ar09-classes-1280.webp": "a68d490d3bfb4866c42d90a7894c550bc5bf403dd5e1659708c0340aab2f7312",
+  "assets/art-ar09-classes-640.webp": "307386a5d3d6706f944711dd1530573fe28f5216f1b103a6768611d75aaf05c9",
+  "assets/art-ar10-campfire-1280.jpg": "722cdab4592187b98b69143f996d8f1812423f7f9836bb738cfd6b8a2a5dbf1b",
+  "assets/art-ar10-campfire-1280.webp": "1846b2fb12f6f770ea20bd3c9c52fc0e342c0c6a429d14ffedb676e153bd1fea",
+  "assets/art-ar10-campfire-640.webp": "cab17b576005710c7ee7b6408feeb15d34324d5e3d67eaea6dc6f00acf9c4483",
+  "assets/art-ar11-quests-1280.jpg": "4f65c406325e1c9a7a3b952e719b544b3cf4c63559286f1fbccbcd33548e7368",
+  "assets/art-ar11-quests-1280.webp": "040811aba3382ed08374acce423ad733a441428ea88299616c96b6838d585710",
+  "assets/art-ar11-quests-640.webp": "4d4c49074632eb31774582fb2a73b0883970806e4af803f6cd4081964779fd48",
+  "assets/art-ar12-legacy-1280.jpg": "2bc80d9dc6b50ade8f2019820f9baacd96b94bd1b0146537e10b056f1747dcca",
+  "assets/art-ar12-legacy-1280.webp": "29713d884df94911d25fa991640b960a51c7aa8edfb543d2df2d93a3061ef9e8",
+  "assets/art-ar12-legacy-640.webp": "a38b7d2b958c292f9f4549d4456306f4abe7d146dafa750abfc7deba70b5818b",
+  "assets/art-ar13-creatures-1280.jpg": "4fd78ae1a211190a1e2c89344550b6ee771fe98e853ac415a016371cebf5cc9c",
+  "assets/art-ar13-creatures-1280.webp": "762d50921431c07348c2f7cd420a2c99de6d90fbd6ae9ce1296be564483dd4ae",
+  "assets/art-ar13-creatures-640.webp": "a65aa1c6e841d4658c613222fd14a93f8cdcc8589aa521bf8fccea95be9bd7a9",
+  "assets/art-ar14-items-1280.jpg": "63dc94d3bdeb133b2571ddd03f54cf08309f87b21ed91e1207506f2ac1b9e72b",
+  "assets/art-ar14-items-1280.webp": "1210d69144a24b37bc32a2432da810e9f4e7d65d35c13905e7ee16ce3b3e113b",
+  "assets/art-ar14-items-640.webp": "cedf3a2aa177502f2824bfdf4a44e0ae2929876124efeb1a26d97396677b9b4c",
+  "assets/art-ar15-poster-1280.jpg": "cdcae2046892fcde111ff5aeda7e3ad20918ea8f07f423f33f524b95ed29005f",
+  "assets/art-ar15-poster-1280.webp": "f143a2f399f4d7f3280b9c66489aa4c0095a2c71556928e09e1b4da8a5908477",
+  "assets/art-ar15-poster-640.webp": "92d276f3a390d5ce8441a01e4d854a00d3949ea85a386f4f2f74d0661c2ae487",
+  "assets/art-classes-1024.webp": "09b20f7dda01bbb5e262e3c8889057c758c81b9d7c8f90eaf3e0d7afc7295ddd",
+  "assets/art-classes-640.webp": "7b7edc0d0e6e591cca09488d1e5c96be227d3e06ff44fb13d272de9c7bb79416",
+  "assets/art-creatures-1024.webp": "555d70926d577b08e2ba5db8bb19c1ea33e48383ed29f406232dd4a2584b9422",
+  "assets/art-creatures-640.webp": "318eb12640388b9efb3d48c9b697a3231af4f1639e02d0c49adc3f788de8bdd3",
+  "assets/art-glossary-1024.webp": "3f80b64e28bd6fe463bc4f8c10b3b1e501885cad0ede3ae495a5917e28e22075",
+  "assets/art-glossary-640.webp": "d92bc04a6bd065f3e7d6a52699cadf97fe52390b9780796e6888984bc7d731e6",
+  "assets/art-guides-1024.webp": "5a4c8a4cbda7d2c06f9f477c98e2249b36c6a24a97b49d6bd5e59ee90caf5836",
+  "assets/art-guides-640.webp": "2e7c6b47a799459eb77e13682b92a7af7356b6e2b62401b809a2dbc04d23e779",
+  "assets/art-instances-1024.webp": "abf9e02c08918b64e90372bff559b6bcd90e4340713611ed317f3d06b55ca344",
+  "assets/art-instances-640.webp": "148145662356a78f16f78d0d0cbea69b2c0791bb4e35a1fa1271341ff1f30446",
+  "assets/art-items-1024.webp": "3ecd5458680ddd9c5e57717ab346375bd51e9595a249d981a5ffc15b117c5bb0",
+  "assets/art-items-640.webp": "2ba0027d36b8af408469d73bfee9a37d070aa97e0b7d1fbdcbb6aa4ac550f3e8",
+  "assets/art-news-1024.webp": "30d922389a9876c6fbd05bcee8c05b51061fbd978dde745ae29636ce6a968469",
+  "assets/art-news-640.webp": "925fe21d4c1d9d3cece44a125862840f7ff636dc0a82006b20be4d48ba3af600",
+  "assets/art-professions-1024.webp": "2b30d8ac684d20b6cfcd444d052bd34759392d31c474e96e671de4953223f623",
+  "assets/art-professions-640.webp": "e5ad66974421902954e370db34bcdb237c538e8fdac643707aac269d23e77f75",
+  "assets/art-pvp-1024.webp": "89f8c71e7afe3e574d41301a36594c61db29189aba3433400717ac53aeeb4bde",
+  "assets/art-pvp-640.webp": "33035943f1b1a86abab7d4d4e908f2755cb54a158df10396b45e8ffaecf89781",
+  "assets/art-quests-1024.webp": "6b2c1b1d5dd07f3e0e452aba16eca1b5c6d02cf7c3e0c0f6f9d395d8b1d774a8",
+  "assets/art-quests-640.webp": "db5e28fb2989bb07adc8d947fcf9ef6fc1f14e7f7e2c6dbf5fff19519cdc3d42",
+  "assets/art-races-1024.webp": "742514b971c629e2310d1368b737e0ac2685222313292cb045e2eff8f282974a",
+  "assets/art-races-640.webp": "f0fa8dc6a1a13e351ffc33e3ec9df179735139dce6a0c6f4b0df6c98b1113837",
+  "assets/art-zones-1024.webp": "0a3fb1e30af1505f426f1209b8d1984b8e4d9d08372a41ba283a68c6afcca0de",
+  "assets/art-zones-640.webp": "6e1eeae372d35547f62c4858b6625567d4b2f8de530187281783ba65f7a87309",
+  "assets/categories.webp": "2b4f6df63d7f6ae76a794e4c65d2fc129a6ad80f80c445686e6b24bc8aeb053f",
+  "assets/favicon.svg": "9b47672f82adf97f02fd8e8d612cfa7660a7de22e088b0f68f7eaa082f618046",
+  "assets/features.webp": "e03fb0bb39723404d82f3ee90efe7e66fdc51dcedaeba89ac1067e46fcedc27a",
+  "assets/frame.svg": "70f93697d75a7bd46037bcb75a2e0a5f2a6a8c7da78088da8104de3f8b826146",
+  "assets/grain.svg": "2af63f8807d956b7707f3cb8c9909cce4187e2f4100773eeede348e5d48189bf",
+  "assets/hero.webp": "ed0b604307c6c0151aa0d93551bce6f61b1cd173c9b941ef400cad0dc8bb3f06",
+  "en/classes/druid/index.html": "caf14d90c40821e092da6ca683eea6d67cc1fc0c445e8a23b8cda66adfc70488",
+  "en/classes/forever-classes/index.html": "bfd72fbbcd94eec1c4cac6e583aef1fb85662ef9fbd8f783f4c19a8217195265",
+  "en/classes/hunter/index.html": "215a8f91735ae2adf83be381c47991e533e57cefe2ad7b68af102fcac523ff39",
+  "en/classes/index.html": "9835fa62f3a39abe841c43940314538e5c252847aacf9ee19002f1ae26167cea",
+  "en/classes/mage/index.html": "47faf6360734c18ed1631114dc5287e891fa886ba3f9d624e7db3e9f90ba65a7",
+  "en/classes/paladin/index.html": "d0db44b190c235a5b6c8c5d98cead2c38011543b6610848be86597f9486a0b3d",
+  "en/classes/rogue/index.html": "661a2d58d327191c453f697e6639e6f525ecbe8cafe78cacc408fa1c05ee2cde",
+  "en/classes/shaman/index.html": "879bc1edfb92b8290ce5757e96bdcf5f6e2511c88bb3c6c93b320878d33044db",
+  "en/classes/warlock/index.html": "180e246645cde279dac14ce61bb0ef28b125863d282668f3eb332b38798c6c3f",
+  "en/classes/warrior/index.html": "d589897942ef82ee8be2c099b1f581f488288fdf5e2e3b65b2163fc2e0db9d52",
+  "en/creatures/documented-creatures/index.html": "f292aa217dad9161b8a93c64fceac0fb8e1d32811eb0682ba3c6587fec73c32f",
+  "en/creatures/foxes/index.html": "e2970f7cde11d35d0342c4a90301a8df85d84ba3b020eb3cbadaf249f98eb45b",
+  "en/creatures/index.html": "e460bff8c3d005c82d588cb28dd9453571ff778dbb894a6d0e4f5b977e3631b3",
+  "en/creatures/onyxia/index.html": "595559063ce16e53d7c31e57f477114331402c6f37e931402499f8d98c0a001a",
+  "en/dungeons-raids/barrow-deeps/index.html": "6625cce3f3b504fea1fcc865051bec7648bbc2d55386e24ecd68c4e607adafc4",
+  "en/dungeons-raids/hall-of-thanes/index.html": "c044c0967ec1316fd4840ae57ea81205e7d680e2883fa817038021b1afc95ee4",
+  "en/dungeons-raids/hyjal-summit/index.html": "ff34e98331c547761c50bb1d74203d5d73b04b5779203f687b8dd7f517a43bdf",
+  "en/dungeons-raids/index.html": "bec25042ff0e250505caf1621a5849e864c8ae73aac19563f2cc5751e25432e5",
+  "en/dungeons-raids/raids-and-dungeons/index.html": "4acd2238dd8ee2cb03d6c7f1c09ce8d22fe7703c0a890561919bea74726764b4",
+  "en/glossary/index.html": "6a4a966368f2909365fa17115a9347e060e9f9f56b437728b5ce1e3dd98fde12",
+  "en/glossary/legacy-and-ruleset-glossary/index.html": "0eb8b2ec65d6c031cab0e041a8e343dae42d6cc627d094cc3c1c24f5b8f6a593",
+  "en/glossary/legacy-points/index.html": "cc017f5c49375d28693efe2584c1c9399d880635ec82fbf6c3098f6d04981d3a",
+  "en/glossary/realmless-play-and-rulesets/index.html": "2a137bac0193805526b5fcc9e04ba65a2a80592b8056a84f3cb9cb1b1bd575d2",
+  "en/guides/check-pvp-progress/index.html": "a510f6c3c14b554e48c83654a83b9e664462f9c291a8d6bd14db8adf55624530",
+  "en/guides/choose-where-to-play-with-friends/index.html": "02e28e819424fd802e03b5e87e86c52d798b4924ddf46011d034299ba7a7c5aa",
+  "en/guides/index.html": "c535815ac5889fbf1300758ee8d4cfbd09ed5fa901b49600b4126f29d8db0b50",
+  "en/guides/prepare-launch-names/index.html": "297add75f21844ec685910203e785470ed3e1b5e499235533c184e51e40d6124",
+  "en/guides/rulesets/index.html": "2aa97228122c57bfdcc0a93dc5261b5632ec8486b8ebb1c8d1822a207ce06b90",
+  "en/index.html": "45b41ca8d7ad0b760ffa66f8632c5d2a5fd903fffc50c3483295f11b158d885c",
+  "en/items/documented-items/index.html": "d930da98f75e635ed555852528d23a24d0c98431d1e6655213d513bc8430c64e",
+  "en/items/index.html": "94a5e36d75f771b60904abe27bfdc7ab818b6dfc8a0acf47a17933ed01f19cf6",
+  "en/items/ladimore-heirloom-ring/index.html": "cf1493f9fe264cea6e488b750f2f29a0957201ed3c381711a3dfa1b582b825e6",
+  "en/items/worgenbane-talisman/index.html": "63e959aba80b8de56823997af40c2d44e5813a2e2ed9f465f9240161744d8fc4",
+  "en/news/announced-worldwide-launch/index.html": "fcdd4648f2c8a550783dc53d802eff1911b2aea59a3b4e3e3ebc850a476005ed",
+  "en/news/forever-beta-recap/index.html": "6f805fc078dfb55be86d45542843237adcfd832a11aac6cefb4510425f37d598",
+  "en/news/forever-schedule/index.html": "6ed65525e7cbecdd23410991e625c776cc10f4b75644516bb7b4e04705d886a5",
+  "en/news/global-launch-on-november-4-what-to-know/index.html": "76529d4c0f7d4e808bfa2769a44fd44499234eeb35dca546be61def252891f93",
+  "en/news/index.html": "56ef572d8821fbcb2c36e54fcd9bf62ddc71ab305f0e406a34aae10814fd387c",
+  "en/news/irvine-improv-poster-signing/index.html": "1802c90736f31acfa855b631d692ef828aa4d5f1ba358daee6233cee7cbfa54b",
+  "en/news/new-player-s-starter-guide/index.html": "af42ba8f6db4055ccfb59e058b6be1cff33e5629991212e3519c96a2476c8a8d",
+  "en/news/official-wow-portal-room-discord-welcomes-forever-players/index.html": "a394f026cef030a7d2662cb57db57ca8c2c9a0b9446b90fc023bcf5963d66d1b",
+  "en/news/returning-players-guide/index.html": "b99b2084a2dddad18191ef3a0317984a68eb182ced72127ff458117522214ea9",
+  "en/news/short-story-unbowed/index.html": "e1ad2ed91e1c51b2d49fae5b03423c811a5248bf41c9bcc62824da2b144a4878",
+  "en/news/subscription-and-game-access/index.html": "990f3eff604cad6d6a61ca82eb2254aef2a1e85f7eefde9193fbfcc0baf13e57",
+  "en/news/wow-forever-podcast-all-about-tech/index.html": "f3dd51e6f9795bfca1726be6c32aa657605ffd84424d507339a6c35fb28d5b92",
+  "en/professions/camping-and-crafting/index.html": "fefa8e98db79e798b0453bace1752a69bf638d5fc4fd2e2746f93691b08ed418",
+  "en/professions/campsite-crafting/index.html": "732dc8114a4fc03ecdce8a598840780c19e6b7985ee55a802fb11f2a8159ae52",
+  "en/professions/index.html": "d3d20299693a8401a3f60cc2df03ffb4d225a467745b162103d1e5881e0f4441",
+  "en/professions/recipes-and-advanced-blueprints/index.html": "26d5a2255afa3158654619d7efdd85471cccd1242df57e487b170ee6aa2dfb22",
+  "en/pvp/darkspear-islands/index.html": "bc2a0a5f90c1468cdd021dab1bdbd658456c30d39200484e43750c21bb32118c",
+  "en/pvp/honor/index.html": "3155ae526bf38142ed6fc2e6a47a144741ebf08ddd3681fa0a529b9ef5afdc93",
+  "en/pvp/index.html": "3a3fb214736f5d4d7e8824f08686bd8e2d38091b212041ee2da127f46707ff68",
+  "en/pvp/pvp-honor-and-ranks/index.html": "09e8978a84cdb3eb7efa0a564dc46ca59c956c393c78d3094ac792479fef07c3",
+  "en/pvp/rank-points/index.html": "cbb552badba4cfb2a1c145e4b1db598761165b4197afbe3e70406a9c5233d1c6",
+  "en/quests/index.html": "1b8e40e07cbb24c3cd7617720f939659cc41cfb84caf6de0e91ab0a2a2402bf5",
+  "en/quests/legacy-progression/index.html": "71d712322be55d13cdaf5f33988f50e7cb7e94ba2f9253e51acb356279fad6c2",
+  "en/quests/lord-valthalak-questline/index.html": "d5cf44af1a32799edc7211a8b841a90f320031a60b8284d65ede948b84114a8d",
+  "en/quests/new-level-1-60-adventures/index.html": "d5bb8c6e86b2179d8df5b01bd9b47b5b2a886681fb8af214946da06049926cde",
+  "en/quests/quests-and-progression/index.html": "b8ce6997cbc16891cb76e0d891d532545edbb7b6f1aaebcc9d6cc24d55dd28fc",
+  "en/races/index.html": "83a1594daa796a109330f90fb491178fc6318b79de7a511095ff47b36836328c",
+  "en/races/skyborne/index.html": "3f9413674a80d8ba5ffdb826538db460efa8bca0632d9cda71c3ffe00a7edf37",
+  "en/races/the-skyborne/index.html": "a2ea8237d1496210c91efe50ef4296f95de009867573d5105b64bbd1da782cd8",
+  "en/zones/forever-zones/index.html": "7a90aed083c14560d7dae17a94756344e43766321afb8e65f2681eb38d830fac",
+  "en/zones/index.html": "39d34d5d12ca17a86d6daaa73e474c0c0614c0d56d9c377a708f8554b1d7e66a",
+  "en/zones/mount-hyjal/index.html": "a74da2cf4011d999f5b71710829b800fb54f3a773ead8a793af10e11c55ac11c",
+  "en/zones/riverglades/index.html": "06af575a989048934ceba72a67cbdb482469c08ec5c2b5348cc28d7fe48c3951",
+  "en/zones/shen-dralas/index.html": "6953d51689ac462921ede3090b23dfcdf1a849727fdc85cd4f4ddb8bce177524",
+  "en/zones/zephras-isle/index.html": "e3f79e44fbfae453cb9e1c72ad7a4985220b184233e4f32b8800eb78df10a742",
+  "fr/actualites/abonnement-et-acces-au-jeu/index.html": "e8f9f17dec5cd996271cb123587e99331bea363eb37f1421e38f37d028032764",
+  "fr/actualites/beta-forever-bilan/index.html": "66baeb802364556a63963ff5ccd098c1243558f5462f82955db5017cb4ee2147",
+  "fr/actualites/calendrier-forever/index.html": "7fe2bc7594ab97251ff565883ffd37828e63ebc959c08b4ef1cbd5d970a72f02",
+  "fr/actualites/dedicaces-irvine-improv/index.html": "144fe37101dd0042ece37010d1249247ccd76399b780998b670fb56f2ec38187",
+  "fr/actualites/guide-de-demarrage-pour-les-nouveaux-joueurs/index.html": "44a67656aaaf6fde0625403c2d42374099b1757d6364444300b6260d17b51a30",
+  "fr/actualites/guide-du-retour-sur-azeroth/index.html": "0d15f243a44aa26b55e48cae5560305cca77c382cf18a1a0961d830f65e33291",
+  "fr/actualites/index.html": "a6ad3ef0f3b4a9d662630d151ba445bbdc7e7aea46a8985b3c0da6e4c044caf4",
+  "fr/actualites/lancement-mondial-annonce/index.html": "d17dcb54133ad87b1fead61dad531a4daf9dd4e6a14d599f64e23683bee7b683",
+  "fr/actualites/lancement-mondial-le-4-novembre-ce-qu-il-faut-savoir/index.html": "e537d169908886ba524c58e8719cd5f9b76bc9843c04b54dc2d80fbd6d018930",
+  "fr/actualites/le-discord-officiel-wow-portal-room-accueille-les-joueurs-forever/index.html": "e23a781c09f5c55fb6a483e8c8fcea59adb463ca16d541fdbec2a098aaf2f375",
+  "fr/actualites/nouvelle-unbowed/index.html": "00fdaa6557ededed097261efb7ceda2347e031e96318ce74e735f01f83a3f021",
+  "fr/actualites/podcast-wow-forever-la-technique/index.html": "2ea34a251d61dfa47c221fde235c5d0883a1a0a33822d247cf385712902916a1",
+  "fr/classes/chaman/index.html": "73ab86553e547ba28791d35e47457f823699a527d4984c7304b0cdab2e07e5fa",
+  "fr/classes/chasseur-chasseresse/index.html": "209d0706a61251215bff553670ea1bb197e0e83fbf2130aa2fd2289c7562f2cd",
+  "fr/classes/classes-forever/index.html": "6b6c76cc4b973dc815f8df1ad4f8ec7967636effe447924a38bf3264fd63b669",
+  "fr/classes/demoniste/index.html": "6d9c5207d94714272a2f441b8fe481898db0395c617f4ed695354fc7b0f60e51",
+  "fr/classes/druide-druidesse/index.html": "d6a726168f14ca1515b80a7c698d27d26c562c547af8f1410a3ed8369922813f",
+  "fr/classes/guerrier-guerriere/index.html": "58b16dc5cbe395d97053c47414317e8b596deed5f3aaa5096d006f70e505c7f6",
+  "fr/classes/index.html": "822feeb264ccba62dc3d5edd4e022193ba4716abde088c97a066d4c0c458dda4",
+  "fr/classes/mage/index.html": "e950d6c33684b6b3738129deba63485a3fdc522616b7cbdb61d80b8a258db396",
+  "fr/classes/paladin/index.html": "5068e2c7889befa9ba50f54766c9385b6045774154613023575d81dfbe9bfdec",
+  "fr/classes/voleur-voleuse/index.html": "adda982c5e5b0a22084de3cb72964e08987c2ba322754110593491e781f144a7",
+  "fr/creatures/creatures-documentees/index.html": "3b4389df3626e8c336859e33c39903bcd32102b02467c302b2fcae7b2643c607",
+  "fr/creatures/index.html": "9fa60c736c5a51a39b7b0e8101a03614600a555a58399e496812be142acccdc0",
+  "fr/creatures/onyxia/index.html": "eef775aac3b486b8890867b292eb14074349015b233b6141c95d8625ecd3acbd",
+  "fr/creatures/renards/index.html": "be0edf77112e4f6a95e9a9ccc3022e20f62022f09a2ec171f6f236c27ebb1095",
+  "fr/donjons-raids/index.html": "e5dad247ab32e0a4d03cb1c4c6dc07eecb640faf1f123c6d117e65e523963b40",
+  "fr/donjons-raids/profondeurs-des-saisons/index.html": "cb1fab49b4e83c5bd0d6b1cf064861fdc58f9315d18f392b47b30878126d6df6",
+  "fr/donjons-raids/raids-et-donjons/index.html": "3a2373912ed9f4d4ed7ed82f8c509c114381516fb30840c6aa89df81aeaaf6a9",
+  "fr/donjons-raids/salle-des-thanes/index.html": "8b87023532fc2dea06d4e006a8cee46201d901437334d50f6e813412af8ba997",
+  "fr/donjons-raids/sommet-d-hyjal/index.html": "1d0548755e972c840bfc67c404248fee5bd101317b54eb3cdde77dc88477db28",
+  "fr/glossaire/index.html": "16bc29066dcfece29934513bdce7969f85b1b4dd017b0545061877364a7ede7d",
+  "fr/glossaire/lexique-heritage-et-ensembles/index.html": "061cb15cd105d8e23740a45ab25e51c51aa17c9bd3a9c8ec6325f2cf72e64ef2",
+  "fr/glossaire/points-d-heritage/index.html": "05abc43aa33badfd639f7831e0be8b34b61a13c35382d5b93e1e4e0fec79dbd1",
+  "fr/glossaire/sans-royaumes-et-ensembles-de-regles/index.html": "193eb3212a9b7da7b205a200a5ddc5478bd622691a5bd81fc53b71fa86777060",
+  "fr/guides/choisir-ou-jouer-avec-ses-proches/index.html": "7fea6c07e1540d43634f021291bea43b385c32efce87ffab265370ce99085c31",
+  "fr/guides/consulter-sa-progression-jcj/index.html": "9b44e0394a06488a7c0e3b6cf785c5e298683b9fb20ab352649e2a3344a0282b",
+  "fr/guides/ensembles-de-regles/index.html": "e7160cefcb9af612b093391e35839fda7c02b0fbc8a697c47c42222ca8ee7172",
+  "fr/guides/index.html": "07ef656b7af40922a7f8d7019d18cb05f85dfe9fea89a9513461b50b1ac9eb4a",
+  "fr/guides/preparer-lancement-noms/index.html": "b063b382dfa539182430a7d881f5e4424d9c7e0df4300d879fd656d3b5d09909",
+  "fr/index.html": "0bfd6f24a447d041a8917f8a2c4f32d61a65dd8d979a34d3db7aedd13e139503",
+  "fr/jcj/honneur/index.html": "391d84233ee91b264be31a14382245b46d2102ce2dde56d753391c4d3689650e",
+  "fr/jcj/iles-des-sombrelances/index.html": "693ac473fe18806152d18e8bd3dea53a52d4d306cd384810925424922baa36c2",
+  "fr/jcj/index.html": "3bde4a5bddc99a6169bf6853f834534421c5ce119ba41a230aa570ee56d0a185",
+  "fr/jcj/jcj-honneur-et-rangs/index.html": "61cd1cec8b646ea923af14f836ed433cbc243c8bff4974846c8bdc6c1901af18",
+  "fr/jcj/points-de-rang/index.html": "b4c65a357a08813d1b1cafa7912ae21ce28d345de639062f94e5328017927ac5",
+  "fr/metiers/artisanat-du-campement/index.html": "3188623cca6e789da0c4b4f1e7aa33f3702b84dc02ba020148115d9be7f7bc32",
+  "fr/metiers/campement-et-artisanat/index.html": "89e516ebc398a13cc366389956a183679316aefae5a391244219bdd1e83b4bd6",
+  "fr/metiers/index.html": "39fa5dd46d096b94be3df1a97338cf12111f90e9edb65cd6b2acfb9eebf9a6c6",
+  "fr/metiers/recettes-et-plans-avances/index.html": "a1b5e60043105db80ab95671ac2011cca516ff2f0e0eb5ce3bb6bdd49f03d003",
+  "fr/objets/anneau-d-heritage-de-ladimore/index.html": "c8e50cbbd0eb3b0caf2454034a9e20feb83598cc7a9a1b83c42dcc7face1302a",
+  "fr/objets/index.html": "6c3f7c6496482116a5800514f5a4d22e44c44660a9763a3ba0a9d98294cc5d47",
+  "fr/objets/objets-documentes/index.html": "3d4d7826547119b455a75784ddbc4bf4c73d978d554461be7c2939c7f78acb9a",
+  "fr/objets/talisman-de-fleau-des-worgens/index.html": "bfb8b98b7f792de21c34952d378c68d4b9da49cee72617a27b0e6245e11cb1a0",
+  "fr/quetes/index.html": "8af72676462626804f9f82423943f8104798bf2addf7fc0adbc65195b5aa1295",
+  "fr/quetes/nouvelles-aventures-de-niveau-1-a-60/index.html": "e19dfc73626084fcdc8893b86e5acdee4994a28b5fd671467816feabdba39606",
+  "fr/quetes/progression-par-l-heritage/index.html": "2d7b85953339030a1d03f81a3ad87f6b4a283253b624dd22a02a6859ba284817",
+  "fr/quetes/quetes-et-progression/index.html": "66f12e433f93e71d484ddc9c272457a329df8d7b59ad03d9ef4cfc5bfc34449a",
+  "fr/quetes/suite-de-quetes-du-seigneur-valthalak/index.html": "053f20a1f6a5aa30f41bb40f572fb450c5bad1615a0a3597edccb5e2e581459d",
+  "fr/races/eolides/index.html": "9ca0e0804b6327f5999452d0dcf244e8823fdcff3a4320bcd1a3af2acab8b58c",
+  "fr/races/index.html": "ddddcc8cd84c194a300e44e234ec4e25718ca9f8637e2b6cc7f7b24ed908ab94",
+  "fr/races/les-eolides/index.html": "e4e7493ee33ff073ae5224ee17a4b1ccdc9c492cd7038f9e007dcdb564ee4d7a",
+  "fr/zones/ile-de-zephras/index.html": "deece7448471a57b8be356a01d4a88a0cf2cf57cea9a663ecce04818755790ec",
+  "fr/zones/index.html": "c77505d8bf81f080992c6855143aa1b50f696f5193254c2e7ac00995b2200a8e",
+  "fr/zones/mont-hyjal/index.html": "48e1754024ad9c34f2f2e5788394e9234cf02b4fc4543a5064bb368eee66003b",
+  "fr/zones/rives-claires/index.html": "e0700bdc3b00a23009623a3f84406768fdc4660dabcc01c6efe12a746eb87ab8",
+  "fr/zones/shen-dralas/index.html": "0a9726e20494bf5650904ede5f553975e90888cc348550f9822cb631ace40263",
+  "fr/zones/zones-forever/index.html": "3a56e06f409332be97dddf44c36816e27c38b3c4322b09c03cf248cdfcee0e9a",
+  "index.html": "77f454cc5cfd37ca9ac64f746815dc02910b7ccc6aea88e25310ee424a3feb5b",
+  "site.css": "bc31fff489e6cf0fcf0516c3687d04ec3710ae639204365f38eec702fad072b7",
+  "ui-core.mjs": "891e75d56fb8c7c455eb6a0e7df015f0d8b88f436d1ab782ec5cf090ab8d6e44"
+ },
+ "edits": {
+  "en/classes/druid/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/forever-classes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/hunter/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/mage/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/paladin/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/rogue/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/shaman/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/warlock/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/classes/warrior/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/creatures/documented-creatures/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/creatures/foxes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/creatures/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/creatures/onyxia/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/dungeons-raids/barrow-deeps/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/dungeons-raids/hall-of-thanes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/dungeons-raids/hyjal-summit/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/dungeons-raids/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/dungeons-raids/raids-and-dungeons/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/glossary/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/glossary/legacy-and-ruleset-glossary/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/glossary/legacy-points/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/glossary/realmless-play-and-rulesets/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/guides/check-pvp-progress/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/guides/choose-where-to-play-with-friends/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/guides/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/guides/prepare-launch-names/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/guides/rulesets/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/index.html": [
+   [
+    "<a href=\"#feature-panel\" data-view=\"community\" data-fr=\"Communauté\" data-en=\"Community\">Community</a>",
+    "<a href=\"/community/\" data-community-link data-fr=\"Communauté\" data-en=\"Community\">Community</a>"
+   ],
+   [
+    "<button id=\"account-open\" class=\"gold-outline\" type=\"button\" data-fr=\"Connexion\" data-en=\"Sign in\">Sign in</button>",
+    "<a id=\"community-account\" class=\"gold-outline\" href=\"/account/\" data-community-link data-fr=\"Connexion\" data-en=\"Sign in\">Sign in</a>"
+   ]
+  ],
+  "en/items/documented-items/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/items/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/items/ladimore-heirloom-ring/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/items/worgenbane-talisman/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/announced-worldwide-launch/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/forever-beta-recap/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/forever-schedule/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/global-launch-on-november-4-what-to-know/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/irvine-improv-poster-signing/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/new-player-s-starter-guide/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/official-wow-portal-room-discord-welcomes-forever-players/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/returning-players-guide/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/short-story-unbowed/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/subscription-and-game-access/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/news/wow-forever-podcast-all-about-tech/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/professions/camping-and-crafting/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/professions/campsite-crafting/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/professions/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/professions/recipes-and-advanced-blueprints/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/pvp/darkspear-islands/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/pvp/honor/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/pvp/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/pvp/pvp-honor-and-ranks/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/pvp/rank-points/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/quests/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/quests/legacy-progression/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/quests/lord-valthalak-questline/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/quests/new-level-1-60-adventures/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/quests/quests-and-progression/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/races/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/races/skyborne/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/races/the-skyborne/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/forever-zones/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../en/\">Home</a><a href=\"../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/mount-hyjal/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/riverglades/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/shen-dralas/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "en/zones/zephras-isle/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Main navigation\"><a href=\"../../../en/\">Home</a><a href=\"../../../en/#archives\">Categories</a><a href=\"/community/\" data-community-link>Community</a></nav>"
+   ]
+  ],
+  "fr/actualites/abonnement-et-acces-au-jeu/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/beta-forever-bilan/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/calendrier-forever/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/dedicaces-irvine-improv/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/guide-de-demarrage-pour-les-nouveaux-joueurs/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/guide-du-retour-sur-azeroth/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/lancement-mondial-annonce/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/lancement-mondial-le-4-novembre-ce-qu-il-faut-savoir/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/le-discord-officiel-wow-portal-room-accueille-les-joueurs-forever/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/nouvelle-unbowed/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/actualites/podcast-wow-forever-la-technique/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/chaman/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/chasseur-chasseresse/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/classes-forever/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/demoniste/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/druide-druidesse/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/guerrier-guerriere/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/mage/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/paladin/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/classes/voleur-voleuse/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/creatures/creatures-documentees/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/creatures/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/creatures/onyxia/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/creatures/renards/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/donjons-raids/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/donjons-raids/profondeurs-des-saisons/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/donjons-raids/raids-et-donjons/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/donjons-raids/salle-des-thanes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/donjons-raids/sommet-d-hyjal/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/glossaire/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/glossaire/lexique-heritage-et-ensembles/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/glossaire/points-d-heritage/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/glossaire/sans-royaumes-et-ensembles-de-regles/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/guides/choisir-ou-jouer-avec-ses-proches/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/guides/consulter-sa-progression-jcj/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/guides/ensembles-de-regles/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/guides/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/guides/preparer-lancement-noms/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/index.html": [
+   [
+    "<a href=\"#feature-panel\" data-view=\"community\" data-fr=\"Communauté\" data-en=\"Community\">Communauté</a>",
+    "<a href=\"/community/\" data-community-link data-fr=\"Communauté\" data-en=\"Community\">Communauté</a>"
+   ],
+   [
+    "<button id=\"account-open\" class=\"gold-outline\" type=\"button\" data-fr=\"Connexion\" data-en=\"Sign in\">Connexion</button>",
+    "<a id=\"community-account\" class=\"gold-outline\" href=\"/account/\" data-community-link data-fr=\"Connexion\" data-en=\"Sign in\">Connexion</a>"
+   ]
+  ],
+  "fr/jcj/honneur/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/jcj/iles-des-sombrelances/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/jcj/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/jcj/jcj-honneur-et-rangs/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/jcj/points-de-rang/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/metiers/artisanat-du-campement/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/metiers/campement-et-artisanat/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/metiers/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/metiers/recettes-et-plans-avances/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/objets/anneau-d-heritage-de-ladimore/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/objets/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/objets/objets-documentes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/objets/talisman-de-fleau-des-worgens/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/quetes/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/quetes/nouvelles-aventures-de-niveau-1-a-60/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/quetes/progression-par-l-heritage/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/quetes/quetes-et-progression/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/quetes/suite-de-quetes-du-seigneur-valthalak/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/races/eolides/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/races/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/races/les-eolides/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/ile-de-zephras/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../fr/\">Accueil</a><a href=\"../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/mont-hyjal/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/rives-claires/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/shen-dralas/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "fr/zones/zones-forever/index.html": [
+   [
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a></nav>",
+    "<nav class=\"page-nav\" aria-label=\"Navigation principale\"><a href=\"../../../fr/\">Accueil</a><a href=\"../../../fr/#archives\">Rubriques</a><a href=\"/community/\" data-community-link>Communauté</a></nav>"
+   ]
+  ],
+  "index.html": [
+   [
+    "<a href=\"#feature-panel\" data-view=\"community\" data-fr=\"Communauté\" data-en=\"Community\">Communauté</a>",
+    "<a href=\"/community/\" data-community-link data-fr=\"Communauté\" data-en=\"Community\">Communauté</a>"
+   ],
+   [
+    "<button id=\"account-open\" class=\"gold-outline\" type=\"button\" data-fr=\"Connexion\" data-en=\"Sign in\">Connexion</button>",
+    "<a id=\"community-account\" class=\"gold-outline\" href=\"/account/\" data-community-link data-fr=\"Connexion\" data-en=\"Sign in\">Connexion</a>"
+   ]
+  ]
+ }
 }

@@ -1,0 +1,313 @@
+[
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/fr/actualites/calendrier-forever/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 320,
+    "path": "/en/zones/mount-hyjal/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/fr/actualites/calendrier-forever/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 390,
+    "path": "/en/zones/mount-hyjal/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/fr/actualites/calendrier-forever/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 768,
+    "path": "/en/zones/mount-hyjal/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/community/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/account/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/privacy/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/fr/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/fr/actualites/calendrier-forever/",
+    "pass": true
+  },
+  {
+    "check": "responsive",
+    "width": 1440,
+    "path": "/en/zones/mount-hyjal/",
+    "pass": true
+  },
+  {
+    "check": "keyboard-skip-link",
+    "pass": true
+  },
+  {
+    "check": "anonymous-login-browser-redirect",
+    "pass": true
+  },
+  {
+    "check": "authenticated-browser-workflows",
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/account/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/privacy/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe-wiki",
+    "path": "/fr/",
+    "authenticated": false,
+    "violations": [
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          "<a class=\"brand\" href=\"#\" data-view=\"encyclopedia\" aria-label=\"WoW Forever Wiki — Accueil\" aria-current=\"page\">",
+          "<button id=\"language-toggle\" class=\"language-button\" type=\"button\" aria-label=\"Switch to English\" lang=\"fr\"><span lang=\"fr\" data-active=\"true\">FR</span><span class=\"language-divider\"> / </span><span lang=\"en\" data-active=\"false\">EN</span></button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-news-access\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Abonnement et accès au jeu\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-item-ladimore-heirloom-ring\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Anneau d’héritage de Ladimore\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-professions-camping\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Artisanat du campement\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-calendar\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Calendrier de World of Warcraft: Forever, de la bêta aux premiers raids\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-campfire\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Campement et artisanat : le feu de cuisine devient un lieu partagé\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-shaman\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Chaman\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-hunter\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Chasseur / Chasseresse\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-guide-choose-ruleset\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Choisir où jouer avec ses proches\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-rulesets\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Choisir son ensemble de règles : Normal, JcJ, Jeu de rôle, JdR-JcJ et Extrême\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-guide-track-pvp\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Consulter sa progression JcJ\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-creatures\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Créatures documentées : Onyxia et la famille des renards\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-warlock\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Démoniste\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-druid\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Druide / Druidesse\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-race-skyborne\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Éolides\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-warrior\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Guerrier / Guerrière\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-pvp-honor\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Honneur\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-zone-zephras-isle\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Île de Zéphras\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-pvp-darkspear-islands\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Îles des Sombrelances\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-pvp\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : JcJ dans World of Warcraft: Forever : honneur, rangs et îles des Sombrelances\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-beta-recap\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : La bêta de World of Warcraft: Forever (17 septembre – 23 octobre 2026)\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-news-launch\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Lancement mondial annoncé\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-skyborne\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Les Éolides : race jouable de l’île de Zéphras\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-classes\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Les neuf classes de World of Warcraft: Forever\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-mage\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Mage\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-zone-mount-hyjal\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Mont Hyjal\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-quests-new-adventures\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Nouvelles aventures de niveau 1 à 60\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-items\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Objets documentés : anneau de Ladimore, talisman anti-worgens et récompenses d’abonnement\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-creature-onyxia\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Onyxia\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-paladin\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Paladin\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-glossary-legacy-points\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Points d’héritage\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-legacy\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Points d’héritage et jeu sans royaumes : lexique Forever\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-pvp-rank-points\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Points de rang\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-prepare-launch\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Préparer le lancement : noms en deux parties et réservation anticipée\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-raid-barrow-deeps\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Profondeurs des Saisons\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-progression-legacy\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Progression par l’héritage\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-quests\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Quêtes et progression : plus de mille nouvelles aventures, héritage et Valthalak\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-raids\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Raids et donjons de World of Warcraft: Forever\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-professions-blueprints\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Recettes et plans avancés\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-creature-family-fox\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Renards\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-zone-riverglades\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Rives Claires\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-dungeon-hall-of-thanes\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Salle des Thanes\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-glossary-realmless\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Sans royaumes et ensembles de règles\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-poster\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Séance de dédicaces Forever à l’Irvine Improv (2 novembre 2026)\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-zone-shendralas\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Shen’dralas\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-raid-hyjal-summit\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Sommet d’Hyjal\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-questline-lord-valthalak\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Suite de quêtes du seigneur Valthalak\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-item-worgenbane-talisman\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Talisman de fléau des Worgens\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"forever-class-rogue\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Voleur / Voleuse\">☆ Favori</button>",
+          "<button type=\"button\" data-action=\"favorite\" data-value=\"article-forever-zones\" aria-pressed=\"false\" aria-label=\"Ajouter aux favoris : Zones nouvelles et réinventées : Zéphras, Rives Claires, Hyjal et Shen’dralas\">☆ Favori</button>"
+        ]
+      }
+    ],
+    "pass": false
+  },
+  {
+    "check": "axe-wiki",
+    "path": "/fr/actualites/calendrier-forever/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe-wiki",
+    "path": "/en/zones/mount-hyjal/",
+    "authenticated": false,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/topics/1",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/new",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/posts/1/edit",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/posts/1/report",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/community/profiles/2",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/account/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/notifications/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  },
+  {
+    "check": "axe",
+    "path": "/moderation/",
+    "authenticated": true,
+    "violations": [],
+    "pass": true
+  }
+]

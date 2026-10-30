@@ -20,6 +20,9 @@ from werkzeug.exceptions import HTTPException
 from community.proxy import trusted_client_ip
 
 ROOT = Path(__file__).resolve().parent.parent
+# Live static wiki build (tools/integrate_wiki.py); community assets live apart from it.
+WIKI_ROOT = Path(os.getenv('WIKI_ROOT', str(ROOT / 'wiki'))).resolve()
+STATIC_ROOT = ROOT / 'community' / 'static'
 DAY = 86400
 
 
@@ -169,7 +172,7 @@ def create_app(test_config=None):
         g.clear_anonymous_csrf = False
         if request.host != origin.netloc:
             abort(400, 'Hôte non autorisé.')
-        if request.endpoint == 'wiki' or request.endpoint == 'health':
+        if request.endpoint in ('wiki', 'health', 'community_static'):
             return
         if request.endpoint is None:
             return
@@ -223,7 +226,7 @@ def create_app(test_config=None):
         })
         if secure:
             response.headers['Strict-Transport-Security'] = 'max-age=31536000'
-        if request.endpoint != 'wiki':
+        if request.endpoint not in ('wiki', 'community_static'):
             response.headers['Cache-Control'] = 'no-store'
             response.headers['X-Robots-Tag'] = 'noindex, nofollow'
         if getattr(g, 'new_cookie', None):
@@ -526,7 +529,7 @@ def create_app(test_config=None):
     def avatar(user_id):
         person = query('SELECT discord_id,avatar,show_avatar FROM users WHERE id=?',(user_id,),True)
         if not person or not person['avatar'] or not person['show_avatar']:
-            return redirect('/assets/img/default.svg')
+            return redirect('/community/static/img/default.svg')
         limit('avatar-ip',60,60)
         try:
             result = requests.get(f"https://cdn.discordapp.com/avatars/{person['discord_id']}/{person['avatar']}.png?size=128",
@@ -535,7 +538,7 @@ def create_app(test_config=None):
             if not result.content.startswith(b'\x89PNG\r\n\x1a\n') or len(result.content)>256000:
                 raise ValueError('Invalid avatar')
         except (requests.RequestException,ValueError):
-            return redirect('/assets/img/default.svg')
+            return redirect('/community/static/img/default.svg')
         return app.response_class(result.content, mimetype='image/png')
 
     @app.route('/account/', methods=['GET','POST'])
@@ -718,21 +721,32 @@ def create_app(test_config=None):
     @app.get('/')
     @app.get('/<path:path>')
     def wiki(path='index.html'):
-        # Explicit allowlist: never expose source, SQLite, .env or deployment files.
+        # Explicit allowlist over the separate wiki/ build: never expose source, SQLite, .env or deployment files.
         if '..' in Path(path).parts or '\\' in path:
             abort(404)
-        if path.startswith('assets/'):
-            suffix=Path(path).suffix.lower()
-            if suffix not in ('.css','.js','.svg','.woff2','.png','.webp','.jpg'):
-                abort(404)
-        elif path in ('index.html','robots.txt','sitemap.xml'):
+        if re.fullmatch(r'assets/[a-z0-9-]+\.(?:webp|jpg|svg)',path) or path in ('index.html','site.css','app.js','ui-core.mjs'):
             pass
-        elif re.fullmatch(r'(fr|en)/(?:[a-z0-9-]+/)*(?:index\.(?:html|json))?',path):
+        elif re.fullmatch(r'(fr|en)/(?:[a-z0-9-]+/)*(?:index\.html)?',path):
             if path.endswith('/'):
                 path+='index.html'
+        elif re.fullmatch(r'(fr|en)(?:/[a-z0-9-]+)*',path) and (WIKI_ROOT/path/'index.html').is_file():
+            return redirect('/'+path+'/', 308)
         else:
             abort(404)
-        return send_from_directory(ROOT,path)
+        response=send_from_directory(WIKI_ROOT,path)
+        if path.startswith('assets/'):
+            response.headers['Cache-Control']='public, max-age=604800'
+        else:
+            response.headers['Cache-Control']='no-cache'
+        return response
+
+    @app.get('/community/static/<path:path>')
+    def community_static(path):
+        if not re.fullmatch(r'(?:img/)?(?:fonts/)?[a-z0-9-]+\.(?:css|svg|woff2)',path):
+            abort(404)
+        response=send_from_directory(STATIC_ROOT,path)
+        response.headers['Cache-Control']='public, max-age=86400'
+        return response
 
     @app.cli.command('init-db')
     def init_db_command():

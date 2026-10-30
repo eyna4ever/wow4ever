@@ -1,0 +1,48 @@
+# PROPOSITION — NON APPLIQUÉE. À intégrer UNIQUEMENT dans le bloc existant `wow4ever.raveforge.eu`,
+# après en avoir fait une copie. Ne jamais modifier le bloc Raveforge ni un autre bloc.
+# Statique (wiki) servi directement par Caddy depuis le sous-dossier wiki/ de la révision :
+#   le wiki reste en ligne même si l'application tombe ; le code n'est jamais servi.
+# Dynamique (communauté) proxifié vers l'application sur loopback.
+wow4ever.raveforge.eu {
+	encode zstd gzip
+
+	# Préfixes de l'application. Pour une phase privée, décommenter basic_auth (mot de passe haché
+	# avec `caddy hash-password`, saisi par Mathieu sur le serveur, jamais dans le chat).
+	@app path /community /community/* /auth/* /account /account/* /notifications /notifications/* /moderation /moderation/* /privacy /privacy/*
+	handle @app {
+		# basic_auth {
+		# 	mathieu <HASH_BCRYPT>
+		# }
+		reverse_proxy 127.0.0.1:8014 {
+			header_up X-Forwarded-For {remote_host}
+		}
+		# Pas de journal d'accès sur ces chemins (callback OAuth : code/state en query string).
+	}
+
+	# /healthz n'est pas proxifié (le statique renvoie 404) : vérifier en local avec
+	#   curl -s -H 'Host: wow4ever.raveforge.eu' http://127.0.0.1:8014/healthz
+
+	handle {
+		root * /srv/wow4ever-app/current/wiki
+		# En-têtes du wiki statique actuel (repris de deploy/Caddyfile.example du wiki) : limités au statique,
+		# pour ne pas se cumuler avec la CSP de l'application (form-action vers Discord, img data:).
+		header {
+			Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; object-src 'none'"
+			X-Content-Type-Options "nosniff"
+			Referrer-Policy "strict-origin-when-cross-origin"
+			X-Frame-Options "DENY"
+			Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+			Cross-Origin-Opener-Policy "same-origin"
+			Strict-Transport-Security "max-age=31536000"
+			X-Robots-Tag "noindex, nofollow"
+			-Server
+		}
+		@mjs path *.mjs
+		header @mjs Content-Type "text/javascript; charset=utf-8"
+		@assets path /assets/*
+		header @assets Cache-Control "public, max-age=604800"
+		file_server {
+			hide .*
+		}
+	}
+}
