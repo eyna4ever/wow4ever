@@ -6,3 +6,6 @@ instance/
 *.sqlite3*
 test-results/
 node_modules/
+
+# Polestar staging outputs (third-party data, never committed)
+tools/polestar/out/
