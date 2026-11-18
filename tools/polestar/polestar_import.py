@@ -86,6 +86,14 @@ def verify(src, pin):
     return {"files": out, "clientBuild": index["clientBuild"], "gitHead": head}
 
 
+TABLES = ("quest", "quest_start", "quest_end", "quest_objective", "quest_prereq", "quest_reward", "npc", "object",
+          "item", "item_source", "spawn", "step")
+
+
+def read_tables(src, pin):
+    return {n: read_table(src, pin, n) for n in TABLES}
+
+
 def read_table(src, pin, name):
     rel = f"data/{name}.jsonl"
     if rel not in pin["allowed"]:
@@ -131,10 +139,10 @@ def zone_areas(zone_area, parents):
     return out
 
 
-def stage(src, pin, zone_area, frame, ours_quests=None, ours_npcs=None, items_fr=None, verified=None, parents=None):
+def stage(src, pin, zone_area, frame, ours_quests=None, ours_npcs=None, items_fr=None, verified=None, parents=None, items_en=None, tables=None):
     verified = verified or verify(src, pin)
     areas = zone_areas(zone_area, {int(k): int(v) for k, v in (parents or {}).items()})
-    T = {n: read_table(src, pin, n) for n in ("quest", "quest_start", "quest_end", "quest_objective", "quest_prereq",
+    T = tables or {n: read_table(src, pin, n) for n in ("quest", "quest_start", "quest_end", "quest_objective", "quest_prereq",
                                               "quest_reward", "npc", "object", "item", "item_source", "spawn", "step")}
     quests = {q["id"]: q for q in T["quest"] if q.get("zone_area") in areas}
     allq = {q["id"]: q for q in T["quest"]}
@@ -189,6 +197,8 @@ def stage(src, pin, zone_area, frame, ours_quests=None, ours_npcs=None, items_fr
         for s in rec["end"]:
             {"npc": need_npc, "object": need_obj, "item": need_item}[s["kind"]].add(s["id"]); role(s["kind"], s["id"], "ender")
         for o in rec["objectives"]:
+            if o.get("target") is None:
+                continue
             if o["kind"] == "kill" or o["kind"] == "talk":
                 need_npc.add(o["target"]); role("npc", o["target"], "target")
             elif o["kind"] == "item":
@@ -281,6 +291,8 @@ def stage(src, pin, zone_area, frame, ours_quests=None, ours_npcs=None, items_fr
                 rec["dedupe"] = {"status": "doublon-identique", "match": "client:ItemSparse:1.60.1.70862", "conflicts": [],
                                  "note": "The item exists in the game files; the client name is used, Polestar only adds where it comes from."}
                 rec["name_fr"] = fr[str(it["id"])]
+                if items_en and str(it["id"]) in items_en:
+                    rec["name_en_client"] = items_en[str(it["id"])]
                 rec["name_fr_provenance"] = {"source": "client", "clientBuild": "1.60.1.70862", "table": "ItemSparse.frFR"}
             out_i.append(rec)
 

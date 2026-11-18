@@ -65,3 +65,18 @@ Le format exact des adresses de personnage reste à vérifier ; rien n'est const
 Entrées possibles : niveau, faction, race, classe, quêtes faites (saisies par le joueur, stockées seulement sur son téléphone).
 Le graphe `prereq` / `next` donne les quêtes disponibles ; `level`/`min_level` filtrent ; les zones viennent de `zone_area`.
 Aucun compte, aucune donnée envoyée au serveur. À construire seulement après décision sur la licence.
+
+## 8. Objets Classic (Items.lua, Classic Era 1.15.9) — `tools/polestar/classic_items.py`
+
+- Fichier `Items.lua` du dépôt (GPL-3.0, faits de jeu Blizzard). Refus si le build n'est pas `1.15.*` ou si l'export Forever n'est pas `1.60.1.*`.
+- Seuls les ID présents dans le client Forever 70862 sont admissibles ; les valeurs Forever (notre extraction client) l'emportent toujours.
+- Résultat : 9 483 objets dans Items.lua → 4 691 présents dans Forever (4 159 identiques sur les champs communs, 532 différents) ; 4 783 sont chiffrés/absents côté client Forever (comptés, non utilisés) ; 9 ignorés (non équipables).
+- Les nombres propres à Classic (dégâts, armure, montants de stats — colonnes absentes du client Forever) ne sont conservés que si tous les champs communs sont identiques (4 269 objets), sous `classic_1_15_9` avec statut « à confirmer » et provenance (commit, sha256).
+
+## 9. Toutes les zones (test uniquement) — `render_zone.py` / `render_all.py`
+
+- 50 zones Forever, pages FR et EN (100 pages). Le tableau des quêtes fusionne notre index et forever-db sans doublon (ancres existantes conservées par titre ; nouvelles lignes `r-q<id>` ; nom/niveau alternatif affiché en `wk-alt`).
+- Totaux : 3 349 lignes (2 999 communes, 268 index seul, 82 forever-db seul), 1 120 lignes avec écart signalé, 40 438 repères, 4 679 PNJ, 1 530 objets interactifs, 3 819 objets. 0 ancre perdue.
+- Zones sans données : Mont Hyjal (aucune quête dans les deux sources → message explicite, pas de tableau vide) ; Rives claires (1 quête, aucun repère).
+- Carte : images officielles du client (UiMapArt), converties en WebP q85 (format seulement, non retouchées), créditées. Fiche mobile compacte : ≤ 8 repères proches, un seul ouvert, hauteur max 42vh.
+- Crédits : entrée « Sources » sur chaque page + pages noindex `fr/sources-et-licences/` et `en/sources-and-licences/` avec les données sous forme modifiable (`.json.gz`).

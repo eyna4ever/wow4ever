@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools" / "polestar"))
 import polestar_import as pi  # noqa: E402
+import classic_items as ci  # noqa: E402
 
 PIN = pi.load_pin()
 FRAME = {"ui_map": 1411, "map": 1, "area": 14, "minX": -1716.667, "minY": -7250.0, "maxX": 1808.333, "maxY": -1962.5, "source": "test"}
@@ -86,7 +87,7 @@ class VerifyTests(unittest.TestCase):
                     pi.read_table(src, PIN, name)
 
     def test_excluded_sources_are_documented(self):
-        for k in ("addon/Polestar_QuestDB", "addon/Polestar_ItemDB/Items.lua", "guides/"):
+        for k in ("addon/Polestar_QuestDB", "guides/"):
             self.assertIn(k, PIN["excluded"])
             self.assertNotIn(k, PIN["allowed"])
 
@@ -195,6 +196,34 @@ class StageTests(unittest.TestCase):
             self.assertIn(need, html)
 
 
+class ClassicItemsTests(unittest.TestCase):
+    LUA = 'DB.Register({ schema = 1, build = "1.15.9.70576", count = 4 }, {\n[1]="5 10 5 2 4 2 sta3 armor40",\n[2]="13 20 15 2 2 7 str3 dmin10 dmax20 speed2000 uniq1",\n[3]="7 30 25 3 4 1 int5",\n[4]="1 60 60 4 4 4 sta20",\n[5]="6 9 4 1 4 1"\n})'
+    FOREVER = {"1": {"inv": 5, "ilvl": 10, "req": 5, "quality": 2, "class": 4, "sub": 2, "stat_types": ["sta"], "cls": 0, "uniq": False},
+               "2": {"inv": 13, "ilvl": 21, "req": 15, "quality": 2, "class": 2, "sub": 7, "stat_types": ["str"], "cls": 0, "uniq": True, "speed": 2000},
+               "3": {"encrypted": True, "class": 4, "sub": 1},
+               "5": {"skipped": "slot"}}
+
+    def test_rules(self):
+        build, classic = ci.parse_items_lua(self.LUA)
+        self.assertEqual(build, "1.15.9.70576")
+        out, rep = ci.merge(classic, self.FOREVER, "0" * 64)
+        self.assertEqual(sorted(out), [1, 2])                      # 3 encrypted, 4 absent, 5 not equipment
+        self.assertEqual(rep["present_details_encrypted"], 1)
+        self.assertEqual(rep["absent_from_forever_client"], 1)
+        self.assertEqual(out[1]["dedupe"]["status"], "doublon-identique")
+        self.assertEqual(out[1]["classic_1_15_9"]["status"], "a-confirmer")
+        self.assertEqual(out[1]["classic_1_15_9"]["values"], {"sta": 3, "armor": 40})
+        self.assertEqual(out[2]["ilvl"], 21)                        # Forever value wins
+        self.assertNotIn("classic_1_15_9", out[2])                  # differs: Classic numbers dropped
+        self.assertEqual(out[2]["dedupe"]["conflicts"][0]["field"], "ilvl")
+
+    def test_refuses_wrong_builds(self):
+        with tempfile.TemporaryDirectory() as t:
+            lua = Path(t) / "Items.lua"; lua.write_text(self.LUA.replace("1.15.9", "4.4.0"))
+            fx = Path(t) / "f.json"; fx.write_text(json.dumps({"build": "1.60.1.70862", "items": {}}))
+            self.assertEqual(ci.main(["--items-lua", str(lua), "--forever", str(fx), "--out", str(Path(t) / "o.json")]), 2)
+
+
 class FrontEndTests(unittest.TestCase):
     def test_map_js_is_csp_safe(self):
         js = (ROOT / "tools" / "polestar" / "frontend" / "wk-map.js").read_text()
@@ -205,3 +234,35 @@ class FrontEndTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+import render_zone as rz  # noqa: E402
+
+
+def _q(i, title, level=5):
+    return {"id": i, "title_en": title, "level": level, "min_level": 1, "side": None,
+            "start": [], "end": [], "prereq": [], "next": [], "rewards": []}
+
+
+class RenderZoneTests(unittest.TestCase):
+    ST = {"quests": [_q(1, "Alpha"), _q(3, "Gamma")], "npcs": [], "objects": [], "items": []}
+    OURS = [[1, "Alpha", "Z", 5, 1, "Both"], [77, "Only ours", "Z", 6, 2, "Both"]]
+
+    def test_merge_has_no_duplicate_and_keeps_old_anchor(self):
+        rows, stats, _ = rz.merged_rows(self.ST, self.OURS, "fr", {"Alpha": ["alpha-ancre"]})
+        self.assertEqual(len(rows), 3)
+        self.assertEqual(stats, {"both": 1, "ours": 1, "ps": 1})
+        ids = [re.search(r'id="([^"]+)"', r).group(1) for r in rows]
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertIn("alpha-ancre", ids)
+        self.assertIn("r-q3", ids)
+
+    def test_empty_zone_says_so_without_table(self):
+        html, s = rz.quest_section({"quests": [], "npcs": [], "objects": [], "items": []}, [], "en", "Z", [9])
+        self.assertEqual(s["rows"], 0)
+        self.assertNotIn("<table", html)
+        self.assertIn(rz.TXT["en"]["noq"], html)
+
+    def test_no_inline_style_or_script(self):
+        html, _ = rz.quest_section(self.ST, self.OURS, "fr", "Z", [9])
+        self.assertNotRegex(html, r"style=|<script")
