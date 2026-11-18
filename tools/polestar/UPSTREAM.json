@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/fitzforge/polestar",
+  "commit": "8c3d3476e025dfd4cf199b0a320df354b371454d",
+  "folder": "forever-db",
+  "dataset": "polestar-data-forever",
+  "version": "2026.11.1",
+  "clientBuildPrefix": "1.60.1.",
+  "notes": "Pinned upstream. Changing 'commit' or 'version' is a reviewed pull request: run `polestar_import.py diff` first and attach the report. Nothing here publishes anything.",
+  "allowed": {
+    "data/quest.jsonl": "GPL-3.0-only",
+    "data/quest_start.jsonl": "GPL-3.0-only",
+    "data/quest_end.jsonl": "GPL-3.0-only",
+    "data/quest_objective.jsonl": "GPL-3.0-only",
+    "data/quest_prereq.jsonl": "GPL-3.0-only",
+    "data/quest_reward.jsonl": "GPL-3.0-only",
+    "data/npc.jsonl": "GPL-3.0-only",
+    "data/object.jsonl": "GPL-3.0-only",
+    "data/spawn.jsonl": "GPL-3.0-only",
+    "data/item.jsonl": "GPL-3.0-only",
+    "data/item_source.jsonl": "GPL-3.0-only",
+    "data/step.jsonl": "CC-BY-4.0",
+    "data/mechanic.jsonl": "CC-BY-4.0"
+  },
+  "excluded": {
+    "addon/Polestar_QuestDB": "Not in the repository (built locally) and includes QuestieDB facts, whose maintainers ask that it be treated as all rights reserved.",
+    "addon/Polestar_ItemDB/Forever.lua": "Derived from ForeverLevelingBiS (MIT) but shipped inside a GPL-3.0-only addon; not needed for the sample. Re-evaluate later from the MIT upstream.",
+    "guides/": "Polestar's own guide text, GPL-3.0; LICENSE-EXCEPTION.md explicitly does not cover guide text. Walking legs use maps shared with Polestar's author only.",
+    "data/ui_map.jsonl": "Not needed: map frames are read from our own client tables (UiMapAssignment, build 1.60.1.70862).",
+    "data/note.jsonl": "Empty in this release."
+  },
+  "attribution": {
+    "fr": "Données de quêtes, PNJ, objets et positions : forever-db du projet Polestar (Polestar authors), version {version}, licence GPL-3.0 ; étapes et mécaniques : licence CC BY 4.0. Sources amont créditées par Polestar : EG Link output (Efficient Games, CC BY 4.0), CMaNGOS classic-db (GPL-3.0), VMaNGOS / Factoruide (GPL-2.0-or-later), ForeverTDB (GPL-2.0), QuestieDB (Questie team), pfQuest (MIT, © 2017-2021 Eric Mauser (Shagu)), tables du client World of Warcraft: Forever. Données modifiées : sélection par zone, conversion des positions en pourcentage de carte, traduction de libellés.",
+    "en": "Quest, NPC, item and position data: Polestar's forever-db (Polestar authors), version {version}, GPL-3.0; steps and mechanics: CC BY 4.0. Upstream sources credited by Polestar: EG Link output (Efficient Games, CC BY 4.0), CMaNGOS classic-db (GPL-3.0), VMaNGOS / Factoruide (GPL-2.0-or-later), ForeverTDB (GPL-2.0), QuestieDB (Questie team), pfQuest (MIT, (c) 2017-2021 Eric Mauser (Shagu)), World of Warcraft: Forever client tables. Changes: filtered by zone, positions converted to map percent, labels translated."
+  },
+  "classic_items": {
+    "file": "addon/Polestar_ItemDB/Items.lua",
+    "clientBuild": "1.15.9.70576",
+    "licence": "GPL-3.0-only (file); game facts (c) Blizzard Entertainment",
+    "rule": "Mathieu t417u: only IDs present in the Forever client; Forever client values win; Classic-only numbers kept only when every shared field is identical, marked a-confirmer; handled by classic_items.py"
+  }
+}
