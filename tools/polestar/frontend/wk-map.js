@@ -55,7 +55,8 @@ async function setup(box) {
     const n = new Set([...(q.g || []), ...(q.e || [])]).size;
     const d = el('details');
     if (open) d.open = true;
-    const s = el('summary', {}, p.n || t.marker);
+    const s = el('summary');
+    s.appendChild(el('span', { class: 'wk-map-n' }, p.n || t.marker));
     s.appendChild(el('small', {}, `${p.r.map(r => t.roles[r] || r).join(' · ')}${n ? ' — ' + t.quests(n) : ''}`));
     d.appendChild(s);
     d.appendChild(el('p', {}, `${t.pos} ${p.x}, ${p.y}`));

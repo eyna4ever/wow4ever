@@ -26,8 +26,9 @@
 .wk-map-card .wk-card-head{display:flex;justify-content:space-between;align-items:center;gap:.5em;margin:0 0 .3em}
 .wk-map-card .wk-card-head strong{font-family:var(--q-serif,serif);color:var(--q-title,#5a3a10)}
 .wk-map-card details{border-top:1px solid rgba(138,106,42,.45);padding:.15em 0}
-.wk-map-card summary{cursor:pointer;min-height:40px;display:flex;align-items:center;gap:.4em;font-weight:600}
-.wk-map-card summary small{font-weight:400;color:var(--q-ink2,#4a3216)}
+.wk-map-card summary{cursor:pointer;min-height:40px;padding:.25em 0;font-weight:600;overflow-wrap:normal;word-break:normal}
+.wk-map-card summary .wk-map-n{white-space:normal}
+.wk-map-card summary small{display:block;font-weight:400;color:var(--q-ink2,#4a3216)}
 .wk-map-card details p{margin:.15em 0}
 .wk-alt{font-size:.85em;color:var(--q-ink2,#4a3216);font-style:italic}
 @media (max-width:640px){.wk-map-card{max-height:42vh;font-size:.92em;padding:.5em .65em}.wk-map-card summary{min-height:44px}}
