@@ -16,7 +16,7 @@ TXT = {
                   "(à confirmer en jeu). Coordonnées en % de la carte de zone (x, y), calculées avec le cadre de carte des fichiers du jeu (client 1.60.1.70862)."),
         "show": "Afficher", "giver": "Donneurs de quêtes", "ender": "Fins de quêtes", "target": "Cibles", "dropper": "Objets de quête",
         "frame": "Carte de la zone avec repères",
-        "credit": "Carte : image du jeu World of Warcraft: Forever © Blizzard Entertainment, tirée des fichiers du client 1.60.1.70862, non retouchée (seuls le format et la compression ont changé).",
+        "credit": "Carte : images du jeu World of Warcraft: Forever © Blizzard Entertainment, tirées des fichiers du client 1.60.1.70862 : carte de base et calques des zones explorées, assemblés à leur place officielle comme en jeu (carte entièrement explorée), sans autre retouche (seuls le format et la compression ont changé).",
         "list": "Liste des repères", "c_npc": "PNJ ou objet (nom anglais)", "c_role": "Rôle", "c_pos": "Position (x, y)", "c_pts": "Points connus",
         "roles": {"giver": "donne une quête", "ender": "reçoit une quête", "target": "cible de quête", "dropper": "porte un objet de quête", "holder": "contient un objet de quête"},
         "q_p": ("{n} quêtes rattachées à {zone} : {both} dans les deux listes, {ours} seulement dans l’index de quêtes bêta, "
@@ -37,7 +37,7 @@ TXT = {
                   "Coordinates in % of the zone map (x, y), computed with the map frame from the game files (client 1.60.1.70862)."),
         "show": "Show", "giver": "Quest givers", "ender": "Quest turn-ins", "target": "Targets", "dropper": "Quest items",
         "frame": "Zone map with markers",
-        "credit": "Map: World of Warcraft: Forever in-game image © Blizzard Entertainment, from the client 1.60.1.70862 files, not retouched (only format and compression changed).",
+        "credit": "Map: World of Warcraft: Forever in-game images © Blizzard Entertainment, from the client 1.60.1.70862 files: base map and explored-area layers, assembled at their official positions as in game (fully explored map), with no other retouching (only format and compression changed).",
         "list": "List of markers", "c_npc": "NPC or object", "c_role": "Role", "c_pos": "Position (x, y)", "c_pts": "Known points",
         "roles": {"giver": "gives a quest", "ender": "takes a quest", "target": "quest target", "dropper": "carries a quest item", "holder": "holds a quest item"},
         "q_p": ("{n} quests tied to {zone}: {both} in both lists, {ours} only in the beta quest index, {ps} only in the community Forever "
@@ -52,6 +52,9 @@ TXT = {
     },
 }
 OURS_SIDE = {"A": "alliance", "H": "horde", "B": "both", "AH": "both"}
+
+
+TILES_V = "43b"  # cache-busting of the map tiles (v43b: fully explored maps)
 
 
 def slugify(s):
@@ -153,7 +156,7 @@ def map_section(st, lang, layout, tiles_href, json_href, cite_no):
                 f'<p>{E(t["nomap"])}</p></section>')
     L = layout["layer"]
     cols = max(x["col"] for x in layout["tiles"]) + 1
-    tiles = "".join(f'<img src="{E(tiles_href + x["file"])}" alt="" width="{x["w"]}" height="{x["h"]}" loading="lazy" decoding="async">' for x in layout["tiles"])
+    tiles = "".join(f'<img src="{E(tiles_href + x["file"] + "?v=" + TILES_V)}" alt="" width="{x["w"]}" height="{x["h"]}" loading="lazy" decoding="async">' for x in layout["tiles"])
     # Grid width relative to the visible layer: (cols * tile width) / layer width. Set by CSS classes (no inline style).
     over = cols * L["tw"] / L["w"]
     grid_cls = f'wk-g{cols}-{"std" if abs(over - 1024 / 1002) < 1e-3 else "one"}'

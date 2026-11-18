@@ -80,3 +80,10 @@ Aucun compte, aucune donnée envoyée au serveur. À construire seulement après
 - Zones sans données : Mont Hyjal (aucune quête dans les deux sources → message explicite, pas de tableau vide) ; Rives claires (1 quête, aucun repère).
 - Carte : images officielles du client (UiMapArt), converties en WebP q85 (format seulement, non retouchées), créditées. Fiche mobile compacte : ≤ 8 repères proches, un seul ouvert, hauteur max 42vh.
 - Crédits : entrée « Sources » sur chaque page + pages noindex `fr/sources-et-licences/` et `en/sources-and-licences/` avec les données sous forme modifiable (`.json.gz`).
+
+## 10. Cartes entièrement explorées (v43b, test) — `build_explored_maps.py`
+
+- La v43 n'affichait que la carte de base (UiMapArtTile, couche 0) : en jeu, c'est l'aspect d'une zone non explorée (« brouillard »).
+- Le jeu dessine les parties explorées avec des calques séparés : tables `WorldMapOverlay` (UiMapArtID, OffsetX/OffsetY, TextureWidth/Height, PlayerConditionID) et `WorldMapOverlayTile` (morceaux de 256 px, FileDataID), client 1.60.1.70862.
+- Le script colle chaque calque sans condition (PlayerConditionID = 0) à son décalage officiel sur la carte de base, comme le jeu pour une carte entièrement explorée, sans autre retouche, puis redécoupe en tuiles aux mêmes noms (WebP q85).
+- Résultat : 43 zones ont des calques (tous lisibles, 3 entrées du client sans image) ; les 7 villes (Orgrimmar, Hurlevent, Forgefer, Thunder Bluff, Darnassus, Fossoyeuse, île de Zephras) n'en ont pas et restent identiques. Tuiles servies en `?v=43b` (cache).
