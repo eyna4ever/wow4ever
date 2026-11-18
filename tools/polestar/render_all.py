@@ -21,21 +21,35 @@ def credits_html(pin, lang, version, commit, data_href, classic):
     t = (lambda f, e: f if fr else e)
     cl = ""
     if classic:
-        cl = t(f"<li>Valeurs d’objets de World of Warcraft Classic (client {rz.E(classic)}), reprises du même projet, utilisées seulement pour les objets présents dans le client Forever et identiques sur tous les champs connus ; marquées « à confirmer ».</li>",
-               f"<li>Item values from World of Warcraft Classic (client {rz.E(classic)}), taken from the same project, used only for items present in the Forever client and identical on every known field; marked “to be confirmed”.</li>")
-    return f"""<!doctype html><html lang="{lang}" data-theme="wow"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex"><title>{t('Sources et licences', 'Sources and licences')} — Wowkipedia</title>
-<link rel="stylesheet" href="../../v2.css?v=42c"><link rel="stylesheet" href="../../theme-wow.css"><link rel="stylesheet" href="../../wk-map.css?v=43"></head>
-<body class="v39"><main id="main-content" class="wk-credits"><h1>{t('Sources et licences', 'Sources and licences')}</h1>
+        cl = t(f"<li>Valeurs d’objets de World of Warcraft Classic (client {rz.E(classic)}), reprises du même projet, utilisées seulement pour les objets présents dans le client Forever et identiques sur tous les champs connus ; marquées « à confirmer ». Forme modifiable : <a href=\"objets-classic.json.gz\">JSON (gzip)</a>.</li>",
+               f"<li>Item values from World of Warcraft Classic (client {rz.E(classic)}), taken from the same project, used only for items present in the Forever client and identical on every known field; marked “to be confirmed”. Modifiable form: <a href=\"objets-classic.json.gz\">JSON (gzip)</a>.</li>")
+    return f"""<h1>{t('Sources et licences', 'Sources and licences')}</h1>
 <section class="article-section"><h2>{t('Données communautaires (à confirmer)', 'Community data (to be confirmed)')}</h2><p>{a}</p><ul>
 <li>{t('Projet d’origine', 'Original project')} : <a href="{rz.E(pin['repository'])}">Polestar</a>, forever-db, commit <code>{rz.E(commit)}</code>.</li>
 <li>{t('Licence de la base', 'Database licence')} : <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU GPL v3</a> ; {t('étapes et mécaniques', 'steps and mechanics')} : <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</li>
 <li>{t('Données telles qu’utilisées par Wowkipedia (forme modifiable, même licence GPL-3.0)', 'Data as used by Wowkipedia (modifiable form, same GPL-3.0 licence)')} : <a href="{rz.E(data_href)}">JSON (gzip)</a>.</li>
 {cl}<li>{t('Sans garantie. Ces données ne viennent pas de Blizzard Entertainment et restent à confirmer en jeu.', 'No warranty. This data does not come from Blizzard Entertainment and is to be confirmed in game.')}</li></ul></section>
 <section class="article-section"><h2>{t('Images de carte', 'Map images')}</h2><p>{t('Cartes de zone : images du jeu World of Warcraft: Forever © Blizzard Entertainment, extraites des fichiers du client 1.60.1.70862, non retouchées (format et compression seulement).', 'Zone maps: World of Warcraft: Forever in-game images © Blizzard Entertainment, from the client 1.60.1.70862 files, not retouched (format and compression only).')}</p></section>
-<p class="independence">{t('World of Warcraft et Blizzard Entertainment sont des marques de Blizzard Entertainment, Inc. Site indépendant et non officiel.', 'World of Warcraft and Blizzard Entertainment are trademarks of Blizzard Entertainment, Inc. Independent, unofficial site.')}</p>
-</main></body></html>
 """
+
+
+def wrap_in_site(template, lang, inner, other_href):
+    """Use a same-depth wiki page (fr/zones/) as the shell: same header, search, footer, notice; only title, description,
+    alternate/lang links and <main> content change. Stays noindex."""
+    import re
+    other = "en" if lang == "fr" else "fr"
+    title = "Sources et licences" if lang == "fr" else "Sources and licences"
+    desc = ("Origine et licences des données à confirmer et des images de carte." if lang == "fr"
+            else "Origin and licences of the to-be-confirmed data and of the map images.")
+    t = template
+    t, n = re.subn(r"<title>[^<]*</title>", f"<title>{title} — Wowkipedia</title>", t, count=1); assert n == 1
+    t, n = re.subn(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">', t, count=1); assert n == 1
+    t, n = re.subn(r'<link rel="alternate" hreflang="%s" href="[^"]*">' % other, f'<link rel="alternate" hreflang="{other}" href="{other_href}">', t, count=1); assert n == 1
+    t, n = re.subn(r'<a class="wk-lang" href="[^"]*"', f'<a class="wk-lang" href="{other_href}"', t, count=1); assert n == 1
+    t = t.replace(' aria-current="page"', "")
+    i = t.index("<main"); i = t.index(">", i) + 1; j = t.index("</main>")
+    assert 'name="robots" content="noindex' in t
+    return t[:i] + '<article class="article-section wk-credits">' + inner + "</article>" + t[j:]
 
 
 def main(argv=None):
@@ -69,7 +83,6 @@ def main(argv=None):
         if layout:
             for t in layout["tiles"]:
                 shutil.copy2(mdir / t["file"], adir / t["file"])
-            shutil.copy2(mdir / "manifest.json", adir / "manifest.json")
         (adir / "donnees.json").write_text(json.dumps(rz.map_payload(st), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         zr = {"fr": z["fr"], "en": z["en"], "uiMap": z["uiMap"], "areaID": area_id, "tiles": len(layout["tiles"]) if layout else 0,
               "staging": st["report"], "pins": sum(len(n["points"]) for n in st["npcs"] + st["objects"])}
@@ -82,7 +95,7 @@ def main(argv=None):
                 zname = rz.html.unescape(re.sub(r"<[^>]+>", "", h.group(1)).strip())
             href = f"../../../assets/carte/{z['uiMap']}/"
             credits = "../../../fr/sources-et-licences/" if lang == "fr" else "../../../en/sources-and-licences/"
-            new, qs = rz.render_page(page, st, ours_rows, lang, zname, layout, href, href + "donnees.json", credits)
+            new, qs = rz.render_page(page, st, ours_rows, lang, zname, layout, href, href + "donnees.json?v=43", credits)
             p.write_text(new, encoding="utf-8")
             zr["page_" + lang] = qs
         report["zones"].append(zr)
@@ -96,7 +109,10 @@ def main(argv=None):
             cdat = Path(a.classic_items).read_bytes()
             (cdir / "objets-classic.json.gz").write_bytes(gzip.compress(cdat, 9, mtime=0))
             classic = json.loads(cdat)["meta"]["classic_build"]
-        (cdir / "index.html").write_text(credits_html(pin, lang, pin["version"], pin["commit"], "donnees-polestar.json.gz", classic), encoding="utf-8")
+        other = "../../en/sources-and-licences/" if lang == "fr" else "../../fr/sources-et-licences/"
+        inner = credits_html(pin, lang, pin["version"], pin["commit"], "donnees-polestar.json.gz", classic)
+        tpl = (wiki / lang / "zones" / "index.html").read_text(encoding="utf-8")
+        (cdir / "index.html").write_text(wrap_in_site(tpl, lang, inner, other), encoding="utf-8")
     tot = report["totals"]
     for zr in report["zones"]:
         for k in ("rows", "both", "ours", "ps", "conflicts"):
