@@ -1,0 +1,60 @@
+/* v21 « Style WoW Forever » (thème par défaut) — ambiance d'interface « classique » : bois et cuir sombres, pierre, parchemin,
+   texte or de l'interface, couleurs de qualité d'objet en touches discrètes, accents de faction. Création originale en CSS :
+   aucune image, icône, texture, police, logo ou code de Blizzard. Toutes les règles sont limitées à html[data-theme=wow].
+   Titres : Cinzel (SIL Open Font License 1.1, /community/static/fonts/OFL-Cinzel.txt), déjà auto-hébergée avec le forum. */
+@font-face{font-family:"Cinzel";src:url(/community/static/fonts/cinzel-latin.woff2) format("woff2");font-weight:400 900;font-display:swap}
+html[data-theme=wow]{--bg:#0e0a06;--bg2:#15100a;--panel:#1d150d;--panel2:#261b10;--line:#4a3620;--line2:#6b4f2a;--text:#efe4c8;--fg:#efe4c8;--muted:#c2b08c;--gold:#ffd100;--gold2:#ffe27a;--link:#ffd100;--blue:#5aa2ff;--blue2:#2f6fd6;--blue-btn:#2f6fd6;
+ --wow-display:"Cinzel",Georgia,'Times New Roman',serif;--wow-wood:linear-gradient(180deg,#2b1e12,#1a120a);--wow-leather:linear-gradient(160deg,#2a1d12 0%,#1d140c 55%,#150f09 100%);--wow-stone:linear-gradient(160deg,#2a2723,#1b1916);--wow-parch:#e9dcb8;--wow-ink:#2b1d0e;--wow-frame:#8a6a33;--wow-epic:#b56cf0;--wow-rare:#3d8fe6;--wow-unc:#3fd43a;--wow-alliance:#2f6fd6;--wow-horde:#c0362c}
+[data-theme=wow] body{background-color:#0e0a06;color:var(--text);background-image:radial-gradient(1000px 480px at 50% -10%,#ffd1001a,transparent 62%),radial-gradient(700px 500px at -10% 50%,#2f6fd610,transparent 60%),radial-gradient(700px 500px at 110% 80%,#c0362c10,transparent 60%),repeating-linear-gradient(90deg,#ffffff03 0 1px,transparent 1px 5px),repeating-linear-gradient(0deg,#00000014 0 2px,transparent 2px 9px)}
+[data-theme=wow] .wk-header{background:var(--wow-wood);border-bottom:2px solid var(--wow-frame);box-shadow:0 2px 0 #000,0 6px 18px #0009}
+[data-theme=wow] .v2-footer{background:#0a0704;border-top:2px solid var(--wow-frame)}
+[data-theme=wow] h1,[data-theme=wow] h2,[data-theme=wow] .v2-hero-title,[data-theme=wow] .v2-h3,[data-theme=wow] .community h1,[data-theme=wow] .community h2,[data-theme=wow] .wk-wordmark{font-family:var(--wow-display);letter-spacing:.025em}
+[data-theme=wow] h1,[data-theme=wow] h2,[data-theme=wow] .community h1,[data-theme=wow] .community h2,[data-theme=wow] .community .panel h2{color:#ffd100}
+[data-theme=wow] h1{text-shadow:0 2px 0 #000,0 0 22px #ffd10026}
+[data-theme=wow] a{color:#ffd100}
+[data-theme=wow] .wk-wordmark{background:linear-gradient(180deg,#fff0a8,#ffd100 55%,#c99a00);-webkit-background-clip:text;background-clip:text;color:#ffd100}
+[data-theme=wow] .article-section>h2,[data-theme=wow] .community .panel>h2,[data-theme=wow] .community .section-heading h2{padding-bottom:12px;background:radial-gradient(circle,#ffe27a 0 2.5px,transparent 3px) left bottom/9px 9px no-repeat,linear-gradient(90deg,#ffd100,#ffd10000) 12px calc(100% - 4px)/min(220px,70%) 1px no-repeat}
+[data-theme=wow] .community .panel>h2::after,[data-theme=wow] .community .section-heading h2::after{content:none}
+[data-theme=wow] .article-section,[data-theme=wow] .v2-card,[data-theme=wow] .v2-infocard,[data-theme=wow] .v2-toc,[data-theme=wow] .community .panel,[data-theme=wow] .community .topic-list,[data-theme=wow] .community .post{background:var(--wow-leather);border:1px solid var(--wow-frame);color:var(--text);box-shadow:inset 0 1px 0 #ffe27a1a,inset 0 0 0 3px #0e0a06b3,inset 0 0 0 4px #8a6a3340,0 8px 22px #000a}
+[data-theme=wow] .v2-toc,[data-theme=wow] .community .rp-charter{background:var(--wow-stone)}
+[data-theme=wow] .v2-card:hover,[data-theme=wow] .community .topic-row:hover{border-color:var(--wow-rare)}
+[data-theme=wow] .v2-banner,[data-theme=wow] .v2-hero,[data-theme=wow] .community .portal-hero{border-bottom:2px solid transparent;border-image:linear-gradient(90deg,transparent,#8a6a33,#ffd100,#8a6a33,transparent) 1}
+[data-theme=wow] .community .portal-hero{background:radial-gradient(ellipse at 85% 0,#ffd10022,transparent 55%),var(--wow-leather);border-color:var(--wow-frame)}
+[data-theme=wow] .community .topic-row{border-bottom-color:var(--line)}
+[data-theme=wow] .community .topic-row h3 a,[data-theme=wow] .community .post-content{color:var(--text)}
+[data-theme=wow] .community .category-tag{background:#2a1a3a;border-color:var(--wow-epic);color:#e6c8ff}
+[data-theme=wow] .community .button,[data-theme=wow] .community main button,[data-theme=wow] .v2-btn{background:linear-gradient(#ffe066,#e0a800);color:#1a1205}
+[data-theme=wow] .community .button.secondary,[data-theme=wow] .community main button.secondary{background:#1d150d;color:#ffd100;border-color:var(--wow-frame)}
+[data-theme=wow] .community input:not([type=checkbox]):not([type=hidden]),[data-theme=wow] .community textarea,[data-theme=wow] .community select{background:#120d08;border-color:#6b4f2a;color:var(--text)}
+[data-theme=wow] .community .rp-template pre{background:var(--wow-parch);color:var(--wow-ink);border-color:var(--wow-frame)}
+[data-theme=wow] .community .rp-badges .is-earned{color:var(--wow-unc);border-color:var(--wow-unc)}
+[data-theme=wow] .community .rp-fill{background:linear-gradient(90deg,#7a3fb0,var(--wow-epic))}
+[data-theme=wow] .community .story-week{border-left-color:var(--wow-epic)}
+[data-theme=wow] .community .cockpit-stats li{background:#120d08;border-color:var(--line2)}
+[data-theme=wow] .community .cockpit-stats strong{color:#ffd100}
+[data-theme=wow] .v2-card:has(a[href*="alliance"]){border-left:3px solid var(--wow-alliance)}
+[data-theme=wow] .v2-card:has(a[href*="horde"]){border-left:3px solid var(--wow-horde)}
+[data-theme=wow] .wk-panel{background:#1a120a;border-color:var(--wow-frame)}
+.wk-theme{cursor:pointer;background:transparent;font-family:inherit;min-width:42px;justify-content:center;font-size:15px}.wk-theme-txt{font-size:12.5px}.wk-theme-icon{display:block;fill:none;stroke:currentColor;stroke-width:1.8}.wk-theme-icon path{fill:currentColor;stroke:none}
+@media(max-width:479px){.wk-theme-txt{display:none}[data-theme=wow] .wk-wordmark{font-size:clamp(13px,4vw,17px);letter-spacing:0}}
+[data-theme=wow] .wk-theme{border-color:#8a6a33;color:#ffd100;background:#2b1e12}
+@media(max-width:640px){[data-theme=wow] .article-section,[data-theme=wow] .v2-card,[data-theme=wow] .community .panel,[data-theme=wow] .community .topic-list{box-shadow:inset 0 0 0 3px #0e0a06b3,inset 0 0 0 4px #8a6a3340}[data-theme=wow] body{background-image:radial-gradient(600px 400px at 50% -8%,#ffd1001a,transparent 62%)}}
+/* v24 — bandeau : carte du monde originale (style ancien parchemin, générée pour Wowkipedia, aucune image Blizzard) + « WOWKIPEDIA » seul */
+[data-theme=wow] .wk-header{background-color:#060a14}
+[data-theme=wow] .wk-header::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#060a14b3 0,#060a1466 28%,#060a1426 50%,#060a1499 75%,#060a14cc 100%)}
+[data-theme=wow] .wk-header>.wk-bar{position:relative;z-index:1}
+[data-theme=wow] .v24-brand .wk-wordmark{font-size:clamp(20px,6.2vw,30px);letter-spacing:.08em;text-transform:uppercase;filter:drop-shadow(0 2px 2px #000) drop-shadow(0 0 6px #000c)}
+@media(min-width:900px){[data-theme=wow] .wk-header>.wk-bar{min-height:84px}[data-theme=wow] .v24-brand .wk-wordmark{font-size:34px;letter-spacing:.1em}}
+@media(max-width:300px){[data-theme=wow] .v24-brand .v2-brandtext{display:flex}[data-theme=wow] .v24-brand .wk-wordmark{font-size:16px;letter-spacing:.03em}}
+
+/* v25 — sous le bandeau, le cadre d'illustration continue la même carte du monde originale (même image, même échelle,
+   décalée de la hauteur du bandeau : 66 px mobile, 86 px bureau) ; aucune légende. Page Discord : cadre d'origine conservé. */
+[data-theme=wow] .wk-header,[data-theme=wow] .v25-map{background:#060a14 url(assets/v25-map-azeroth-1280.webp) no-repeat;background-size:1100px auto;background-position:center 0}
+[data-theme=wow] .v25-map{background-position:center -66px}
+[data-theme=wow] body:has(.v25-map) .wk-header{border-bottom-color:transparent}
+[data-theme=wow] .v25-map::after{background:linear-gradient(0deg,#060a14 0,#060a14b0 20%,#060a1400 55%),linear-gradient(90deg,#060a14b3 0,#060a1466 28%,#060a1426 50%,#060a1499 75%,#060a14cc 100%)}
+[data-theme=wow] .v2-hero:has(.v25-map) .v2-hero-shade{background:linear-gradient(0deg,#060a14 0,#060a14d0 22%,#060a1400 50%),linear-gradient(90deg,#060a14b3 0,#060a1466 28%,#060a1426 50%,#060a1499 75%,#060a14cc 100%)}
+@media(min-width:900px){
+[data-theme=wow] .wk-header,[data-theme=wow] .v25-map{background-image:url(assets/v25-map-azeroth-1280.webp);background-size:max(100%,1300px) auto}
+[data-theme=wow] .v25-map{background-position:center -86px}
+}

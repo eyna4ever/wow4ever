@@ -1,0 +1,706 @@
+diff --git a/pipeline/tests/articles.test.mjs b/pipeline/tests/articles.test.mjs
+index 49b31dc..f4b9dd1 100644
+--- a/pipeline/tests/articles.test.mjs
++++ b/pipeline/tests/articles.test.mjs
+@@ -6,6 +6,7 @@ import {fileURLToPath, pathToFileURL} from 'node:url';
+ import {CATEGORY_SLUGS, ILLUSTRATIONS} from '../lib/articles.mjs';
+ import {validate} from '../lib/documentary.mjs';
+ import {selectPublicEntries, selectPreviewEntries} from '../lib/public-catalog.mjs';
++import {lot1Published} from './lot1-ids.mjs';
+ 
+ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+ 
+@@ -69,7 +70,7 @@ test('public catalog exposes published elite articles and still hides AC2/CL3 dr
+   // v17: + the 9 beginner guides published via review.mjs on Mathieu's « Oui » (t255u, 2026-11-01 17:16 Europe/Paris).
+   const v17 = records.filter(e => e.id.startsWith('guide-debutant-') && e.status === 'published' && e.review?.reviewer === 'Mathieu').length;
+   assert.ok(v17 === 0 || v17 === 9, `v17 guides: ${v17}`);
+-  assert.equal(pub.length, 81 - applied.size + v17 + 8); // v31: + équilibrage 10 nov + correctifs 5/6/8 nov ; v30: +2 news ; v23: + « Entre tradition et modernité » ; v22: + CL3 Priest, launch notes, gamepad page (golive-nov4 republished: merge no longer counted)
++  assert.equal(pub.length, 81 - applied.size + v17 + 8 + lot1Published(records)); // V2.1 étape 03: + lot 1 (test isolé) ; // v31: + équilibrage 10 nov + correctifs 5/6/8 nov ; v30: +2 news ; v23: + « Entre tradition et modernité » ; v22: + CL3 Priest, launch notes, gamepad page (golive-nov4 republished: merge no longer counted)
+   for (const id of ['forever-news-golive-nov4', 'forever-news-return-guide', 'forever-news-starter-guide', 'forever-news-podcast-tech', 'forever-news-story-unbowed', 'forever-news-portal-room']) {
+     if (applied.has(id)) { assert.ok(records.find(e => e.id === id).history.some(h => h.note.startsWith('reject:')), `${id} withdrawn without review.mjs reject`); continue; }
+     assert.ok(pub.some(e => e.id === id && e.status === 'published'), `missing published ${id}`);
+diff --git a/pipeline/tests/fixtures/etape02_import_dry_run_batch.json b/pipeline/tests/fixtures/etape02_import_dry_run_batch.json
+new file mode 100644
+index 0000000..b0f38c0
+--- /dev/null
++++ b/pipeline/tests/fixtures/etape02_import_dry_run_batch.json
+@@ -0,0 +1,320 @@
++[
++ {
++  "id": "forever-item-taldramir-whispering-wood",
++  "title": {
++   "fr": "Taldramir, le bois des murmures",
++   "en": "Taldramir, the Whispering Wood"
++  },
++  "category": "items",
++  "subcategory": "legendaire-annonce",
++  "description": {
++   "fr": "Première arme légendaire annoncée pour World of Warcraft: Forever, présentée par Blizzard dans la vidéo « Forging Forever » (forgée avec Wētā). Obtention, classes et caractéristiques non annoncées.",
++   "en": "First legendary announced for World of Warcraft: Forever, presented by Blizzard in the “Forging Forever” video (forged with Wētā). How to obtain it, classes and stats have not been announced."
++  },
++  "sources": [
++   {
++    "url": "https://news.blizzard.com/fr-fr/article/24317865/world-of-warcraft-forever-decouvrez-la-video-forging-forever",
++    "title": "World of Warcraft: Forever – Découvrez la vidéo « Forging Forever »",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "accessedAt": "2026-11-09",
++    "publishedAt": "2026-11-05",
++    "language": "fr",
++    "key": "bz-24317865-fr",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "verification": "officiel confirmé",
++    "proofType": "annonce officielle"
++   },
++   {
++    "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
++    "title": "WoW: Forever– Watch Forging Forever",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "accessedAt": "2026-11-09",
++    "publishedAt": "2026-11-05",
++    "language": "en",
++    "key": "bz-24317865-en",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "verification": "officiel confirmé",
++    "proofType": "annonce officielle"
++   }
++  ],
++  "status": "draft",
++  "identityConfirmed": false,
++  "updatedAt": "2026-11-09T19:55:00+01:00",
++  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++  "version": 1,
++  "relations": [
++   "forever-news-forging-forever-taldramir"
++  ],
++  "history": [
++   {
++    "at": "2026-11-09T19:55:00+01:00",
++    "actor": "GrokBot (étape 02, exemple pilote)",
++    "note": "Fiche pilote créée à partir de 2 sources officielles vérifiées (HTTP 200) le 09/11/2026. Non importée, non publiée.",
++    "version": 1
++   }
++  ],
++  "facts": [
++   {
++    "ref": "fact-taldramir-name",
++    "status": "officiel confirmé",
++    "inGameVerified": false
++   }
++  ]
++ },
++ {
++  "id": "forever-raid-barrow-deeps",
++  "title": {
++   "fr": "Profondeurs des Saisons",
++   "en": "Barrow Deeps"
++  },
++  "category": "instances",
++  "subcategory": "raid-annonce",
++  "description": {
++   "fr": "Raid de niveau 60 pour 10 joueurs, ouvert le 9 décembre 2026. Cette prison cachée sous Kalimdor a retenu Illidan Hurlorage pendant 10 000 ans ; on y descend pour savoir ce qu’il est advenu de celles et ceux restés derrière et comment les Gardiennes comptent contenir le danger. Entrées depuis le mont Hyjal, le Berceau-de-l’Hiver et le repaire des Noiregueules ; huit boss. Réinitialisation hebdomadaire prévue.",
++   "en": "Level-60 raid for 10 players, opening December 9, 2026. This prison hidden beneath Kalimdor held Illidan Stormrage for 10,000 years; players descend to learn what became of those left behind and how the wardens plan to contain the danger. Entrances from Mount Hyjal, Winterspring and Blackmaw Hold; eight bosses. Weekly reset planned."
++  },
++  "sources": [
++   {
++    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
++    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
++    "language": "fr",
++    "publishedAt": "2026-10-20",
++    "accessedAt": "2026-10-24",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
++   },
++   {
++    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
++    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
++    "language": "en",
++    "publishedAt": "2026-10-20",
++    "accessedAt": "2026-10-24",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
++   }
++  ],
++  "status": "published",
++  "identityConfirmed": true,
++  "updatedAt": "2026-10-30T21:32:30.006Z",
++  "version": 8,
++  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
++  "relations": [
++   "article-forever-raids",
++   "forever-dungeon-blackmaw-hold"
++  ],
++  "history": [
++   {
++    "at": "2026-10-19",
++    "actor": "AI-documentary-draft",
++    "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
++    "version": 1
++   },
++   {
++    "at": "2026-10-24T21:30:12.021Z",
++    "actor": "local-import",
++    "note": "Imported to draft; external approval is not trusted.",
++    "version": 1
++   },
++   {
++    "at": "2026-10-24T21:30:22.321Z",
++    "actor": "Mathieu",
++    "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 2
++   },
++   {
++    "at": "2026-10-24T21:30:22.372Z",
++    "actor": "Mathieu",
++    "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 3
++   },
++   {
++    "at": "2026-10-24T21:30:22.426Z",
++    "actor": "Mathieu",
++    "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 4
++   },
++   {
++    "at": "2026-10-30T21:32:20.235Z",
++    "actor": "Grok Bot (correction v10 pour Mathieu)",
++    "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
++    "version": 5
++   },
++   {
++    "at": "2026-10-30T21:32:29.789Z",
++    "actor": "Mathieu",
++    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
++    "version": 6
++   },
++   {
++    "at": "2026-10-30T21:32:29.897Z",
++    "actor": "Mathieu",
++    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
++    "version": 7
++   },
++   {
++    "at": "2026-10-30T21:32:30.006Z",
++    "actor": "Mathieu",
++    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
++    "version": 8
++   }
++  ],
++  "importMeta": {
++   "fingerprint": "0a3ce9cac5987bde04cdc3ce069f5301ab413cc6056f0968ff6af244202499be",
++   "importedAt": "2026-10-30T21:32:20.235Z",
++   "sourceStatus": "published"
++  },
++  "review": {
++   "approved": true,
++   "reviewer": "Mathieu",
++   "at": "2026-10-30T21:32:29.897Z",
++   "rightsConfirmed": true,
++   "translationsConfirmed": true,
++   "contentDigest": "0dddaf169e57cd13d847276da499cce8dc5d67b62a45224bfea3630f4d31f51c"
++  }
++ },
++ {
++  "id": "forever-raid-barrow-deeps",
++  "title": {
++   "fr": "Profondeurs des Saisons",
++   "en": "Barrow Deeps"
++  },
++  "category": "instances",
++  "subcategory": "raid-annonce",
++  "description": {
++   "fr": "Raid de niveau 60 pour 10 joueurs, ouvert le 9 décembre 2026. Cette prison cachée sous Kalimdor a retenu Illidan Hurlorage pendant 10 000 ans ; on y descend pour savoir ce qu’il est advenu de celles et ceux restés derrière et comment les Gardiennes comptent contenir le danger. Entrées depuis le mont Hyjal, le Berceau-de-l’Hiver et le repaire des Noiregueules ; huit boss. Réinitialisation hebdomadaire prévue. (modification de test)",
++   "en": "Level-60 raid for 10 players, opening December 9, 2026. This prison hidden beneath Kalimdor held Illidan Stormrage for 10,000 years; players descend to learn what became of those left behind and how the wardens plan to contain the danger. Entrances from Mount Hyjal, Winterspring and Blackmaw Hold; eight bosses. Weekly reset planned."
++  },
++  "sources": [
++   {
++    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
++    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
++    "language": "fr",
++    "publishedAt": "2026-10-20",
++    "accessedAt": "2026-10-24",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
++   },
++   {
++    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
++    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
++    "language": "en",
++    "publishedAt": "2026-10-20",
++    "accessedAt": "2026-10-24",
++    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
++   }
++  ],
++  "status": "published",
++  "identityConfirmed": true,
++  "updatedAt": "2026-10-30T21:32:30.006Z",
++  "version": 9,
++  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
++  "relations": [
++   "article-forever-raids",
++   "forever-dungeon-blackmaw-hold"
++  ],
++  "history": [
++   {
++    "at": "2026-10-19",
++    "actor": "AI-documentary-draft",
++    "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
++    "version": 1
++   },
++   {
++    "at": "2026-10-24T21:30:12.021Z",
++    "actor": "local-import",
++    "note": "Imported to draft; external approval is not trusted.",
++    "version": 1
++   },
++   {
++    "at": "2026-10-24T21:30:22.321Z",
++    "actor": "Mathieu",
++    "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 2
++   },
++   {
++    "at": "2026-10-24T21:30:22.372Z",
++    "actor": "Mathieu",
++    "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 3
++   },
++   {
++    "at": "2026-10-24T21:30:22.426Z",
++    "actor": "Mathieu",
++    "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
++    "version": 4
++   },
++   {
++    "at": "2026-10-30T21:32:20.235Z",
++    "actor": "Grok Bot (correction v10 pour Mathieu)",
++    "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
++    "version": 5
++   },
++   {
++    "at": "2026-10-30T21:32:29.789Z",
++    "actor": "Mathieu",
++    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
++    "version": 6
++   },
++   {
++    "at": "2026-10-30T21:32:29.897Z",
++    "actor": "Mathieu",
++    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
++    "version": 7
++   },
++   {
++    "at": "2026-10-30T21:32:30.006Z",
++    "actor": "Mathieu",
++    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
++    "version": 8
++   }
++  ],
++  "importMeta": {
++   "fingerprint": "0a3ce9cac5987bde04cdc3ce069f5301ab413cc6056f0968ff6af244202499be",
++   "importedAt": "2026-10-30T21:32:20.235Z",
++   "sourceStatus": "published"
++  },
++  "review": {
++   "approved": true,
++   "reviewer": "Mathieu",
++   "at": "2026-10-30T21:32:29.897Z",
++   "rightsConfirmed": true,
++   "translationsConfirmed": true,
++   "contentDigest": "0dddaf169e57cd13d847276da499cce8dc5d67b62a45224bfea3630f4d31f51c"
++  }
++ },
++ {
++  "id": "q-eternadex-quest-count-test",
++  "title": {
++   "fr": "Nombre de quêtes (Eternadex)",
++   "en": "Quest count (Eternadex)"
++  },
++  "category": "quests",
++  "subcategory": "quarantaine",
++  "description": {
++   "fr": "TEST : 5 167 quêtes selon Eternadex.",
++   "en": "TEST: 5,167 quests per Eternadex."
++  },
++  "sources": [
++   {
++    "url": "https://eternadex.com/en/datenbank/",
++    "license": "Aucune licence publiée",
++    "accessedAt": "2026-11-09",
++    "verification": "extrait client"
++   }
++  ],
++  "status": "draft",
++  "updatedAt": "2026-11-09",
++  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++  "version": 1,
++  "relations": [],
++  "history": [
++   {
++    "at": "2026-11-09",
++    "actor": "GrokBot test",
++    "note": "Test de garde-fou : doit être bloqué par la future règle de liste de sources.",
++    "version": 1
++   }
++  ]
++ }
++]
+\ No newline at end of file
+diff --git a/pipeline/tests/lot1-ids.mjs b/pipeline/tests/lot1-ids.mjs
+new file mode 100644
+index 0000000..45ded34
+--- /dev/null
++++ b/pipeline/tests/lot1-ids.mjs
+@@ -0,0 +1,10 @@
++// V2.1 étape 03 — the 7 lot-1 entries (isolated test environment). Older count/render freezes exclude them so
++// the pre-existing catalogue keeps its exact invariants; tests/v21-lot1.test.mjs covers the lot itself.
++export const LOT1_IDS = Object.freeze(['forever-legacy-challenges', 'forever-legacy-perks', 'forever-legacy-rewards', 'forever-camp-features', 'forever-professions-overview', 'forever-quest-rewards-expanded', 'forever-questline-gelkis-magram']);
++export const isLot1 = entry => LOT1_IDS.includes(entry?.id);
++/** 0 (production dataset) or 7 (lot 1 published in the isolated test tree); anything else is a failure. */
++export function lot1Published(records) {
++  const n = records.filter(entry => isLot1(entry) && entry.status === 'published').length;
++  if (n !== 0 && n !== LOT1_IDS.length) throw new Error(`lot 1 partially published: ${n}`);
++  return n;
++}
+diff --git a/pipeline/tests/v10-drafts.test.mjs b/pipeline/tests/v10-drafts.test.mjs
+index 1bdde92..fbef842 100644
+--- a/pipeline/tests/v10-drafts.test.mjs
++++ b/pipeline/tests/v10-drafts.test.mjs
+@@ -3,6 +3,7 @@ import test from 'node:test';
+ import assert from 'node:assert/strict';
+ import {readFile} from 'node:fs/promises';
+ import {readFileSync} from 'node:fs';
++import {lot1Published} from './lot1-ids.mjs';
+ 
+ const batch = JSON.parse(await readFile(new URL('../data/batches/forever-v10-contenu-2026-10-30.json', import.meta.url), 'utf8'));
+ const runtime = JSON.parse(await readFile(new URL('../runtime/entries.json', import.meta.url), 'utf8'));
+@@ -51,5 +52,5 @@ test('v10 batch: protected drafts and published entries are untouched', () => {
+   const merges = JSON.parse(readFileSync(new URL('../data/merges.json', import.meta.url), 'utf8'));
+   const applied = merges.filter(m => byId.get(m.retired)?.status !== 'published').length;
+   const v17 = runtime.filter(e => e.id.startsWith('guide-debutant-') && e.status === 'published' && e.review?.reviewer === 'Mathieu').length; // v17 guides (t255u)
+-  assert.equal(runtime.filter(e => e.status === 'published').length, 81 - applied + v17 + 8); // v31: +2 news ; v30: +2 news ; v23: + article 03 ; v22: + CL3 Priest, launch notes, gamepad page
++  assert.equal(runtime.filter(e => e.status === 'published').length, 81 - applied + v17 + 8 + lot1Published(runtime)); // V2.1 étape 03: + lot 1 (test isolé) ; // v31: +2 news ; v30: +2 news ; v23: + article 03 ; v22: + CL3 Priest, launch notes, gamepad page
+ });
+diff --git a/pipeline/tests/v15-fusion.test.mjs b/pipeline/tests/v15-fusion.test.mjs
+index 112ddc1..35c998e 100644
+--- a/pipeline/tests/v15-fusion.test.mjs
++++ b/pipeline/tests/v15-fusion.test.mjs
+@@ -13,6 +13,7 @@ import {reviseRecord, transitionRecord, auditDataset} from '../lib/documentary.m
+ import {mergeStubs} from '../lib/v2/merges.mjs';
+ import {setV2Catalog, renderMoved, renderEntry} from '../lib/v2/render.mjs';
+ import {setVisualLinks} from '../lib/pages.mjs';
++import {isLot1} from './lot1-ids.mjs';
+ 
+ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+ const records = JSON.parse(await readFile(join(root, 'runtime/entries.json'), 'utf8'));
+@@ -139,7 +140,7 @@ const EXPECTED_SOURCES = {
+   'forever-news-podcast-series': ['24304076', '24298592', '24310653', '24304079', '24302577', '24315819'].flatMap(id => ['fr-fr', 'en-us'].map(l => `${l}/article/${id}/`))
+ };
+ test('v15 applied: kept entries re-approved by Mathieu after the revision, duplicates withdrawn, addresses served', {skip: !APPLIED && 'merges not applied yet'}, () => {
+-  assert.equal(records.filter(e => e.status === 'published' && !e.id.startsWith('guide-debutant-')).length, 88); // v31: +2 ; v30: +2 ; v23: + article 03 ; v22: + CL3 Priest, launch article, launch notes, gamepad page // + v17 guides (v17-improvements.test.mjs)
++  assert.equal(records.filter(e => e.status === 'published' && !e.id.startsWith('guide-debutant-') && !isLot1(e)).length, 88); // V2.1 étape 03: lot 1 excluded ; // v31: +2 ; v30: +2 ; v23: + article 03 ; v22: + CL3 Priest, launch article, launch notes, gamepad page // + v17 guides (v17-improvements.test.mjs)
+   for (const id of ['forever-news-beta']) assert.equal(byId.get(id).status, 'draft');
+   for (const m of merges) {
+     const kept = byId.get(m.into), gone = byId.get(m.retired);
+diff --git a/pipeline/tests/v16-format.test.mjs b/pipeline/tests/v16-format.test.mjs
+index a91286e..16af65d 100644
+--- a/pipeline/tests/v16-format.test.mjs
++++ b/pipeline/tests/v16-format.test.mjs
+@@ -16,6 +16,7 @@ import {siteEntries} from '../lib/site.mjs';
+ import {setCategoryNames, setVisualLinks} from '../lib/pages.mjs';
+ import {setV2Catalog, renderEntry, renderCategory, renderHome, renderIndex} from '../lib/v2/render.mjs';
+ import {entryPath} from '../lib/articles.mjs';
++import {isLot1, lot1Published} from './lot1-ids.mjs';
+ 
+ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+ const EXAMPLE = join(root, '../ops/v16/exemple-lancement.md');
+@@ -88,7 +89,7 @@ test('v16 check-data: rejects a wrongly labelled analysis block and a sourceless
+   const run = async data => { const path = join(dir, `${Math.random()}.json`); await writeFile(path, JSON.stringify(data)); let code = 0, out = ''; await checkData([path], {log: text => { out += text; }, setExitCode: c => { code = c; }}); return {code, report: JSON.parse(out)}; };
+   const ok = await run(records);
+   const v17 = records.filter(e => e.id.startsWith('guide-debutant-') && e.status === 'published').length; // v17 beginner guides
+-  assert.equal(ok.code, 0); assert.equal(ok.report.published, 88 + v17); assert.deepEqual(ok.report.errors, []); // v31: +2 news ; v30: +2 news
++  assert.equal(ok.code, 0); assert.equal(ok.report.published, 88 + v17 + lot1Published(records)); // V2.1 étape 03: + lot 1 ; assert.deepEqual(ok.report.errors, []); // v31: +2 news ; v30: +2 news
+   const {entry} = await example();
+   assert.equal((await run([...records, entry])).code, 0);
+   const badLabel = clone(entry); analysisSection(badLabel).blocks[0].label = {fr: 'Notre avis', en: 'Our opinion'};
+@@ -150,7 +151,8 @@ test('v16 rendering: format 2 layout, distinct "Avis · IA" box, tags, event dat
+ 
+ test('v16 opt-in only: every published entry page renders exactly as the deployed site (site/wiki), no new published entry', async () => {
+   const categories = JSON.parse(await readFile(join(root, 'public/wiki/catalog.json'), 'utf8')).categories;
+-  const published = (await siteEntries()).filter(e => e.status === 'published');
++  // V2.1 étape 03: lot 1 excluded, so every pre-existing page must still render byte-for-byte as the deployed site.
++  const published = (await siteEntries()).filter(e => e.status === 'published' && !isLot1(e));
+   // v17: the 9 beginner guides (format 2, tags) are the only additions; every other entry stays format 1 without tags.
+   const older = published.filter(e => !e.id.startsWith('guide-debutant-'));
+   const V22_FORMAT2 = ['forever-news-golive-nov4', 'article-forever-launch-notes', 'guide-forever-gamepad-support', 'article-forever-familiar', 'forever-news-violet-dust-drops', 'forever-news-forging-forever-taldramir', 'forever-news-class-tuning-nov10', 'forever-news-hotfixes-nov5-6']; // v31: +2 format 2 ; v30: +2 ; v23: + article 03 ; v22 format 2
+diff --git a/pipeline/tests/v21-lot1.test.mjs b/pipeline/tests/v21-lot1.test.mjs
+new file mode 100644
+index 0000000..9f8868d
+--- /dev/null
++++ b/pipeline/tests/v21-lot1.test.mjs
+@@ -0,0 +1,110 @@
++// V2.1 étape 03 — lot 1 (isolated test tree): referential integrity, sources/status rules, idempotence, Android HTML
++// and basic accessibility checks. Skips itself when lot 1 is not present (production dataset).
++import {test, afterEach} from 'node:test';
++import assert from 'node:assert/strict';
++import {readFile, readdir} from 'node:fs/promises';
++import {existsSync} from 'node:fs';
++import {join, dirname} from 'node:path';
++import {fileURLToPath} from 'node:url';
++import {auditDataset, merge, validate} from '../lib/documentary.mjs';
++import {selectPublicEntries} from '../lib/public-catalog.mjs';
++import {classifySource, entryVerification} from '../lib/source-policy.mjs';
++import {setCategoryNames, setVisualLinks} from '../lib/pages.mjs';
++import {setV2Catalog, renderEntry, renderCategory} from '../lib/v2/render.mjs';
++import {entryPath} from '../lib/articles.mjs';
++import {LOT1_IDS, lot1Published} from './lot1-ids.mjs';
++
++const root = join(dirname(fileURLToPath(import.meta.url)), '..');
++const records = JSON.parse(await readFile(join(root, 'runtime/entries.json'), 'utf8'));
++const batchPath = join(root, '../../lot1/lot1.entries.json');
++const present = lot1Published(records) === LOT1_IDS.length && existsSync(batchPath);
++const skip = !present && 'lot 1 not published in this dataset';
++const categories = JSON.parse(await readFile(join(root, 'public/wiki/catalog.json'), 'utf8')).categories;
++const lot = records.filter(e => LOT1_IDS.includes(e.id));
++afterEach(() => setVisualLinks([]));
++
++test('lot 1 — referential integrity: dataset audit clean, every relation and block source resolves', {skip}, () => {
++  const audit = auditDataset(records);
++  assert.deepEqual(audit.errors, []);
++  const published = new Set(records.filter(e => e.status === 'published').map(e => e.id));
++  for (const entry of lot) {
++    assert.deepEqual(validate(entry), [], entry.id);
++    for (const id of entry.relations) assert.ok(published.has(id), `${entry.id} → ${id} must be a published entry`);
++    assert.ok(entry.relations.length >= 1, `${entry.id} is linked`);
++  }
++  const pub = selectPublicEntries(records);
++  for (const id of LOT1_IDS) assert.ok(pub.some(e => e.id === id), `${id} public`);
++  const slugs = pub.flatMap(e => ['fr', 'en'].map(l => e.url[l]));
++  assert.equal(new Set(slugs).size, slugs.length, 'no URL collision');
++});
++
++test('lot 1 — sources and status: official Blizzard only, never third-party, never « à confirmer » needed', {skip}, () => {
++  for (const entry of lot) {
++    assert.ok(entry.sources.length >= 1);
++    for (const s of entry.sources) {
++      assert.equal(classifySource(s.url), 'officiel', `${entry.id}: ${s.url}`);
++      assert.doesNotMatch(s.url, /wiki\.gg|eternadex|wowhead|wago\.tools|wow\.tools/);
++      assert.match(s.license, /Blizzard/);
++      assert.equal(s.accessedAt, '2026-11-09');
++    }
++    assert.equal(entryVerification(entry), 'officiel confirmé');
++    assert.equal(entry.verification, 'officiel confirmé');
++    assert.ok(entry.article.pending.length >= 1, `${entry.id}: says what is not confirmed`);
++    assert.ok(entry.history.some(h => /TEST-ISOLE/.test(h.actor)), `${entry.id}: test-only approval is labelled`);
++    assert.match(entry.review.reviewer, /PAS une validation humaine de Mathieu/);
++  }
++});
++
++test('lot 1 — counted facts match the official articles (65 challenges, 21 perks, 4 rewards, 11 camp items)', {skip}, () => {
++  const by = id => lot.find(e => e.id === id);
++  const rows = by('forever-legacy-challenges').article.sections[0].blocks[0].rows;
++  assert.deepEqual(rows.map(r => Number(r[1].fr)), [27, 18, 12, 2, 3, 3]);
++  assert.equal(rows.reduce((n, r) => n + Number(r[1].fr), 0), 65);
++  const perks = by('forever-legacy-perks').article.sections.map(s => s.blocks[0].rows.length);
++  assert.deepEqual(perks, [7, 7, 7]);
++  assert.equal(by('forever-legacy-rewards').article.sections[0].blocks[0].rows.length, 4);
++  assert.equal(by('forever-camp-features').article.sections[0].blocks[0].rows.length, 11);
++  assert.equal(by('forever-questline-gelkis-magram').article.sections[0].blocks[0].items.length, 16);
++});
++
++test('lot 1 — idempotence: re-importing the batch inserts nothing (7 duplicates, no conflict)', {skip}, async () => {
++  const batch = JSON.parse(await readFile(batchPath, 'utf8'));
++  const {records: after, report} = merge(records, batch, {now: '2026-11-09T12:00:00Z'});
++  assert.deepEqual(report.inserted, []);
++  assert.deepEqual(report.conflicts, []);
++  assert.deepEqual(report.invalid, []);
++  assert.deepEqual(report.quarantined, []);
++  assert.equal(report.duplicates.length, 7);
++  assert.equal(JSON.stringify(after), JSON.stringify(records));
++});
++
++test('lot 1 — Android/accessibility: viewport, lang, noindex, one h1, no heading skip, captioned tables, no inline script/style', {skip}, async () => {
++  const pub = selectPublicEntries(records);
++  setCategoryNames(categories); setVisualLinks(pub); setV2Catalog(pub);
++  const pages = [];
++  for (const lang of ['fr', 'en']) {
++    for (const id of LOT1_IDS) pages.push([id, lang, renderEntry(pub.find(e => e.id === id), lang)]);
++    for (const cat of ['quests', 'professions']) pages.push([cat, lang, renderCategory(cat, lang)]);
++  }
++  for (const [id, lang, html] of pages) {
++    const where = `${id}/${lang}`;
++    assert.match(html, /<meta name="viewport" content="width=device-width,initial-scale=1">/, where);
++    assert.match(html, new RegExp(`<html lang="${lang}"`), where);
++    assert.match(html, /<meta name="robots" content="noindex,nofollow">/, where);
++    assert.match(html, /<title>[^<]{10,}<\/title>/, where);
++    assert.equal((html.match(/<h1[\s>]/g) ?? []).length, 1, `${where}: one h1`);
++    const levels = [...html.matchAll(/<h([1-6])[\s>]/g)].map(m => Number(m[1]));
++    for (let i = 1; i < levels.length; i++) assert.ok(levels[i] <= levels[i - 1] + 1, `${where}: heading skip h${levels[i - 1]}→h${levels[i]}`);
++    assert.doesNotMatch(html, /<script(?![^>]*\bsrc=)[^>]*>/, `${where}: inline script`);
++    assert.doesNotMatch(html, /\sstyle=|<style/, `${where}: inline style`);
++    for (const table of html.match(/<table>[\s\S]*?<\/table>/g) ?? []) {
++      assert.match(table, /<caption>/, where); assert.match(table, /<th scope="col">/, where);
++    }
++    // Android: every table sits in a focusable horizontal-scroll region
++    assert.equal((html.match(/<table>/g) ?? []).length, (html.match(/<div class="table-wrap" role="region" aria-label="[^"]+" tabindex="0"><table>/g) ?? []).length, where);
++    assert.ok(!html.includes('status-pill is-draft">À confirmer<') && !html.includes('status-pill is-draft">Unconfirmed'), `${where}: official lot shows no unconfirmed pill`);
++  }
++  // the built tree carries no sitemap (owner decision: noindex, no sitemap)
++  const top = await readdir(join(root, 'dist-v2')).catch(() => []);
++  assert.ok(!top.some(name => /sitemap/i.test(name)));
++});
+diff --git a/pipeline/tests/v21-source-policy.test.mjs b/pipeline/tests/v21-source-policy.test.mjs
+new file mode 100644
+index 0000000..0768f9c
+--- /dev/null
++++ b/pipeline/tests/v21-source-policy.test.mjs
+@@ -0,0 +1,149 @@
++// V2.1 étape 03 — regression tests for the source policy (decisions of 09/11/2026):
++// Eternadex/client-extract only => « à confirmer »; wiki.gg refused; official Blizzard still official;
++// mixing official + Eternadex never upgrades the Eternadex-only claims.
++import {test, afterEach} from 'node:test';
++import assert from 'node:assert/strict';
++import {readFile} from 'node:fs/promises';
++import {contentDigest, merge, validate} from '../lib/documentary.mjs';
++import {selectPublicEntries} from '../lib/public-catalog.mjs';
++import {classifySource, entryVerification, applySourcePolicy} from '../lib/source-policy.mjs';
++import {setCategoryNames, setVisualLinks} from '../lib/pages.mjs';
++import {setV2Catalog, renderEntry, renderCategory} from '../lib/v2/render.mjs';
++import {searchIndex} from '../lib/site-chrome.mjs';
++
++const categories = JSON.parse(await readFile(new URL('../public/wiki/catalog.json', import.meta.url), 'utf8')).categories;
++afterEach(() => setVisualLinks([]));
++const GV = 'World of Warcraft: Forever — test politique de sources';
++const PILL = {fr: 'status-pill is-draft">À confirmer<', en: 'status-pill is-draft">Unconfirmed — to be confirmed<'};
++const BZ = (lang, key) => ({key: `${key}-${lang}`, language: lang, publishedAt: '2026-09-23', url: `https://news.blizzard.com/${lang === 'fr' ? 'fr-fr' : 'en-us'}/article/24307383/test`, title: `Blizzard ${lang}`, accessedAt: '2026-11-09', license: 'Droits réservés Blizzard ; synthèse originale.', gameVersion: GV});
++const ETX = {key: 'etx', language: 'en', undated: true, url: 'https://eternadex.com/en/datenbank/', title: 'Eternadex', accessedAt: '2026-11-09', license: 'Aucune licence publiée', gameVersion: GV, verification: 'officiel confirmé'};
++const WIKIGG = {url: 'https://warcraft.wiki.gg/wiki/Quest', title: 'wiki.gg', accessedAt: '2026-11-09', license: 'CC BY-SA', gameVersion: GV};
++
++function base(id, sources, extra = {}) {
++  return {id, title: {fr: `Titre ${id}`, en: `Title ${id}`}, description: {fr: 'Description test.', en: 'Test description.'}, category: 'professions', subcategory: 'test-politique',
++    sources, status: 'draft', updatedAt: '2026-11-09', gameVersion: GV, version: 1, relations: [], history: [{at: '2026-11-09', actor: 'test', note: 'fixture', version: 1}], ...extra};
++}
++function publish(entry) {
++  const e = structuredClone(entry);
++  e.status = 'published'; e.identityConfirmed = true; delete e.importMeta;
++  e.review = {approved: true, reviewer: 'test-fixture', at: '2026-11-09', rightsConfirmed: true, translationsConfirmed: true};
++  e.review.contentDigest = contentDigest(e);
++  return e;
++}
++const render = (dto, lang) => { setCategoryNames(categories); setV2Catalog([dto]); return renderEntry(dto, lang); };
++
++test('policy 1 — Eternadex-only record: accepted only as « à confirmer », shown with the mention, never official', () => {
++  const raw = base('test-eternadex-only', [ETX], {verification: 'officiel confirmé', facts: [{id: 'f1', src: ['etx'], status: 'vérifié en jeu', fr: 'x', en: 'x'}]});
++  assert.equal(classifySource(ETX.url), 'extrait_client');
++  // direct edit claiming official is rejected
++  assert.ok(validate(raw).some(e => /aucune source officielle/.test(e)));
++  assert.ok(validate(raw).some(e => /extrait_client ne peut pas être « officiel confirmé »/.test(e)));
++  // import: inserted as draft but downgraded and reported
++  const {records, report} = merge([], [raw], {now: '2026-11-09T12:00:00Z'});
++  assert.deepEqual(report.inserted, ['test-eternadex-only']);
++  assert.equal(report.downgraded.length, 1);
++  const stored = records[0];
++  assert.equal(stored.verification, 'à confirmer');
++  assert.equal(stored.sources[0].verification, 'à confirmer');
++  assert.equal(stored.facts[0].status, 'à confirmer');
++  assert.deepEqual(validate(stored), []);
++  // published output: DTO + page + listing + search index carry the mention
++  const [dto] = selectPublicEntries([publish(stored)]);
++  assert.equal(dto.verification, 'à confirmer');
++  assert.equal(dto.sources[0].tier, 'extrait_client');
++  const fr = render(dto, 'fr'), en = render(dto, 'en');
++  assert.ok(fr.includes(PILL.fr) && en.includes(PILL.en));
++  assert.match(fr, /0 source officielle \+ 1 source non officielle/);
++  assert.match(fr, /Source non officielle — à confirmer/);
++  assert.match(en, /Non-official source — unconfirmed/);
++  assert.doesNotMatch(fr, />1 source officielle</);
++  assert.doesNotMatch(fr, /officiel confirmé|vérifié en jeu/);
++  assert.match(fr, /Aucune source officielle Blizzard pour cette fiche/);
++  assert.doesNotMatch(fr, /Sources officielles Blizzard Entertainment \(droits réservés\)/);
++  assert.match(en, /No official Blizzard source for this entry/);
++  assert.ok(fr.match(/<section[^>]*id="en-bref"[\s\S]*?<\/section>/)[0].includes(PILL.fr), 'brief paragraph marked');
++  assert.ok(renderCategory('professions', 'fr').includes(PILL.fr));
++  assert.equal(searchIndex({categories, entries: [{...dto, url: dto.url}]}).entries[0].verification, 'à confirmer');
++});
++
++test('policy 2 — a wiki.gg URL is refused (quarantined on import, invalid on direct edit)', () => {
++  assert.equal(classifySource('https://warcraft.wiki.gg/wiki/Legacy'), 'refuse');
++  assert.equal(classifySource('https://anything.wiki.gg/'), 'refuse');
++  const raw = base('test-wikigg', [WIKIGG]);
++  assert.ok(validate(raw).some(e => /wiki\.gg exclu/.test(e)));
++  const mixed = base('test-wikigg-mixed', [BZ('fr', 'bz'), WIKIGG]);
++  const {records, report} = merge([], [raw, mixed], {now: '2026-11-09T12:00:00Z'});
++  assert.deepEqual(records, []);
++  assert.deepEqual(report.inserted, []);
++  assert.deepEqual(report.quarantined.map(q => q.id), ['test-wikigg', 'test-wikigg-mixed']);
++  assert.deepEqual(selectPublicEntries([publish({...raw, verification: 'à confirmer'})]), [], 'never public even if hand-published');
++});
++
++test('policy 3 — a record sourced only by official Blizzard pages still publishes as official', () => {
++  const raw = base('test-official-only', [BZ('fr', 'bz'), BZ('en', 'bz')]);
++  assert.equal(entryVerification(raw), 'officiel confirmé');
++  const {records, report} = merge([], [raw], {now: '2026-11-09T12:00:00Z'});
++  assert.deepEqual(report.downgraded, []);
++  assert.equal(records[0].verification, undefined, 'nothing forced on official records');
++  const [dto] = selectPublicEntries([publish(records[0])]);
++  assert.equal(dto.verification, undefined);
++  assert.ok(!dto.sources.some(s => 'tier' in s));
++  const fr = render(dto, 'fr');
++  assert.match(fr, />1 source officielle</);
++  assert.ok(!fr.includes(PILL.fr));
++  for (const url of ['https://worldofwarcraft.blizzard.com/fr-fr/news/1', 'https://eu.forums.blizzard.com/fr/wow/t/x/1', 'https://us.forums.blizzard.com/en/wow/t/x/1', 'https://x.com/BlizzardCS/status/1'])
++    assert.equal(classifySource(url), 'officiel', url);
++  for (const url of ['https://x.com/someone/status/1', 'http://news.blizzard.com/en-us/x', 'https://news.blizzard.com.evil.example/x', 'https://www.wowhead.com/x'])
++    assert.notEqual(classifySource(url), 'officiel', url);
++});
++
++test('policy 4 — mixed official + Eternadex: the Eternadex-only claims are never upgraded to official', () => {
++  const article = {format: 1, slug: {fr: 'test-mixte', en: 'test-mixed'}, illustration: 'professions',
++    lead: {fr: 'Intro officielle.', en: 'Official intro.', src: ['bz']},
++    keyPoints: [{fr: 'Point officiel.', en: 'Official point.', src: ['bz']}, {fr: 'Point Eternadex.', en: 'Eternadex point.', src: ['etx']}],
++    sections: [{id: 'detail', title: {fr: 'Détail', en: 'Detail'}, blocks: [
++      {type: 'p', fr: 'PHRASE-OFFICIELLE.', en: 'OFFICIAL-SENTENCE.', src: ['bz']},
++      {type: 'p', fr: 'PHRASE-ETERNADEX.', en: 'ETERNADEX-SENTENCE.', src: ['etx'], status: 'officiel confirmé'}]}],
++    confirmed: [{fr: 'Confirmé officiel.', en: 'Confirmed official.', src: ['bz']}, {fr: 'Faux confirmé Eternadex.', en: 'Fake confirmed Eternadex.', src: ['etx']}],
++    pending: [{fr: 'Reste à confirmer.', en: 'Still pending.'}]};
++  const raw = base('test-mixed', [BZ('fr', 'bz'), BZ('en', 'bz'), {...ETX}], {article, verification: 'officiel confirmé',
++    facts: [{id: 'f-bz', src: ['bz'], status: 'officiel confirmé'}, {id: 'f-etx', src: ['etx'], status: 'officiel confirmé'}]});
++  const errors = validate(raw);
++  assert.ok(errors.some(e => /confirmed\[1\].*sans source officielle/.test(e)));
++  assert.ok(errors.some(e => /facts\[1\]/.test(e)));
++  assert.ok(errors.some(e => /blocks\[1\].*interdit sans source officielle/.test(e)));
++  assert.ok(!errors.some(e => /facts\[0\]|confirmed\[0\]/.test(e)), 'official claims stay valid');
++  const {records, report} = merge([], [raw], {now: '2026-11-09T12:00:00Z'});
++  assert.deepEqual(report.invalid, []);
++  assert.deepEqual(report.inserted, ['test-mixed']);
++  assert.ok(report.downgraded[0].changes.some(c => c.where === 'article.sections[0].blocks[1]'));
++  const stored = records[0];
++  assert.equal(stored.verification, 'officiel confirmé', 'entry has an official source');
++  assert.equal(stored.facts[0].status, 'officiel confirmé');
++  assert.equal(stored.facts[1].status, 'à confirmer');
++  assert.equal(stored.sources.find(s => s.key === 'etx').verification, 'à confirmer');
++  assert.deepEqual(stored.article.confirmed.map(c => c.en), ['Confirmed official.']);
++  assert.ok(stored.article.pending.some(p => p.en === 'Fake confirmed Eternadex.'));
++  assert.equal(stored.article.sections[0].blocks[1].status, 'à confirmer');
++  assert.deepEqual(validate(stored), []);
++  const [dto] = selectPublicEntries([publish(stored)]);
++  for (const [lang, own, etx] of [['fr', 'PHRASE-OFFICIELLE.', 'PHRASE-ETERNADEX.'], ['en', 'OFFICIAL-SENTENCE.', 'ETERNADEX-SENTENCE.']]) {
++    const html = render(dto, lang);
++    const after = text => html.slice(html.indexOf(text), html.indexOf('</p>', html.indexOf(text)));
++    assert.ok(after(etx).includes(PILL[lang]), `${lang}: Eternadex sentence marked`);
++    assert.ok(!after(own).includes(PILL[lang]), `${lang}: official sentence not marked`);
++  }
++  assert.match(render(dto, 'fr'), /1 source officielle \+ 1 source non officielle/);
++  assert.match(render(dto, 'fr'), /Sources officielles Blizzard Entertainment \(droits réservés\)[^<]*Les sources marquées « à confirmer »/);
++});
++
++test('policy — the step-02 failing case (Eternadex-only quest count) is now downgraded, never silently inserted', async () => {
++  const batch = JSON.parse(await readFile(new URL('./fixtures/etape02_import_dry_run_batch.json', import.meta.url), 'utf8'));
++  const {records, report} = merge([], batch, {now: '2026-11-09T12:00:00Z'});
++  const rec = records.find(r => r.id === 'q-eternadex-quest-count-test');
++  assert.ok(rec, 'still importable as a draft');
++  assert.equal(rec.verification, 'à confirmer');
++  assert.equal(rec.sources[0].verification, 'à confirmer');
++  assert.ok(report.downgraded.some(d => d.id === 'q-eternadex-quest-count-test'));
++  assert.equal(applySourcePolicy(rec).downgraded.length, 0, 'idempotent');
++});

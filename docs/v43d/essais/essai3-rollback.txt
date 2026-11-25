@@ -1,0 +1,3 @@
+stub systemctl restart wow4ever-community.service
+WOW4EVER_ROLLBACK_V43D_DONE
+code 0    [current -> releases/20261118T005337]

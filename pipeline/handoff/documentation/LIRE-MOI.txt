@@ -1,0 +1,12 @@
+WoW Forever Wiki — dossier privé de relecture
+
+36 fiches FR/EN ; 0 publications déclarées.
+Périmètre candidat : jeu Blizzard World of Warcraft: Forever, annonces et bêta consultées le 19 octobre 2026.
+Le propriétaire du wiki doit confirmer ce périmètre et faire vérifier faits, droits et traductions.
+Ouvrir relecture.html sur téléphone ou ordinateur. Ce document ne publie ni ne valide les fiches.
+wiki.sqlite est une base relationnelle locale exportée, pas une base hébergée ou connectée au site.
+entries.json conserve les statuts et l’historique réel du magasin local.
+Les fichiers sources recensent les références consultées et les limites, sans copie intégrale des pages.
+Les traductions FR/EN d’un même article ne sont pas des confirmations indépendantes.
+Complétude inconnue sans inventaire exhaustif de la version exacte du jeu.
+Ne pas placer ce paquet, la base ou les brouillons dans public/ ou dist/.

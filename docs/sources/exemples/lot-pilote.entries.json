@@ -1,0 +1,64 @@
+[
+ {
+  "id": "forever-item-taldramir-whispering-wood",
+  "title": {
+   "fr": "Taldramir, le bois des murmures",
+   "en": "Taldramir, the Whispering Wood"
+  },
+  "category": "items",
+  "subcategory": "legendaire-annonce",
+  "description": {
+   "fr": "Première arme légendaire annoncée pour World of Warcraft: Forever, présentée par Blizzard dans la vidéo « Forging Forever » (forgée avec Wētā). Obtention, classes et caractéristiques non annoncées.",
+   "en": "First legendary announced for World of Warcraft: Forever, presented by Blizzard in the “Forging Forever” video (forged with Wētā). How to obtain it, classes and stats have not been announced."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24317865/world-of-warcraft-forever-decouvrez-la-video-forging-forever",
+    "title": "World of Warcraft: Forever – Découvrez la vidéo « Forging Forever »",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "accessedAt": "2026-11-09",
+    "publishedAt": "2026-11-05",
+    "language": "fr",
+    "key": "bz-24317865-fr",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+    "verification": "officiel confirmé",
+    "proofType": "annonce officielle"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
+    "title": "WoW: Forever– Watch Forging Forever",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "accessedAt": "2026-11-09",
+    "publishedAt": "2026-11-05",
+    "language": "en",
+    "key": "bz-24317865-en",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+    "verification": "officiel confirmé",
+    "proofType": "annonce officielle"
+   }
+  ],
+  "status": "draft",
+  "identityConfirmed": false,
+  "updatedAt": "2026-11-09T19:55:00+01:00",
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "forever-news-forging-forever-taldramir"
+  ],
+  "history": [
+   {
+    "at": "2026-11-09T19:55:00+01:00",
+    "actor": "GrokBot (étape 02, exemple pilote)",
+    "note": "Fiche pilote créée à partir de 2 sources officielles vérifiées (HTTP 200) le 09/11/2026. Non importée, non publiée.",
+    "version": 1
+   }
+  ],
+  "facts": [
+   {
+    "ref": "fact-taldramir-name",
+    "status": "officiel confirmé",
+    "inGameVerified": false
+   }
+  ]
+ }
+]

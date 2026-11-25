@@ -1,0 +1,871 @@
+[
+ {
+  "id": "forever-dungeon-hall-of-thanes",
+  "title": {
+   "fr": "Salle des Thanes",
+   "en": "Hall of Thanes"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 13 à 18, sous Forgefer (Dun Morogh). Entrée facile pour l’Alliance depuis sa capitale ; la Horde doit s’aventurer en territoire ennemi. Dernière demeure des monarques nains, la salle a été envahie par des intrus soupçonnés d’être des Nains sombrefer, et des murmures fantomatiques y résonnent encore.",
+   "en": "Five-player dungeon, levels 13–18, beneath Ironforge (Dun Morogh). Easy access for the Alliance from its capital; the Horde must venture into enemy territory. The final resting place of dwarven monarchs has been broken into by intruders suspected to be Dark Iron dwarves, and ghostly whispers still echo there."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+    "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+    "title": "World of Warcraft: Forever What’s Next Panel Recap",
+    "language": "en",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:23.503Z",
+  "version": 8,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "history": [
+   {
+    "at": "2026-10-19",
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:12.021Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:22.651Z",
+    "actor": "Mathieu",
+    "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 2
+   },
+   {
+    "at": "2026-10-24T21:30:22.720Z",
+    "actor": "Mathieu",
+    "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 3
+   },
+   {
+    "at": "2026-10-24T21:30:22.785Z",
+    "actor": "Mathieu",
+    "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 4
+   },
+   {
+    "at": "2026-10-30T21:32:20.138Z",
+    "actor": "Grok Bot (correction v10 pour Mathieu)",
+    "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
+    "version": 5
+   },
+   {
+    "at": "2026-10-30T21:32:23.282Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 6
+   },
+   {
+    "at": "2026-10-30T21:32:23.398Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 7
+   },
+   {
+    "at": "2026-10-30T21:32:23.503Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 8
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "f4e471aba55ec8aed4ff138e9b451c385ce8f552d69610844cf1e86033842ae2",
+   "importedAt": "2026-10-30T21:32:20.138Z",
+   "sourceStatus": "published"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:23.398Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "23ca368b93ab906bba371896eca93b2683b10a2130823369aa25489550031806"
+  }
+ },
+ {
+  "id": "forever-dungeon-ruins-of-lordaeron",
+  "title": {
+   "fr": "Ruines de Lordaeron",
+   "en": "Ruins of Lordaeron"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 15 à 20, dans la cité en ruine au-dessus de Fossoyeuse (clairières de Tirisfal). Entrée facile pour la Horde, expédition en territoire ennemi pour l’Alliance. Les Réprouvés veulent reprendre la ville, hantée par le Fléau, alors qu’un nécromancien y gagne en puissance. Mise à jour du 4 novembre 2026 : les quêtes du donjon demandent désormais toutes le niveau 15 minimum (auparavant 15 ou 16), et certains prérequis ont été ajustés.",
+   "en": "Five-player dungeon, levels 15–20, in the ruined city above the Undercity (Tirisfal Glades). Easy access for the Horde, a trip into enemy territory for the Alliance. The Forsaken want to reclaim the Scourge-haunted city while a necromancer gathers power there. Update of November 4, 2026: the dungeon quests now all require level 15 to start (was a mix of 15 and 16), and some prerequisites were adjusted."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/9",
+    "title": "WoW Forever Beta Development Notes – Updated November 2 (Kaivax, forum officiel US, message n° 9)",
+    "publishedAt": "2026-11-02",
+    "accessedAt": "2026-11-04",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-11-04T12:59:49.189Z",
+  "version": 8,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "importMeta": {
+   "fingerprint": "e92c0521a1c819ff335b9d1d96c2d3abfe4fcc00794059d6bbb88acfcc1865c4",
+   "importedAt": "2026-11-04T12:59:46.515Z",
+   "sourceStatus": "draft"
+  },
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:23.898Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:23.995Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:24.097Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   },
+   {
+    "at": "2026-11-04T12:59:46.515Z",
+    "actor": "Mathieu",
+    "note": "revise: revise: v22 — mise à jour datée du 04/11/2026 (sources officielles Blizzard) — « Oui » de Mathieu (04/11/2026 13:54) pour les 9 brouillons prêts de la veille du 04/11",
+    "version": 5
+   },
+   {
+    "at": "2026-11-04T12:59:48.966Z",
+    "actor": "Mathieu",
+    "note": "submit: submit v22: « Oui » de Mathieu (04/11/2026 13:54) pour les 9 brouillons prêts de la veille du 04/11",
+    "version": 6
+   },
+   {
+    "at": "2026-11-04T12:59:49.079Z",
+    "actor": "Mathieu",
+    "note": "approve: v22 approuvé par Mathieu (faits issus des seules sources officielles Blizzard datées, droits, FR/EN) — « Oui » de Mathieu (04/11/2026 13:54) pour les 9 brouillons prêts de la veille du 04/11",
+    "version": 7
+   },
+   {
+    "at": "2026-11-04T12:59:49.189Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication v22 validée par Mathieu — « Oui » de Mathieu (04/11/2026 13:54) pour les 9 brouillons prêts de la veille du 04/11",
+    "version": 8
+   }
+  ],
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-11-04T12:59:49.079Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "e1ae1d3a6e26a02913d81c98fe073c48815f7ca8c51f2ca537171b85d4c26755"
+  }
+ },
+ {
+  "id": "forever-dungeon-excavation-site",
+  "title": {
+   "fr": "Excavations",
+   "en": "Excavation Site"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 24 à 29, près du rocher de Thelgen et de Dun Algaz, dans les Paluns. Au-delà des excavations de Whelgar, une brume étrange cache un lieu figé dans le temps, gardé par des assemblages titans errants et une faune dangereuse.",
+   "en": "Five-player dungeon, levels 24–29, near Thelgen Rock and Dun Algaz in the Wetlands. Beyond Whelgar’s Excavation, a strange mist hides a place frozen in time, guarded by errant titan constructs and dangerous wildlife."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:23.163Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:22.954Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:23.053Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:23.163Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "099b9b30142bcd8717c7ca906b1de4d90a0abfb85e0523841231998ea9dc3d35",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:23.053Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "1aa3a074266a99d7abeeb3d85be20011e8505167fad9e0326092d2f0feaf6370"
+  }
+ },
+ {
+  "id": "forever-dungeon-city-of-dalaran",
+  "title": {
+   "fr": "Cité de Dalaran",
+   "en": "City of Dalaran"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 28 à 33, dans les montagnes d’Alterac. Une suite de quêtes d’harmonisation est requise. Après avoir gagné la confiance du Kirin Tor, le groupe entre par les égouts et choisit entre plusieurs chemins et affrontements dans une cité en plein chaos arcanique.",
+   "en": "Five-player dungeon, levels 28–33, in the Alterac Mountains. An attunement questline is required. After earning the Kirin Tor’s trust, the group enters through the sewers and picks among several paths and encounters in a city gripped by arcane chaos."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:22.492Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids",
+   "forever-questline-dalaran-attunement"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:22.209Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:22.301Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:22.492Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "e0c467598710d35520b5ce7a545423223e5fc06af6a33da9d94771279cb26104",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:22.301Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "2ac23b32390c3a7169c1b7b31eb3d791573f8e42f7faa3b7834c0c9fe16bd4bd"
+  }
+ },
+ {
+  "id": "forever-dungeon-drowned-city",
+  "title": {
+   "fr": "La cité Submergée",
+   "en": "The Drowned City"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 35 à 40, au large de la vallée de Strangleronce, à l’ouest de Grom’gol. D’anciennes ruines trolles ont émergé de l’océan ; trolls et nagas y rôdent. On plonge pour trouver l’entrée. Le donjon est à ciel ouvert et la météo se dégrade jusqu’à la tempête avant le combat final.",
+   "en": "Five-player dungeon, levels 35–40, off the coast of Stranglethorn Vale, west of Grom’gol. Ancient troll ruins have risen from the ocean, roamed by trolls and naga. You dive to find the entrance. The open-air dungeon’s weather builds into a full storm before the final fight."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:22.834Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:22.624Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:22.719Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:22.834Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "75c304081097caff3d833ff65a66efccdf58d4442b085519168ebb8dd0c4c4de",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:22.719Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "ecc86e999530404fc3c736a6011bdd761c66270939c63e4a50943036f909fce4"
+  }
+ },
+ {
+  "id": "forever-dungeon-kroldok-stronghold",
+  "title": {
+   "fr": "Bastion Krol’dok",
+   "en": "Krol’dok Stronghold"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 40 à 45, dans les rives Claires. Des estafettes ogres enlèvent des voyageurs et pillent la région ; leur piste mène à une vaste forteresse d’ateliers, de campements et de passages gardés, d’où montent la nuit d’étranges incantations.",
+   "en": "Five-player dungeon, levels 40–45, in the Riverglades. Ogre outrunners kidnap travellers and raid the region; their trail leads to a sprawling fortress of workshops, encampments and guarded passages, where strange chanting is heard after nightfall."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:23.802Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids",
+   "forever-zone-riverglades"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:23.612Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:23.708Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:23.802Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "79a6bce5865fcfbbad13a9feae5b256b29a56fdd413775b79b2cbaf3de8991a7",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:23.708Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "2eb66b4370d411cf7d875c5b42d92403f7515ea07807e3740b012f89c1a7c452"
+  }
+ },
+ {
+  "id": "forever-dungeon-alcaz-prison",
+  "title": {
+   "fr": "Prison d’Alcaz",
+   "en": "Alcaz Prison"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 48 à 53, sur l’île d’Alcaz (marécage d’Âprefange). La prison, longtemps inaccessible et entourée de rumeurs sur ses captifs de haut rang, dont le roi Varian Wrynn, ouvre ses portes. La Confrérie défias et des nagas s’y affrontent.",
+   "en": "Five-player dungeon, levels 48–53, on Alcaz Island (Dustwallow Marsh). The long-sealed prison, surrounded by rumours of high-ranking captives including King Varian Wrynn, finally opens. The Defias Brotherhood and naga are fighting inside."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:21.818Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:21.619Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:21.722Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:21.818Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "0a5924c1aead64751548e81b761e340f9c933dc4b53a277ee33af8281047078a",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:21.722Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "159c785f53f47745152c08b559e7f83a7d0fb86c3aafbacde93dc560d1e0baef"
+  }
+ },
+ {
+  "id": "forever-dungeon-blackmaw-hold",
+  "title": {
+   "fr": "Repaire des Noiregueules",
+   "en": "Blackmaw Hold"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 55 à 60, en Azshara. Derrière une porte longtemps scellée s’étend une grande cité furbolg dont le clan lutte contre une corruption. Aventure de niveau maximum à plusieurs itinéraires et boss ; c’est aussi l’une des entrées des profondeurs des Saisons.",
+   "en": "Five-player dungeon, levels 55–60, in Azshara. Behind a long-sealed gate lies a great furbolg city whose clan is fighting a spreading corruption. A max-level adventure with multiple routes and bosses; it is also one of the entrances to the Barrow Deeps."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:22.106Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids",
+   "forever-raid-barrow-deeps"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:21.912Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:22.008Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:22.106Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "58835856632983f6b57b53c9e0fd574d6cf9475c1387b2d012b2e9588f0b4a2c",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:22.008Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "2319fbeff5b48b89b916d1684795e88312527d6162bfea140c99499f8ae3afee"
+  }
+ },
+ {
+  "id": "forever-dungeon-shapers-terrace",
+  "title": {
+   "fr": "La terrasse du Façonneur",
+   "en": "Shaper’s Terrace"
+  },
+  "category": "instances",
+  "subcategory": "donjon-annonce",
+  "description": {
+   "fr": "Donjon à cinq, niveaux 58 à 60, dans les collines du nord du cratère d’Un’Goro. Une ancienne installation titan domine le cratère. Les cristaux de puissance récoltés dans Un’Goro servent aux consoles de la terrasse.",
+   "en": "Five-player dungeon, levels 58–60, in the northern hills of Un’Goro Crater. An ancient titan facility overlooks the crater. Power crystals gathered across Un’Goro are used at consoles inside the terrace."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:24.383Z",
+  "version": 4,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids"
+  ],
+  "history": [
+   {
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+    "at": "2026-10-30",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:19:10.684Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-30T21:32:24.194Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 2
+   },
+   {
+    "at": "2026-10-30T21:32:24.287Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 3
+   },
+   {
+    "at": "2026-10-30T21:32:24.383Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 4
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "526130bfcbcf722b854dac67fc9f4e1eb0d5d4a9e754a74aa314263291d61b4b",
+   "importedAt": "2026-10-30T21:19:10.684Z",
+   "sourceStatus": "draft"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:24.287Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "dce79f4b21053b7d2cf269fd0e1cc2ed282eb412052ceb7729863f2612771058"
+  }
+ }
+]

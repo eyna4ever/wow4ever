@@ -1,0 +1,385 @@
+diff --git a/pipeline/lib/documentary.mjs b/pipeline/lib/documentary.mjs
+index f2c27a0..0d48c1b 100644
+--- a/pipeline/lib/documentary.mjs
++++ b/pipeline/lib/documentary.mjs
+@@ -1,6 +1,7 @@
+ import {createHash, randomUUID} from 'node:crypto';
+ import {mkdir, open, readFile, rename, rm, writeFile} from 'node:fs/promises';
+ import {resolve, join} from 'node:path';
++import {applySourcePolicy, policyErrors} from './source-policy.mjs';
+ import {validateArticle} from './articles.mjs';
+ 
+ export const categories = new Set(['classes', 'races', 'zones', 'instances', 'professions', 'items', 'quests', 'pvp', 'creatures', 'guides', 'news', 'glossary']);
+@@ -112,6 +113,8 @@ export function validate(entry, {maxSources = limits.maxSources} = {}) {
+     const review = entry.review;
+     if (!entry.identityConfirmed || !isObject(review) || review.approved !== true || !hasText(review.reviewer, 300) || !isDate(review.at) || review.rightsConfirmed !== true || review.translationsConfirmed !== true || review.contentDigest !== contentDigest(entry)) errors.push('current human review, confirmed identity, rights and translations required');
+   }
++  // V2.1 étape 03: source policy (wiki.gg refused; non-official sources can never carry an official status).
++  errors.push(...policyErrors(entry));
+   return errors;
+ }
+ 
+@@ -152,7 +155,7 @@ export function merge(current, incoming, options = {}) {
+   if (currentAudit.errors.length) throw new Error('current dataset is invalid; repair or restore it before importing');
+   const now = options.now ? new Date(options.now).toISOString() : new Date().toISOString();
+   const records = structuredClone(current), byId = new Map(records.map(entry => [entry.id, entry]));
+-  const report = {format: 1, operation: 'import', at: now, inputRecords: incoming.length, inputBytes: byteLength, inserted: [], duplicates: [], conflicts: [], invalid: [], stale: [], cost: {currency: 'EUR', actual: 0, ceiling: 0}, stages: {normalization: 'complete', deduplication: 'complete', verification: 'structural-only', translation: 'human-required', publication: 'human-required'}};
++  const report = {format: 1, operation: 'import', at: now, inputRecords: incoming.length, inputBytes: byteLength, inserted: [], duplicates: [], conflicts: [], invalid: [], quarantined: [], downgraded: [], stale: [], cost: {currency: 'EUR', actual: 0, ceiling: 0}, stages: {normalization: 'complete', deduplication: 'complete', verification: 'structural-only', translation: 'human-required', publication: 'human-required'}};
+   // Build candidates before resolving references so forward references in one batch work.
+   let candidates = [];
+   const candidateById = new Map(), blockedIds = new Set();
+@@ -167,6 +170,11 @@ export function merge(current, incoming, options = {}) {
+     entry.identityConfirmed = false;
+     delete entry.review;
+     delete entry.importMeta;
++    // V2.1 étape 03: refused hosts (wiki.gg) are quarantined; non-official claims are forced to « à confirmer ».
++    const policy = applySourcePolicy(entry);
++    if (policy.refused.length) { report.quarantined.push({index, id: typeof entry.id === 'string' ? entry.id : null, reason: 'source refusée (wiki.gg exclu)', urls: policy.refused}); continue; }
++    entry = policy.entry;
++    if (policy.downgraded.length) report.downgraded.push({index, id: entry.id, changes: policy.downgraded});
+     const errors = validate(entry, settings);
+     if (errors.length) { report.invalid.push({index, id: typeof entry.id === 'string' ? entry.id : null, errors}); continue; }
+     const existing = byId.get(entry.id);
+diff --git a/pipeline/lib/pages.mjs b/pipeline/lib/pages.mjs
+index 2fd116a..c9c1f5a 100644
+--- a/pipeline/lib/pages.mjs
++++ b/pipeline/lib/pages.mjs
+@@ -5,6 +5,7 @@
+  */
+ import {ANALYSIS_LABEL, CATEGORY_SLUGS, categoryPath, entryPath, readingMinutes, sourceGroups} from './articles.mjs';
+ import {visualFor, VISUAL_SIZE} from './visuals.mjs';
++import {UNCONFIRMED_LABEL, unofficialGroupKeys, VERIFICATION} from './source-policy.mjs';
+ import {SITE_NAME, siteHeader, groupOf} from './site-chrome.mjs';
+ 
+ export const UNOFFICIAL = {fr: 'Site indépendant et non officiel de Blizzard Entertainment.', en: 'Independent, unofficial site, not affiliated with Blizzard Entertainment.'};
+@@ -20,7 +21,10 @@ export function formatDate(iso, lang) {
+ }
+ const time = (iso, lang) => `<time datetime="${esc(String(iso).slice(0, 10))}">${formatDate(iso, lang)}</time>`;
+ 
+-export function statusBadge(status, lang) {
++/** V2.1 étape 03: visible « À confirmer » / "Unconfirmed" mark (existing pill style, CSP-safe, no new CSS). */
++export const unconfirmedPill = (lang, text = UNCONFIRMED_LABEL[lang]) => `<span class="status-pill is-draft">${text}</span>`;
++export function statusBadge(status, lang, verification) {
++  if (verification === VERIFICATION.unconfirmed) return `${statusBadge(status, lang)} ${unconfirmedPill(lang)}`;
+   if (status === 'published') return `<span class="status-pill is-published">${T(lang, 'Publié · validé', 'Published · reviewed')}</span>`;
+   return `<span class="status-pill is-draft">${T(lang, 'Brouillon — à valider', 'Draft — pending review')}</span>`;
+ }
+@@ -82,7 +86,11 @@ function breadcrumbs(lang, prefix, items, preview) {
+ 
+ function citations(src, numbers) {
+   const unique = [...new Set(src.map(key => numbers.get(key.replace(/-(fr|en)$/, ''))).filter(Boolean))];
+-  return unique.map(n => `<sup class="cite"><a href="#source-${n}" aria-label="Source ${n}">[${n}]</a></sup>`).join('');
++  const marks = unique.map(n => `<sup class="cite"><a href="#source-${n}" aria-label="Source ${n}">[${n}]</a></sup>`).join('');
++  // V2.1 étape 03: a claim whose own sources are all non-official is marked « À confirmer » next to its citation.
++  const unofficial = numbers.unofficial;
++  if (unofficial?.size && src.length && src.every(key => unofficial.has(key.replace(/-(fr|en)$/, '')))) return `${marks} ${unconfirmedPill(numbers.lang)}`;
++  return marks;
+ }
+ // v23: *name* → <em>name</em> (English spell names without an official French name). Escaped first, so no HTML injection.
+ export const emph = text => esc(text).replace(/\*([^*<>\n]{1,80})\*/g, '<em>$1</em>');
+@@ -104,16 +112,19 @@ export const categoryName = (id, lang) => CATEGORY_NAMES[id]?.[lang] ?? id;
+ 
+ function sourcesBlock(entry, lang) {
+   const groups = sourceGroups(entry);
++  const unofficial = unofficialGroupKeys(entry);
+   const items = groups.map(group => {
+     const versions = [...group.versions].sort((a, b) => (a.language === lang ? -1 : 0) - (b.language === lang ? -1 : 0));
+     const lines = versions.map(source => `<a href="${esc(source.url)}" rel="noopener noreferrer"${source.language ? ` hreflang="${esc(source.language)}"` : ''}>${esc(source.title ?? source.url)}</a>${source.language ? ` <span class="source-lang">(${esc(source.language.toUpperCase())})</span>` : ''}${source.publishedAt ? ` · ${T(lang, 'publié le', 'published')} ${time(source.publishedAt, lang)}` : source.undated ? ` · ${T(lang, 'date de publication non indiquée', 'no publication date shown')}` : ''} · ${T(lang, 'consulté le', 'accessed')} ${time(source.accessedAt, lang)}`);
+-    return `<li id="source-${group.number}"><span class="source-number">[${group.number}]</span> <span class="source-lines">${lines.join('<br>')}</span></li>`;
++    const mark = unofficial.has(group.key) ? ` ${unconfirmedPill(lang, T(lang, 'Source non officielle — à confirmer', 'Non-official source — unconfirmed'))}` : '';
++    return `<li id="source-${group.number}"><span class="source-number">[${group.number}]</span> <span class="source-lines">${lines.join('<br>')}${mark}</span></li>`;
+   });
+-  return `<section class="article-section sources-block" id="sources" aria-labelledby="sources-title"><h2 id="sources-title">${T(lang, 'Sources', 'Sources')}</h2><ol class="source-list">${items.join('')}</ol><p class="rights-note">${T(lang, 'Sources officielles Blizzard Entertainment (droits réservés). Ce wiki en propose une synthèse originale ; seules de courtes citations sont reproduites. Les informations annoncées peuvent évoluer avant ou après le lancement.', 'Official Blizzard Entertainment sources (all rights reserved). This wiki offers an original synthesis; only short quotes are reproduced. Announced information may change before or after launch.')}</p></section>`;
++  const extra = unofficial.size ? ` ${T(lang, 'Les sources marquées « à confirmer » ne sont pas des sources officielles Blizzard (base de fans ou données extraites du client) : les informations qui ne reposent que sur elles restent à confirmer.', 'Sources marked “unconfirmed” are not official Blizzard sources (fan database or client-extracted data): information resting only on them remains unconfirmed.')}` : '';
++  return `<section class="article-section sources-block" id="sources" aria-labelledby="sources-title"><h2 id="sources-title">${T(lang, 'Sources', 'Sources')}</h2><ol class="source-list">${items.join('')}</ol><p class="rights-note">${unofficial.size === groups.length ? T(lang, 'Aucune source officielle Blizzard pour cette fiche : tout son contenu reste à confirmer. Ce wiki en propose une synthèse originale ; seules de courtes citations sont reproduites.', 'No official Blizzard source for this entry: all of its content remains unconfirmed. This wiki offers an original synthesis; only short quotes are reproduced.') : T(lang, 'Sources officielles Blizzard Entertainment (droits réservés). Ce wiki en propose une synthèse originale ; seules de courtes citations sont reproduites. Les informations annoncées peuvent évoluer avant ou après le lancement.', 'Official Blizzard Entertainment sources (all rights reserved). This wiki offers an original synthesis; only short quotes are reproduced. Announced information may change before or after launch.')}${extra}</p></section>`;
+ }
+ 
+ function metaLine(entry, lang) {
+-  const parts = [statusBadge(entry.status, lang)];
++  const parts = [statusBadge(entry.status, lang, entry.verification)];
+   if (entry.article) parts.push(`<span>${readingMinutes(entry, lang)} ${T(lang, 'min de lecture', 'min read')}</span>`);
+   parts.push(`<span>${T(lang, 'Mis à jour le', 'Updated')} ${time(entry.updatedAt, lang)}</span>`);
+   parts.push(`<span>${sourceGroups(entry).length} ${T(lang, sourceGroups(entry).length > 1 ? 'sources' : 'source', sourceGroups(entry).length > 1 ? 'sources' : 'source')}</span>`);
+@@ -125,6 +136,8 @@ export function entryContent(entry, lang) {
+   const article = entry.article;
+   const groups = sourceGroups(entry);
+   const numbers = new Map(groups.map(group => [group.key, group.number]));
++  numbers.unofficial = unofficialGroupKeys(entry);
++  numbers.lang = lang;
+   const toc = [];
+   let body = '';
+   if (article?.format === 2) return entryContentV16(entry, lang, numbers);
+@@ -153,7 +166,7 @@ export function entryContent(entry, lang) {
+       body += `<section class="article-section" id="dates" aria-labelledby="dates-title"><h2 id="dates-title">${T(lang, 'Dates clés', 'Key dates')}</h2><ol class="timeline">${[...article.dates].sort((a, b) => a.date.localeCompare(b.date)).map(item => `<li>${time(item.date, lang)}<span>${sourcedText(item, lang, numbers)}</span></li>`).join('')}</ol></section>`;
+     }
+   } else {
+-    body += `<section class="article-section lead-box" id="en-bref" aria-labelledby="en-bref-title"><h2 id="en-bref-title">${T(lang, 'En bref', 'In brief')}</h2><p>${esc(entry.description[lang])}${groups.map(group => `<sup class="cite"><a href="#source-${group.number}" aria-label="Source ${group.number}">[${group.number}]</a></sup>`).join('')}</p><p class="panel-note">${T(lang, 'Fiche courte validée. Un article détaillé peut la compléter (voir les articles liés).', 'Short reviewed entry. A detailed article may complement it (see related articles).')}</p></section>`;
++    body += `<section class="article-section lead-box" id="en-bref" aria-labelledby="en-bref-title"><h2 id="en-bref-title">${T(lang, 'En bref', 'In brief')}</h2><p>${esc(entry.description[lang])}${groups.map(group => `<sup class="cite"><a href="#source-${group.number}" aria-label="Source ${group.number}">[${group.number}]</a></sup>`).join('')}${entry.verification === VERIFICATION.unconfirmed ? ` ${unconfirmedPill(lang)}` : ''}</p><p class="panel-note">${T(lang, 'Fiche courte validée. Un article détaillé peut la compléter (voir les articles liés).', 'Short reviewed entry. A detailed article may complement it (see related articles).')}</p></section>`;
+     toc.push(['en-bref', T(lang, 'En bref', 'In brief')]);
+   }
+   return {body, toc, sources: sourcesBlock(entry, lang)};
+diff --git a/pipeline/lib/public-catalog.mjs b/pipeline/lib/public-catalog.mjs
+index 9378a22..5fa14f9 100644
+--- a/pipeline/lib/public-catalog.mjs
++++ b/pipeline/lib/public-catalog.mjs
+@@ -1,10 +1,14 @@
+ import {validate} from './documentary.mjs';
+ import {entryPath, articlePlainText} from './articles.mjs';
++import {classifySource, entryVerification, VERIFICATION} from './source-policy.mjs';
+ 
+ const bilingual = value => value !== null && typeof value === 'object' && !Array.isArray(value)
+   && ['fr', 'en'].every(lang => typeof value[lang] === 'string' && value[lang].trim().length > 0 && value[lang].length <= 10_000);
+ 
+ function toDTO(entry, visibleIds, status) {
++  // V2.1 étape 03: the computed verification and the non-official source tiers travel with the DTO only when they
++  // differ from the official default, so fully official pages render byte-for-byte as before.
++  const verification = entryVerification(entry);
+   return {
+     id: entry.id,
+     title: {fr: entry.title.fr, en: entry.title.en},
+@@ -16,6 +20,7 @@ function toDTO(entry, visibleIds, status) {
+     gameVersion: entry.gameVersion,
+     version: entry.version,
+     updatedAt: entry.updatedAt,
++    ...(verification === VERIFICATION.official ? {} : {verification}),
+     url: {fr: entryPath(entry, 'fr'), en: entryPath(entry, 'en')},
+     sources: entry.sources.map(source => ({
+       ...(source.key === undefined ? {} : {key: source.key}),
+@@ -26,7 +31,8 @@ function toDTO(entry, visibleIds, status) {
+       accessedAt: source.accessedAt,
+       license: source.license,
+       ...(source.title === undefined ? {} : {title: source.title}),
+-      ...(source.gameVersion === undefined ? {} : {gameVersion: source.gameVersion})
++      ...(source.gameVersion === undefined ? {} : {gameVersion: source.gameVersion}),
++      ...(classifySource(source.url) === 'officiel' ? {} : {tier: classifySource(source.url), verification: VERIFICATION.unconfirmed})
+     })),
+     relations: entry.relations.filter(id => visibleIds.has(id)),
+     history: entry.history.map(change => ({
+diff --git a/pipeline/lib/site-chrome.mjs b/pipeline/lib/site-chrome.mjs
+index 8843432..d6067b3 100644
+--- a/pipeline/lib/site-chrome.mjs
++++ b/pipeline/lib/site-chrome.mjs
+@@ -202,6 +202,7 @@ export function searchIndex({categories, entries}) {
+       title: entry.title, description: entry.description, url: entry.url,
+       ...(entry.searchText === undefined ? {} : {searchText: compactSearchText(entry.searchText)}),
+       ...(entry.hasArticle ? {hasArticle: true} : {}),
++      ...(entry.verification === undefined ? {} : {verification: entry.verification}),   // V2.1 étape 03: « à confirmer » only
+       sources: entry.sources.map(source => ({url: source.url, license: source.license, accessedAt: source.accessedAt}))
+     }))
+   };
+diff --git a/pipeline/lib/source-policy.mjs b/pipeline/lib/source-policy.mjs
+new file mode 100644
+index 0000000..54333e6
+--- /dev/null
++++ b/pipeline/lib/source-policy.mjs
+@@ -0,0 +1,143 @@
++/**
++ * V2.1 étape 03 — politique de sources (décisions de Mathieu du 09/11/2026).
++ * Pure functions, no I/O. Used by documentary.mjs (validate/merge), public-catalog.mjs and the renderers.
++ *
++ *  - officiel     : pages Blizzard (news, site du jeu, forums officiels, comptes X Blizzard). Seul niveau qui peut porter
++ *                   « officiel confirmé ».
++ *  - extrait_client : bases de fans sans licence ou extraites du client (Eternadex, Wowhead, wago.tools, wow.tools).
++ *                   Publiables uniquement avec la mention « à confirmer » / "unconfirmed".
++ *  - communautaire : toute autre source tierce. Même règle : « à confirmer ».
++ *  - refuse       : *.wiki.gg (warcraft.wiki.gg exclu par décision du 09/11/2026). Jamais importé, jamais publié.
++ * A claim (entry, article block, fact) is official only when at least ONE of ITS OWN sources is official: mixing an
++ * official source into an entry never upgrades a block that cites only non-official sources.
++ */
++export const TIERS = Object.freeze(['officiel', 'extrait_client', 'communautaire', 'refuse']);
++export const VERIFICATION = Object.freeze({official: 'officiel confirmé', inGame: 'vérifié en jeu', unconfirmed: 'à confirmer', obsolete: 'obsolète'});
++export const OFFICIAL_CLAIMS = Object.freeze(['officiel confirmé', 'vérifié en jeu']);
++export const UNCONFIRMED_LABEL = Object.freeze({fr: 'À confirmer', en: 'Unconfirmed — to be confirmed'});
++
++const OFFICIAL_HOSTS = /^(news\.blizzard\.com|worldofwarcraft\.blizzard\.com|(us|eu)\.forums\.blizzard\.com|www\.blizzard\.com|blizzard\.com|eu\.support\.blizzard\.com|us\.support\.blizzard\.com)$/;
++const OFFICIAL_X = /^\/(blizzard[a-z0-9_]*|warcraft[a-z0-9_]*|wow_?forever[a-z0-9_]*)(\/|$)/i;
++const CLIENT_EXTRACT_HOSTS = /(^|\.)(eternadex\.com|wowhead\.com|wago\.tools|wow\.tools|wowdb\.com)$/;
++const REFUSED_HOSTS = /(^|\.)wiki\.gg$/;
++
++export function classifySource(url) {
++  let parsed;
++  try { parsed = new URL(String(url ?? '')); } catch { return 'communautaire'; }
++  const host = parsed.hostname.toLowerCase().replace(/\.$/, '');
++  if (REFUSED_HOSTS.test(host)) return 'refuse';
++  if (parsed.protocol === 'https:' && OFFICIAL_HOSTS.test(host)) return 'officiel';
++  if (parsed.protocol === 'https:' && (host === 'x.com' || host === 'twitter.com') && OFFICIAL_X.test(parsed.pathname)) return 'officiel';
++  if (CLIENT_EXTRACT_HOSTS.test(host)) return 'extrait_client';
++  return 'communautaire';
++}
++export const isOfficial = source => classifySource(source?.url) === 'officiel';
++
++/** Sources matching a block `src` key (keys may omit the -fr/-en suffix, as in articles.mjs). */
++export function sourcesForKeys(entry, keys) {
++  const all = Array.isArray(entry?.sources) ? entry.sources : [];
++  return all.filter(source => (keys ?? []).some(key => source?.key === key || String(source?.key ?? '').startsWith(`${key}-`)));
++}
++export const blockIsOfficial = (entry, src) => sourcesForKeys(entry, src).some(isOfficial);
++
++/** Computed verification for a whole entry: official only if at least one official source. */
++export function entryVerification(entry) {
++  const sources = Array.isArray(entry?.sources) ? entry.sources : [];
++  if (entry?.verification === VERIFICATION.obsolete) return VERIFICATION.obsolete;
++  return sources.some(isOfficial) ? VERIFICATION.official : VERIFICATION.unconfirmed;
++}
++
++/** Group keys (source key minus -fr/-en) whose every version is non-official — used to tag citations. */
++export function unofficialGroupKeys(entry) {
++  const byGroup = new Map();
++  for (const source of entry?.sources ?? []) {
++    const key = String(source?.key ?? source?.url ?? '').replace(/-(fr|en)$/, '');
++    byGroup.set(key, (byGroup.get(key) ?? false) || isOfficial(source));
++  }
++  return new Set([...byGroup].filter(([, official]) => !official).map(([key]) => key));
++}
++
++function* claimBlocks(entry) {
++  const article = entry?.article;
++  if (!article || typeof article !== 'object') return;
++  if (article.lead) yield {where: 'article.lead', block: article.lead};
++  for (const [i, p] of (article.keyPoints ?? []).entries()) yield {where: `article.keyPoints[${i}]`, block: p};
++  for (const [s, section] of (article.sections ?? []).entries()) for (const [b, block] of (section?.blocks ?? []).entries()) {
++    if (block?.type === 'analysis') continue;
++    yield {where: `article.sections[${s}].blocks[${b}]`, block};
++    for (const [k, item] of (block?.type === 'list' ? block.items ?? [] : []).entries()) yield {where: `article.sections[${s}].blocks[${b}].items[${k}]`, block: item};
++  }
++  for (const [i, item] of (article.confirmed ?? []).entries()) yield {where: `article.confirmed[${i}]`, block: item, confirmed: true};
++}
++
++/**
++ * Validation errors (never mutates). Called by documentary.validate(), so a hand edit of entries.json cannot
++ * bypass the policy either.
++ */
++export function policyErrors(entry) {
++  const errors = [];
++  const sources = Array.isArray(entry?.sources) ? entry.sources : [];
++  for (const [i, source] of sources.entries()) {
++    const tier = classifySource(source?.url);
++    if (tier === 'refuse') errors.push(`sources[${i}]: source refusée par la politique (wiki.gg exclu) — ${source?.url}`);
++    if (tier !== 'officiel' && OFFICIAL_CLAIMS.includes(source?.verification)) errors.push(`sources[${i}]: une source ${tier} ne peut pas être « ${source.verification} »`);
++    if (source?.verification === VERIFICATION.inGame && !(source?.proofType === 'constat en jeu' && source?.observedBy && source?.build)) errors.push(`sources[${i}]: « vérifié en jeu » exige proofType, observedBy et build`);
++  }
++  if (OFFICIAL_CLAIMS.includes(entry?.verification) && !sources.some(isOfficial)) errors.push(`verification « ${entry.verification} » interdite : aucune source officielle Blizzard`);
++  for (const [i, fact] of (Array.isArray(entry?.facts) ? entry.facts : []).entries()) {
++    if (OFFICIAL_CLAIMS.includes(fact?.status) && !sourcesForKeys(entry, fact?.src).some(isOfficial)) errors.push(`facts[${i}]: « ${fact.status} » interdit sans source officielle propre au fait`);
++  }
++  for (const {where, block, confirmed} of claimBlocks(entry)) {
++    if (!Array.isArray(block?.src)) continue;
++    const official = blockIsOfficial(entry, block.src);
++    if (confirmed && !official) errors.push(`${where}: rangé dans « confirmé par les sources officielles » sans source officielle`);
++    if (!official && OFFICIAL_CLAIMS.includes(block?.status)) errors.push(`${where}: « ${block.status} » interdit sans source officielle`);
++  }
++  return errors;
++}
++
++/**
++ * Import-time normalisation (returns {entry, downgraded[], refused[]}). Never upgrades anything:
++ *  - refused sources → the whole record is quarantined by the caller;
++ *  - non-official sources, facts, blocks and the entry itself are forced to « à confirmer »;
++ *  - article.confirmed items without an official source move to article.pending.
++ */
++export function applySourcePolicy(input) {
++  const entry = structuredClone(input);
++  const downgraded = [], refused = [];
++  const sources = Array.isArray(entry.sources) ? entry.sources : [];
++  for (const [i, source] of sources.entries()) {
++    if (!source || typeof source !== 'object') continue;
++    const tier = classifySource(source.url);
++    if (tier === 'refuse') { refused.push(source.url); continue; }
++    if (tier !== 'officiel' && source.verification !== VERIFICATION.unconfirmed) {
++      if (source.verification !== undefined) downgraded.push({where: `sources[${i}]`, from: source.verification, to: VERIFICATION.unconfirmed});
++      source.verification = VERIFICATION.unconfirmed;
++    }
++  }
++  const computed = entryVerification(entry);
++  if (OFFICIAL_CLAIMS.includes(entry.verification) && computed !== VERIFICATION.official) downgraded.push({where: 'verification', from: entry.verification, to: computed});
++  if (computed === VERIFICATION.unconfirmed) entry.verification = VERIFICATION.unconfirmed;
++  for (const [i, fact] of (Array.isArray(entry.facts) ? entry.facts : []).entries()) {
++    if (fact && typeof fact === 'object' && !sourcesForKeys(entry, fact.src).some(isOfficial) && fact.status !== VERIFICATION.unconfirmed) {
++      downgraded.push({where: `facts[${i}]`, from: fact.status, to: VERIFICATION.unconfirmed});
++      fact.status = VERIFICATION.unconfirmed;
++    }
++  }
++  for (const {where, block, confirmed} of claimBlocks(entry)) {
++    if (!confirmed && block && typeof block === 'object' && OFFICIAL_CLAIMS.includes(block.status) && !blockIsOfficial(entry, block.src)) {
++      downgraded.push({where, from: block.status, to: VERIFICATION.unconfirmed});
++      block.status = VERIFICATION.unconfirmed;
++    }
++  }
++  const article = entry.article;
++  if (article && typeof article === 'object' && Array.isArray(article.confirmed)) {
++    const keep = [];
++    for (const [i, item] of article.confirmed.entries()) {
++      if (blockIsOfficial(entry, item?.src)) keep.push(item);
++      else { downgraded.push({where: `article.confirmed[${i}]`, from: 'confirmé', to: 'pending (à confirmer)'}); (article.pending ??= []).push(item); }
++    }
++    article.confirmed = keep;
++  }
++  return {entry, downgraded, refused};
++}
+diff --git a/pipeline/lib/v2/render.mjs b/pipeline/lib/v2/render.mjs
+index d5f8610..b169b40 100644
+--- a/pipeline/lib/v2/render.mjs
++++ b/pipeline/lib/v2/render.mjs
+@@ -7,8 +7,9 @@
+  */
+ import {categoryPath, entryPath, readingMinutes, sourceGroups} from '../articles.mjs';
+ import {visualFor} from '../visuals.mjs';
+-import {entryPicture as entryPictureBase, entryContent, discussionBlock, formatDate, statusBadge, UNOFFICIAL, ART_LABEL, CATEGORY_INTROS} from '../pages.mjs';
++import {entryPicture as entryPictureBase, entryContent, discussionBlock, formatDate, statusBadge, unconfirmedPill, UNOFFICIAL, ART_LABEL, CATEGORY_INTROS} from '../pages.mjs';
+ import {searchOverlay, SITE_NAME} from '../site-chrome.mjs';
++import {unofficialGroupKeys, VERIFICATION} from '../source-policy.mjs';
+ import {SECTIONS, CATEGORY_LABELS, PLACEMENT, listingCategory, sectionOf, inListing} from './structure.mjs';
+ 
+ const esc = value => String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+@@ -130,7 +131,7 @@ const entryPicture = (entry, prefix, lang, opts = {}) => entryPictureBase(entry,
+ const tagFor = (entry, lang) => { const cat = listingCategory(entry); const sid = sectionOf(entry); return tag(SINGULAR[cat]?.[lang === 'en' ? 1 : 0] ?? cat, sid); };
+ function card(entry, lang, prefix, {sizes = SIZES.card, big = false} = {}) {
+   const cat = listingCategory(entry);
+-  return `<a class="v2-card${big ? ' is-big' : ''}" href="${prefix}${entryPath(entry, lang)}"><span class="v2-card-img">${entryPicture(entry, prefix, lang, {sizes, cls: 'v2-img'})}${tagFor(entry, lang)}</span><span class="v2-card-body"><strong>${esc(entry.title[lang])}</strong><span class="v2-card-text">${esc(entry.description[lang])}</span><span class="v2-card-meta">${entry.article ? `${T(lang, 'Article', 'Article')} · ${readingMinutes(entry, lang)} min · ` : `${T(lang, 'Fiche', 'Entry')} · `}${date(entry.updatedAt, lang)}</span></span></a>`;
++  return `<a class="v2-card${big ? ' is-big' : ''}" href="${prefix}${entryPath(entry, lang)}"><span class="v2-card-img">${entryPicture(entry, prefix, lang, {sizes, cls: 'v2-img'})}${tagFor(entry, lang)}</span><span class="v2-card-body"><strong>${esc(entry.title[lang])}</strong><span class="v2-card-text">${esc(entry.description[lang])}</span><span class="v2-card-meta">${entry.article ? `${T(lang, 'Article', 'Article')} · ${readingMinutes(entry, lang)} min · ` : `${T(lang, 'Fiche', 'Entry')} · `}${date(entry.updatedAt, lang)}${entry.verification === VERIFICATION.unconfirmed ? ` · ${unconfirmedPill(lang)}` : ''}</span></span></a>`;
+ }
+ const crumbs = (lang, items) => `<nav class="v2-crumbs" aria-label="${T(lang, 'Fil d’Ariane', 'Breadcrumb')}"><ol>${items.map(([text, href], i) => i === items.length - 1 ? `<li><span aria-current="page">${esc(text)}</span></li>` : `<li><a href="${href}">${esc(text)}</a></li>`).join('')}</ol></nav>`;
+ const artPicture = (cat, prefix, lang, eager = true) => `<picture><source type="image/avif" srcset="${prefix}assets/art-${cat}-480.avif 480w, ${prefix}assets/art-${cat}-1024.avif 1024w" sizes="${SIZES.tile}"><img class="v2-img" src="${prefix}assets/art-${cat}-1024.webp" srcset="${prefix}assets/art-${cat}-640.webp 640w, ${prefix}assets/art-${cat}-1024.webp 1024w" sizes="${SIZES.tile}" width="1024" height="576" alt="${esc(ART_LABEL[lang])}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></picture>`;
+@@ -234,6 +235,14 @@ export function renderGame(lang) {
+   return page({lang, prefix, title: sec.label[lang], description: sec.intro[lang], switchHref: `${prefix}${gamePath(other(lang))}`, current: 'jeu', body});
+ }
+ 
++/** V2.1 étape 03: honest source count — non-official sources are never counted as official. */
++function sourceCount(entry, groups, lang) {
++  const unofficial = unofficialGroupKeys(entry);
++  const n = groups.filter(group => !unofficial.has(group.key)).length, m = groups.length - n;
++  if (!m) return `<a href="#sources">${groups.length} ${groups.length > 1 ? T(lang, 'sources officielles', 'official sources') : T(lang, 'source officielle', 'official source')}</a>`;
++  return `<a href="#sources">${n} ${n > 1 ? T(lang, 'sources officielles', 'official sources') : T(lang, 'source officielle', 'official source')} + ${m} ${m > 1 ? T(lang, 'sources non officielles', 'non-official sources') : T(lang, 'source non officielle', 'non-official source')}</a> ${unconfirmedPill(lang)}`;
++}
++
+ export function renderCategory(cat, lang) {
+   const prefix = '../../';
+   const sid = SECTIONS.find(item => item.categories.includes(cat)).id;
+@@ -298,12 +307,12 @@ export function renderEntry(entry, lang) {
+   const info = [
+     [T(lang, 'Rubrique', 'Section'), cat === 'community' ? `<a href="/community/" data-community-link>${esc(rubrique)}</a>` : `<a href="${catHref(cat, lang, prefix)}">${esc(rubrique)}</a>`],
+     [T(lang, 'Type', 'Type'), entry.article ? T(lang, 'Article', 'Article') : T(lang, 'Fiche', 'Entry')],
+-    [T(lang, 'Statut', 'Status'), statusBadge(entry.status, lang)],
++    [T(lang, 'Statut', 'Status'), statusBadge(entry.status, lang, entry.verification)],
+     [T(lang, 'Mis à jour', 'Updated'), date(entry.updatedAt, lang)],
+     ...(entry.eventDate ? [[T(lang, 'Date de l’événement', 'Event date'), date(entry.eventDate, lang)]] : []),
+     [T(lang, 'Version du jeu', 'Game version'), esc(entry.gameVersion)],
+     ...(entry.article ? [[T(lang, 'Lecture', 'Reading time'), `${readingMinutes(entry, lang)} min`]] : []),
+-    [T(lang, 'Sources', 'Sources'), `<a href="#sources">${groups.length} ${groups.length > 1 ? T(lang, 'sources officielles', 'official sources') : T(lang, 'source officielle', 'official source')}</a>`]
++    [T(lang, 'Sources', 'Sources'), sourceCount(entry, groups, lang)]
+   ];
+   const infocard = `<section class="v2-infocard" aria-label="${T(lang, 'En résumé', 'At a glance')}"><div class="v2-info-art">${entryPicture(entry, prefix, lang, {sizes: SIZES.info, cls: 'v2-img'})}</div><div class="v2-info-body"><dl class="v2-info">${info.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl><p class="v2-info-desc">${esc(entry.description[lang])}</p>${entry.tags?.length ? `<ul class="v16-tags" aria-label="${T(lang, 'Mots-clés', 'Tags')}">${entry.tags.map(item => `<li class="v16-tag">${esc(item[lang])}</li>`).join('')}</ul>` : ''}</div></section>`;
+   const tocNav = `<nav class="v2-toc" aria-labelledby="toc-title"><p id="toc-title" class="v2-panel-title">${T(lang, 'Sommaire', 'Contents')}</p><ol>${toc.map(([id, text], i) => `<li><a href="#${id}">${icon(id === 'sources' ? 'link' : id === 'discussion' ? 'communaute' : TOC_ICONS[i % TOC_ICONS.length])}<span>${esc(text)}</span></a></li>`).join('')}</ol></nav>`;
+diff --git a/pipeline/scripts/import.mjs b/pipeline/scripts/import.mjs
+index 213f42e..3deb3e5 100644
+--- a/pipeline/scripts/import.mjs
++++ b/pipeline/scripts/import.mjs
+@@ -28,7 +28,7 @@ export async function main(argv = process.argv.slice(2), {log = console.log, set
+       : {...result.report, committed: false, dryRun: Boolean(options['dry-run']), unchanged: !changed};
+     if (!changed && !options['dry-run']) report = await persistReport(runtimeDir, report);
+     log(JSON.stringify(report, null, 2));
+-    if (report.invalid.length || report.conflicts.length) setExitCode(2);
++    if (report.invalid.length || report.conflicts.length || report.quarantined?.length) setExitCode(2);
+   };
+   if (options['dry-run']) await execute();
+   else await withDatasetLock(runtimeDir, execute);

@@ -1,0 +1,320 @@
+[
+ {
+  "id": "forever-item-taldramir-whispering-wood",
+  "title": {
+   "fr": "Taldramir, le bois des murmures",
+   "en": "Taldramir, the Whispering Wood"
+  },
+  "category": "items",
+  "subcategory": "legendaire-annonce",
+  "description": {
+   "fr": "Première arme légendaire annoncée pour World of Warcraft: Forever, présentée par Blizzard dans la vidéo « Forging Forever » (forgée avec Wētā). Obtention, classes et caractéristiques non annoncées.",
+   "en": "First legendary announced for World of Warcraft: Forever, presented by Blizzard in the “Forging Forever” video (forged with Wētā). How to obtain it, classes and stats have not been announced."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24317865/world-of-warcraft-forever-decouvrez-la-video-forging-forever",
+    "title": "World of Warcraft: Forever – Découvrez la vidéo « Forging Forever »",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "accessedAt": "2026-11-09",
+    "publishedAt": "2026-11-05",
+    "language": "fr",
+    "key": "bz-24317865-fr",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+    "verification": "officiel confirmé",
+    "proofType": "annonce officielle"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
+    "title": "WoW: Forever– Watch Forging Forever",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "accessedAt": "2026-11-09",
+    "publishedAt": "2026-11-05",
+    "language": "en",
+    "key": "bz-24317865-en",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+    "verification": "officiel confirmé",
+    "proofType": "annonce officielle"
+   }
+  ],
+  "status": "draft",
+  "identityConfirmed": false,
+  "updatedAt": "2026-11-09T19:55:00+01:00",
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "forever-news-forging-forever-taldramir"
+  ],
+  "history": [
+   {
+    "at": "2026-11-09T19:55:00+01:00",
+    "actor": "GrokBot (étape 02, exemple pilote)",
+    "note": "Fiche pilote créée à partir de 2 sources officielles vérifiées (HTTP 200) le 09/11/2026. Non importée, non publiée.",
+    "version": 1
+   }
+  ],
+  "facts": [
+   {
+    "ref": "fact-taldramir-name",
+    "status": "officiel confirmé",
+    "inGameVerified": false
+   }
+  ]
+ },
+ {
+  "id": "forever-raid-barrow-deeps",
+  "title": {
+   "fr": "Profondeurs des Saisons",
+   "en": "Barrow Deeps"
+  },
+  "category": "instances",
+  "subcategory": "raid-annonce",
+  "description": {
+   "fr": "Raid de niveau 60 pour 10 joueurs, ouvert le 9 décembre 2026. Cette prison cachée sous Kalimdor a retenu Illidan Hurlorage pendant 10 000 ans ; on y descend pour savoir ce qu’il est advenu de celles et ceux restés derrière et comment les Gardiennes comptent contenir le danger. Entrées depuis le mont Hyjal, le Berceau-de-l’Hiver et le repaire des Noiregueules ; huit boss. Réinitialisation hebdomadaire prévue.",
+   "en": "Level-60 raid for 10 players, opening December 9, 2026. This prison hidden beneath Kalimdor held Illidan Stormrage for 10,000 years; players descend to learn what became of those left behind and how the wardens plan to contain the danger. Entrances from Mount Hyjal, Winterspring and Blackmaw Hold; eight bosses. Weekly reset planned."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:30.006Z",
+  "version": 8,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids",
+   "forever-dungeon-blackmaw-hold"
+  ],
+  "history": [
+   {
+    "at": "2026-10-19",
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:12.021Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:22.321Z",
+    "actor": "Mathieu",
+    "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 2
+   },
+   {
+    "at": "2026-10-24T21:30:22.372Z",
+    "actor": "Mathieu",
+    "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 3
+   },
+   {
+    "at": "2026-10-24T21:30:22.426Z",
+    "actor": "Mathieu",
+    "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 4
+   },
+   {
+    "at": "2026-10-30T21:32:20.235Z",
+    "actor": "Grok Bot (correction v10 pour Mathieu)",
+    "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
+    "version": 5
+   },
+   {
+    "at": "2026-10-30T21:32:29.789Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 6
+   },
+   {
+    "at": "2026-10-30T21:32:29.897Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 7
+   },
+   {
+    "at": "2026-10-30T21:32:30.006Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 8
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "0a3ce9cac5987bde04cdc3ce069f5301ab413cc6056f0968ff6af244202499be",
+   "importedAt": "2026-10-30T21:32:20.235Z",
+   "sourceStatus": "published"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:29.897Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "0dddaf169e57cd13d847276da499cce8dc5d67b62a45224bfea3630f4d31f51c"
+  }
+ },
+ {
+  "id": "forever-raid-barrow-deeps",
+  "title": {
+   "fr": "Profondeurs des Saisons",
+   "en": "Barrow Deeps"
+  },
+  "category": "instances",
+  "subcategory": "raid-annonce",
+  "description": {
+   "fr": "Raid de niveau 60 pour 10 joueurs, ouvert le 9 décembre 2026. Cette prison cachée sous Kalimdor a retenu Illidan Hurlorage pendant 10 000 ans ; on y descend pour savoir ce qu’il est advenu de celles et ceux restés derrière et comment les Gardiennes comptent contenir le danger. Entrées depuis le mont Hyjal, le Berceau-de-l’Hiver et le repaire des Noiregueules ; huit boss. Réinitialisation hebdomadaire prévue. (modification de test)",
+   "en": "Level-60 raid for 10 players, opening December 9, 2026. This prison hidden beneath Kalimdor held Illidan Stormrage for 10,000 years; players descend to learn what became of those left behind and how the wardens plan to contain the danger. Entrances from Mount Hyjal, Winterspring and Blackmaw Hold; eight bosses. Weekly reset planned."
+  },
+  "sources": [
+   {
+    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+    "language": "fr",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   },
+   {
+    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+    "language": "en",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-10-24",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+   }
+  ],
+  "status": "published",
+  "identityConfirmed": true,
+  "updatedAt": "2026-10-30T21:32:30.006Z",
+  "version": 9,
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+  "relations": [
+   "article-forever-raids",
+   "forever-dungeon-blackmaw-hold"
+  ],
+  "history": [
+   {
+    "at": "2026-10-19",
+    "actor": "AI-documentary-draft",
+    "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:12.021Z",
+    "actor": "local-import",
+    "note": "Imported to draft; external approval is not trusted.",
+    "version": 1
+   },
+   {
+    "at": "2026-10-24T21:30:22.321Z",
+    "actor": "Mathieu",
+    "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 2
+   },
+   {
+    "at": "2026-10-24T21:30:22.372Z",
+    "actor": "Mathieu",
+    "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 3
+   },
+   {
+    "at": "2026-10-24T21:30:22.426Z",
+    "actor": "Mathieu",
+    "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+    "version": 4
+   },
+   {
+    "at": "2026-10-30T21:32:20.235Z",
+    "actor": "Grok Bot (correction v10 pour Mathieu)",
+    "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
+    "version": 5
+   },
+   {
+    "at": "2026-10-30T21:32:29.789Z",
+    "actor": "Mathieu",
+    "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 6
+   },
+   {
+    "at": "2026-10-30T21:32:29.897Z",
+    "actor": "Mathieu",
+    "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+    "version": 7
+   },
+   {
+    "at": "2026-10-30T21:32:30.006Z",
+    "actor": "Mathieu",
+    "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+    "version": 8
+   }
+  ],
+  "importMeta": {
+   "fingerprint": "0a3ce9cac5987bde04cdc3ce069f5301ab413cc6056f0968ff6af244202499be",
+   "importedAt": "2026-10-30T21:32:20.235Z",
+   "sourceStatus": "published"
+  },
+  "review": {
+   "approved": true,
+   "reviewer": "Mathieu",
+   "at": "2026-10-30T21:32:29.897Z",
+   "rightsConfirmed": true,
+   "translationsConfirmed": true,
+   "contentDigest": "0dddaf169e57cd13d847276da499cce8dc5d67b62a45224bfea3630f4d31f51c"
+  }
+ },
+ {
+  "id": "q-eternadex-quest-count-test",
+  "title": {
+   "fr": "Nombre de quêtes (Eternadex)",
+   "en": "Quest count (Eternadex)"
+  },
+  "category": "quests",
+  "subcategory": "quarantaine",
+  "description": {
+   "fr": "TEST : 5 167 quêtes selon Eternadex.",
+   "en": "TEST: 5,167 quests per Eternadex."
+  },
+  "sources": [
+   {
+    "url": "https://eternadex.com/en/datenbank/",
+    "license": "Aucune licence publiée",
+    "accessedAt": "2026-11-09",
+    "verification": "extrait client"
+   }
+  ],
+  "status": "draft",
+  "updatedAt": "2026-11-09",
+  "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [],
+  "history": [
+   {
+    "at": "2026-11-09",
+    "actor": "GrokBot test",
+    "note": "Test de garde-fou : doit être bloqué par la future règle de liste de sources.",
+    "version": 1
+   }
+  ]
+ }
+]

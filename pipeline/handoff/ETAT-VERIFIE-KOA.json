@@ -1,0 +1,44 @@
+{
+  "preparedOn": "2026-10-24",
+  "version": "2.2-koa",
+  "userTimezone": "Europe/Paris",
+  "records": 36,
+  "drafts": 36,
+  "published": 0,
+  "categories": 12,
+  "gameScopeConfirmedByOwner": false,
+  "environment": {
+    "node": "v24.22.1 (tarball officiel nodejs.org, /workspace/tools ; Node système v20.19.2 incompatible avec npm test)",
+    "npm": "11.x (fourni avec Node 24)",
+    "python": "3.13.5",
+    "browser": "Google Chrome 156 headless via playwright-core 1.64.1",
+    "caddy": "2.11.7 (binaire officiel, test local loopback)"
+  },
+  "tests": {
+    "executedOn": "2026-10-24",
+    "npmTest": {
+      "passed": 114,
+      "failed": 0
+    },
+    "browserQA": {
+      "passed": 20,
+      "failed": 0,
+      "servers": [
+        "Caddy 2.11.7 local",
+        "python CSP local"
+      ]
+    },
+    "projectCheckPreview": "pass"
+  },
+  "nextBuild": "executed: npm install (lockfile generated), npm audit 0 vulnerabilities, typecheck OK, next build OK; next start not tested",
+  "sqlite": {
+    "integrity": "ok",
+    "foreignKeyErrors": 0
+  },
+  "webFolderToServe": "source/dist (packaged as wow4ever-web.tar.gz)",
+  "androidRealDevice": "not executed",
+  "wcagAudit": "not executed",
+  "remoteSiteCheckedToday": false,
+  "remoteChangesPerformed": false,
+  "logs": "verification-koa/commands.tsv"
+}

@@ -1,0 +1,16 @@
+MISSION ÉLITE WOWKIPEDIA V2.1 — Quêtes, métiers, campements, Héritage
+
+PROJET : Wowkipedia.com — exclusivement World of Warcraft: Forever.
+EXÉCUTANT : GrokBot, qui vérifie ses accès existants avant de réclamer des informations.
+RÈGLES PERMANENTES : conserver l'architecture, les données, les comptes, Discord, les forums et la direction artistique dark fantasy bleu/or. Ne toucher à aucun autre projet. Ne jamais inventer d'informations ou prétendre avoir testé/déployé sans preuve. Toute donnée doit porter source, date, build, statut de vérification et droits de réutilisation. Les chiffres évoqués précédemment (5167 quêtes, 48 factions, 65 défis, etc.) sont à vérifier et ne sont pas des objectifs. Pas de mélange avec Classic/Retail. Travail par branche, changements révisables, secrets jamais publiés. Autonomie sur opérations réversibles ; arrêt et demande d'accord en cas de destruction, risque critique ou restauration impossible.
+
+OBJECTIF DE CETTE ÉTAPE
+Implémenter sur environnement de test, en réutilisant l'existant :
+A. Quêtes secondaires : fiches, chaînes, prérequis, PNJ, récompenses, filtres, liens.
+B. Métiers : recettes, composants, maîtres, niveaux, sources, calculateur de matériaux si données fiables.
+C. Campements : installations, métiers, effets, restrictions, obtention.
+D. Héritage : défis et arbres effectivement confirmés, checklist locale facultative.
+Créer seulement les fiches documentées ; pas de pages vides indexables. Préserver UX Android et recherche discrète.
+Tests : intégrité référentielle, idempotence, sources, permissions, non-régression Discord/forums, parcours Android, accessibilité de base.
+Déploiement : seulement après sauvegarde restaurable, tests réussis, rollback prêt, vérification post-déploiement ; aucun changement destructif autonome.
+LIVRABLE : PR/commits, migrations, liste et compte réel des fiches, tests, URL et rapport de production ou motif NO-GO.

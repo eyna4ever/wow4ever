@@ -1,0 +1,247 @@
+{
+  "format": 1,
+  "locale": "fr",
+  "asOf": "2026-10-24",
+  "datasetChecksum": "cec78c6c77bf91e646a6aef9fe2b945905b8c2d2ae902888746285ff60564e38",
+  "confidentiality": "Rapport interne ; ne pas publier dans public/ ou dist/.",
+  "completeness": {
+    "known": false,
+    "warning": "La complétude est inconnue sans référentiel exhaustif de la version exacte de WoW Forever. Aucune proportion de complétude ne peut être déduite de ces compteurs."
+  },
+  "methodology": {
+    "statuses": "Statuts déclarés dans les données, y compris les fiches invalides ; ils ne prouvent pas une publication.",
+    "publicEligible": "Fiches publiées admissibles après contrôle de structure, de validation humaine, de traduction, de droits, de relations et d’identifiants uniques.",
+    "uniqueSources": "Nombre de références HTTPS distinctes sans identifiants de connexion, après normalisation de l’URL et retrait des ancres ; une URL présente ne constitue pas une vérification factuelle.",
+    "snapshot": "Lecture seule, sans recherche réseau. À données et date de référence identiques, le rapport est identique."
+  },
+  "totals": {
+    "records": 36,
+    "statuses": {
+      "draft": 36,
+      "review": 0,
+      "verified": 0,
+      "published": 0,
+      "unknown": 0
+    },
+    "invalidRecords": 0,
+    "uncategorized": 0,
+    "publicEligible": 0
+  },
+  "categories": [
+    {
+      "category": "classes",
+      "label": "Classes et spécialisations",
+      "records": 9,
+      "statuses": {
+        "draft": 9,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 10
+    },
+    {
+      "category": "races",
+      "label": "Races et factions",
+      "records": 1,
+      "statuses": {
+        "draft": 1,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "zones",
+      "label": "Zones et exploration",
+      "records": 4,
+      "statuses": {
+        "draft": 4,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 4
+    },
+    {
+      "category": "instances",
+      "label": "Donjons et raids",
+      "records": 3,
+      "statuses": {
+        "draft": 3,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "professions",
+      "label": "Métiers et artisanat",
+      "records": 2,
+      "statuses": {
+        "draft": 2,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "items",
+      "label": "Objets et équipements",
+      "records": 2,
+      "statuses": {
+        "draft": 2,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "quests",
+      "label": "Quêtes et progression",
+      "records": 3,
+      "statuses": {
+        "draft": 3,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 4
+    },
+    {
+      "category": "pvp",
+      "label": "PvP et activités",
+      "records": 3,
+      "statuses": {
+        "draft": 3,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 3
+    },
+    {
+      "category": "creatures",
+      "label": "Créatures et boss",
+      "records": 2,
+      "statuses": {
+        "draft": 2,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "guides",
+      "label": "Guides débutants et avancés",
+      "records": 2,
+      "statuses": {
+        "draft": 2,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "news",
+      "label": "Actualités et annonces",
+      "records": 3,
+      "statuses": {
+        "draft": 3,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 2
+    },
+    {
+      "category": "glossary",
+      "label": "Glossaire et références",
+      "records": 2,
+      "statuses": {
+        "draft": 2,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "invalidRecords": 0,
+      "publicEligible": 0,
+      "uniqueSources": 3
+    }
+  ],
+  "uniqueSources": 24,
+  "versionScopes": [
+    {
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "records": 36,
+      "statuses": {
+        "draft": 36,
+        "review": 0,
+        "verified": 0,
+        "published": 0,
+        "unknown": 0
+      },
+      "publicEligible": 0
+    }
+  ],
+  "missingVersionScope": 0,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "staleRecords": 0
+  },
+  "nextCategories": [
+    "classes",
+    "races",
+    "zones",
+    "instances",
+    "professions",
+    "items",
+    "quests",
+    "pvp",
+    "creatures",
+    "guides",
+    "news",
+    "glossary"
+  ]
+}

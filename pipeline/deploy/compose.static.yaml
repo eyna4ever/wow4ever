@@ -1,0 +1,16 @@
+# Isolated candidate only. Do not run against existing services without inventory.
+services:
+  wow-forever:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3107:8080"
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

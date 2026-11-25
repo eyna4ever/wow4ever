@@ -1,0 +1,79 @@
+{
+  "preparedOn": "2026-10-24",
+  "userTimezone": "Europe/Paris",
+  "records": 36,
+  "drafts": 36,
+  "published": 0,
+  "categories": 12,
+  "referenceURLs": 24,
+  "distinctArticles": 14,
+  "documentarySourceAccessedOn": "2026-10-19",
+  "gameScopeConfirmedByOwner": false,
+  "tests": {
+    "executedOn": "2026-10-24",
+    "passed": 112,
+    "failed": 0,
+    "environment": "isolated source copy without active hosting identity"
+  },
+  "checks": [
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "log": "verification/copie-isolee-1.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/import-library.mjs",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "log": "verification/copie-isolee-2.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/build-static.mjs"
+      ],
+      "exitCode": 0,
+      "log": "verification/copie-isolee-3.log"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/check-release.mjs",
+        "artifacts/wow-forever-integre.html",
+        "data/entries.json"
+      ],
+      "exitCode": 0,
+      "log": "verification/copie-isolee-4.log"
+    }
+  ],
+  "sqlite": {
+    "integrity": "ok",
+    "foreignKeyErrors": 0
+  },
+  "browserAndroidQA": "not executed for this package",
+  "nextBuild": "not executed; dependencies not installed",
+  "remoteSiteCheckedToday": false,
+  "remoteChangesPerformed": false,
+  "hostedDatabase": "not connected; included SQLite is a local export",
+  "portabilityNotes": [
+    "Node.js 24 and Python 3 required.",
+    "Some older packaging scripts hardcode /workspace/shared/downloads; use the individual relative-path commands in LIRE-MOI.",
+    "Active .openai hosting identity is intentionally absent."
+  ],
+  "sourceTransformations": [
+    {
+      "path": "source/docs/RESEARCH.md",
+      "reason": "Référence au registre privé d’un autre projet retirée."
+    },
+    {
+      "path": "source/docs/CUSTOM-DOMAIN.md",
+      "reason": "Copie neutralisée ; configuration de production et preuves DNS exclues."
+    }
+  ]
+}

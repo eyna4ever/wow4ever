@@ -1,0 +1,463 @@
+{
+ "id": "forever-items-collections",
+ "title": {
+  "fr": "Collections : montures, mascottes, jouets et héritage",
+  "en": "Collections: mounts, pets, toys and Legacy"
+ },
+ "category": "items",
+ "subcategory": "collections",
+ "description": {
+  "fr": "La rubrique des collections de WoW Forever : 127 montures, 99 mascottes et 12 jouets illustrés par l’image du jeu, avec leur moyen d’obtention, plus les récompenses d’héritage.",
+  "en": "The WoW Forever collections section: 127 mounts, 99 pets and 12 toys illustrated with the game image, with how to get them, plus the Legacy rewards."
+ },
+ "sources": [
+  {
+   "key": "bz-legacy-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+   "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-legacy-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+   "title": "Get to Know the World of Warcraft: Forever Legacy System",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-pack-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301508/achetez-les-avantages-de-world-of-warcraft-forever-et-lancez-vous-dans-vos-prochaines-aventures-sur-azeroth",
+   "title": "Achetez les avantages de World of Warcraft: Forever et lancez-vous dans vos prochaines aventures sur Azeroth",
+   "publishedAt": "2026-09-12",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-pack-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301508/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+   "title": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth",
+   "publishedAt": "2026-09-12",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-sub-year-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24310658/debloquez-un-an-de-world-of-warcraft-et-recevez-des-tresors-bonus",
+   "title": "Débloquez un an de World of Warcraft® et recevez des trésors bonus",
+   "publishedAt": "2026-10-15",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-sub-year-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24310658/unlock-a-year-of-world-of-warcraft-and-get-bonus-treasures",
+   "title": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
+   "publishedAt": "2026-10-15",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-hotfixes-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026",
+   "title": "WoW: Forever Hotfixes - November 11, 2026",
+   "publishedAt": "2026-11-11",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "client-fichiers-en",
+   "language": "en",
+   "url": "https://us.cdn.blizzard.com/tpr/wow/config/5a/da/5ada954223f7c409ea172361f5c9e565",
+   "title": "WoW Forever client files, build 1.60.1.70862 — data tables and icons read from Blizzard’s official CDN",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Fichiers du jeu World of Warcraft: Forever (build 1.60.1.70862) lus sur le CDN officiel Blizzard : noms, prix, niveaux et icônes ; icônes converties en WebP sans retouche. Contenus et images du jeu © Blizzard Entertainment ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+   "clientBuild": "1.60.1.70862",
+   "verification": "données du jeu"
+  },
+  {
+   "key": "client-quetes-en",
+   "language": "en",
+   "url": "https://eternadex.com/en/daten/quests/0.json",
+   "title": "Quest data JSON (Forever game data 1.60.1, partly completed by player-addon contributions; 64 files consulted)",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Base de fans sans licence de réutilisation : faits courts repris avec lien, à confirmer ; site non commercial. Contenus de jeu © Blizzard Entertainment.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  }
+ ],
+ "status": "draft",
+ "identityConfirmed": false,
+ "updatedAt": "2026-11-17T17:00:00.000Z",
+ "version": 1,
+ "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+ "relations": [
+  "forever-items-mounts",
+  "forever-items-pets",
+  "forever-items-toys",
+  "forever-legacy-rewards"
+ ],
+ "history": [
+  {
+   "at": "2026-11-17T17:00:00.000Z",
+   "actor": "GrokBot",
+   "note": "v41 (t403u) : brouillon de la rubrique Collections (test, non publié).",
+   "version": 1
+  }
+ ],
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "collections",
+   "en": "collections"
+  },
+  "illustration": "items",
+  "noAmbiance": true,
+  "lead": {
+   "fr": "Tout ce qui se collectionne dans WoW Forever, au même endroit : 127 montures, 99 mascottes, 12 jouets et les récompenses d’héritage. Chaque élément a sa fiche avec l’image du jeu, son nom officiel en français et en anglais, et son moyen d’obtention quand il est connu.",
+   "en": "Everything collectible in WoW Forever in one place: 127 mounts, 99 pets, 12 toys and the Legacy rewards. Each entry has its card with the game image, its official French and English name, and how to get it when known.",
+   "src": [
+    "client-fichiers",
+    "bz-legacy"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "237 fiches sur 238 ont l’icône officielle du jeu ; Azurbie n’a pas d’image (absente des fichiers du jeu lisibles).",
+    "en": "237 of 238 cards have the official game icon; Azurky has no image (absent from the readable game files).",
+    "src": [
+     "client-fichiers",
+     "bz-sub-year"
+    ]
+   },
+   {
+    "fr": "Obtention indiquée pour 28 montures, 22 mascottes et 8 jouets ; les autres sont rangés par faction et niveau, sans rien inventer.",
+    "en": "Acquisition given for 28 mounts, 22 pets and 8 toys; the others are sorted by faction and level, without inventing anything.",
+    "src": [
+     "client-fichiers",
+     "client-quetes"
+    ]
+   },
+   {
+    "fr": "Quatre récompenses d’héritage au lancement : jouet, mascotte, tabard et monture.",
+    "en": "Four Legacy rewards at launch: toy, pet, tabard and mount.",
+    "src": [
+     "bz-legacy"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "rubriques",
+    "title": {
+     "fr": "Les quatre collections",
+     "en": "The four collections"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "hub",
+      "fr": "Choisissez une collection : chaque page regroupe les fiches par moyen d’obtention.",
+      "en": "Pick a collection: each page groups the cards by acquisition.",
+      "src": [
+       "client-fichiers",
+       "bz-legacy"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "obtention",
+    "title": {
+     "fr": "Moyens d’obtention",
+     "en": "Ways to get them"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Nombre de fiches par moyen d’obtention",
+       "en": "Number of cards per acquisition"
+      },
+      "head": [
+       {
+        "fr": "Obtention",
+        "en": "Acquisition"
+       },
+       {
+        "fr": "Montures",
+        "en": "Mounts"
+       },
+       {
+        "fr": "Mascottes",
+        "en": "Pets"
+       },
+       {
+        "fr": "Jouets",
+        "en": "Toys"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "Héritage (officiel)",
+         "en": "Legacy (official)"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        }
+       ],
+       [
+        {
+         "fr": "Pack boutique (officiel)",
+         "en": "Shop pack (official)"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        }
+       ],
+       [
+        {
+         "fr": "Abonnement (officiel)",
+         "en": "Subscription (official)"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        }
+       ],
+       [
+        {
+         "fr": "Sort de classe (quête à confirmer)",
+         "en": "Class spell (quest to be confirmed)"
+        },
+        {
+         "fr": "5",
+         "en": "5"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        }
+       ],
+       [
+        {
+         "fr": "Quête (à confirmer)",
+         "en": "Quest (to be confirmed)"
+        },
+        {
+         "fr": "21",
+         "en": "21"
+        },
+        {
+         "fr": "14",
+         "en": "14"
+        },
+        {
+         "fr": "2",
+         "en": "2"
+        }
+       ],
+       [
+        {
+         "fr": "Artisanat (fichiers du jeu)",
+         "en": "Crafting (game files)"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        },
+        {
+         "fr": "5",
+         "en": "5"
+        },
+        {
+         "fr": "4",
+         "en": "4"
+        }
+       ],
+       [
+        {
+         "fr": "Réputation (fichiers du jeu)",
+         "en": "Reputation (game files)"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        },
+        {
+         "fr": "0",
+         "en": "0"
+        }
+       ],
+       [
+        {
+         "fr": "Non indiquée",
+         "en": "Not given"
+        },
+        {
+         "fr": "99",
+         "en": "99"
+        },
+        {
+         "fr": "77",
+         "en": "77"
+        },
+        {
+         "fr": "4",
+         "en": "4"
+        }
+       ]
+      ],
+      "src": [
+       "client-fichiers",
+       "client-quetes",
+       "bz-legacy",
+       "bz-pack",
+       "bz-sub-year"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "images",
+    "title": {
+     "fr": "Images et données",
+     "en": "Images and data"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Chaque fiche montre l’icône officielle de l’objet, lue dans les fichiers du jeu WoW Forever (client 1.60.1.70862) et seulement convertie au format WebP, sans retouche (images du jeu © Blizzard Entertainment). Quand aucune image du jeu n’existe pour un élément, aucune image n’est affichée.",
+      "en": "Each card shows the item’s official icon, read from the WoW Forever game files (client 1.60.1.70862) and only converted to WebP, unretouched (game images © Blizzard Entertainment). When no game image exists for an entry, no image is shown.",
+      "src": [
+       "client-fichiers"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les noms français et anglais, la qualité, la faction, le niveau requis, le prix et l’effet viennent des fichiers du jeu (client 1.60.1.70862). L’obtention « officielle » vient des articles Blizzard cités. Les quêtes, PNJ et zones viennent de données de quêtes du jeu complétées par des joueurs : elles restent à confirmer. Quand les fichiers du jeu ne disent pas comment obtenir un élément, la fiche l’écrit (« non indiquée ») : rien n’est ajouté de mémoire ni d’après une autre version du jeu. Le prix inscrit dans les fichiers du jeu ne prouve pas qu’un vendeur le vende dans Forever, et la présence d’un élément dans ces fichiers ne prouve pas qu’il soit obtenable dans Forever.",
+      "en": "French and English names, quality, faction, required level, price and effect come from the game files (client 1.60.1.70862). “Official” acquisition comes from the cited Blizzard articles. Quests, NPCs and zones come from game quest data completed by players: they remain to be confirmed. When the game files do not say how to get an entry, the card says so (“not given”): nothing is added from memory or from another version of the game. A price recorded in the game files does not prove that a vendor sells it in Forever, and the presence of an entry in those files does not prove it can be obtained in Forever.",
+      "src": [
+       "client-fichiers",
+       "client-quetes"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Quatre récompenses d’héritage au lancement (jouet, mascotte, tabard, monture).",
+    "en": "Four Legacy rewards at launch (toy, pet, tabard, mount).",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "fr": "Fièregriffe céruléenne et Puits de vent shen’dorei : packs des Éolides. Azurbie : bonus d’abonnement.",
+    "en": "Cerulean Prideclaw and Shen’dorei Windwell: Skyborne packs. Azurky: subscription bonus.",
+    "src": [
+     "bz-pack",
+     "bz-sub-year"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Obtention de la plupart des montures, mascottes et jouets : non publiée par Blizzard et absente des fichiers du jeu.",
+    "en": "Acquisition of most mounts, pets and toys: not published by Blizzard and absent from the game files."
+   },
+   {
+    "fr": "Quêtes, PNJ et zones : données de quêtes complétées par des joueurs, à confirmer en jeu.",
+    "en": "Quests, NPCs and zones: quest data completed by players, to be confirmed in game."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-09-12",
+    "fr": "Packs des Éolides annoncés (Fièregriffe céruléenne, Puits de vent shen’dorei).",
+    "en": "Skyborne packs announced (Cerulean Prideclaw, Shen’dorei Windwell).",
+    "src": [
+     "bz-pack"
+    ]
+   },
+   {
+    "date": "2026-09-23",
+    "fr": "Système d’héritage : quatre récompenses au lancement.",
+    "en": "Legacy system: four launch rewards.",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "fr": "Bonus d’abonnement 6 ou 12 mois : mascotte Azurbie.",
+    "en": "6- or 12-month subscription bonus: Azurky pet.",
+    "src": [
+     "bz-sub-year"
+    ]
+   },
+   {
+    "date": "2026-11-10",
+    "fr": "Correctif : montures de vendeur racial liées quand ramassées.",
+    "en": "Hotfix: racial vendor mounts bind on pickup.",
+    "src": [
+     "bz-hotfixes"
+    ]
+   }
+  ]
+ }
+}

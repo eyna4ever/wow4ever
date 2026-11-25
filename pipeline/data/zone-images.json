@@ -1,0 +1,212 @@
+{
+ "forever-zone-ashenvale": {
+  "asset": "zone-jeu-ashenvale",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt58abba267979c75c/6a985e232437ed4648d48726/Updates_Ashenvale_01.jpg",
+  "identification": "fichier officiel « Updates_Ashenvale_01 »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-darkshore": {
+  "asset": "zone-jeu-darkshore",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt7c732bea431c18cf/6a985e239b942e1f62f74267/Updates_Darkshore.jpg",
+  "identification": "fichier officiel « Updates_Darkshore »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-dustwallow-marsh": {
+  "asset": "zone-jeu-dustwallow-marsh",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt7bdf8e7ba8e4b30a/6a985e232c05804582273c55/Updates_Dustwallow.jpg",
+  "identification": "fichier officiel « Updates_Dustwallow »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-felwood": {
+  "asset": "zone-jeu-felwood",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt013749cb805b2c05/6a985e23dee884432bcba951/Updates_Felwood.jpg",
+  "identification": "fichier officiel « Updates_Felwood »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-mulgore": {
+  "asset": "zone-jeu-mulgore",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf8ea7f909345c09b/6a985e23203da3e3fcf0e10e/Updates_Mulgore.jpg",
+  "identification": "fichier officiel « Updates_Mulgore »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-the-barrens": {
+  "asset": "zone-jeu-the-barrens",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   2600,
+   1462
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://worldofwarcraft.blizzard.com/en-us/forever",
+  "sourceLabel": "site officiel World of Warcraft: Forever",
+  "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blta4c0f5c59e8c1615/6a985e243ad3924af56f8e16/Updates_TheBarrens.jpg",
+  "identification": "fichier officiel « Updates_TheBarrens »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-mount-hyjal": {
+  "asset": "zone-jeu-mount-hyjal",
+  "width": 1024,
+  "height": 495,
+  "original": [
+   1280,
+   619
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+  "sourceLabel": "Blizzard News — Found Photos Panel Recap",
+  "image": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/HLED7ABL57AT1789335246431.png",
+  "identification": "section « Mount Hyjal » de l’article",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-riverglades": {
+  "asset": "zone-jeu-riverglades",
+  "width": 1024,
+  "height": 494,
+  "original": [
+   1280,
+   618
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+  "sourceLabel": "Blizzard News — Found Photos Panel Recap",
+  "image": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/6MZPXKWH7QCL1789334859808.png",
+  "identification": "section « Riverglades and the Roads Between » de l’article",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-zephras-isle": {
+  "asset": "zone-jeu-zephras-isle",
+  "width": 1024,
+  "height": 494,
+  "original": [
+   1280,
+   617
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+  "sourceLabel": "Blizzard News — Found Photos Panel Recap",
+  "image": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/YR7DZUTSQ1GZ1789335694504.png",
+  "identification": "section « Zephras Isle and the Unexpected » de l’article",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-shendralas": {
+  "asset": "zone-jeu-shendralas",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   3840,
+   2160
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://blizzard.gamespress.com/WoW-Forever-Launch-Press-Kit",
+  "sourceLabel": "Blizzard Press Center — WoW Forever Launch Press Kit",
+  "image": "WoW_Camelot_Announce_Zones_Shendralas_024.jpg",
+  "identification": "fichier officiel « Zones_Shendralas_024 »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-tirisfal-glades": {
+  "asset": "zone-jeu-tirisfal-glades",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   3840,
+   2160
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://blizzard.gamespress.com/WoW-Forever-Launch-Press-Kit",
+  "sourceLabel": "Blizzard Press Center — WoW Forever Launch Press Kit",
+  "image": "WoW_Forever_SCENIC_Announce_NewLighting_TirisfalGlades_050.jpg",
+  "identification": "fichier officiel « NewLighting_TirisfalGlades_050 »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-darnassus": {
+  "asset": "zone-jeu-darnassus",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   3840,
+   2160
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://blizzard.gamespress.com/WoW-Forever-Launch-Press-Kit",
+  "sourceLabel": "Blizzard Press Center — WoW Forever Launch Press Kit",
+  "image": "WoW_Forever_SCENIC_Announce_NewLighting_Darnassus_052.png",
+  "identification": "fichier officiel « NewLighting_Darnassus_052 »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-orgrimmar": {
+  "asset": "zone-jeu-orgrimmar",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   3840,
+   2160
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://blizzard.gamespress.com/WoW-Forever-Launch-Press-Kit",
+  "sourceLabel": "Blizzard Press Center — WoW Forever Launch Press Kit",
+  "image": "WoW_Forever_SCENIC_Announce_NewLighting_Orgrimmar_053.png",
+  "identification": "fichier officiel « NewLighting_Orgrimmar_053 »",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ },
+ "forever-zone-alterac-mountains": {
+  "asset": "zone-jeu-alterac-mountains",
+  "width": 1024,
+  "height": 576,
+  "original": [
+   3840,
+   2160
+  ],
+  "copyright": "© Blizzard Entertainment",
+  "source": "https://blizzard.gamespress.com/WoW-Forever-Launch-Press-Kit",
+  "sourceLabel": "Blizzard Press Center — WoW Forever Launch Press Kit",
+  "image": "WoW_Camelot_Announce_Zones_Dalaran_021.jpg",
+  "identification": "fichier officiel « Zones_Dalaran_021 » (Dalaran, dans les Montagnes d’Alterac selon l’article officiel des donjons)",
+  "processing": "redimensionnement proportionnel et ré-encodage uniquement (aucun recadrage, aucun filtre)"
+ }
+}

@@ -1,0 +1,76 @@
+{
+  "entries": 10,
+  "bytes": 3912577,
+  "npcs": 3284,
+  "bosses_tagged": 91,
+  "vendors": 30,
+  "quest_givers": 1989,
+  "objectives": 1179,
+  "loot_flagged": 9,
+  "zones_raw": 79,
+  "zones_canon": 76,
+  "zephras": 81,
+  "shendralas": 7,
+  "forever_dungeon_npcs": 31,
+  "forever_dungeon_bosses": 23,
+  "classic_dungeon_npcs": 144,
+  "classic_dungeon_bosses": 68,
+  "raid_extract_npcs": 70,
+  "kalimdor": 1273,
+  "eastern": 1476,
+  "unlocated": 202,
+  "ids": [
+    "forever-bestiary",
+    "forever-bestiary-bosses",
+    "forever-bestiary-zephras",
+    "forever-bestiary-shendralas",
+    "forever-bestiary-forever-dungeons",
+    "forever-bestiary-classic-dungeons",
+    "forever-bestiary-raids",
+    "forever-bestiary-kalimdor",
+    "forever-bestiary-eastern-kingdoms",
+    "forever-bestiary-unlocated"
+  ],
+  "slugs": {
+    "forever-bestiary": {
+      "fr": "bestiaire",
+      "en": "bestiary"
+    },
+    "forever-bestiary-bosses": {
+      "fr": "bestiaire-bosses",
+      "en": "bestiary-bosses"
+    },
+    "forever-bestiary-zephras": {
+      "fr": "bestiaire-ile-de-zephras",
+      "en": "bestiary-zephras-isle"
+    },
+    "forever-bestiary-shendralas": {
+      "fr": "bestiaire-shen-dralas",
+      "en": "bestiary-shen-dralas"
+    },
+    "forever-bestiary-forever-dungeons": {
+      "fr": "bestiaire-donjons-forever",
+      "en": "bestiary-forever-dungeons"
+    },
+    "forever-bestiary-classic-dungeons": {
+      "fr": "bestiaire-donjons-classiques",
+      "en": "bestiary-classic-dungeons"
+    },
+    "forever-bestiary-raids": {
+      "fr": "bestiaire-raids",
+      "en": "bestiary-raids"
+    },
+    "forever-bestiary-kalimdor": {
+      "fr": "bestiaire-kalimdor",
+      "en": "bestiary-kalimdor"
+    },
+    "forever-bestiary-eastern-kingdoms": {
+      "fr": "bestiaire-royaumes-de-lest",
+      "en": "bestiary-eastern-kingdoms"
+    },
+    "forever-bestiary-unlocated": {
+      "fr": "bestiaire-zone-non-indiquee",
+      "en": "bestiary-unlocated-zone"
+    }
+  }
+}

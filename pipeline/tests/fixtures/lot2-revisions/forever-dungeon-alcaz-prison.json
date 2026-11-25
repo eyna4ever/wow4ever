@@ -1,0 +1,309 @@
+{
+ "id": "forever-dungeon-alcaz-prison",
+ "title": {
+  "fr": "Prison d’Alcaz",
+  "en": "Alcaz Prison"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 48 à 53, sur l’île d’Alcaz (marécage d’Âprefange). La prison, longtemps inaccessible et entourée de rumeurs sur ses captifs de haut rang, dont le roi Varian Wrynn, ouvre ses portes. La Confrérie défias et des nagas s’y affrontent.",
+  "en": "Five-player dungeon, levels 48–53, on Alcaz Island (Dustwallow Marsh). The long-sealed prison, surrounded by rumours of high-ranking captives including King Varian Wrynn, finally opens. The Defias Brotherhood and naga are fighting inside."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:21.818Z",
+ "version": 4,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+   "at": "2026-10-30",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:19:10.684Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:32:21.619Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 2
+  },
+  {
+   "at": "2026-10-30T21:32:21.722Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 3
+  },
+  {
+   "at": "2026-10-30T21:32:21.818Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 4
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "prison-d-alcaz",
+   "en": "alcaz-prison"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 48 à 53, sur l’île d’Alcaz (marécage d’Âprefange). La prison, longtemps inaccessible et entourée de rumeurs sur ses captifs de haut rang, dont le roi Varian Wrynn, ouvre ses portes. La Confrérie défias et des nagas s’y affrontent.",
+   "en": "Five-player dungeon, levels 48–53, on Alcaz Island (Dustwallow Marsh). The long-sealed prison, surrounded by rumours of high-ranking captives including King Varian Wrynn, finally opens. The Defias Brotherhood and naga are fighting inside.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 48 à 53 — Île d’Alcaz, marécage d’Âprefange.",
+    "en": "Levels 48–53 — Alcaz Island, Dustwallow Marsh.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Blizzard ne publie pas de note d’accès propre à une faction.",
+    "en": "Blizzard publishes no faction-specific access note.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Affrontement entre Confrérie défias et nagas à l’intérieur.",
+    "en": "Defias Brotherhood and naga fighting inside.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "48 à 53",
+         "en": "48–53"
+        },
+        {
+         "fr": "Île d’Alcaz, marécage d’Âprefange",
+         "en": "Alcaz Island, Dustwallow Marsh"
+        },
+        {
+         "fr": "Blizzard ne publie pas de note d’accès propre à une faction.",
+         "en": "Blizzard publishes no faction-specific access note."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "L’île d’Alcaz est entourée de rumeurs sur des prisonniers de haut rang, dont le roi Varian Wrynn, mais sa prison était inaccessible. Ses portes s’ouvrent enfin : la Confrérie défias et des nagas s’y affrontent, et l’exploration lève un peu plus le voile sur un mystère familier.",
+      "en": "Alcaz Island has long been the subject of rumors about high-ranking prisoners, King Varian Wrynn among them, but its prison stayed out of reach. Its doors finally open: the Defias Brotherhood and naga are fighting inside, and exploring it uncovers more of a familiar mystery.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 48 à 53, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 48–53, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ]
+ }
+}

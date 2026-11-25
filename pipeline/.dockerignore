@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env*
+runtime
+artifacts
+
+dist
+preview
+design
+__pycache__
+public/wiki/assets/*.png
+next-env.d.ts

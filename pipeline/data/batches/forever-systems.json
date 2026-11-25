@@ -1,0 +1,654 @@
+[
+  {
+    "id": "forever-professions-camping",
+    "title": {
+      "fr": "Artisanat du campement",
+      "en": "Campsite crafting"
+    },
+    "category": "professions",
+    "subcategory": "campement",
+    "description": {
+      "fr": "Le campement développe le feu de cuisine en lieu de repos collectif. Des objets artisanaux y apportent des services ou améliorations. Les effets de classe équivalents ne se cumulent pas.",
+      "en": "Camping turns the cooking fire into a shared rest stop. Crafted objects provide services or buffs there. Equivalent class buffs do not stack."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+        "title": "Au cœur de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-professions-blueprints"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-professions-blueprints",
+    "title": {
+      "fr": "Recettes et plans avancés",
+      "en": "Recipes and advanced blueprints"
+    },
+    "category": "professions",
+    "subcategory": "recettes",
+    "description": {
+      "fr": "Blizzard annonce plus de 600 nouvelles recettes. Certains plans avancés proviennent de boss de donjon. Les ingrédients, taux de butin et recettes individuelles restent à documenter.",
+      "en": "Blizzard announces over 600 new recipes. Some advanced blueprints come from dungeon bosses. Individual recipes, ingredients and drop rates remain undocumented here."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+        "title": "Au cœur de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-professions-camping"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-pvp-honor",
+    "title": {
+      "fr": "Honneur",
+      "en": "Honor"
+    },
+    "category": "pvp",
+    "subcategory": "progression",
+    "description": {
+      "fr": "L’honneur sert de monnaie pour les récompenses JcJ. Les combats, champs de bataille et quêtes dédiées en procurent. Il se distingue des points de rang.",
+      "en": "Honor is currency for PvP rewards, earned through combat, battlegrounds and dedicated quests. It is separate from rank points."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+        "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-pvp-rank-points",
+      "forever-guide-track-pvp"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-pvp-rank-points",
+    "title": {
+      "fr": "Points de rang",
+      "en": "Rank points"
+    },
+    "category": "pvp",
+    "subcategory": "progression",
+    "description": {
+      "fr": "Les points de rang font progresser le rang JcJ. La progression des rangs est limitée chaque semaine ; aucun plafond chiffré n’est repris ici.",
+      "en": "Rank points advance PvP rank. Rank progression is limited each week; no numerical cap is reproduced here."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+        "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-pvp-honor",
+      "forever-guide-track-pvp"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-pvp-darkspear-islands",
+    "title": {
+      "fr": "Îles des Sombrelances",
+      "en": "Darkspear Islands"
+    },
+    "category": "pvp",
+    "subcategory": "champs-de-bataille",
+    "description": {
+      "fr": "Champ de bataille annoncé à 15 contre 15, mêlant contrôle de positions et capture de drapeaux. Aucune carte tactique ni coordonnée n’est validée ici.",
+      "en": "Announced 15-versus-15 battleground combining control points and flag captures. No tactical map or coordinates have been validated here."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+        "title": "L’avenir de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+        "title": "World of Warcraft: Forever What’s Next Panel Recap",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-guide-track-pvp"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-progression-legacy",
+    "title": {
+      "fr": "Progression par l’héritage",
+      "en": "Legacy progression"
+    },
+    "category": "quests",
+    "subcategory": "progression",
+    "description": {
+      "fr": "L’héritage récompense des défis à l’échelle du compte. Les personnages non Extrême partagent les points, mais choisissent leurs avantages séparément. Le plafond annoncé au lancement est de 16 points dépensés par personnage.",
+      "en": "Legacy rewards account-wide challenges. Non-Hardcore characters share points but choose their perks separately. The announced launch spending cap is 16 points per character."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+        "title": "Get to Know the World of Warcraft: Forever Legacy System",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-glossary-legacy-points",
+      "forever-questline-lord-valthalak"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-quests-new-adventures",
+    "title": {
+      "fr": "Nouvelles aventures de niveau 1 à 60",
+      "en": "New level 1–60 adventures"
+    },
+    "category": "quests",
+    "subcategory": "exploration",
+    "description": {
+      "fr": "Plus d’un millier de nouvelles quêtes sont annoncées pendant la progression. Ce total ne fournit pas leurs identifiants, objectifs ou récompenses individuels.",
+      "en": "Over a thousand new quests are announced across the leveling journey. This total does not establish individual quest IDs, objectives or rewards."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+        "title": "L’avenir de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+        "title": "World of Warcraft: Forever What’s Next Panel Recap",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-progression-legacy"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-questline-lord-valthalak",
+    "title": {
+      "fr": "Suite de quêtes du seigneur Valthalak",
+      "en": "Lord Valthalak questline"
+    },
+    "category": "quests",
+    "subcategory": "suites-de-quetes",
+    "description": {
+      "fr": "La suite du seigneur Valthalak figure parmi les défis d’aventure de l’héritage. Ses étapes détaillées restent à vérifier.",
+      "en": "The Lord Valthalak questline is listed among Legacy adventure challenges. Its individual steps still require verification."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+        "title": "Get to Know the World of Warcraft: Forever Legacy System",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-progression-legacy"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-guide-choose-ruleset",
+    "title": {
+      "fr": "Choisir où jouer avec ses proches",
+      "en": "Choose where to play with friends"
+    },
+    "category": "guides",
+    "subcategory": "debutants",
+    "description": {
+      "fr": "Pour jouer ensemble, les personnages doivent partager ensemble de règles et faction. Les champs de bataille prévoient une exception entre ensembles, hors Extrême.",
+      "en": "Ordinary grouping requires the same ruleset and faction. Battlegrounds allow a cross-ruleset exception, excluding Hardcore."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302070/choisissez-votre-ensemble-de-regles-dans-world-of-warcraft-forever",
+        "title": "Choisissez votre ensemble de règles dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-glossary-realmless"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ],
+    "steps": [
+      {
+        "fr": "Choisir ensemble un ensemble de règles.",
+        "en": "Choose the same ruleset together."
+      },
+      {
+        "fr": "Vérifier que les personnages rejoignent la même faction.",
+        "en": "Check that the characters join the same faction."
+      },
+      {
+        "fr": "Créer les personnages avec ces choix communs.",
+        "en": "Create characters using those shared choices."
+      }
+    ]
+  },
+  {
+    "id": "forever-guide-track-pvp",
+    "title": {
+      "fr": "Consulter sa progression JcJ",
+      "en": "Check PvP progress"
+    },
+    "category": "guides",
+    "subcategory": "jcj",
+    "description": {
+      "fr": "La feuille de personnage affiche rang, points et récompenses disponibles.",
+      "en": "The character sheet displays rank, points and available rewards."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+        "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-pvp-honor",
+      "forever-pvp-rank-points"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ],
+    "steps": [
+      {
+        "fr": "Ouvrir la feuille de personnage, raccourci C.",
+        "en": "Open the character sheet using C."
+      },
+      {
+        "fr": "Sélectionner l’onglet Joueur contre joueur.",
+        "en": "Select the Player versus Player tab."
+      },
+      {
+        "fr": "Lire rang, points et récompenses accessibles.",
+        "en": "Read rank, points and accessible rewards."
+      }
+    ]
+  },
+  {
+    "id": "forever-news-launch",
+    "title": {
+      "fr": "Lancement mondial annoncé",
+      "en": "Announced worldwide launch"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Blizzard annonce le lancement le 4 novembre 2026 à 15 h PST, soit le 5 novembre à 00 h en France métropolitaine. Ce calendrier reste celui de l’annonce consultée.",
+      "en": "Blizzard announces launch for November 4, 2026 at 3 p.m. PST, corresponding to midnight November 5 in mainland France. This records the consulted announcement."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-news-round-up",
+        "title": "World of Warcraft at BlizzCon 2026 News Round-Up",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-news-beta",
+      "forever-news-access"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-beta",
+    "title": {
+      "fr": "Accès à la bêta",
+      "en": "Beta access"
+    },
+    "category": "news",
+    "subcategory": "beta",
+    "description": {
+      "fr": "La bêta accueille des comptes sélectionnés et des acheteurs d’offres éligibles. La licence se vérifie dans Battle.net. L’annonce prévoit une dernière journée complète de test le 21 octobre 2026.",
+      "en": "Beta access covers selected accounts and eligible bundle purchasers. The license can be checked in Battle.net. The announcement schedules the final full testing day for October 21, 2026."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+        "title": "The World of Warcraft: Forever Beta Now Live",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-access",
+    "title": {
+      "fr": "Abonnement et accès au jeu",
+      "en": "Subscription and game access"
+    },
+    "category": "news",
+    "subcategory": "acces",
+    "description": {
+      "fr": "L’annonce inclut l’accès au lancement dans l’abonnement World of Warcraft ou le temps de jeu. Les éditions optionnelles proposent des avantages distincts ; leurs conditions doivent être consultées séparément.",
+      "en": "The announcement includes launch access with a World of Warcraft subscription or Game Time. Optional editions offer separate benefits whose conditions must be checked individually."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-news-round-up",
+        "title": "World of Warcraft at BlizzCon 2026 News Round-Up",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-glossary-realmless",
+    "title": {
+      "fr": "Sans royaumes et ensembles de règles",
+      "en": "Realmless play and rulesets"
+    },
+    "category": "glossary",
+    "subcategory": "systemes",
+    "description": {
+      "fr": "« Sans royaumes » remplace le choix traditionnel de royaume par un ensemble de règles. Cela ne supprime pas les restrictions de groupe entre factions et ensembles.",
+      "en": "Realmless play replaces traditional realm selection with rulesets. It does not remove faction and ruleset restrictions on grouping."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302070/choisissez-votre-ensemble-de-regles-dans-world-of-warcraft-forever",
+        "title": "Choisissez votre ensemble de règles dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-guide-choose-ruleset"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-glossary-legacy-points",
+    "title": {
+      "fr": "Points d’héritage",
+      "en": "Legacy Points"
+    },
+    "category": "glossary",
+    "subcategory": "progression",
+    "description": {
+      "fr": "Un point d’héritage provient d’un défi accompli. Les points acquis et le plafond de dépense par personnage sont distincts. Les règles du futur mode Extrême diffèrent.",
+      "en": "A Legacy Point comes from a completed challenge. Earned points and each character’s spending cap are separate concepts. The future Hardcore rules differ."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+        "title": "Get to Know the World of Warcraft: Forever Legacy System",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-progression-legacy"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Synthèse originale de sources officielles consultées ; brouillon à relire. Périmètre du wiki, droits et traductions non confirmés par un humain.",
+        "at": "2026-10-19",
+        "version": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,514 @@
+{
+ "id": "forever-items-pets",
+ "title": {
+  "fr": "Mascottes",
+  "en": "Companion pets"
+ },
+ "category": "items",
+ "subcategory": "collections",
+ "description": {
+  "fr": "Les 99 mascottes de WoW Forever, illustrées par l’icône du jeu, avec nom officiel FR/EN, prix et moyen d’obtention quand il est connu (22).",
+  "en": "The 99 WoW Forever companion pets, illustrated with the game icon, with official FR/EN name, price and acquisition when known (22)."
+ },
+ "sources": [
+  {
+   "key": "bz-legacy-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+   "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-legacy-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+   "title": "Get to Know the World of Warcraft: Forever Legacy System",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-sub-year-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24310658/debloquez-un-an-de-world-of-warcraft-et-recevez-des-tresors-bonus",
+   "title": "Débloquez un an de World of Warcraft® et recevez des trésors bonus",
+   "publishedAt": "2026-10-15",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-sub-year-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24310658/unlock-a-year-of-world-of-warcraft-and-get-bonus-treasures",
+   "title": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
+   "publishedAt": "2026-10-15",
+   "accessedAt": "2026-11-17",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "client-fichiers-en",
+   "language": "en",
+   "url": "https://us.cdn.blizzard.com/tpr/wow/config/5a/da/5ada954223f7c409ea172361f5c9e565",
+   "title": "WoW Forever client files, build 1.60.1.70862 — data tables and icons read from Blizzard’s official CDN",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Fichiers du jeu World of Warcraft: Forever (build 1.60.1.70862) lus sur le CDN officiel Blizzard : noms, prix, niveaux et icônes ; icônes converties en WebP sans retouche. Contenus et images du jeu © Blizzard Entertainment ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+   "clientBuild": "1.60.1.70862",
+   "verification": "données du jeu"
+  },
+  {
+   "key": "client-quetes-en",
+   "language": "en",
+   "url": "https://eternadex.com/en/daten/quests/0.json",
+   "title": "Quest data JSON (Forever game data 1.60.1, partly completed by player-addon contributions; 64 files consulted)",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Base de fans sans licence de réutilisation : faits courts repris avec lien, à confirmer ; site non commercial. Contenus de jeu © Blizzard Entertainment.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-11-17T17:00:00.000Z",
+ "version": 12,
+ "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+ "relations": [
+  "forever-items-collections",
+  "forever-legacy-rewards",
+  "forever-items-mounts",
+  "forever-items-toys"
+ ],
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "mascottes",
+   "en": "companion-pets"
+  },
+  "illustration": "items",
+  "noAmbiance": true,
+  "lead": {
+   "fr": "99 mascottes de WoW Forever avec l’icône du jeu, le nom officiel français et anglais, le prix inscrit dans les fichiers du jeu et l’obtention quand elle est connue (22). Deux obtentions sont officielles : Ourson spectral (héritage) et Azurbie (abonnement).",
+   "en": "99 WoW Forever companion pets with the game icon, official French and English name, price recorded in the game files and acquisition when known (22). Two acquisitions are official: Spectral Bear Cub (Legacy) and Azurky (subscription).",
+   "src": [
+    "client-fichiers",
+    "bz-legacy",
+    "bz-sub-year"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "99 mascottes, dont 98 illustrées par l’icône du jeu (Azurbie : pas d’image disponible).",
+    "en": "99 pets, 98 of them illustrated with the game icon (Azurky: no image available).",
+    "src": [
+     "client-fichiers",
+     "bz-sub-year"
+    ]
+   },
+   {
+    "fr": "5 mascottes fabriquées par l’ingénierie et 14 récompenses de quête (à confirmer).",
+    "en": "5 pets crafted with Engineering and 14 quest rewards (to be confirmed).",
+    "src": [
+     "client-fichiers",
+     "client-quetes"
+    ]
+   },
+   {
+    "fr": "Écureuil trombenoire : réputation Révéré auprès des Druides de la Griffe nocturne (fichiers du jeu).",
+    "en": "Shadowgale Squirrel: Revered with the Nightclaw Druids (game files).",
+    "src": [
+     "client-fichiers"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "lire-cette-liste",
+    "title": {
+     "fr": "Comment lire cette liste",
+     "en": "How to read this list"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Les noms français et anglais, la qualité, la faction, le niveau requis, le prix et l’effet viennent des fichiers du jeu (client 1.60.1.70862). L’obtention « officielle » vient des articles Blizzard cités. Les quêtes, PNJ et zones viennent de données de quêtes du jeu complétées par des joueurs : elles restent à confirmer. Quand les fichiers du jeu ne disent pas comment obtenir un élément, la fiche l’écrit (« non indiquée ») : rien n’est ajouté de mémoire ni d’après une autre version du jeu. Le prix inscrit dans les fichiers du jeu ne prouve pas qu’un vendeur le vende dans Forever, et la présence d’un élément dans ces fichiers ne prouve pas qu’il soit obtenable dans Forever.",
+      "en": "French and English names, quality, faction, required level, price and effect come from the game files (client 1.60.1.70862). “Official” acquisition comes from the cited Blizzard articles. Quests, NPCs and zones come from game quest data completed by players: they remain to be confirmed. When the game files do not say how to get an entry, the card says so (“not given”): nothing is added from memory or from another version of the game. A price recorded in the game files does not prove that a vendor sells it in Forever, and the presence of an entry in those files does not prove it can be obtained in Forever.",
+      "src": [
+       "client-fichiers",
+       "client-quetes"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Chaque fiche montre l’icône officielle de l’objet, lue dans les fichiers du jeu WoW Forever (client 1.60.1.70862) et seulement convertie au format WebP, sans retouche (images du jeu © Blizzard Entertainment). Quand aucune image du jeu n’existe pour un élément, aucune image n’est affichée.",
+      "en": "Each card shows the item’s official icon, read from the WoW Forever game files (client 1.60.1.70862) and only converted to WebP, unretouched (game images © Blizzard Entertainment). When no game image exists for an entry, no image is shown.",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "par-obtention",
+    "title": {
+     "fr": "Par moyen d’obtention",
+     "en": "By acquisition"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Nombre de mascottes par groupe",
+       "en": "Number of pets per group"
+      },
+      "head": [
+       {
+        "fr": "Groupe",
+        "en": "Group"
+       },
+       {
+        "fr": "Mascottes",
+        "en": "Pets"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "Héritage",
+         "en": "Legacy"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        }
+       ],
+       [
+        {
+         "fr": "Abonnement",
+         "en": "Subscription"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        }
+       ],
+       [
+        {
+         "fr": "Artisanat",
+         "en": "Crafting"
+        },
+        {
+         "fr": "5",
+         "en": "5"
+        }
+       ],
+       [
+        {
+         "fr": "Récompenses de quête",
+         "en": "Quest rewards"
+        },
+        {
+         "fr": "14",
+         "en": "14"
+        }
+       ],
+       [
+        {
+         "fr": "Réputation",
+         "en": "Reputation"
+        },
+        {
+         "fr": "1",
+         "en": "1"
+        }
+       ],
+       [
+        {
+         "fr": "Obtention non indiquée",
+         "en": "Acquisition not given"
+        },
+        {
+         "fr": "77",
+         "en": "77"
+        }
+       ]
+      ],
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "heritage",
+    "title": {
+     "fr": "Héritage — 1",
+     "en": "Legacy — 1"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-heritage",
+      "fr": "Récompense d’héritage du lancement (officiel).",
+      "en": "Launch Legacy reward (official).",
+      "src": [
+       "bz-legacy",
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "abonnement",
+    "title": {
+     "fr": "Abonnement — 1",
+     "en": "Subscription — 1"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-abonnement",
+      "fr": "Bonus officiel de l’offre d’abonnement 6 ou 12 mois. L’objet n’apparaît pas dans les fichiers du jeu lisibles : pas d’image.",
+      "en": "Official bonus of the 6- or 12-month subscription offer. The item does not appear in the readable game files: no image.",
+      "src": [
+       "bz-sub-year"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "artisanat",
+    "title": {
+     "fr": "Artisanat — 5",
+     "en": "Crafting — 5"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-artisanat",
+      "fr": "Mascottes fabriquées par un métier : recette lue dans les fichiers du jeu (niveau de compétence requis non indiqué).",
+      "en": "Pets made by a profession: recipe read from the game files (required skill level not given).",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "quetes",
+    "title": {
+     "fr": "Récompenses de quête — 14",
+     "en": "Quest rewards — 14"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-quete",
+      "fr": "Mascottes données par une quête. Données de quêtes, à confirmer.",
+      "en": "Pets given by a quest. Quest data, to be confirmed.",
+      "src": [
+       "client-fichiers",
+       "client-quetes"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "reputation",
+    "title": {
+     "fr": "Réputation — 1",
+     "en": "Reputation — 1"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-reputation",
+      "fr": "Mascotte qui exige un niveau de réputation (fichiers du jeu).",
+      "en": "Pet that requires a reputation standing (game files).",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "obtention-non-indiquee",
+    "title": {
+     "fr": "Obtention non indiquée — 77",
+     "en": "Acquisition not given — 77"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "mascottes-non-indique",
+      "fr": "Mascottes présentes dans les fichiers du jeu ; leur obtention n’y figure pas.",
+      "en": "Pets present in the game files; their acquisition is not given there.",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "historique-des-corrections",
+    "title": {
+     "fr": "Historique des corrections",
+     "en": "Correction history"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "17 novembre 2026 (v41, test) : fiches illustrées par les icônes du jeu, regroupées par moyen d’obtention ; noms français officiels et prix repris des fichiers du jeu (client 1.60.1.70862) ; quêtes et PNJ des données de quêtes, à confirmer. Remplace l’ancien tableau. Pas une mise en ligne.",
+      "en": "17 November 2026 (v41, test): cards illustrated with game icons, grouped by acquisition; official French names and prices taken from the game files (client 1.60.1.70862); quests and NPCs from quest data, to be confirmed. Replaces the former table. Not a publication.",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Ourson spectral : récompense d’héritage du lancement.",
+    "en": "Spectral Bear Cub: launch Legacy reward.",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "fr": "Azurbie : bonus de l’offre d’abonnement 6 ou 12 mois.",
+    "en": "Azurky: bonus of the 6- or 12-month subscription offer.",
+    "src": [
+     "bz-sub-year"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Obtention de la plupart des mascottes (vendeur, butin, événement) : non indiquée dans les fichiers du jeu ni par Blizzard.",
+    "en": "Acquisition of most pets (vendor, loot, event): not given in the game files nor by Blizzard."
+   },
+   {
+    "fr": "Mascottes du pack épique des Éolides : non nommées par Blizzard.",
+    "en": "Skyborne Epic Pack pets: not named by Blizzard."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-09-23",
+    "fr": "Système d’héritage : quatre récompenses au lancement.",
+    "en": "Legacy system: four launch rewards.",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "fr": "Bonus d’abonnement 6 ou 12 mois : mascotte Azurbie.",
+    "en": "6- or 12-month subscription bonus: Azurky pet.",
+    "src": [
+     "bz-sub-year"
+    ]
+   }
+  ]
+ },
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Listes de jouets, mascottes et montures, d’après les sources officielles citées et des données extraites du client (à confirmer). Brouillon à relire. Pas une validation de publication.",
+   "at": "2026-11-12T05:00:00.000Z",
+   "version": 1
+  },
+  {
+   "at": "2026-11-12T05:04:53.376Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-11-12T05:09:59.460Z",
+   "actor": "Mathieu",
+   "note": "submit: submit t351u: Publication t351u (Mathieu), après t349u (recettes) et t350u (jouets, mascottes, montures) : listes exclusives World of Warcraft: Forever (annonces officielles et données du client Forever), chaque ligne client restant à confirmer.",
+   "version": 2
+  },
+  {
+   "at": "2026-11-12T05:09:59.829Z",
+   "actor": "Mathieu",
+   "note": "approve: approuvé par Mathieu (t351u) : Publication t351u (Mathieu), après t349u (recettes) et t350u (jouets, mascottes, montures) : listes exclusives World of Warcraft: Forever (annonces officielles et données du client Forever), chaque ligne client restant à confirmer.",
+   "version": 3
+  },
+  {
+   "at": "2026-11-12T05:10:00.172Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu (t351u) : Publication t351u (Mathieu), après t349u (recettes) et t350u (jouets, mascottes, montures) : listes exclusives World of Warcraft: Forever (annonces officielles et données du client Forever), chaque ligne client restant à confirmer.",
+   "version": 4
+  },
+  {
+   "at": "2026-11-13T02:27:41.976Z",
+   "actor": "Mathieu",
+   "note": "revise: t359u : retirer « à confirmer » des faits trouvés dans les fichiers du jeu (client 1.60.1.70862). L’obtention « inconnu », les zones non indiquées et les sources sans tampon de build restent à confirmer. Pas une mise en ligne.",
+   "version": 5
+  },
+  {
+   "at": "2026-11-14T19:42:29.258Z",
+   "actor": "Mathieu",
+   "note": "submit: t359u : relire la révision (retrait de « à confirmer » sur les données du client 1.60.1.70862).",
+   "version": 6
+  },
+  {
+   "at": "2026-11-14T19:42:29.420Z",
+   "actor": "Mathieu",
+   "note": "approve: t359u Oui (t361u) : validation humaine, identité, droits et traductions.",
+   "version": 7
+  },
+  {
+   "at": "2026-11-14T19:42:29.532Z",
+   "actor": "Mathieu",
+   "note": "publish: t359u Oui (t361u, 14 novembre 2026) : republication des fiches révisées, d’un seul tenant.",
+   "version": 8
+  },
+  {
+   "at": "2026-11-17T17:32:36.677Z",
+   "actor": "GrokBot-test-v41",
+   "note": "revise: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu.",
+   "version": 9
+  },
+  {
+   "at": "2026-11-17T17:32:39.040Z",
+   "actor": "GrokBot-test-v41",
+   "note": "submit: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. submit",
+   "version": 10
+  },
+  {
+   "at": "2026-11-17T17:32:39.244Z",
+   "actor": "GrokBot-test-v41",
+   "note": "approve: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. approve",
+   "version": 11
+  },
+  {
+   "at": "2026-11-17T17:32:39.447Z",
+   "actor": "GrokBot-test-v41",
+   "note": "publish: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. publish",
+   "version": 12
+  }
+ ],
+ "importMeta": {
+  "fingerprint": "04137f693db471955f3fefb6f729b04c03c6666e4fd7c90a46081714ff12c8ee",
+  "importedAt": "2026-11-17T17:32:36.677Z",
+  "sourceStatus": "published"
+ },
+ "review": {
+  "approved": true,
+  "reviewer": "GrokBot-test-v41",
+  "at": "2026-11-17T17:32:39.244Z",
+  "rightsConfirmed": true,
+  "translationsConfirmed": true,
+  "contentDigest": "e7ebfe45a1e987dbc7ff7f59d363e5ae3097403cdfd3038416a78254c5424162"
+ }
+}

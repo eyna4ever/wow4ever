@@ -1,0 +1,55 @@
+# Extrait des sections « Professions » (et entrées liées aux métiers) de l’article officiel
+# URL consultée le 2026-11-12 :
+# https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026
+# Titre : WoW: Forever Hotfixes - November 11, 2026
+# Page FR correspondante : 404 le 2026-11-12.
+# Texte repris tel quel depuis le corps de l’article (WebFetch + fichier RSC bz-24315281-en-rsc.txt).
+# Ce fichier est une archive de travail, pas une republication intégrale de l’article.
+
+=== November 11, 2026 — Professions ===
+
+Professions
+- Tailoring
+  - Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.
+    - Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.
+    - Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.
+    - Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.
+    - Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.
+    - Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.
+
+(les autres métiers du 11/11, extraits du même article :)
+
+- Alchemy
+  - Minor Arcane Elixir sell value reduced to 5 copper (was 25 copper).
+  - Corrected the name of "Recipe: Elixir of Greater Firepower" to "Recipe: Elixir of Holy Power", and the elixir's aura is now called "Holy Power".
+- Blacksmithing
+  - Coarse Grinding Stone now provides skill-ups to 90 (was 75).
+- Cooking
+  - Journeyman Campfire Kit now requires Cooking 90 to place, matching its recipe skill requirement (was Cooking 140).
+- Enchanting
+  - Arcane Salvager now requires the Runed Golden Rod tool to craft (was Runed Truesilver Rod).
+  - Arcane Salvager now correctly applies its disenchanting bonus to lower-level enchanters.
+  - Enchant Boots - Lesser Spirit and Enchant Bracer - Lesser Spirit now correctly give their stated bonus to Spirit (was Resist All).
+- Engineering
+  - Iron Grenades vendor price reduced to 1 silver 25 copper (was 5 silver).
+  - Swiftstrike Shot and Swiftfeather Arrow are no longer Bind-on-Pickup.
+    - Developers’ notes: These are not available until raids unlock, but we want to make sure this change is known, because it may influence profession choice. These were not intended to be Bind-on-Pickup.
+- Fishing
+  - Fixed a condition mismatch that sometimes caused Fishing Racks to fail to provide lures to eligible players.
+  - Developers’ notes: We are aware there are other ongoing issues with the Fishing Rack, including other situations that result in "There is no loot" errors.
+
+NOTE de classement : dans le corps RSC, Tailoring (sacs) apparaît sous le bandeau « November 11, 2026 ». Alchemy à Fishing (Elixir, Journeyman Campfire Kit, Arcane Salvager, Iron Grenades, Fishing Racks) apparaissent plus loin dans le même article, dans le flux des mises à jour du 10 novembre (même URL 24315281). On les traite comme officiels à la date indiquée par le bandeau correspondant de l’article.
+
+=== Items (bandeau 9 novembre dans le même article) ===
+- Fixed a bug that prevented Waylaid Crates and Craftsman's Writs from dropping inside dungeons.
+
+=== November 6, 2026 — Professions ===
+- Leatherworking
+  - Tanning Rack skill requirement lowered to 125 (was 140). This prevents it from being an obstacle to crafting various Leatherworking patterns that require 125 skill. Tanning Rack skill-ups lowered by 15 skill points to account for this.
+
+=== Items (bandeau 5 novembre) ===
+- Fixed an issue where trade supply vendors on Zephras Isle didn't sell apprentice tradeskill bags.
+- Mild Spices now sell to vendors for 1 copper each (was 2 copper).
+
+=== Quêtes liées (10 novembre, même article) ===
+(à citer seulement si besoin : « Camping 101: Herbalism » completes in Shen'dar Village instead of Valanaar — ce n’est pas une source de recette.)

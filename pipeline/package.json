@@ -1,0 +1,48 @@
+{
+  "name": "wow-forever-wiki",
+  "version": "0.2.0",
+  "description": "WoW Forever Wiki — intégration fantasy bilingue locale",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:static": "node scripts/build-static.mjs",
+    "build:v2": "node scripts/build-v2.mjs",
+    "preview": "node scripts/build-static.mjs && python3 scripts/serve.py",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "check:data": "node scripts/check-data.mjs",
+    "import": "node scripts/import.mjs",
+    "review": "node scripts/review.mjs",
+    "restore": "node scripts/restore.mjs",
+    "package:local": "node scripts/build-static.mjs && python3 scripts/package-local.py",
+    "prepare:demo": "node scripts/prepare-demo.mjs",
+    "archive:demo": "python3 scripts/archive-demo.py",
+    "content:import": "node scripts/import-library.mjs",
+    "content:report": "node scripts/content-report.mjs --output-dir artifacts/content-reports",
+    "content:review": "node scripts/content-review.mjs --output artifacts/content-review.html",
+    "content:db": "node scripts/export-content-sqlite.mjs --output artifacts/content/wiki.sqlite",
+    "content:prepare": "node scripts/prepare-content.mjs",
+    "package:web": "node scripts/build-static.mjs && node scripts/package-web.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

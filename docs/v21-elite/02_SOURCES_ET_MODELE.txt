@@ -1,0 +1,15 @@
+MISSION ÉLITE WOWKIPEDIA V2.1 — Vérification des sources et modèle
+
+PROJET : Wowkipedia.com — exclusivement World of Warcraft: Forever.
+EXÉCUTANT : GrokBot, qui vérifie ses accès existants avant de réclamer des informations.
+RÈGLES PERMANENTES : conserver l'architecture, les données, les comptes, Discord, les forums et la direction artistique dark fantasy bleu/or. Ne toucher à aucun autre projet. Ne jamais inventer d'informations ou prétendre avoir testé/déployé sans preuve. Toute donnée doit porter source, date, build, statut de vérification et droits de réutilisation. Les chiffres évoqués précédemment (5167 quêtes, 48 factions, 65 défis, etc.) sont à vérifier et ne sont pas des objectifs. Pas de mélange avec Classic/Retail. Travail par branche, changements révisables, secrets jamais publiés. Autonomie sur opérations réversibles ; arrêt et demande d'accord en cas de destruction, risque critique ou restauration impossible.
+
+OBJECTIF DE CETTE ÉTAPE
+1. Vérifier d'abord l'existence, la nature et l'authenticité des sources Forever citées, notamment les pages Blizzard et Eternadex. Ne présume pas de leur fiabilité.
+2. Constituer catalogue des sources avec URL, date, build, conditions de licence, méthode d'accès, type de preuve.
+3. Définir les statuts : officiel confirmé, vérifié en jeu, extrait client, communautaire, à confirmer, obsolète. Une extraction client ne prouve pas la disponibilité en jeu.
+4. Concevoir/adapter le modèle relationnel : quêtes/chaînes, zones, PNJ, objets, métiers/recettes, campements, Héritage, factions, donjons, livres, collections, créatures, événements et provenance.
+5. Construire pipeline staging → normalisation → déduplication → validation → quarantaine → publication ; identifiants stables et imports idempotents.
+6. Préparer jeux de données pilotes sourcés ; ne pas aspirer ni republier des bases tierces sans droit.
+LIVRABLE : SOURCES.csv, MODELE.md, PLAN_IMPORT.md, DATA_QUALITY.md et exemples d'enregistrements vérifiés.
+SORTIE : schéma approuvé techniquement, zéro import aveugle, aucun changement de production.

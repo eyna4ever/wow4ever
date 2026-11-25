@@ -1,0 +1,252 @@
+[
+  {
+    "id": "forever-news-golive-nov4",
+    "title": {
+      "fr": "Lancement mondial le 4 novembre : ce qu'il faut savoir",
+      "en": "Global launch on November 4: what to know"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Blizzard confirme l'ouverture mondiale le 4 novembre à 15 h PST, soit le 5 novembre à minuit en France, et récapitule le contenu du lancement : zones nouvelles ou repensées, plus de 1 000 quêtes de 1 à 60, les Skyborne, les préréglages d'expérience Classique ou Amélioré et le choix d'un ensemble de règles.",
+      "en": "Blizzard confirms the global opening on November 4 at 3 p.m. PST (midnight November 5 in France) and recaps launch content: new and reimagined zones, over 1,000 quests from level 1 to 60, the Skyborne, the Classic or Enhanced experience presets and Ruleset selection."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+        "title": "World of Warcraft: Forever Goes Live Globally November 4!",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-29",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-return-guide",
+    "title": {
+      "fr": "Guide du retour sur Azeroth",
+      "en": "Returning players guide"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Article officiel pour les anciens joueurs : WoW Forever se situe dans la « première année » du jeu original et présente neuf nouveaux donjons à cinq, de nouvelles combinaisons race-classe, le système d'héritage, la progression JcJ revue et le champ de bataille des îles Sombrelance.",
+      "en": "Official article for returning players: WoW Forever is set in original WoW's \"Year 1\" and features nine new five-player dungeons, new race and class combinations, the Legacy System, updated PvP progression and the Darkspear Islands battleground."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-29",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-29",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-starter-guide",
+    "title": {
+      "fr": "Guide de démarrage pour les nouveaux joueurs",
+      "en": "New player's starter guide"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Blizzard détaille les premiers pas : compte Battle.net, jeu inclus avec un abonnement ou du temps de jeu, installation via l'application Battle.net, Windows ou Mac (manette en bêta), puis choix du préréglage d'expérience et de l'ensemble de règles (Normal, JcJ, JdR, JdR-JcJ ; Hardcore prévu plus tard).",
+      "en": "Blizzard walks through the first steps: a Battle.net account, game included with a subscription or Game Time, install through the Battle.net app, Windows or Mac (controller in beta), then the experience preset and Ruleset choice (Normal, PvP, RP, RP-PvP; Hardcore planned later)."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315280/guide-de-demarrage-pour-les-novices-bienvenue-dans-world-of-warcraft-forever",
+        "title": "Guide de démarrage pour les novices : bienvenue dans World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-28",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315280/new-players-starter-guide-welcome-to-world-of-warcraft-forever",
+        "title": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-28",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-podcast-tech",
+    "title": {
+      "fr": "Podcast WoW Forever : la technique",
+      "en": "WoW Forever Podcast: All About Tech"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Nouvel épisode du podcast officiel où des membres de l'équipe de développement parlent des aspects techniques du jeu avant le lancement du 4 novembre.",
+      "en": "New episode of the official podcast where development team members discuss the game's technical side ahead of the November 4 launch."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315819/watch-the-wow-forever-podcast-all-about-tech",
+        "title": "Watch the WoW: Forever Podcast: All About Tech",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-29",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-story-unbowed",
+    "title": {
+      "fr": "Nouvelle « Unbowed »",
+      "en": "Short story \"Unbowed\""
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Blizzard publie une nouvelle narrée et illustrée sur Cormack, ancien Croisé écarlate devenu Réprouvé, qui se demande si un mort-vivant peut encore servir la Lumière.",
+      "en": "Blizzard releases a narrated, illustrated short story about Cormack, a former Scarlet Crusader raised as Forsaken, who wonders whether an undead can still serve the Light."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24313105/watch-the-wow-forever-short-story-unbowed",
+        "title": "Watch the WoW: Forever Short Story, “Unbowed”",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-26",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-portal-room",
+    "title": {
+      "fr": "Le Discord officiel WoW Portal Room accueille les joueurs Forever",
+      "en": "Official WoW Portal Room Discord welcomes Forever players"
+    },
+    "category": "news",
+    "subcategory": "annonces",
+    "description": {
+      "fr": "Blizzard présente le WoW Portal Room, serveur Discord officiel de World of Warcraft, où des Ambassadeurs aident les joueurs de WoW Forever à trouver une communauté ou un groupe.",
+      "en": "Blizzard presents the WoW Portal Room, World of Warcraft's official Discord server, where Ambassadors help WoW Forever players find a community or group."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315203/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room",
+        "title": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-30",
+        "publishedAt": "2026-10-27",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-launch"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon de veille hebdomadaire : synthèse originale d'une source officielle Blizzard ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  }
+]

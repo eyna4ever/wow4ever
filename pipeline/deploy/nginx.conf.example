@@ -1,0 +1,12 @@
+# À intégrer uniquement après inventaire et accord explicite. Aucun remplacement global.
+server {
+ listen 443 ssl;
+ server_name wow4ever.raveforge.eu;
+ # ssl_certificate et ssl_certificate_key : chemins validés par l'administrateur.
+ location / {
+  proxy_pass http://127.0.0.1:3107;
+  proxy_set_header Host $host;
+  proxy_set_header X-Forwarded-Proto $scheme;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+ }
+}

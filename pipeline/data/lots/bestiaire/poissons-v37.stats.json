@@ -1,0 +1,17 @@
+{
+  "id": "forever-professions-fish",
+  "bytes": 72113,
+  "total": 37,
+  "with_zone": 0,
+  "with_skill": 0,
+  "with_vendor": 0,
+  "new_forever": 4,
+  "cooking_group": 24,
+  "alchemy_only": 3,
+  "other": 3,
+  "clams": 7,
+  "slugs": {
+    "fr": "poissons",
+    "en": "fish"
+  }
+}

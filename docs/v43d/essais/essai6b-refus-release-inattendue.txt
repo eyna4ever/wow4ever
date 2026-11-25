@@ -1,0 +1,5 @@
+1/7 Vérifications
+ERREUR: la release en ligne est releases/20261118T005337 (attendu releases/20261118T999999) : rien modifié.
+Rien n'a été modifié.
+Journal : /tmp/w43d-root/root/wow4ever-v43d-20261125T172110.log
+code 1    [current -> releases/20261118T005337]

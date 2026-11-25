@@ -1,0 +1,333 @@
+{
+ "id": "forever-dungeon-hall-of-thanes",
+ "title": {
+  "fr": "Salle des Thanes",
+  "en": "Hall of Thanes"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 13 à 18, sous Forgefer (Dun Morogh). Entrée facile pour l’Alliance depuis sa capitale ; la Horde doit s’aventurer en territoire ennemi. Dernière demeure des monarques nains, la salle a été envahie par des intrus soupçonnés d’être des Nains sombrefer, et des murmures fantomatiques y résonnent encore.",
+  "en": "Five-player dungeon, levels 13–18, beneath Ironforge (Dun Morogh). Easy access for the Alliance from its capital; the Horde must venture into enemy territory. The final resting place of dwarven monarchs has been broken into by intruders suspected to be Dark Iron dwarves, and ghostly whispers still echo there."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:23.503Z",
+ "version": 8,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "at": "2026-10-19",
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-24T21:30:12.021Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-24T21:30:22.651Z",
+   "actor": "Mathieu",
+   "note": "submit: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+   "version": 2
+  },
+  {
+   "at": "2026-10-24T21:30:22.720Z",
+   "actor": "Mathieu",
+   "note": "approve: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+   "version": 3
+  },
+  {
+   "at": "2026-10-24T21:30:22.785Z",
+   "actor": "Mathieu",
+   "note": "publish: Validé par Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-24, sur la base de la page de relecture du 2026-10-24 (sources revérifiées le 2026-10-24)",
+   "version": 4
+  },
+  {
+   "at": "2026-10-30T21:32:20.138Z",
+   "actor": "Grok Bot (correction v10 pour Mathieu)",
+   "note": "revise: Noms FR officiels / fiche complétée depuis les articles officiels donjons et raids (news.blizzard.com)",
+   "version": 5
+  },
+  {
+   "at": "2026-10-30T21:32:23.282Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 6
+  },
+  {
+   "at": "2026-10-30T21:32:23.398Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 7
+  },
+  {
+   "at": "2026-10-30T21:32:23.503Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 8
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "salle-des-thanes",
+   "en": "hall-of-thanes"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 13 à 18, sous Forgefer (Dun Morogh). Entrée facile pour l’Alliance depuis sa capitale ; la Horde doit s’aventurer en territoire ennemi. Dernière demeure des monarques nains, la salle a été envahie par des intrus soupçonnés d’être des Nains sombrefer, et des murmures fantomatiques y résonnent encore.",
+   "en": "Five-player dungeon, levels 13–18, beneath Ironforge (Dun Morogh). Easy access for the Alliance from its capital; the Horde must venture into enemy territory. The final resting place of dwarven monarchs has been broken into by intruders suspected to be Dark Iron dwarves, and ghostly whispers still echo there.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 13 à 18 — Sous Forgefer, en Dun Morogh.",
+    "en": "Levels 13–18 — Beneath Ironforge, Dun Morogh.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Entrée facile pour l’Alliance depuis sa capitale ; la Horde doit traverser le territoire ennemi.",
+    "en": "Easy for the Alliance from its capital; the Horde must cross enemy territory.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Plus bas donjon des neuf nouveautés : niveaux 13 à 18.",
+    "en": "Lowest-level of the nine new dungeons: levels 13–18.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "13 à 18",
+         "en": "13–18"
+        },
+        {
+         "fr": "Sous Forgefer, en Dun Morogh",
+         "en": "Beneath Ironforge, Dun Morogh"
+        },
+        {
+         "fr": "Entrée facile pour l’Alliance depuis sa capitale ; la Horde doit traverser le territoire ennemi.",
+         "en": "Easy for the Alliance from its capital; the Horde must cross enemy territory."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Dernière demeure des monarques nains, la salle des Thanes a été envahie par des intrus que l’on soupçonne d’appartenir aux Nains sombrefer. Le groupe doit les chasser et découvrir ce qui s’est réveillé dans ces salles, où résonnent encore des murmures fantomatiques.",
+      "en": "The resting place of the dwarven monarchs has been broken into by intruders suspected to be Dark Iron dwarves. Your group must drive them out and find out what has stirred in these halls, where ghostly whispers still echo.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 13 à 18, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 13–18, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ]
+ }
+}

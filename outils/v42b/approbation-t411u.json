@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "operation": "t411u-v42b-publish",
+  "at": "2026-11-17T22:29:00.000Z",
+  "actor": "Mathieu",
+  "note": "t411u Oui de Mathieu (17/11/2026 23:29 Europe/Paris) : « Oui et rajoute sanglier comme ça sa fonctionnera » — publication v42b (recherche détaillée t409u/t410u) + mots-clés FR cachés des créatures (sanglier, loup, araignée…). Aucune fiche modifiée.",
+  "ids": [],
+  "backup": null,
+  "beforeChecksum": "842c20511eb71de877d7abf91c86d09aea3d96f6aafb71c98a42e916c285c0cb",
+  "afterChecksum": "842c20511eb71de877d7abf91c86d09aea3d96f6aafb71c98a42e916c285c0cb",
+  "committed": true
+}

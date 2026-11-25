@@ -1,0 +1,536 @@
+{
+ "classes": {
+  "source": "cf11f67fd20af500ae7948a2947a7db69a33365af9624c9f0d5271aebcf79f94.jpg",
+  "sourceSha256": "cf11f67fd20af500ae7948a2947a7db69a33365af9624c9f0d5271aebcf79f94",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-classes-640.webp": 22152,
+   "public/wiki/assets/art-classes-1024.webp": 60970
+  }
+ },
+ "races": {
+  "source": "03c24e0cb726e3e74c18bed06152cbc0efbe3052dd57c86d518bc5ce866f10c3.jpg",
+  "sourceSha256": "03c24e0cb726e3e74c18bed06152cbc0efbe3052dd57c86d518bc5ce866f10c3",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-races-640.webp": 21924,
+   "public/wiki/assets/art-races-1024.webp": 55720
+  }
+ },
+ "zones": {
+  "source": "250af92741fdd24c10364918fca6c553e6fc0983b4fe48052864e768bc2c7d7f.jpg",
+  "sourceSha256": "250af92741fdd24c10364918fca6c553e6fc0983b4fe48052864e768bc2c7d7f",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-zones-640.webp": 19926,
+   "public/wiki/assets/art-zones-1024.webp": 56618
+  }
+ },
+ "instances": {
+  "source": "074c24d07ae6e1610a6c4a41cf899dcd76da7c76b29fd1024b96021c01e4f505.jpg",
+  "sourceSha256": "074c24d07ae6e1610a6c4a41cf899dcd76da7c76b29fd1024b96021c01e4f505",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-instances-640.webp": 26366,
+   "public/wiki/assets/art-instances-1024.webp": 73956
+  }
+ },
+ "professions": {
+  "source": "1a39df78e23c4b3207c5a3df5b6b0a60c0c9513619d2a9c01b2a4a57b086b709.jpg",
+  "sourceSha256": "1a39df78e23c4b3207c5a3df5b6b0a60c0c9513619d2a9c01b2a4a57b086b709",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-professions-640.webp": 28252,
+   "public/wiki/assets/art-professions-1024.webp": 74176
+  }
+ },
+ "items": {
+  "source": "c8f013b56f1d1f3c4395d4c5f2bbac1853e6bcfadd37de2eca05f583b6801903.jpg",
+  "sourceSha256": "c8f013b56f1d1f3c4395d4c5f2bbac1853e6bcfadd37de2eca05f583b6801903",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-items-640.webp": 34958,
+   "public/wiki/assets/art-items-1024.webp": 87654
+  }
+ },
+ "quests": {
+  "source": "0eadf41e88202935466e25cbe1ae807cab19784194653c450eeb81e3ae73c91d.jpg",
+  "sourceSha256": "0eadf41e88202935466e25cbe1ae807cab19784194653c450eeb81e3ae73c91d",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-quests-640.webp": 34356,
+   "public/wiki/assets/art-quests-1024.webp": 93634
+  }
+ },
+ "pvp": {
+  "source": "a9a2e33dcf3a038aa841d1455792db2ce6cbb6ced4529335a7e80d676202058e.jpg",
+  "sourceSha256": "a9a2e33dcf3a038aa841d1455792db2ce6cbb6ced4529335a7e80d676202058e",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-pvp-640.webp": 21450,
+   "public/wiki/assets/art-pvp-1024.webp": 60112
+  }
+ },
+ "creatures": {
+  "source": "80b82921604378821d76daee4fef855a82f229f162625c6b5fb2fe3aa7bd1843.jpg",
+  "sourceSha256": "80b82921604378821d76daee4fef855a82f229f162625c6b5fb2fe3aa7bd1843",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-creatures-640.webp": 16936,
+   "public/wiki/assets/art-creatures-1024.webp": 47712
+  }
+ },
+ "guides": {
+  "source": "e498d80170dfda119b9441ec10697581714ae17a59c0ac3d29ff5c43f86a79ef.jpg",
+  "sourceSha256": "e498d80170dfda119b9441ec10697581714ae17a59c0ac3d29ff5c43f86a79ef",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-guides-640.webp": 15186,
+   "public/wiki/assets/art-guides-1024.webp": 39492
+  }
+ },
+ "news": {
+  "source": "d0280d528ed385389e40e3df377c7e27ca63674bbba4c11a32c4c60a9a8e9d45.jpg",
+  "sourceSha256": "d0280d528ed385389e40e3df377c7e27ca63674bbba4c11a32c4c60a9a8e9d45",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-news-640.webp": 16026,
+   "public/wiki/assets/art-news-1024.webp": 42164
+  }
+ },
+ "glossary": {
+  "source": "74ed7bd5f64de6a971401035fedc2f5cd8edf0fd5ff5ce3858602d871e3bd6bb.jpg",
+  "sourceSha256": "74ed7bd5f64de6a971401035fedc2f5cd8edf0fd5ff5ce3858602d871e3bd6bb",
+  "size": [
+   1280,
+   720
+  ],
+  "files": {
+   "public/wiki/assets/art-glossary-640.webp": 29454,
+   "public/wiki/assets/art-glossary-1024.webp": 71110
+  }
+ },
+ "article:AR01": {
+  "entryId": "article-forever-calendar",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: an ancient stone astrolabe and celestial calendar wheel on a cliffside observatory at dusk, glowing gold engraved rings marking seasons, distant mountains and a starry night sky. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar01-calendar.jpg",
+  "sourceSha256": "e08976a728ea27542297aaa97c0391e5726646a96e60a252586adf5738b082b9",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un astrolabe de pierre gravé d’anneaux dorés, sur un observatoire à flanc de falaise, au crépuscule sous un ciel étoilé.",
+   "en": "A stone astrolabe engraved with golden rings on a cliffside observatory at dusk, under a starry sky."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar01-calendar-640.webp": 26136,
+   "public/wiki/assets/art-ar01-calendar-1280.webp": 93556,
+   "public/wiki/assets/art-ar01-calendar-1280.jpg": 140637
+  }
+ },
+ "article:AR02": {
+  "entryId": "article-forever-beta-recap",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: a quiet adventurers' camp at dawn after a long expedition, banners lowered, maps and lanterns on a wooden table, mist over a valley, a sense of a closing chapter. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar02-beta-recap.jpg",
+  "sourceSha256": "b8c022592c83e1a45932e9e6ea96c2c0ad3de9dc1ee1580e25b30bb76a6b3651",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un camp d’aventuriers à l’aube : bannières abaissées, carte et lanternes sur une table, brume sur la vallée.",
+   "en": "An adventurers’ camp at dawn: lowered banners, a map and lanterns on a table, mist over the valley."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar02-beta-recap-640.webp": 18282,
+   "public/wiki/assets/art-ar02-beta-recap-1280.webp": 59086,
+   "public/wiki/assets/art-ar02-beta-recap-1280.jpg": 108298
+  }
+ },
+ "article:AR03": {
+  "entryId": "article-forever-rulesets",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: five distinct glowing stone gateways in a circular hall, each with a different aura (calm blue, fiery red, violet mystic, twilight crimson-violet, stark white), symbolising choosing a path. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar03-rulesets.jpg",
+  "sourceSha256": "8c94421158195db8e23e36cced4ef6931c0d74b78a6f64547f30f482d30a1c74",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Cinq portails de pierre aux lueurs différentes (bleu, rouge, violet, pourpre, blanc) dans une salle circulaire.",
+   "en": "Five stone gateways glowing in different colours (blue, red, violet, crimson, white) in a circular hall."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar03-rulesets-640.webp": 22634,
+   "public/wiki/assets/art-ar03-rulesets-1280.webp": 88518,
+   "public/wiki/assets/art-ar03-rulesets-1280.jpg": 136492
+  }
+ },
+ "article:AR04": {
+  "entryId": "article-forever-prepare-launch",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: a scribe's desk with an open blank leather ledger, quill and ink, wax seals, a lit candle and a traveller's pack ready by an arched door, preparation before a great journey. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar04-prepare.jpg",
+  "sourceSha256": "e05364d7a6bb04a0913c120f7efc3d7a04f7002f3979ca42523e8144f1fd1d7e",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un bureau de scribe : registre vierge, plume, sceaux de cire et bougie, un sac de voyage prêt près d’une porte voûtée.",
+   "en": "A scribe’s desk: blank ledger, quill, wax seals and candle, a travel pack ready by an arched door."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar04-prepare-640.webp": 20164,
+   "public/wiki/assets/art-ar04-prepare-1280.webp": 68828,
+   "public/wiki/assets/art-ar04-prepare-1280.jpg": 119913
+  }
+ },
+ "article:AR05": {
+  "entryId": "article-forever-raids",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: a colossal ancient underground prison vault carved into a mountain, enormous sealed stone doors with glowing green-gold runes, tiny torchlit silhouettes of a group at the threshold for scale. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar05-raids.jpg",
+  "sourceSha256": "095c275d59ffbb2d28cf11c9c1e56050e227d82ed324297f13b0f9771edde7d1",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "D’immenses portes de pierre gravées de runes vertes et dorées dans une caverne, un petit groupe muni de torches au seuil.",
+   "en": "Huge stone doors carved with green and gold runes inside a cavern, a small torch-bearing group at the threshold."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar05-raids-640.webp": 21882,
+   "public/wiki/assets/art-ar05-raids-1280.webp": 72642,
+   "public/wiki/assets/art-ar05-raids-1280.jpg": 122245
+  }
+ },
+ "article:AR06": {
+  "entryId": "article-forever-pvp",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: two opposing armies' banners (one crimson, one deep blue, plain without emblems) facing each other across a tropical island beach at sunset, with palm trees, wooden watchtowers and a captured flag on a pole between them. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar06-pvp.jpg",
+  "sourceSha256": "c0347f4acdb820be8a1a82ddec43e721d171055c9a75261adbdecc00972c2301",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Deux armées aux bannières rouges et bleues sans emblème, face à face sur une plage tropicale au coucher du soleil.",
+   "en": "Two armies with plain red and blue banners facing each other on a tropical beach at sunset."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar06-pvp-640.webp": 33432,
+   "public/wiki/assets/art-ar06-pvp-1280.webp": 109778,
+   "public/wiki/assets/art-ar06-pvp-1280.jpg": 160639
+  }
+ },
+ "article:AR07": {
+  "entryId": "article-forever-skyborne",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly illustration: a floating windswept island high above a sea of clouds, white stone spires and wind-chimes, great feathered sails and kites, distant small cloaked figures seen from behind with long flowing scarves, airy sky people culture. Deep navy, pale sky blue and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar07-skyborne.jpg",
+  "sourceSha256": "a6d2364891e7c0cbc46a5dbee4cb8b4e400a5100bf8cd6874ec0acabae6f288b",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Une île flottante aux flèches blanches au-dessus d’une mer de nuages, voiles et cerfs-volants, deux voyageurs vus de dos.",
+   "en": "A floating island with white spires above a sea of clouds, sails and kites, two travellers seen from behind."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar07-skyborne-640.webp": 42266,
+   "public/wiki/assets/art-ar07-skyborne-1280.webp": 122486,
+   "public/wiki/assets/art-ar07-skyborne-1280.jpg": 173599
+  }
+ },
+ "article:AR08": {
+  "entryId": "article-forever-zones",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly illustration: a sweeping panoramic landscape combining a lush river delta with marshes and reeds in the foreground, a gigantic sacred mountain forest crowned by an enormous ancient tree in the distance, and ruined moonlit elven-style arches. Deep navy and warm gold palette, cinematic golden-hour lighting, detailed digital painting. No text, no logos, no UI, no characters.",
+  "source": "design/illustrations-src/articles/ar08-zones.jpg",
+  "sourceSha256": "d8a97bccc222d462682ec2d5eacb6c34e9a9908fa6399b033c1c857690dab4e2",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un delta marécageux au premier plan, une montagne couronnée d’un arbre gigantesque et des arches en ruine au loin.",
+   "en": "A marshy river delta in the foreground, a mountain crowned by a giant tree and ruined arches in the distance."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar08-zones-640.webp": 35268,
+   "public/wiki/assets/art-ar08-zones-1280.webp": 112846,
+   "public/wiki/assets/art-ar08-zones-1280.jpg": 159697
+  }
+ },
+ "article:AR09": {
+  "entryId": "article-forever-classes",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly still life: an armory table displaying nine different adventurer tools arranged in a fan — a sword and shield, a hunting bow, twin daggers, a holy mace, a wooden druid staff with leaves, a crystal wand, a spellbook with violet flame, a totem, and a cleric's censer — on a velvet cloth. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar09-classes.jpg",
+  "sourceSha256": "99669f473fbc827e3ecb1eb438c786bc6ae00e270181dfce8be60dc8aebe12ea",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Une table d’armurerie : épée et bouclier, arc, dagues, masse, bâton, baguette, grimoire, totem et encensoir sur du velours.",
+   "en": "An armoury table: sword and shield, bow, daggers, mace, staff, wand, spellbook, totem and censer on velvet."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar09-classes-640.webp": 40032,
+   "public/wiki/assets/art-ar09-classes-1280.webp": 130012,
+   "public/wiki/assets/art-ar09-classes-1280.jpg": 176423
+  }
+ },
+ "article:AR10": {
+  "entryId": "article-forever-campfire",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly illustration: a cozy shared campsite at night in a forest clearing, a crackling cooking fire with a hanging iron pot, bedrolls, an anvil and leatherworking tools nearby, several small anonymous travellers seen from behind gathered around the warm light. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar10-campfire.jpg",
+  "sourceSha256": "85448bdb2ba880b1ecac9cbb411ac98a708f1b76f71742a855e03037d72dc9e5",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un campement nocturne en forêt : marmite sur le feu, enclume et outils, voyageurs encapuchonnés autour de la lumière.",
+   "en": "A night campsite in a forest: a pot over the fire, an anvil and tools, hooded travellers around the light."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar10-campfire-640.webp": 29164,
+   "public/wiki/assets/art-ar10-campfire-1280.webp": 91110,
+   "public/wiki/assets/art-ar10-campfire-1280.jpg": 142712
+  }
+ },
+ "article:AR11": {
+  "entryId": "article-forever-quests",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite dark-fantasy painterly illustration: a winding path of a thousand lanterns climbing toward a distant haunted spire wreathed in spectral purple mist, a lone hooded traveller with a staff at the start of the road, notice boards with blank parchments along the way. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar11-quests.jpg",
+  "sourceSha256": "fd16f035eb8017e9941e8292b84533beca90c8d2d809e058ab5a0795a4c710ae",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Un chemin bordé de lanternes qui grimpe vers une flèche nimbée de brume violette, un voyageur encapuchonné au départ.",
+   "en": "A lantern-lined path climbing toward a spire wreathed in violet mist, a hooded traveller at its start."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar11-quests-640.webp": 21218,
+   "public/wiki/assets/art-ar11-quests-1280.webp": 66004,
+   "public/wiki/assets/art-ar11-quests-1280.jpg": 111374
+  }
+ },
+ "article:AR12": {
+  "entryId": "article-forever-legacy",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly illustration: a vast ancient library hall with towering bookshelves, glowing golden motes of light flowing like a river between interconnected floating open books, a central reading lectern, symbolising inherited knowledge and legacy. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar12-legacy.jpg",
+  "sourceSha256": "e2fc9c1aead9a92cde62362a181ea7c04df9dc77b13acab4be8e6fe0515d341f",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Une bibliothèque immense où des livres ouverts flottent, reliés par des rivières de lumière dorée.",
+   "en": "A vast library where open books float, linked by rivers of golden light."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar12-legacy-640.webp": 46856,
+   "public/wiki/assets/art-ar12-legacy-1280.webp": 155452,
+   "public/wiki/assets/art-ar12-legacy-1280.jpg": 198854
+  }
+ },
+ "article:AR13": {
+  "entryId": "article-forever-creatures",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly illustration: a misty autumn forest edge at twilight where a few wild red foxes sit on mossy rocks, while far away over jagged mountains the vague dark silhouette of a huge generic winged beast glides through clouds. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar13-creatures.jpg",
+  "sourceSha256": "aebe6c907690aa04aed1a72f0fd9bd0e125a9e2cc9e813ae46dd6528eb5e17e2",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Des renards roux sur un rocher moussu en automne, la silhouette lointaine d’une grande bête ailée au-dessus des montagnes.",
+   "en": "Red foxes on a mossy rock in autumn, the distant silhouette of a large winged beast above the mountains."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar13-creatures-640.webp": 27772,
+   "public/wiki/assets/art-ar13-creatures-1280.webp": 88608,
+   "public/wiki/assets/art-ar13-creatures-1280.jpg": 140431
+  }
+ },
+ "article:AR14": {
+  "entryId": "article-forever-items",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elite fantasy painterly still life: on a dark velvet cushion lie an ornate silver signet ring with a pale gem and a carved silver protective amulet on a chain, next to a small treasure chest with soft golden glow, in a candlelit stone vault. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no logos, no UI, no recognisable characters.",
+  "source": "design/illustrations-src/articles/ar14-items.jpg",
+  "sourceSha256": "aef69b27cb384dc6fa97ac3643427ea92e1d7322deec05b83d267aa8a9a41d1f",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Une chevalière d’argent à pierre pâle et une amulette gravée sur un coussin de velours, près d’un coffre lumineux.",
+   "en": "A silver signet ring with a pale stone and an engraved amulet on a velvet cushion, beside a glowing chest."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar14-items-640.webp": 29040,
+   "public/wiki/assets/art-ar14-items-1280.webp": 87886,
+   "public/wiki/assets/art-ar14-items-1280.jpg": 132886
+  }
+ },
+ "article:AR15": {
+  "entryId": "article-forever-poster",
+  "method": "GenerateImage (outil de génération d’images de Grok Bot), image originale, aucune référence ni capture",
+  "date": "2026-10-28",
+  "prompt": "Original elegant painterly illustration: an intimate small comedy-club style stage with warm spotlights and a red curtain, a long table in front with blank rolled-up art prints, fine-tip markers, and an empty chair, rows of theatre seats in soft shadow, fantasy-tinged evening atmosphere. Deep navy and warm gold palette, cinematic lighting, detailed digital painting. No text, no letters, no logos, no posters with images, no UI, no people.",
+  "source": "design/illustrations-src/articles/ar15-poster.jpg",
+  "sourceSha256": "7cd58e54538120474796d684f75ae4a8418282392fdee7aa5b06b72df9ccb8c2",
+  "size": [
+   1280,
+   720
+  ],
+  "alt": {
+   "fr": "Une petite scène sous les projecteurs, rideau rouge et fauteuil vide, une table avec des affiches roulées et des feutres.",
+   "en": "A small spotlit stage with a red curtain and an empty chair, a table with rolled prints and markers."
+  },
+  "caption": {
+   "fr": "Illustration d’ambiance — ne constitue pas une source",
+   "en": "Ambiance illustration — not a source"
+  },
+  "ip": "Aucun logo, personnage reconnaissable, capture, interface ou texte ; création d’ambiance sans valeur documentaire.",
+  "files": {
+   "public/wiki/assets/art-ar15-poster-640.webp": 20562,
+   "public/wiki/assets/art-ar15-poster-1280.webp": 71136,
+   "public/wiki/assets/art-ar15-poster-1280.jpg": 123886
+  }
+ }
+}

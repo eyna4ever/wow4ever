@@ -1,0 +1,286 @@
+{
+  "entries": 52,
+  "directory": 1,
+  "revised_official": 4,
+  "revised_ids": [
+    "forever-zone-zephras-isle",
+    "forever-zone-shendralas",
+    "forever-zone-mount-hyjal",
+    "forever-zone-riverglades"
+  ],
+  "new_zone_sheets": 47,
+  "world_zones": 51,
+  "world_npcs": 2837,
+  "instance_labels": 26,
+  "instance_npcs": 245,
+  "unlocated": 202,
+  "npcs_with_recipe_loot": 32,
+  "official_zero_npc": [
+    "Riverglades",
+    "Mount Hyjal"
+  ],
+  "ids": [
+    "forever-zones-directory",
+    "forever-zone-dun-morogh",
+    "forever-zone-the-barrens",
+    "forever-zone-stranglethorn-vale",
+    "forever-zone-orgrimmar",
+    "forever-zone-stormwind-city",
+    "forever-zone-tirisfal-glades",
+    "forever-zone-durotar",
+    "forever-zone-elwynn-forest",
+    "forever-zone-hillsbrad-foothills",
+    "forever-zone-zephras-isle",
+    "forever-zone-ashenvale",
+    "forever-zone-mulgore",
+    "forever-zone-teldrassil",
+    "forever-zone-silithus",
+    "forever-zone-feralas",
+    "forever-zone-desolace",
+    "forever-zone-tanaris",
+    "forever-zone-wetlands",
+    "forever-zone-loch-modan",
+    "forever-zone-duskwood",
+    "forever-zone-felwood",
+    "forever-zone-thousand-needles",
+    "forever-zone-eastern-plaguelands",
+    "forever-zone-darkshore",
+    "forever-zone-undercity",
+    "forever-zone-arathi-highlands",
+    "forever-zone-thunder-bluff",
+    "forever-zone-the-hinterlands",
+    "forever-zone-badlands",
+    "forever-zone-burning-steppes",
+    "forever-zone-stonetalon-mountains",
+    "forever-zone-winterspring",
+    "forever-zone-dustwallow-marsh",
+    "forever-zone-western-plaguelands",
+    "forever-zone-darnassus",
+    "forever-zone-redridge-mountains",
+    "forever-zone-alterac-valley",
+    "forever-zone-un-goro-crater",
+    "forever-zone-alterac-mountains",
+    "forever-zone-silverpine-forest",
+    "forever-zone-searing-gorge",
+    "forever-zone-westfall",
+    "forever-zone-azshara",
+    "forever-zone-swamp-of-sorrows",
+    "forever-zone-blasted-lands",
+    "forever-zone-ironforge",
+    "forever-zone-moonglade",
+    "forever-zone-shendralas",
+    "forever-zone-blackrock-mountain",
+    "forever-zone-mount-hyjal",
+    "forever-zone-riverglades"
+  ],
+  "slugs": {
+    "forever-zones-directory": {
+      "fr": "liste-des-zones",
+      "en": "zone-list"
+    },
+    "forever-zone-dun-morogh": {
+      "fr": "dun-morogh",
+      "en": "dun-morogh"
+    },
+    "forever-zone-the-barrens": {
+      "fr": "les-tarides",
+      "en": "the-barrens"
+    },
+    "forever-zone-stranglethorn-vale": {
+      "fr": "vallee-de-strangleronce",
+      "en": "stranglethorn-vale"
+    },
+    "forever-zone-orgrimmar": {
+      "fr": "orgrimmar",
+      "en": "orgrimmar"
+    },
+    "forever-zone-stormwind-city": {
+      "fr": "hurlevent",
+      "en": "stormwind-city"
+    },
+    "forever-zone-tirisfal-glades": {
+      "fr": "clairieres-de-tirisfal",
+      "en": "tirisfal-glades"
+    },
+    "forever-zone-durotar": {
+      "fr": "durotar",
+      "en": "durotar"
+    },
+    "forever-zone-elwynn-forest": {
+      "fr": "foret-d-elwynn",
+      "en": "elwynn-forest"
+    },
+    "forever-zone-hillsbrad-foothills": {
+      "fr": "contreforts-de-hautebrande",
+      "en": "hillsbrad-foothills"
+    },
+    "forever-zone-zephras-isle": {
+      "fr": "ile-de-zephras",
+      "en": "zephras-isle"
+    },
+    "forever-zone-ashenvale": {
+      "fr": "orneval",
+      "en": "ashenvale"
+    },
+    "forever-zone-mulgore": {
+      "fr": "mulgore",
+      "en": "mulgore"
+    },
+    "forever-zone-teldrassil": {
+      "fr": "teldrassil",
+      "en": "teldrassil"
+    },
+    "forever-zone-silithus": {
+      "fr": "silithus",
+      "en": "silithus"
+    },
+    "forever-zone-feralas": {
+      "fr": "feralas",
+      "en": "feralas"
+    },
+    "forever-zone-desolace": {
+      "fr": "desolace",
+      "en": "desolace"
+    },
+    "forever-zone-tanaris": {
+      "fr": "tanaris",
+      "en": "tanaris"
+    },
+    "forever-zone-wetlands": {
+      "fr": "les-paluns",
+      "en": "wetlands"
+    },
+    "forever-zone-loch-modan": {
+      "fr": "loch-modan",
+      "en": "loch-modan"
+    },
+    "forever-zone-duskwood": {
+      "fr": "bois-de-la-penombre",
+      "en": "duskwood"
+    },
+    "forever-zone-felwood": {
+      "fr": "gangrebois",
+      "en": "felwood"
+    },
+    "forever-zone-thousand-needles": {
+      "fr": "mille-pointes",
+      "en": "thousand-needles"
+    },
+    "forever-zone-eastern-plaguelands": {
+      "fr": "maleterres-de-l-est",
+      "en": "eastern-plaguelands"
+    },
+    "forever-zone-darkshore": {
+      "fr": "sombrivage",
+      "en": "darkshore"
+    },
+    "forever-zone-undercity": {
+      "fr": "fossoyeuse",
+      "en": "undercity"
+    },
+    "forever-zone-arathi-highlands": {
+      "fr": "hautes-terres-arathies",
+      "en": "arathi-highlands"
+    },
+    "forever-zone-thunder-bluff": {
+      "fr": "thunder-bluff",
+      "en": "thunder-bluff"
+    },
+    "forever-zone-the-hinterlands": {
+      "fr": "les-hinterlands",
+      "en": "the-hinterlands"
+    },
+    "forever-zone-badlands": {
+      "fr": "terres-ingrates",
+      "en": "badlands"
+    },
+    "forever-zone-burning-steppes": {
+      "fr": "steppes-ardentes",
+      "en": "burning-steppes"
+    },
+    "forever-zone-stonetalon-mountains": {
+      "fr": "les-serres-rocheuses",
+      "en": "stonetalon-mountains"
+    },
+    "forever-zone-winterspring": {
+      "fr": "berceau-de-l-hiver",
+      "en": "winterspring"
+    },
+    "forever-zone-dustwallow-marsh": {
+      "fr": "marecage-d-aprefange",
+      "en": "dustwallow-marsh"
+    },
+    "forever-zone-western-plaguelands": {
+      "fr": "maleterres-de-l-ouest",
+      "en": "western-plaguelands"
+    },
+    "forever-zone-darnassus": {
+      "fr": "darnassus",
+      "en": "darnassus"
+    },
+    "forever-zone-redridge-mountains": {
+      "fr": "les-carmines",
+      "en": "redridge-mountains"
+    },
+    "forever-zone-alterac-valley": {
+      "fr": "vallee-d-alterac",
+      "en": "alterac-valley"
+    },
+    "forever-zone-un-goro-crater": {
+      "fr": "cratere-d-un-goro",
+      "en": "un-goro-crater"
+    },
+    "forever-zone-alterac-mountains": {
+      "fr": "montagnes-d-alterac",
+      "en": "alterac-mountains"
+    },
+    "forever-zone-silverpine-forest": {
+      "fr": "foret-des-pins-argentes",
+      "en": "silverpine-forest"
+    },
+    "forever-zone-searing-gorge": {
+      "fr": "gorge-des-vents-brulants",
+      "en": "searing-gorge"
+    },
+    "forever-zone-westfall": {
+      "fr": "marche-de-l-ouest",
+      "en": "westfall"
+    },
+    "forever-zone-azshara": {
+      "fr": "azshara",
+      "en": "azshara"
+    },
+    "forever-zone-swamp-of-sorrows": {
+      "fr": "marais-des-chagrins",
+      "en": "swamp-of-sorrows"
+    },
+    "forever-zone-blasted-lands": {
+      "fr": "terres-foudroyees",
+      "en": "blasted-lands"
+    },
+    "forever-zone-ironforge": {
+      "fr": "forgefer",
+      "en": "ironforge"
+    },
+    "forever-zone-moonglade": {
+      "fr": "reflet-de-lune",
+      "en": "moonglade"
+    },
+    "forever-zone-shendralas": {
+      "fr": "shen-dralas",
+      "en": "shen-dralas"
+    },
+    "forever-zone-blackrock-mountain": {
+      "fr": "mont-rochenoire",
+      "en": "blackrock-mountain"
+    },
+    "forever-zone-mount-hyjal": {
+      "fr": "mont-hyjal",
+      "en": "mount-hyjal"
+    },
+    "forever-zone-riverglades": {
+      "fr": "rives-claires",
+      "en": "riverglades"
+    }
+  }
+}

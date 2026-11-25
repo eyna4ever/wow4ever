@@ -1,0 +1,376 @@
+{
+ "id": "forever-dungeon-drowned-city",
+ "title": {
+  "fr": "La cité Submergée",
+  "en": "The Drowned City"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 35 à 40, au large de la vallée de Strangleronce, à l’ouest de Grom’gol. D’anciennes ruines trolles ont émergé de l’océan ; trolls et nagas y rôdent. On plonge pour trouver l’entrée. Le donjon est à ciel ouvert et la météo se dégrade jusqu’à la tempête avant le combat final.",
+  "en": "Five-player dungeon, levels 35–40, off the coast of Stranglethorn Vale, west of Grom’gol. Ancient troll ruins have risen from the ocean, roamed by trolls and naga. You dive to find the entrance. The open-air dungeon’s weather builds into a full storm before the final fight."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-hotfixes-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-6-2026",
+   "title": "WoW: Forever Hotfixes - November 6, 2026 (correctifs des 5 et 6 novembre)",
+   "publishedAt": "2026-11-06",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-hotfixes-eu",
+   "language": "en",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/639885",
+   "title": "WoW: Forever Hotfixes - November 6, 2026 — forum officiel EU (Kaivax)",
+   "publishedAt": "2026-11-06",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:22.834Z",
+ "version": 4,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-news-hotfixes-nov5-6",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+   "at": "2026-10-30",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:19:10.684Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:32:22.624Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 2
+  },
+  {
+   "at": "2026-10-30T21:32:22.719Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 3
+  },
+  {
+   "at": "2026-10-30T21:32:22.834Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 4
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "la-cite-submergee",
+   "en": "the-drowned-city"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 35 à 40, au large de la vallée de Strangleronce, à l’ouest de Grom’gol. D’anciennes ruines trolles ont émergé de l’océan ; trolls et nagas y rôdent. On plonge pour trouver l’entrée. Le donjon est à ciel ouvert et la météo se dégrade jusqu’à la tempête avant le combat final.",
+   "en": "Five-player dungeon, levels 35–40, off the coast of Stranglethorn Vale, west of Grom’gol. Ancient troll ruins have risen from the ocean, roamed by trolls and naga. You dive to find the entrance. The open-air dungeon’s weather builds into a full storm before the final fight.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 35 à 40 — Au large de la vallée de Strangleronce, à l’ouest de Grom’gol.",
+    "en": "Levels 35–40 — Off the coast of Stranglethorn Vale, west of Grom’gol.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Entrée sous l’eau : il faut plonger pour la trouver.",
+    "en": "Underwater entrance: dive to find it.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Météo évolutive : brume, pluie puis tempête avant le dernier combat.",
+    "en": "Evolving weather: mist, rain, then a storm before the last fight.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "35 à 40",
+         "en": "35–40"
+        },
+        {
+         "fr": "Au large de la vallée de Strangleronce, à l’ouest de Grom’gol",
+         "en": "Off the coast of Stranglethorn Vale, west of Grom’gol"
+        },
+        {
+         "fr": "Entrée sous l’eau : il faut plonger pour la trouver.",
+         "en": "Underwater entrance: dive to find it."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "D’anciennes ruines trolles englouties sont remontées à la surface. Trolls et nagas y circulent, près d’un navire pirate qui a mal fini. Donjon à ciel ouvert : brume et pluie montent jusqu’à une tempête avant l’affrontement final.",
+      "en": "Ancient sunken troll ruins have risen from the sea. Trolls and naga roam them, next to a pirate ship that met a bad end. An open-air dungeon: mist and rain build into a full storm before the final fight.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "correctifs",
+    "title": {
+     "fr": "Correctifs officiels",
+     "en": "Official hotfixes"
+    },
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       {
+        "fr": "6 novembre 2026 : le portail d’instance téléporte correctement à l’intérieur de la cité Submergée.",
+        "en": "6 November 2026: the instance portal now correctly teleports you inside The Drowned City.",
+        "src": [
+         "bz-hotfixes"
+        ]
+       },
+       {
+        "fr": "6 novembre 2026 : certaines créatures du donjon ne se désengagent plus à tort du combat.",
+        "en": "6 November 2026: some creatures inside no longer erroneously disengage.",
+        "src": [
+         "bz-hotfixes"
+        ]
+       }
+      ],
+      "src": [
+       "bz-hotfixes"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 35 à 40, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 35–40, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Portail d’instance et désengagements corrigés le 6 novembre.",
+    "en": "Instance portal and disengage issues fixed on 6 November.",
+    "src": [
+     "bz-hotfixes"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "fr": "Correctifs : portail et désengagement des créatures.",
+    "en": "Hotfixes: portal and creature disengage.",
+    "src": [
+     "bz-hotfixes"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+  "consultedAt": "2026-10-19",
+  "scope": "Candidat Blizzard World of Warcraft: Forever ; périmètre du wiki non confirmé.",
+  "method": "Lecture ciblée via outil web des pages primaires, synthèses originales brèves FR/EN ; aucun texte intégral ou illustration conservé.",
+  "sources": [
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+      "title": "Au cœur de World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "camping",
+      "entryIds": [
+        "forever-professions-camping",
+        "forever-professions-blueprints"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "camping",
+      "entryIds": [
+        "forever-professions-camping",
+        "forever-professions-blueprints"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+      "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "pvp",
+      "entryIds": [
+        "forever-pvp-honor",
+        "forever-pvp-rank-points",
+        "forever-guide-track-pvp"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+      "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "legacy",
+      "entryIds": [
+        "forever-progression-legacy",
+        "forever-questline-lord-valthalak",
+        "forever-glossary-legacy-points"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+      "title": "Get to Know the World of Warcraft: Forever Legacy System",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "legacy",
+      "entryIds": [
+        "forever-progression-legacy",
+        "forever-questline-lord-valthalak",
+        "forever-glossary-legacy-points"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24302070/choisissez-votre-ensemble-de-regles-dans-world-of-warcraft-forever",
+      "title": "Choisissez votre ensemble de règles dans World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "rules",
+      "entryIds": [
+        "forever-guide-choose-ruleset",
+        "forever-glossary-realmless"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+      "title": "L’avenir de World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "world",
+      "entryIds": [
+        "forever-pvp-darkspear-islands",
+        "forever-quests-new-adventures"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "title": "World of Warcraft: Forever What’s Next Panel Recap",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "world",
+      "entryIds": [
+        "forever-pvp-darkspear-islands",
+        "forever-quests-new-adventures"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-news-round-up",
+      "title": "World of Warcraft at BlizzCon 2026 News Round-Up",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "launch",
+      "entryIds": [
+        "forever-news-launch",
+        "forever-news-access"
+      ]
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+      "title": "The World of Warcraft: Forever Beta Now Live",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "access": "opened",
+      "articleKey": "beta",
+      "entryIds": [
+        "forever-news-beta"
+      ]
+    }
+  ],
+  "limitations": [
+    "Annonces et bêta, aucune vérification en jeu.",
+    "Dates de publication non exposées : non déduites.",
+    "Les traductions éditoriales et conditions de réutilisation exigent une revue humaine.",
+    "Les identifiants du wiki ne sont pas des identifiants du client de jeu.",
+    "Aucun taux de butin, statistique d’objet ou itinéraire détaillé n’a été extrapolé."
+  ]
+}

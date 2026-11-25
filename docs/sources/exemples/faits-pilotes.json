@@ -1,0 +1,343 @@
+{
+ "format": "wowkipedia-faits/0.1 (proposition étape 02, non importé)",
+ "generatedAt": "2026-11-09T19:55:00+01:00",
+ "note": "Faits relevés et vérifiés par GrokBot le 09/11/2026 sur les pages officielles listées (HTTP 200). Citations courtes à des fins de preuve seulement ; aucune donnée tierce reprise.",
+ "sources": [
+  {
+   "id": "bz-24307383-fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+   "publisher": "Blizzard Entertainment",
+   "publishedAt": "2026-09-23T17:00:00Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "annonce officielle",
+   "build": null,
+   "rights": "Droits réservés Blizzard ; citation courte + lien + synthèse originale (Legal FAQ, usage non commercial)"
+  },
+  {
+   "id": "bz-24307383-en",
+   "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+   "publisher": "Blizzard Entertainment",
+   "publishedAt": "2026-09-23T17:00:00Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "annonce officielle",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bz-24317865-fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24317865/world-of-warcraft-forever-decouvrez-la-video-forging-forever",
+   "publisher": "Blizzard Entertainment",
+   "publishedAt": "2026-11-05T22:00:00Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "annonce officielle",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bz-24317865-en",
+   "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
+   "publisher": "Blizzard Entertainment",
+   "publishedAt": "2026-11-05T22:00:00Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "annonce officielle",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bzf-us-2406595",
+   "url": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595",
+   "publisher": "Blizzard Entertainment (Kaivax, forum US)",
+   "publishedAt": "2026-11-08T19:47:33Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "message officiel forum (bleu)",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bzf-eu-640598",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-8-november/640598",
+   "publisher": "Blizzard Entertainment (Kaivax, forum EU)",
+   "publishedAt": "2026-11-08T19:48:33Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "message officiel forum (bleu)",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bzf-us-2404092",
+   "url": "https://us.forums.blizzard.com/en/wow/t/2404092",
+   "publisher": "Blizzard Entertainment (Kaivax, forum US)",
+   "publishedAt": "2026-11-06T21:11:39Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "message officiel forum (bleu)",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "bz-24303009-en",
+   "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+   "publisher": "Blizzard Entertainment",
+   "publishedAt": "2026-10-20T19:00:00Z",
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "annonce officielle",
+   "build": null,
+   "rights": "idem"
+  },
+  {
+   "id": "eternadex-db-en",
+   "url": "https://eternadex.com/en/datenbank/",
+   "publisher": "Eternadex (Elemental Gilde, fan-site)",
+   "publishedAt": null,
+   "verifiedAt": "2026-11-09",
+   "http": 200,
+   "proofType": "base fan : extraction client + addon",
+   "build": "client 1.60.1.70862 (affiché, données du 2026-11-07)",
+   "rights": "AUCUNE licence publiée — NO-GO import ; référence seulement"
+  }
+ ],
+ "facts": [
+  {
+   "id": "fact-legacy-challenges-total",
+   "subject": "forever-progression-legacy",
+   "entityType": "legacy_system",
+   "property": "challenge_count",
+   "value": 65,
+   "unit": "défis",
+   "evidence": [
+    {
+     "source": "bz-24307383-fr",
+     "quote": "Au total, il existe 65 défis d’héritage, répartis dans six catégories distinctes."
+    },
+    {
+     "source": "bz-24307383-en",
+     "quote": "There are sixty-five Legacy Challenges in total organized into six different categories."
+    }
+   ],
+   "status": "officiel confirmé",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-09-23",
+   "note": "Le chiffre « 65 défis » de la mission est donc CONFIRMÉ par Blizzard (annonce pré-lancement) ; non vérifié en jeu."
+  },
+  {
+   "id": "fact-legacy-categories",
+   "subject": "forever-progression-legacy",
+   "entityType": "legacy_system",
+   "property": "challenge_categories",
+   "value": [
+    {
+     "fr": "Classes",
+     "en": "Classes",
+     "points": 27
+    },
+    {
+     "fr": "Métiers",
+     "en": "Tradeskills",
+     "points": 18
+    },
+    {
+     "fr": "JcJ",
+     "en": "Player vs. Player",
+     "points": 12
+    },
+    {
+     "fr": "Aventure",
+     "en": "Adventure",
+     "points": 2
+    },
+    {
+     "fr": "Donjons",
+     "en": "Dungeons",
+     "points": 3
+    },
+    {
+     "fr": "Raids",
+     "en": "Raids",
+     "points": 3
+    }
+   ],
+   "evidence": [
+    {
+     "source": "bz-24307383-en",
+     "quote": "Classes: Total of 27 points … Tradeskills : Total of 18 Points … Player vs. Player: Total of 12 points … Adventure: Total of 2 points … Dungeons: Total of 3 points … Raids: Total of 3 points"
+    }
+   ],
+   "status": "officiel confirmé",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-09-23",
+   "note": "Somme 27+18+12+2+3+3 = 65, cohérente avec le total annoncé. Libellé FR « Métiers » à recouper avec la page FR."
+  },
+  {
+   "id": "fact-valthalak-legacy-adventure",
+   "subject": "forever-questline-lord-valthalak",
+   "entityType": "quest_chain",
+   "property": "legacy_challenge",
+   "value": {
+    "category": "Adventure",
+    "points": 1
+   },
+   "evidence": [
+    {
+     "source": "bz-24307383-fr",
+     "quote": "Terminez la suite de quêtes du donjon du seigneur Valthalak."
+    },
+    {
+     "source": "bz-24307383-en",
+     "quote": "Complete the Lord Valthalak dungeon set questline"
+    }
+   ],
+   "status": "officiel confirmé",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-09-23",
+   "note": "Les étapes de la suite de quêtes ne sont pas données par Blizzard : restent « à confirmer »."
+  },
+  {
+   "id": "fact-taldramir-name",
+   "subject": "forever-item-taldramir-whispering-wood",
+   "entityType": "item",
+   "property": "name",
+   "value": {
+    "fr": "Taldramir, le bois des murmures",
+    "en": "Taldramir, the Whispering Wood"
+   },
+   "evidence": [
+    {
+     "source": "bz-24317865-fr",
+     "quote": "le premier objet légendaire de World of Warcraft: Forever, Taldramir, le bois des murmures"
+    },
+    {
+     "source": "bz-24317865-en",
+     "quote": "World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood"
+    }
+   ],
+   "status": "officiel confirmé",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-11-05",
+   "note": "Obtention, classes, stats : non annoncées.",
+   "related_entry": "forever-news-forging-forever-taldramir"
+  },
+  {
+   "id": "fact-hotfix-2026-11-08-dungeon-kill-xp",
+   "subject": "forever-news-hotfixes-nov5-6",
+   "entityType": "event",
+   "property": "hotfix",
+   "value": {
+    "change": "XP des ennemis tués en donjon +50 %",
+    "deployedAt": "2026-11-08T19:05:00Z"
+   },
+   "evidence": [
+    {
+     "source": "bzf-us-2406595",
+     "quote": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%"
+    },
+    {
+     "source": "bzf-eu-640598",
+     "quote": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%"
+    }
+   ],
+   "status": "officiel confirmé",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-11-08",
+   "note": "Heure : 11:05 PST = 20:05 CET = 19:05 UTC, cohérent US/EU. Rattaché à l’entrée v31 existante forever-news-hotfixes-nov5-6."
+  },
+  {
+   "id": "fact-class-tuning-2026-11-10",
+   "subject": "forever-news-class-tuning-nov10",
+   "entityType": "event",
+   "property": "planned_hotfix",
+   "value": {
+    "plannedFor": "2026-11-10",
+    "scope": [
+     "familiers de chasseur et Marcheur du Vide (tanks)",
+     "démoniste Affliction (Wrack vs DoT)",
+     "chaman Amélioration (Force/PA doivent primer sur Intelligence/puissance des sorts)"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "bzf-us-2404092",
+     "quote": "working through them with a plan to release hotfixes on Tuesday, November 10"
+    },
+    {
+     "source": "bzf-us-2404092",
+     "quote": "Enhancement Shamans are finding that Intellect and Spellpower are superior stats compared to Strength and Attack Power. We plan to make changes so that Strength is always their strongest stat"
+    }
+   ],
+   "status": "officiel confirmé (annonce, non livré)",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-11-06",
+   "expiresReview": "2026-11-11",
+   "note": "Passera à « obsolète » ou sera remplacé par le correctif réel après le 10/11. Le message cite « Classic Era » comme référence : vocabulaire Blizzard, à conserver tel quel en citation."
+  },
+  {
+   "id": "fact-raids-2026-12-09",
+   "subject": "article-forever-raids",
+   "entityType": "event",
+   "property": "raid_opening",
+   "value": {
+    "date": "2026-12-09",
+    "raids": [
+     "forever-raid-barrow-deeps",
+     "forever-raid-hyjal-summit",
+     "forever-raid-onyxias-lair"
+    ],
+    "levelRequired": 60
+   },
+   "evidence": [
+    {
+     "source": "bz-24303009-en",
+     "quote": "On December 9, level 60 players can put their preparation, teamwork, and mastery of their classes to the test in three raids: Barrow Deeps, Hyjal Summit, and Onyxia’s Lair."
+    }
+   ],
+   "status": "officiel confirmé (annonce)",
+   "inGameVerified": false,
+   "build": null,
+   "validFrom": "2026-10-20",
+   "note": "Nom FR officiel de Barrow Deeps : « profondeurs des Saisons » (pages FR Blizzard, déjà utilisé par le wiki)."
+  }
+ ],
+ "quarantine": [
+  {
+   "id": "q-eternadex-quest-count",
+   "property": "quest_count",
+   "value": 5167,
+   "source": "eternadex-db-en",
+   "observed": "5 167 (accueil, base) / 5 165 (page presse) le 2026-11-09",
+   "status": "extrait client",
+   "reason": [
+    "aucune licence de réutilisation (NO-GO import)",
+    "extraction des fichiers client : ne prouve pas la disponibilité en jeu",
+    "chiffre instable entre pages du même site",
+    "aucune source Blizzard ne donne ce total"
+   ],
+   "decision": "NE PAS PUBLIER ; ne pas utiliser comme objectif"
+  },
+  {
+   "id": "q-eternadex-reputation-count",
+   "property": "faction_count",
+   "value": 48,
+   "source": "eternadex-db-en",
+   "observed": "« Reputation — Factions and rewards 48 » (page base) le 2026-11-09",
+   "status": "extrait client",
+   "reason": [
+    "aucune licence",
+    "aucune source Blizzard",
+    "périmètre « réputation » ≠ « factions » non défini"
+   ],
+   "decision": "NE PAS PUBLIER"
+  }
+ ]
+}

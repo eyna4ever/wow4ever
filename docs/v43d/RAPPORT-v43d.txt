@@ -1,0 +1,6 @@
+v43d — 25/11/2026 17:21 (Europe/Paris). Paquet uploadé sur la release GitHub deploy-v5-20261030 (--clobber), revérifié après téléchargement (25/11/2026 17:21 Europe/Paris). Serveur NON touché.
+update-v43d.sh            8ee4c1fc97a40f4b0cd62972d7944d473e0ae9ca7c015391d187ef6b8195a295 (27 781 octets)
+wow4ever-wiki-v43d.tar.gz 454a7aa35509e3fd09ff14a4a87a73088946c529af39b8b54e0aaab18c50a9db (5 471 967 octets, 478 fichiers)
+empreinte wiki v43d       5875d6be00b3d058195bd8000f0ea194b323ab5dfb78e8bb7eb91858421e8dd4 (base v43b c82421613a35…, release 20261118T005337)
+Commande (après Oui de Mathieu, déjà donné t423u pour le paquet, PAS un déploiement) : voir v43d-deploy/d43d.sh. Retour arrière : bash /root/wow4ever-rollback-v43d.sh
+Chaîne : outils/data43d.py, make_tree43d.py (sur l'arbre v43c), search43d.py, tests43d.py, validate_v43d.py, make_deploy43d.py, essais43d.sh

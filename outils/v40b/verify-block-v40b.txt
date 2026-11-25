@@ -1,0 +1,93 @@
+python3 - "$NEWREL" "$OLDREL" "$V40BTAR" "$CHANGED" "$HDR39" "$FOOT_FR" "$FOOT_EN" "$V40CSS" "$V39JS" <<'PY' || die "la nouvelle release ne diffère pas de la v40 par les seuls fichiers v40b attendus."
+import hashlib,json,re,sys
+from pathlib import Path
+new,old,v40b=Path(sys.argv[1]),Path(sys.argv[2]),sys.argv[3]
+changed=set(sys.argv[4].split()); hdr39,FFR,FEN,v40css,v39js=sys.argv[5:10]
+H=lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+L=lambda r: {str(p.relative_to(r)) for p in r.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.venv' not in p.parts}
+fn,fo=L(new),L(old)
+assert fn==fo, sorted(fn^fo)[:10]
+diff={k for k in fo if H(old/k)!=H(new/k)}
+assert diff==changed, (sorted(diff-changed)[:5], sorted(changed-diff)[:5])
+assert all(k.startswith('wiki/') or k in ('tests/test_community.py','tests/wiki-baseline.json') for k in diff)
+for k in ('community/schema.sql','community/selfcheck.py','community/proxy.py','community/app.py','community/static/forum-v2.css','community/templates/base.html','community/templates/_v2_footer.html','community/templates/_v2_header.html','wiki/theme-wow.css','wiki/v2.css','wiki/assets/v25-map-azeroth-1280.webp','wiki/ui-core.mjs','wiki/theme.js','wiki/wk-header.js'):
+    if (old/k).is_file():
+        assert H(new/k)==H(old/k), k
+assert H(old/'wiki/v2.css')==v40css and H(old/'wiki/wk-header.js')==v39js
+assert H(new/'community/templates/_v2_header.html')==hdr39
+assert not any(k.startswith('wiki/assets/') for k in diff)
+b=json.loads((new/'tests/wiki-baseline.json').read_text('utf-8')); assert b['tarball_sha256']==v40b
+w=new/'wiki'; files={str(p.relative_to(w)) for p in w.rglob('*') if p.is_file()}
+assert files==set(b['files']), sorted(files^set(b['files']))[:5]
+bad=[k for k in sorted(files) if H(w/k)!=b['files'][k]]; assert not bad, bad[:5]
+fp=hashlib.sha256(('\n'.join(f'{k}\t{b["files"][k]}' for k in sorted(files))+'\n').encode()).hexdigest(); assert fp==v40b, fp
+html=[f for f in files if f.endswith('.html')]
+assert len(html)==451 and not any('sitemap' in f for f in files)
+ART={'fr/actualites/correctifs-forever-5-et-6-novembre/index.html','en/news/forever-hotfixes-november-5-6/index.html'}
+LISTS={'index.html','fr/index.html','en/index.html','fr/actualites/index.html','en/news/index.html'}
+OLDT=['Correctifs Forever du 5 au 14 novembre : XP en donjon, classes, objets et quêtes','Forever hotfixes, November 5–14: dungeon XP, classes, items and quests']
+NEWT=['Correctifs Forever du 5 au 16 novembre : XP en donjon, classes, objets et quêtes','Forever hotfixes, November 5–16: dungeon XP, classes, items and quests']
+OK={('11 min','13 min'),('13 sources','16 sources'),('14 min','17 min'),('15 November 2026','17 November 2026'),('15 novembre 2026','17 novembre 2026'),('<time datetime="2026-11-15">','<time datetime="2026-11-17">'),('Article · 14 min · ','Article · 17 min · ')}
+sys.path.insert(0,str(old/'tools'))
+from content_blocks import article_blocks
+ow=old/'wiki'
+for f in sorted(str(p.relative_to(ow)) for p in ow.rglob('index.html')):
+    o,n=(ow/f).read_text('utf-8'),(w/f).read_text('utf-8')
+    if f in ART: continue
+    assert article_blocks(o)==article_blocks(n), f
+    if 'wiki/'+f not in diff: continue
+    r=o
+    for x,y in zip(OLDT,NEWT): r=r.replace(x,y)
+    if f in LISTS:
+        to,tn=re.split(r'(<[^>]+>)',r),re.split(r'(<[^>]+>)',n); assert len(to)==len(tn), f
+        assert all(x==y or (x,y) in OK for x,y in zip(to,tn)), f
+    else:
+        assert r==n, f
+for f in ART:
+    t=(w/f).read_text('utf-8')
+    assert 'id="details-nov16"' in t and 'id="source-16"' in t and 'id="source-17"' not in t and 'Vampiric Embrace' in t, f
+    assert not re.search(r'(?i)exploit|streamer', t), f
+    assert not any(x in t for x in OLDT), f
+for f in ('fr/index.html','en/index.html'):
+    t=(w/f).read_text('utf-8')
+    assert 'class="v40-home"' in t and 'v2-hero' not in t and 'v25-map' not in t
+for f in ('fr/actualites/le-discord-officiel-wow-portal-room-accueille-les-joueurs-forever/index.html','en/news/official-wow-portal-room-discord-welcomes-forever-players/index.html'):
+    assert (ow/f).read_bytes()==(w/f).read_bytes()
+def visible(t):
+    t=re.sub(r'(?is)<script[^>]*>.*?</script>',' ',t); t=re.sub(r'(?is)<style[^>]*>.*?</style>',' ',t); return re.sub(r'<[^>]+>',' ',t)
+for f in sorted(html):
+    t=(w/f).read_text('utf-8'); vis=visible(t)
+    redirect='http-equiv="refresh"' in t
+    assert 'name="robots" content="noindex' in t, f
+    assert not re.search(r'<script(?![^>]*(\bsrc="|type="application/json"))[^>]*>|<style|\sstyle="',t), f
+    assert not re.search(r'(src|srcset)="https?:',t), f
+    assert 'wiki.gg' not in t.lower() and not re.search(r'Eternadex|Wowhead|wiki\.gg', vis, re.I), f
+    assert not any(x in t for x in OLDT), f
+    if redirect: continue
+    assert 'Site indépendant et non officiel de Blizzard Entertainment.' in t and '<html lang="' in t and 'data-theme="wow"' in t.split('<head>',1)[0] and '<span class="wk-wordmark">Wowkipedia</span>' in t, f
+    assert (FEN if f.startswith('en/') else FFR) in t, f
+game=[f for f in html if 'v39-figure is-game' in (w/f).read_text('utf-8')]
+assert len(game)==28, len(game)
+for f in game:
+    t=(w/f).read_text('utf-8'); assert ('Image du jeu © Blizzard Entertainment' if f.startswith('fr/') else 'Game image © Blizzard Entertainment') in t and 'assets/zone-jeu-' in t, f
+fh_wiki=(w/'fr/index.html').read_text('utf-8')
+eh_wiki=(w/'en/index.html').read_text('utf-8')
+fh=(new/'community/templates/_v2_header.html').read_text('utf-8')
+for lab,c in (('Zones',54),('Créatures',14),('Quêtes et progression',23),('Objets',8),('Métiers',18),('Classes',11),('Donjons et raids',26)):
+    assert f'<span class="wk-label">{lab}</span><span class="wk-count">{c}<' in fh, lab
+for lab,c in (('Zones',54),('Donjons et raids',26),('Créatures',14),('Métiers',18),('Objets',8),('Quêtes et progression',23),('JcJ',6),('Actualités',15),('Classes',11),('Races',11),('Bien débuter',18),('Glossaire',3)):
+    assert f'<strong>{lab}</strong><span class="wk-count">{c}<' in fh_wiki, lab
+for lab,c in (('Zones',54),('Dungeons and raids',26),('Creatures',14),('Professions',18),('Items',8),('Quests and progression',23),('PvP',6),('News',15),('Classes',11),('Races',11),('Getting started',18),('Glossary',3)):
+    assert f'<strong>{lab}</strong><span class="wk-count">{c}<' in eh_wiki, lab
+tj=(w/'theme.js').read_text('utf-8'); assert "localStorage.removeItem('wk-theme')" in tj and 'createElement' not in tj
+idx=json.loads((w/'search-index.json').read_text('utf-8')); ids={e['id'] for e in idx['entries']}
+assert len(ids)==209
+assert all(e.get('verification') is None for e in idx['entries'])
+oidx=json.loads((ow/'search-index.json').read_text('utf-8'))
+oe={e['id']:e for e in oidx['entries']}; ne={e['id']:e for e in idx['entries']}
+assert set(oe)==set(ne) and all(oe[k]==ne[k] for k in oe if k!='forever-news-hotfixes-nov5-6')
+assert ne['forever-news-hotfixes-nov5-6']['title']=={'fr':NEWT[0],'en':NEWT[1]} and ne['forever-news-hotfixes-nov5-6']['url']==oe['forever-news-hotfixes-nov5-6']['url']
+assert idx['categories']==oidx['categories']
+alltext=' '.join(visible((w/f).read_text('utf-8')) for f in html)
+assert not re.search(r'Stone Key|Clé de pierre|sleeping bag|sac de couchage',alltext,re.I)
+PY

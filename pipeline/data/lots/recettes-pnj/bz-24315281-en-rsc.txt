@@ -1,0 +1,700 @@
+1:"$Sreact.fragment"
+2:I[7121,[],""]
+3:I[4581,[],""]
+4:I[4602,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","9573","static/chunks/app/(standard)/%5Blang%5D/error-75bea6f7694c7185.js?dpl=de3c92e"],"default"]
+e:I[7123,[],""]
+:HL["https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/b9c8072623b40421.css?dpl=de3c92e","style",{"crossOrigin":""}]
+:HL["https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/8564484848f4dc59.css?dpl=de3c92e","style",{"crossOrigin":""}]
+:HL["https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/134fbce220ccd657.css?dpl=de3c92e","style",{"crossOrigin":""}]
+:HL["https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/a828112a9329ceba.css?dpl=de3c92e","style",{"crossOrigin":""}]
+:HL["https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/2549b8d268c5a5a0.css?dpl=de3c92e","style",{"crossOrigin":""}]
+0:{"P":null,"b":"NmVo8hbHhuJ1MIboHBqlY","p":"https://d1yyz1eeguqcjh.cloudfront.net/production-next","c":["","en-us","article","24315281","wow-forever-hotfixes-november-11-2026"],"i":false,"f":[[["",{"children":["(standard)",{"children":[["lang","en-us","d"],{"children":[["country","FR","d"],{"children":["(isr)",{"children":["article",{"children":[["contentId","24315281","d"],{"children":[["slug","wow-forever-hotfixes-november-11-2026","oc"],{"children":["__PAGE__",{}]}]}]}]}]},"$undefined","$undefined",true]}]}]}],["",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["(standard)",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["lang","en-us","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$4","errorStyles":[["$","link","0",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/b9c8072623b40421.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/134fbce220ccd657.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/a828112a9329ceba.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/5925420cf4bb58d8.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}]],"errorScripts":[],"template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$L5",[["$","link","0",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/b9c8072623b40421.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/134fbce220ccd657.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/a828112a9329ceba.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],"$L6"]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["country","FR","d"],"$L7",{"children":["(isr)","$L8",{"children":["article","$L9",{"children":[["contentId","24315281","d"],"$La",{"children":[["slug","wow-forever-hotfixes-november-11-2026","oc"],"$Lb",{"children":["__PAGE__","$Lc",{},null,false]},null,false]},null,false]},null,false]},null,false]},null,false]},null,false]},null,false]},null,false],"$Ld",false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+11:I[484,[],"OutletBoundary"]
+13:I[7837,[],"AsyncMetadataOutlet"]
+15:I[484,[],"ViewportBoundary"]
+17:I[484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+6:["$","link","3",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/5925420cf4bb58d8.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}]
+7:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/b9c8072623b40421.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/8564484848f4dc59.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/134fbce220ccd657.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/a828112a9329ceba.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}]],"$Lf"]}]
+8:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":["$L10",[["$","link","0",{"rel":"stylesheet","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/css/2549b8d268c5a5a0.css?dpl=de3c92e","precedence":"next","crossOrigin":"anonymous","nonce":"$undefined"}]],["$","$L11",null,{"children":["$L12",["$","$L13",null,{"promise":"$@14"}]]}]]}]
+d:["$","$1","h",{"children":[null,[["$","$L15",null,{"children":"$L16"}],null],["$","$L17",null,{"children":["$","div",null,{"hidden":true,"children":["$","$18",null,{"fallback":null,"children":"$L19"}]}]}]]}]
+1a:I[2593,["8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","3772","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/layout-8d73832006bd3cce.js?dpl=de3c92e"],""]
+1b:I[7900,["8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","3772","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/layout-8d73832006bd3cce.js?dpl=de3c92e"],"UserSessionProvider"]
+1c:I[50,["8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","3772","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/layout-8d73832006bd3cce.js?dpl=de3c92e"],"default"]
+1e:I[9926,["8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","3772","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/layout-8d73832006bd3cce.js?dpl=de3c92e"],"default"]
+1f:I[6675,["8217","static/chunks/8217-bd0397960bbb954f.js?dpl=de3c92e","9087","static/chunks/9087-ef0f1d273648a2c8.js?dpl=de3c92e","3772","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/layout-8d73832006bd3cce.js?dpl=de3c92e"],"default"]
+:HC"https://cdn.cookielaw.org"
+f:["$","html",null,{"lang":"en-US","dir":"ltr","style":{},"children":["$","body",null,{"style":{},"children":[[["$","$L1a",null,{"id":"cookie-consent-init","strategy":"beforeInteractive","children":"var BlzCookieConsent = JSON.parse('{\"host\":\".blizzard.com\",\"cookieInfoUrlPattern\":\"/cookies/?$\",\"onetrustScriptUrl\":\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\",\"onetrustDomainScript\":\"22011b0f-2c46-49a3-a7bf-5f98a4d4da65\"}');"}],["$","$L1a",null,{"id":"cookie-consent-filter","src":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/public/js/cookie-consent-filter.js","strategy":"beforeInteractive","defer":true}]],[["$","$L1a",null,{"id":"rum-init","children":"window.blz = window.blz || {}; window.blz.rum = {\"url\":\"\",\"appName\":\"content-news-site\",\"apiKey\":\"e334b8d1-4e55-4e04-9c68-4a6513e64688\",\"appVersion\":\"2.3.16-SNAPSHOT\",\"environment\":\"production\",\"samplingRate\":0.1};"}],["$","$L1a",null,{"id":"rum-script","src":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/public/js/rum.js"}]],["$","$L1b",null,{"userEndpoint":"/api/user","reauthUrl":"$undefined","autoReauth":"$undefined","children":[["$","$L1c",null,{"config":"$undefined","locale":"en-us","style":{},"children":"$undefined"}],"$undefined",["$","main",null,{"className":"main-content","style":{},"children":"$L1d"}],"$undefined",["$","footer",null,{"id":"site-footer","style":{"width":"100%"},"children":["$undefined",["$","$L1e",null,{"config":"$undefined"}]]}]]}],["$","$L1f",null,{"config":"$undefined"}]]}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:null
+20:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzShowcase"]
+21:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzImage"]
+22:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzHeader"]
+23:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzButtonGroup"]
+24:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzButton"]
+25:I[1930,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+5:["$","html",null,{"lang":"en-US","dir":"ltr","style":{},"children":["$","body",null,{"style":{},"children":[[["$","$L1a",null,{"id":"cookie-consent-init","strategy":"beforeInteractive","children":"var BlzCookieConsent = JSON.parse('{\"host\":\".blizzard.com\",\"cookieInfoUrlPattern\":\"/cookies/?$\",\"onetrustScriptUrl\":\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\",\"onetrustDomainScript\":\"22011b0f-2c46-49a3-a7bf-5f98a4d4da65\"}');"}],["$","$L1a",null,{"id":"cookie-consent-filter","src":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/public/js/cookie-consent-filter.js","strategy":"beforeInteractive","defer":true}]],[["$","$L1a",null,{"id":"rum-init","children":"window.blz = window.blz || {}; window.blz.rum = {\"url\":\"\",\"appName\":\"content-news-site\",\"apiKey\":\"e334b8d1-4e55-4e04-9c68-4a6513e64688\",\"appVersion\":\"2.3.16-SNAPSHOT\",\"environment\":\"production\",\"samplingRate\":0.1};"}],["$","$L1a",null,{"id":"rum-script","src":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/public/js/rum.js"}]],["$","$L1b",null,{"userEndpoint":"/api/user","reauthUrl":"$undefined","autoReauth":"$undefined","children":[["$","$L1c",null,{"config":"$undefined","locale":"en-us","style":{},"children":"$undefined"}],"$undefined",["$","main",null,{"className":"main-content","style":{},"children":["$","$L20",null,{"variant":"top-background","className":"error-page error-404","children":[["$","video",null,{"autoPlay":true,"muted":true,"loop":true,"slot":"background","poster":"https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg","className":"background-video","bp":"sm+","children":[["$","source",null,{"src":"https://bnetcmsus-a.akamaihd.net/cms/gallery/c6/C6KLQ8BWWSKR1496179646097.webm","type":"video/webm"}],["$","source",null,{"src":"https://bnetcmsus-a.akamaihd.net/cms/gallery/kr/KRYSJPOOWXX51496179560105.mp4","type":"video/mp4"}]]}],["$","$L21",null,{"slot":"background","className":"background-image","src":"https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg","aspect-ratio":"16:9","bp":"+xs"}],["$","$L22",null,{"slot":"header","layout":"center","size":"small","children":[["$","h2",null,{"slot":"heading","className":"blz-heading","children":"404 - PAGE NOT FOUND"}],["$","p",null,{"slot":"description","children":"We’ve dispatched a rescue murloc to guide you back to safety."}]]}],["$","$L23",null,{"slot":"cta","size":"medium","children":["$","$L24",null,{"href":"/","label":"Mmmrrgmgrrrgmmll!","variant":"primary","children":"Mmmrrgmgrrrgmmll!"}]}]]}]}],"$undefined",["$","footer",null,{"id":"site-footer","style":{"width":"100%"},"children":["$undefined",["$","$L1e",null,{"config":"$undefined"}]]}]]}],["$","$L1f",null,{"config":"$undefined"}]]}]}]
+1d:["$","$L25",null,{"formats":{"dateTime":{"short":{"day":"numeric","month":"short","year":"numeric"}},"number":{"precise":{"maximumFractionDigits":5}},"list":{"enumeration":{"style":"long","type":"conjunction"}}},"locale":"en-us","messages":{"error":{"404":{"_self":"404","desc":"The page you requested cannot be found.","title":"404 - PAGE NOT FOUND","button":"Mmmrrgmgrrrgmmll!","subtitle":"We’ve dispatched a rescue murloc to guide you back to safety."},"500":{"title":"SERVER ERROR","button":"Home","subtitle":"The page you’re looking for is down. Please check back later."},"error":"Error: {0}","current":"The following errors have occurred:","errorId":"Error ID: {0}","unknownUri":"Unknown URL.","cms":{"length":"You exceeded the maximum character limit of {0}","topic":{"limit":"This topic has reached its post limit. You may no longer post or reply to posts for this topic.","deleted":"This topic has been deleted.<br/><a href=\"../\">Return to the forums</a>.","throttling":"Error! You can create a new topic in {0} {0,choice,0#seconds|1#second|1<seconds}.","unavailable":""},"bml":{"invalid":""},"input":{"invalid":"Your post contains invalid or restricted HTML code."},"post":{"disabled":"Posting disabled by Parental Controls","throttling":"Error! You can create a new post every {0} {0,choice,0#seconds|1#second|1<seconds}.","delete":{"expired":"Error! You only have {0} minutes to delete your posts"}},"btag":{"required":"BattleTag Required"},"action":{"invalid":"Error! Invalid action (this currently occurs when trying to forcibly delete a post you don’t own)"},"character":{"required":"No character was found."},"forum":{"delete":{"frozen":"Topic or post may not be deleted or modified because it is frozen. "}},"bnet":{"app":{"license":{"required":"Blizzard Battle.net app license required"}}}},"unknownError":"Unknown error.","login":{"unknown":"An error has occurred. Please try again.","acct":{"404":"Account not found.","412":"No game licenses were found on this account."},"gameacct":{"404":"No {0} licenses were found on this account."}},"captcha":{"failed":"The security input you entered was invalid, please try again."},"flash":{"not-found":{"_self":"Adobe Flash Player must be installed to see this content.","desc":{"_self":"Download Adobe Flash Player","url":"http://get.adobe.com/flashplayer/"}}},"form":{"field":{"length":"This field is too long","required":"Field required","throttled":"You cannot post at this time"}}},"common":{"no":"No","ok":"Ok","go":"Go","os":{"_self":"Operating System","pc":"Windows","mac":"Mac","win":"Windows"},"sc":"StarCraft","d3":{"_self":"Diablo III","beta":"Diablo 3 Beta"},"igr":"IGR Management","all":"All","add":"Add","top":"Top","yes":"Yes","wow":{"_self":"World of Warcraft","race":{"_self":"Race","orc":{"_self":"Orc","male":"Orc","female":"Orc"},"id":{"1":"human","2":"orc","3":"dwarf","4":"nightelf","5":"undead","6":"tauren","7":"gnome","8":"troll","9":"goblin","10":"bloodelf","11":"draenei","12":"goblin","13":"worgen","22":"worgen","24":"pandaren","25":"pandaren","26":"pandaren","27":"nightborne","28":"highmountaintauren","29":"voidelf","30":"lightforgeddraenei"},"dwarf":{"_self":"Dwarf","male":"Dwarf","female":"Dwarf"},"gnome":{"_self":"Gnome","male":"Gnome","female":"Gnome"},"human":{"_self":"Human","male":"Human","female":"Human"},"troll":{"_self":"Troll","male":"Troll","female":"Troll"},"worgen":{"_self":"Worgen","male":"Worgen","female":"Worgen"},"tauren":{"_self":"Tauren","male":"Tauren","female":"Tauren"},"undead":{"_self":"Undead","male":"Undead","female":"Undead"},"goblin":{"_self":"Goblin","male":"Goblin","female":"Goblin"},"draenei":{"_self":"Draenei","male":"Draenei","female":"Draenei"},"voidelf":{"_self":"Void Elf","male":"Void Elf","female":"Void Elf"},"nightelf":{"_self":"Night Elf","male":"Night Elf","female":"Night Elf"},"bloodelf":{"_self":"Blood Elf","male":"Blood Elf","female":"Blood Elf"},"forsaken":{"_self":"Forsaken","male":"Forsaken","female":"Forsaken"},"blood_elf":{"_self":"blood elf","male":"blood elf","female":"blood elf"},"nightborne":{"_self":"Nightborne","male":"Nightborne","female":"Nightborne"},"pandarenhorde":{"_self":"Pandaren","male":"Pandaren","female":"Pandaren"},"pandarenneutral":{"_self":"Pandaren","male":"Pandaren","female":"Pandaren"},"pandarenalliance":{"_self":"Pandaren","male":"Pandaren","female":"Pandaren"},"lightforgeddraenei":{"_self":"Lightforged Draenei","male":"Lightforged Draenei","female":"Lightforged Draenei"},"highmountaintauren":{"_self":"Highmountain Tauren","male":"Highmountain Tauren","female":"Highmountain Tauren"}},"realm":{"_self":"Realm","type":{"_self":"Realm Type","rp":"RP","pvp":"PvP","pve":"PvE","rppvp":"RP PvP","rp-pvp":"RP PvP","tournament":"Tournament"}},"class":{"_self":"Class","mage":{"_self":"Mage","male":"Mage","female":"Mage"},"monk":{"_self":"Monk","male":"Monk","female":"Monk"},"id":{"1":"warrior","2":"paladin","3":"hunter","4":"rogue","5":"priest","6":"deathknight","7":"shaman","8":"mage","9":"warlock","10":"monk","11":"druid"},"rogue":{"_self":"Rogue","male":"Rogue","female":"Rogue"},"druid":{"_self":"Druid","male":"Druid","female":"Druid"},"priest":{"_self":"Priest","male":"Priest","female":"Priest"},"shaman":{"_self":"Shaman","male":"Shaman","female":"Shaman"},"hunter":{"_self":"Hunter","male":"Hunter","female":"Hunter"},"warrior":{"_self":"Warrior","male":"Warrior","female":"Warrior"},"warlock":{"_self":"Warlock","male":"Warlock","female":"Warlock"},"paladin":{"_self":"Paladin","male":"Paladin","female":"Paladin"},"deathknight":{"_self":"Death Knight","male":"Death Knight","female":"Death Knight"},"demonhunter":{"_self":"Demon Hunter","male":"Demon Hunter","female":"Demon Hunter"}},"races":"Races","armor":{"_self":"Armor","type":{"_self":"Armor Type","mail":"Mail","cloth":"Cloth","plate":"Plate","leather":"Leather","shields":"Shields"}},"faction":{"_self":"Faction","horde":"Horde","alliance":"Alliance"},"classes":"Classes","item":{"axe":{"_self":"Axe","oneHanded":"One-Handed Axe","twoHanded":"Two-Handed Axe"},"gun":"Gun","bow":"Bow","axes":{"_self":"Axes","oneHanded":"One-Handed Axes","twoHanded":"Two-Handed Axes"},"mace":{"_self":"Mace","oneHanded":"One-Handed Mace","twoHanded":"Two-Handed Mace"},"wand":"Wand","guns":"Guns","bows":"Bows","maces":{"_self":"Maces","oneHanded":"One-Handed Maces","twoHanded":"Two-Handed Maces"},"sword":{"_self":"Sword","oneHanded":"One-Handed Sword","twoHanded":"Two-Handed Sword"},"staff":"Staff","wands":"Wands","totem":"Totem","sigil":"Sigil","relic":"Relic","swords":{"_self":"Swords","oneHanded":"One-Handed Swords","twoHanded":"Two-Handed Swords"},"dagger":"Dagger","staves":"Staves","thrown":"Thrown","shield":"Shield","libram":"Libram","daggers":"Daggers","throwns":"Throwns","polearm":"Polearm","crossbow":"Crossbow","polearms":"Polearms","crossbows":"Crossbows","warglaive":"Warglaive","fistWeapon":"Fist Weapon","warglaives":"Warglaives","fistWeapons":"Fist Weapons","fishingpole":"Fishing Pole","fishingpoles":"Fishing Poles","unarmedWeapon":"Unarmed Weapon","unarmedWeapons":"Unarmed Weapons"},"gender":{"id":{"0":"male","1":"female"}},"armory":{"title":"World of Warcraft: Armory"},"levelRaceClass":"{0} {1} {2}","character":{"name":"name","level":"level","gender":{"_self":"gender","male":"male","female":"female"},"status":"status"},"equipment":{"slot":{"head":"Head","neck":"Neck","back":"Back","legs":"Legs","feet":"Feet","ring":"Ring","ammo":"Ammo","chest":"Chest","shirt":"Shirt","wrist":"Wrist","hands":"Hands","waist":"Waist","relic":"Relic","tabard":"Tabard","ranged":"Ranged","trinket":"Trinket","offhand":"Off Hand","shoulder":"Shoulder","mainhand":"Main Hand"}},"realmstatus":{"myRealms":"My Realms","allRealms":"All Realms"},"talent":{"tree":{"mage":{"fire":"Fire","frost":"Frost","arcane":"Arcane"},"druid":{"feral":"Feral","balance":"Balance","restoration":"Restoration"},"priest":{"holy":"Holy","shadow":"Shadow","discipline":"Discipline"},"paladin":{"holy":"Holy","protection":"Protection","retribution":"Retribution"},"rogue":{"combat":"Combat","subtlety":"Subtlety","assassination":"Assassination"},"warrior":{"arms":"Arms","fury":"Fury","protection":"Protection"},"hunter":{"survival":"Survival","marksmanship":"Marksmanship","beast-mastery":"Beast Mastery"},"shaman":{"elemental":"Elemental","enhancement":"Enhancement","restoration":"Restoration"},"death-knight":{"blood":"Blood","frost":"Frost","unholy":"Unholy"},"warlock":{"affliction":"Affliction","demonology":"Demonology","destruction":"Destruction"}}},"underconstruction":{"title":"You are entering the Armory.","description":"This section of the new World of Warcraft website is not yet available. <br />The content you are looking for is available on the Armory in the meantime."}},"scr":"《星际争霸：重制版》","sc2":{"_self":"StarCraft II","race":{"terr":"Terran","prot":"Protoss","zerg":"Zerg","rand":"Random","terran":"Terran","random":"Random","protoss":"Protoss","unknown":"Unknown"},"region":{"dev":"Development","us":{"1":"North America","2":"Latin America"},"eu":{"1":"Europe","2":"Russia"},"kr":{"1":"Korea","2":"Taiwan"},"tw":{"1":"Korea","2":"Taiwan"},"cn":{"1":"China"},"sea":{"1":"South-East Asia"}},"unit":{"terran":{"scv":"SCV","thor":"Thor","ghost":"Ghost","raven":"Raven","marine":"Marine","reaper":"Reaper","viking":"Viking","hellion":"Hellion","medivac":"Medivac","banshee":"Banshee","marauder":"Marauder","siege-tank":"Siege Tank","battlecruiser":"Battlecruiser","missile-turret":"Missile Turret"},"zerg":{"larva":"Larva","drone":"Drone","queen":"Queen","roach":"Roach","overlord":"Overlord","zergling":"Zergling","baneling":"Baneling","overseer":"Overseer","infestor":"Infestor","mutalisk":"Mutalisk","hydralisk":"Hydralisk","corruptor":"Corruptor","ultralisk":"Ultralisk","nydus-worm":"Nydus Worm","brood-lord":"Brood Lord","spore-crawler":"Spore Crawler"},"protoss":{"probe":"Probe","zealot":"Zealot","sentry":"Sentry","archon":"Archon","stalker":"Stalker","phoenix":"Phoenix","carrier":"Carrier","observer":"Observer","immortal":"Immortal","colossus":"Colossus","void-ray":"Void Ray","warp-prism":"Warp Prism","mothership":"Mothership","high-templar":"High Templar","dark-templar":"Dark Templar","photon-cannon":"Photon Cannon"}}},"wc1":"Warcraft I","wc2":"Warcraft II","wc3":"Warcraft III","faq":{"_self":"FAQ","full":"Frequently Asked Questions"},"day":"Day","bnet":"Blizzard®","back":"Back","date":{"_self":"Date","time":{"format":{"_self":"h:mm a","timezone":"h:mm a zzz"}},"datetime":{"format":{"_self":"MM/dd/yyyy hh:mm a","long":"MMM d, yyyy h:mm a zzz","short":"M/d/yyyy","medium":"M/d/yyyy h:mm a zzz"}},"date":{"short":{"format":"MM/dd/yyyy","format2":"MM/dd/yy"},"medium":{"format":"MM/dd/yyyy h:mm a"}}},"hide":"Hide","home":"Home","move":"Move","save":"Save","show":{"_self":"Show","tooltip":"Show tooltip"},"type":"Type","view":{"_self":"View","all":"View all","more":"View more"},"more":"More","less":"Less","male":"Male","help":"Help","info":"Info","news":"News","next":"Next","page":{"_self":"Page","next":"Next Page","phrase":"Page {0} of {1}","previous":"Previous Page"},"prev":"Prev","step":{"_self":"Step","phrase":"Step {0} of {1}"},"game":{"_self":"Game","s2":{"_self":"StarCraft II","store":"1100001122"},"d3":{"_self":"Diablo III","store":""},"add":"Add Game","wowc":{"_self":"World of Warcraft","store":"110000034"},"star":{"_self":"StarCraft","store":"110000101"},"d3x1":{"_self":"Ultimate Evil Edition™","store":""},"d2dv":{"_self":"Diablo II","store":"110000047"},"d2xp":{"_self":"Diablo II: Lord of Destruction","store":"110000048"},"war3":{"_self":"Warcraft III: Reign of Chaos","store":"110000090"},"w3xp":{"_self":"Warcraft III: The Frozen Throne","store":"110000049"},"wowx1":{"_self":"World of Warcraft: The Burning Crusade","store":"110000018"},"wowx2":{"_self":"World of Warcraft: Wrath of the Lich King","store":"1100000265"},"wowx3":{"_self":"World of Warcraft: Cataclysm","store":""},"manage":"Manage Game"},"name":{"_self":"Name","item":""},"days":"Days","week":"Week","year":"Year","digg":"Digg","store":"Blizzard Store","close":"Close","error":"Error","level":"Level","merge":"Merge","reset":"Reset","about":"About","setup":{"_self":"Setup","subscript":"Set Up Subscription"},"trial":{"_self":"Trial","expires":"Your trial expires in {0} day(s).","expired":"Your trial has expired.","posterror":"Trial accounts are unable to post in this forum."},"cdkey":"CD Key","games":"Games","state":"State/Region/Province","login":"Log In","month":{"1":"January","2":"February","3":"March","4":"April","5":"May","6":"June","7":"July","8":"August","9":"September","10":"October","11":"November","12":"December","_self":"Month"},"weeks":"Weeks","years":"Years","today":"Today","c-log":"싸이월드C로그","plurk":"Plurk","qzone":"Tencent QZone","armory":"WoW Armory","browse":"Browse","cancel":"Cancel","change":"Change","choose":"Choose","create":{"_self":"Create","account":"Create Account"},"delete":"Delete","manage":"Manage","online":"Online","remove":"Remove","search":{"_self":"Search","tip":{"1":"Make sure all words are spelled correctly","2":"Try using more general keywords","3":"Your search term is a minimum of 3 characters","wow":"If you know a character’s name and realm, use the format character@realm"},"begin":"What do you want to know?","sortby":"Sort by:","type":{"kb":"Support","all":"Summary","url":"Suggested Links","post":"Forums","topic":"Topic","other":"Other","static":"General Content","friend":"Friends","support":"Support Articles","product":"Marketplace Products","article":"Blog Articles","wowitem":"Items","wowguild":"Guilds","wowcharacter":"Characters","wowarenateam":"Arena Teams","supportforums":"Support Forums"},"related":"Related terms:","searchin":"All results in {0}","postedBy":"Posted by {0} on {1}","view":{"all":"View all forum results"},"sort":{"time":"Date","score":"Relevance","popularity":"Popularity"},"searchfor":"Summary of results for {0}","noSubject":"No subject","arenatype":"","battle":{"net":"Search Blizzard"},"static":{"npc":"NPC","map":"Map","home":"Home","race":"Race","lore":"Lore","zone":"Zone","boss":"Boss","item":"Item","hero":"Hero","unit":"Unit","tool":"Tool","guild":"Guild","class":"Class","guide":"Guide","patch":"Patch","spell":"Spell","quest":"Quest","skill":"Skill","games":"Games","planet":"Planet","recipe":"Recipe","faction":"Faction","ability":"Ability","artisan":"Artisan","building":"Building","follower":"Follower","character":"Character","profession":"Profession","event-info":"Event Information","achievement":"Achievement","pet-battles":"Pet Battles","media-gallery":"Media Gallery"},"forumReply":"Reply","suggestion":"Suggestions for searching:","table":{"item":"","name":"","race":"","class":"","guild":"","level":"","realm":"","source":"","summary":"Summary","faction":"","keywords":"Keywords","itemtype":"","itemlevel":"","popularity":"Popularity","battlegroup":""},"searchagain":"Please search again…","termsuggest":"Did you mean: {0}","forumResult":{"_self":"Forum Search","return":"Return to {0}","location":"in {0}"},"emptySearch":"Your search for {0} has no matches.","input":{"forum":"Search this forum…"},"dynamic":{"more":"More {0} results","title":{"kb":"Support results for {0}","post":"Forum results for {0}","static":"Content results for {0}","author":"Author results for {0}","friend":"Friend results for {0}","wowitem":"Item results for {0}","product":"Product results for {0}","article":"Article results for {0}","support":"Support results for {0}","wowguild":"Guild results for {0}","wowcharacter":"Character results for {0}","wowarenateam":"Arena Team results for {0}"}},"searchinside":"Search within these results","spellcorrect":"Did you mean:","popularThreads":"Popular Topics","result":{"ranking":""},"authorResult":{"by":"by {0}"},"supportsearchfor":"Search results for “{0}” in {1}","maintenance":{"desc":"<strong>Search is currently in maintenance.</strong><br/><br/>We are sorry for the inconvenience, please try again later.","title":"Maintenance"}},"select":"Select","submit":"Submit","update":"Update","status":"Status","filter":{"_self":"Filter","alt":"Filter…"},"modify":"Modify","female":"Female","active":"Active","banned":"Banned","failed":"Failed","tryNow":{"_self":"Try it Now","exclaim":"Try it Now!"},"diablo":"Diablo","heroes":"Heroes of the Storm","arcade":"Arcade","logout":"Log Out","signup":{"_self":"Don’t have an account yet? <a href=\"{0}\">Sign up now</a>!","exclaim":"Sign up!"},"answer":"Answer","months":"Months","me2day":"Me2day","reddit":"Reddit","tuenti":"Tuenti","renren":"RenRen","support":"Blizzard® Support","esports":"Blizzard® eSports","connect":"Blizzard® Connect","confirm":"Confirm","upgrade":"Upgrade","pending":"Pending","example":"Example","warning":"Warning","welcome":{"_self":"Welcome","full":"Welcome, {0}","exclaim":"Welcome!"},"deleted":"Deleted","expired":"Expired","success":{"_self":"Success","exclaim":"Success!"},"license":"License","diablo2":"Diablo II","diablo3":"Diablo III","classic":"Classic","address":"Address","country":"Country","twitter":"Twitter","youtube":"Youtube","mySpace":"MySpace","studivz":"studiVz","bml":{"url":{"_self":"URL","prompt":"URL Address:"},"bold":"Bold","list":"Unordered List","code":"Code Blocks","item":{"_self":"WoW Item","prompt":"Item ID:","missing":"(Item not found)"},"quote":"Quote","italics":"Italics","quoteBy":"Posted by {0}","cleanup":"Fix Linebreaks","listItem":"List Item","unformat":"Remove Formating","underline":"Underline"},"js":{"last":"Last","first":"First","error":"An error has occurred","loading":"Loading…","fansiteFind":"Find this on…","fansiteNone":"No fansites available.","fansite":{"npc":"NPC","pet":"pet","pvp":"PvP","zone":"zone","item":"item","race":"race","class":"class","skill":"profession","quest":"quest","spell":"spell","event":"event","title":"title","arena":"arena team","guild":"guild","object":"object","faction":"faction","character":"character","talentcalc":"talents","achievement":"achievement"},"viewInGallery":"View in gallery","fansiteFindType":"Find {0} on…"},"blizzard":"Blizzard","blizzcon":"BlizzCon®","activate":"Activate","continue":"Continue","comments":"Comments","loadMore":"Load more","settings":"Settings","tab":{"next":"Next Tab","previous":"Previous Tab"},"previous":"Previous","progress":"Progress","download":{"_self":"Download","game":"Download Game","client":"Download Client"},"licenses":"Licenses","warcraft":"Warcraft","password":{"_self":"Password","confirm":"Confirm Password"},"required":"Required","asterisk":"*","username":"Username","lastName":"Last Name","address1":"Address 1","address2":"Address 2","question":"Question","facebook":"Facebook","diggThis":"Digg This","micro-qq":"Tencent Micro Blog","feedback":{"_self":"Feedback","page":"Page URL","user":{"_self":"User Account","email":"Email Address"},"error":"Error","intro":{"_self":"","error":"Found a problem with our sites? Let us know!","feedback":"Send your website suggestions and ideas directly to Blizzard!","supportsite":"For account and game related support issues, please use the <a href=\"http://battle.net/support/\" target=\"_blank\">Blizzard Support Site</a>."},"thanks":"Thank you for helping to improve Blizzard services!","subject":"Subject","invalid":"Invalid","characters":"characters remaining","reportError":"Report this error","report":{"from":"From","issue":"Issue","url":{"user":"User-reported URL","system":"System-reported URL"}},"button":{"error":"Report Website Error","feedback":"Send Website Feedback"},"validation":{"body":"Body Required","email":{"_self":"Email Required","invalid":"Invalid email address"},"close":"Close this window","subject":"Subject Required","generic":"Field Required","success":"We have received your report. Thank you for helping us help you help us all.","serverError":"Server Error. Please try again later.","characterLimit":"{0} is the character limit"}},"battlenet":"Blizzard","learnMore":"Learn more","cancelled":"Canceled","suspended":"Suspended","noResults":"There are no results to display.","expansion":"Expansion","starcraft":"StarCraft","overwatch":"Overwatch","firstName":"First Name","extension":"Ext.","loggedout":"You are logged out","weekday":{"1":"Monday","2":"Tuesday","3":"Wednesday","4":"Thursday","5":"Friday","6":"Saturday","7":"Sunday","min":{"1":"","2":"","3":"","4":"","5":"","6":"","7":""},"short":{"1":"Mon","2":"Tue","3":"Wed","4":"Thu","5":"Fri","6":"Sat","7":"Sun"}},"tweetThis":"Tweet this","instagram":"Instagram","vkontakte":"VKontakte","micro-163":"Netease Micro Blog","getBnetApp":"Get the Blizzard Battle.net desktop app","grammar":{"or":"{0} or {1}","st":"{0}st","nd":"{0}nd","rd":"{0}rd","th":"{0}th","and":"{0} and {1}","colon":"{0}:","comma":",","quotes":{"_self":"“{0}”","opening":"“","closing":"”"},"percent":"{0}%","brackets":"[{0}]","ellipsis":"{0}…","nameOrder":"{0} {1}","parenthesis":"({0})","ordinalSuffix":"{0}{1,choice,0#th|1#st|2#nd|3#rd|3<th}","serialComma":{"or":"{0}, or {1}","and":"{0}, and {1}"},"enumerationComma":"{0}, {1}"},"continueTo":"Continue to {0}","processing":"Processing…","buy":{"online":{"_self":"Buy Online","now":"Buy Online Now"}},"terminated":"Terminated","upgradeNow":{"_self":"Upgrade Now","exclaim":"Upgrade Now!"},"resultsPer":"Results per page:","postalCode":"Zip/Postal Code","googleplus":"Google+","micro-sina":"Sina Micro Blog","connect-qq":"Connect QQ","cms":{"byline":"by {0}","notLoggedIn":"You are not logged in.","report":{"OTHER":"Other","ILLEGAL":"Illegal","IN_GAME":"in-game activities that violate the Blizzard EULA.","SPAMMING":"Spamming","BAD_LINK":"Bad Link","TROLLING":"Trolling","HARASSMENT":"Harassment","ADVERTISING":"Advertising","otherreason":"some reason","RACIAL_HATRED":"Hate Speech (Race)","NOT_SPECIFIED":"Not Specified","STICKY_REQUEST":"Sticky Request","RELIGION_HATRED":"Hate Speech (Religion)","OBSCENE_LANGUAGE":"Obscene Language","SPAMMING_TROLLING":"Spamming / Trolling","REAL_LIFE_THREATS":"Real Life Threats","ADVERTISING_STRADING":"Advertising"},"broadcastMore":"Read on {0}"},"marketplace":"Blizzard® Marketplace","description":"Description","information":"Information","hearthstone":"Hearthstone","classicBnet":"Classic Battle.net®","lostVikings":"The Lost Vikings","rockAndRoll":"Rock ‘N Roll Racing","blackthorne":"Blackthorne","accountName":"Account Name","phoneNumber":"Phone Number","stumbleUpon":"StumbleUpon","nasza-klasa":"NasZa-Klasa","share":{"title":"Share:"},"classicGames":"Classic Games","emailAddress":{"_self":"Email","confirm":"Confirm Email"},"secretAnswer":"Secret Answer","mobileNumber":"Mobile Number","securitInput":{"_self":"Security Input","description":"For security reasons, enter the characters you see in the image."},"webfont":{"daum":"Portion of this page uses Daum font.","nanum":""},"currency":{"USD":"$${0}","EUR":"{0} €","RUB":"{0} RUB","GBP":"£ {0}","KRW":"₩{0}","JPY":"¥{0}","CLP":"$${0} CLP","ARS":"$${0} ARS","MXN":"$${0} MXN","BRL":"R${0} BRL"},"noAccountYet":"Don’t have a Blizzard® Account?","numbers":{"range":"{0}–{1}","1decimals":"{0,number,0.0}","2decimals":"{0,number,0.00}","3decimals":"{0,number,0.000}","multivalue":"{0}/{1}"},"get":{"retailBox":"Get Retail Box"},"passwordRules":"Password Rules","securityInput":{"_self":"Security Input","description":"For security reasons, enter the characters you see in the image.","placeholder":"Enter the characters"},"legal":{"privacy":"Online Privacy Policy","copyright":"©{0} Blizzard Entertainment, Inc. All rights reserved","termsOfUse":{"_self":"Blizzard EULA","accept":"I accept the terms of the Blizzard EULA applicable to my country of residence.","agreement":"Blizzard EULA","mustScroll":"You must scroll down to the end of this Agreement to continue."},"truste":{"alt":"Validate TRUSTe privacy certification"},"xinchuShenzi":"only for cn","esrb":{"privacy":"ESRB Privacy Certified, Click to Privacy Statement","ratingsGuide":"ESRB Ratings Guide"},"blizzard":{"termsOfUse":"Blizzard EULA"}},"odnoklassniki":"Odnoklassniki","social":{"postOn":"Post on {0}","sendTo":"Send to {0}","shareOn":"Share on {0}","tracking":{"event":{"action":"","category":""}}},"fansite":{"findX":"Find {0} on:","findThis":"Find this on:"},"showingResults":"Showing {0}–{1} of {2} results","secretQuestion":"Secret Question","forgotPassword":"Forgot your account <a href=\"{0}\">password</a>?","time":{"pasttense":"{0} ago","brief":{"days":"{0} {0,choice,1#day|1<days}","hours":"{0} {0,choice,1#hour|1<hours}","weeks":"{0} {0,choice,1#week|1<weeks}","seconds":"{0} {0,choice,0#seconds|1#second|1<seconds}","minutes":"{0} {0,choice,1#minute|1<minutes}","milliseconds":"{0} {0,choice,0#millseconds|1#millisecond|1<milliseconds}"},"short":{"days":"{0}d{1,choice,0#|0<, {1}h}","hours":"{0}h{1,choice,0#|0<, {1}m}","seconds":"{0}s","minutes":"{0}m"},"futuretense":"in {0}","relative":{"days":"{0} {0,choice,1#day|1<days}{1,choice,0#|1#, {1} hour|1<, {1} hours}","hours":"{0} {0,choice,1#hour|1<hours}{1,choice,0#|1#, {1} minute|1<, {1} minutes}","recent":"a few seconds","seconds":"{0} {0,choice,0#seconds|1#second|1<seconds}","minutes":"{0} {0,choice,1#minute|1<minutes}","brief":{"days":"{0} {0,choice,1#day|1<days}","full":"MMM d, yyyy","hours":"{0} {0,choice,1#hour|1<hours}","seconds":"{0} sec","minutes":"{0} min"}}},"context":{"manage":{"_self":"Manage Characters","desc":"Customize characters that appear in this menu."},"return":"Return to characters","filter":"Filter…","profile":"Profile","noResults":"No characters were found","viewEvents":"View events","viewAuctions":"View auctions"},"vanityDomain":{"d3":"Diablo3.com","wow":"WorldOfWarcraft.com","sc2":"StarCraft2.com","bam":"Blizzard Account Management","bnet":"Blizzard","root":"Blizzard","esports":"Blizzard eSports","support":"Blizzard Support","connect":"Blizzard Connect","blizzcon":"Blizzcon.com","e-sports":"Blizzard eSports","hearthstone":"PlayHearthstone.com"},"congratulations":{"_self":"Congratulations","exclaim":"Congratulations!"},"company":{"contact":{"_self":"대표 번호: 1644-0727","wow":"대표 번호: 1644-0727"},"address":{"kr":"블리자드 엔터테인먼트 유한 회사<br/>주소: 06069 서울시 청담동 41-2 금하빌딩 2층<br/>도로명 주소: 06069 서울시 강남구 학동로 401 금하빌딩 2층<br/>{0} | 팩스 번호: (02)544-3038 | 이메일: <a href=\"https://kr.battle.net/support/ko/\">websupport@blizzard.co.kr</a><br/>사업자 등록 번호: 211-87-49910 | 통신 판매업 신고 번호: 강남-6017호 | <a href=\"http://ftc.go.kr/info/bizinfo/communicationView.jsp?apv_perm_no=2004322008330206017&amp;area1=&amp;area2=&amp;currpage=1&amp;searchKey=04&amp;searchVal=2118749910&amp;stdate=&amp;enddate=\" target=\"_blank\">사업자정보확인</a><br/>대표이사: 마이클 모하임, 마이클 퐁 | 개인정보 관리 책임자: 전동진 Operation팀/Operation담당이사","contact":{"_self":"대표 번호 : 1644-0727","wow":"고객 센터 연락번호 : 1644-0727"}}},"verificationCode":"Verification Number","opensearch":{"title":"Blizzard Search"},"battlenet-account":"Blizzard Account Management","accountManagement":"Account Management","limited":{"posterror":{"_self":"This account has limited posting access due to the following condition:","desc":"Forums that you have permission to post in are marked as [Limited] on the forum list."}},"media":{"filters":{"all":"All {0}","clear":"Clear Filters","cancel":"Cancel","addFilter":"Add filters to narrow down results","noResults":"No media content was found matching your filter criteria.","noContent":"This media gallery contains no content.","applyFilters":"Apply Filters","filterOptions":"Filter Options","currentFilters":{"_self":"Current Filters:","none":"None"},"currentlyViewing":{"_self":"Currently Viewing:","videos":"All Videos","comics":"Comics","artwork":"All Artwork","fan-art":"All Fan Art","costumes":"All Costumes","wallpapers":"All Wallpapers","screenshots":"All Screenshots","concept-art":"All Concept Art"}},"gallery":{"desc":"Description:","year":"Year:","view":"View:","title":"Title:","artist":"Artist:","length":"Length:","author":"Author:","details":"Details","keyword":"Keyword:","formats":{"_self":"Additional Formats","full":"Original","fullSize":"Full Size"},"keywords":"Keywords:","download":{"_self":"Download:","full":"Download full image"},"audio":{"mb":"{0} MB","kb":"{0} KB","kbps":"{0} kbps","download":"Download","freeDownload":"Free Download","minuteDisplay":"{0}min {1}sec","purchaseFromItunes":"Purchase from iTunes"},"pagingTip":"Tip: Use keyboard arrow keys to quickly scroll through images","dateAdded":"Date Added: {0}","load":{"fail":"An error has occured loading the requested information."},"next":{"image":"Next Image","video":"Next Video"},"resolution":"Resolution:","resolutions":"Resolutions:","lastModified":"Last Modified: {0}","submitted-by":"Submitted By:","loadComments":"Load Comments","viewInGallery":"View in Gallery","previous":{"image":"Previous Image","video":"Previous Video"},"loadingComments":"Loading comments…","loadingComment":{"error":"There was an error loading comments for this page, <a href=\"javascript:;\" onclick=\"{0}\">retry?</a>","invalid":"Invalid request."},"tooltip":{"viewType":{"filmStripView":"Switch to filmstrip view","thumbnailView":"Switch to large thumbnail view"}}},"fanart":{"submit":"Have fan art to submit? <a href=\"{0}\">Review our submission policy</a> and <a href=\"{1}\">share your work</a>."},"comics":{"submit":"Have a comic to submit? <a href=\"{0}\">Review our submission policy</a> and <a href=\"{1}\">share your work</a>."},"section":{"misc":{"title":"Misc Galleries","viewAll":"All Misc"},"audio":{"title":"Audio","viewAll":"All Audio"},"videos":{"title":"Videos","viewAll":"All Videos"},"fanart":{"title":"Fan Art","viewAll":"All Fan Art"},"comics":{"title":"Comics","viewAll":"All Comics"},"photos":{"title":"Photos","viewAll":"All Photos"},"artwork":{"title":"Artwork","viewAll":"All Artwork"},"costumes":{"title":"Costume Gallery","viewAll":"All Costumes"},"downloads":{"title":"Downloads","viewAll":"All Downloads"},"wallpapers":{"title":"Wallpapers","viewAll":"All Wallpapers"},"screenshots":{"title":"Screenshots","viewAll":"All Screenshots"}}},"open":{"in":{"new":{"window":"Open in new window"}}},"chargeback_accepted":"Chargeback Accepted","createAccount":{"step":{"1":"Click the button “Create Account”.","2":"Follow the instructions and validate your email address.","3":"Log in to your Account.","4":"Click on “Account” at the top right.","5":"Click “Buy Digital Games” and select “{0}”."}},"interstitial":{"ob":{"link1":"","link2":"","link3":"","link4":"","link5":"","support":{"link1":"","link2":"","link3":"","link4":""}}},"battletag":{"create":{"desc":{"_self":"To post on {0} using a Diablo III character, you must create a BattleTag.","small":"<strong>Create a BattleTag</strong> to post in this community."},"title":"BattleTag Required","button":"Create BattleTag"}},"leagal":{"parentalControls":"Parental Controls"},"forums":{"blizzTracker":{"truncationLength":"28"}}},"d3":{"class":{"1":"Barbarian","2":"Demon Hunter","3":"Monk","4":"Witch Doctor","5":"Wizard"}},"afools":{"lol":"lol, lulz, lmao, roflmao, lawl, rofl, I lol’d IRL, kekeke, lolcats, imo, , , , lolwut"},"cms":{"js":{"ilvl":"Level {0}","searchFor":"Search for","ignore":{"not":"Not ignoring this user","already":"Already ignoring this user"},"searchTags":"Articles tagged:","shortQuery":"Search requests must be at least three characters long.","requestError":"Your request cannot be completed.","validationError":"A required field is incomplete","characterExceed":"The post body exceeds XXXXXX characters.","sticky":{"requested":"Sticky requested","hasbeen":{"requested":"You have already sent a sticky request for this topic."}},"tracker":{"post":{"added":"Post added to tracker","removed":"Post removed from tracker"},"user":{"added":"User added to tracker","removed":"User removed from tracker"}},"characterAjaxError":"You may have become logged out. Please refresh the page and try again."},"blog":{"blog":"Blog","tags":"Tags","recent":"Recent Articles","related":"Related Articles"},"forums":{"ban":"Ban","mvp":"MVP","type":"Type","reason":"Reason","cm":{"lock":{"_self":"Lock Topic","desc":"Are you sure you want to <strong>lock</strong> this topic? (Note: Moderators can still post in locked topics)","submit":"Yes, lock this topic","cancel":"No, keep unlocked"},"move":{"_self":"Move Topic","topic-destination":"Topic Destination"},"unlock":{"_self":"Unlock Topic","desc":"Are you sure you want to <strong>unlock</strong> this topic?","submit":"Yes, unlock this topic","cancel":"No, keep locked"},"freeze":{"_self":"Freeze Topic","desc":"Are you sure you want to <strong>freeze</strong> this topic?","submit":"Yes, freeze this topic","cancel":"No, keep unfrozen"},"delete":{"_self":"Delete Topic","desc":"Are you sure you want to delete this topic?","submit":"Yes, delete topic","cancel":"No, keep this topic"},"sticky":{"_self":"Toggle Sticky","add":{"_self":"Add Sticky","desc":"Are you sure you want to add this topic to the list of stickies?","submit":"Yes, add sticky","cancel":"No, I do not want to sticky this topic"},"remove":{"_self":"Remove Sticky","desc":"Are you sure you want to remove this topic from the list of stickies? (Note: This will NOT delete the topic)","submit":"Yes, remove sticky","cancel":"No, I want to keep this topic stickied"}},"userIP":"User IP","toggle":"Toggle","moremod":"More mod options","banUser":"Ban User","noVotes":"No Votes","unfreeze":{"_self":"Unfreeze Topic","desc":"Are you sure you want to <strong>unfreeze</strong> this topic?","submit":"Yes, unfreeze this topic","cancel":"No, keep frozen"},"allPosts":"All Posts on this Account","nukeUser":"Nuke User’s Posts","undelete":{"_self":"Undelete","reloadtopic":"Reloading this topic..."},"moderator":"Moderator","selectAll":{"_self":"Select all","posts":"Select All Posts"},"saveOrder":"Save Order","editThread":"Edit Topic","edit":{"title":"Title","postLimit":{"_self":"Post Limit","desc":"Maximum number of posts allowed on this topic","tooltip":"Number of posts allowed in this topic"}},"markdelete":"Mark for mass deletion","modoptions":{"_self":"Moderation Options","warning":"Warning: Please use a different browser for forum moderation. Moderation options are only intended for use with the latest version of Chrome or Firefox."},"editSuccess":"Success. Reload?","post":{"postID":"Post ID: {0}","userID":"User ID: {0}","rating":"Rating: {0}","percent-negative":"{0}% negative","percent-positive":"{0}% positive"},"deleteConfirm":{"_self":"Are you sure you want to delete topic – {0}","multi":"Delete XXX selected posts?"},"reorderSticky":"Reorder Stickies","dragToReorder":{"_self":"Drag to reorder","desc":"Use blue arrows to reorder stickied topics. Non-stickied topics can be added to the sticky list by dragging to the sticky list."},"banForm":{"title":"User: {0} // {1}","hours":"hours","custom":"Custom"},"deleteConfirm2":"Are you sure you want to delete this post?","deleteSelected":{"_self":"Delete Selected Topics","posts":{"_self":"Delete Selected Posts","confirm":"Are you sure you want to delete these posts?"},"confirm":"Are you sure you want to delete these topics?"},"selectMultiple":"Select Topics","stickystatus":{"add":"Sticky status will be added","remove":"Sticky status will be removed","error":{"tooltip":"There are no stickies to reorder"}},"banHistory":{"title":"Ban History For {0} ({1})","noHistory":"This game account has no ban history","table":{"type":"Type","never":"Never","issued":"Issued","reason":"Reason","expires":"Expires","details":"Details","duration":"Duration"}},"select":{"empty":{"error":"No topics were selected"},"topics":{"desc":"Select topics using the checkboxes below, then perform one of the following actions on them:","toggle-sticky":"Toggle Sticky","toggle-featured":"Toggle Featured"},"massDeletion":"Select Topics for Deletion"},"employee":{"icon":{"imgUrl":"{0}/images/icons/employee.gif"},"avatar":{"imgUrl":"{0}/images/layout/cms/blizz_avatar.gif"}}},"noPosts":"No topics found.","limited":"Limited","duration":"Duration","addReply":"Add a reply","editPost":"Edit Post","conduct1":"Please report any Code of Conduct violations, including:","conduct2":"Threats of violence. <strong>We take these seriously and will alert the proper authorities.</strong>","conduct3":"Posts containing personal information about other players. <strong>This includes physical addresses, e-mail addresses, phone numbers, and inappropriate photos and/or videos.</strong>","conduct4":"Harassing or discriminatory language. <strong>This will not be tolerated.</strong>","subscribe":"Subscribe to this user","firstPost":"Be the {0}first{1}.","post":{"edit":"Edit","limit":"You can make {0} new forum topic(s).","preview":"Preview","addPoll":{"_self":"Attach Poll by ID","tooltip":"Poll IDs are numbers-only"},"limitRate":"New forum topics are accrued every {0} minute(s) up to a maximum of {1} topic(s).","comingSoon":"Coming Soon!™"},"publicNote":"Public Note","deletePost":"Delete Post","freezePost":"Freeze Post","privateNote":"Private Note","view":{"simple":"Simple","advanced":"Advanced","sortByCreationDate":"Sort by Creation Date"},"topicLocked":"This topic is locked.","createThread":"Create Topic","unfreezePost":"Unfreeze Post","noCharacters":"You need a character (created in-game) to post on the forums.","trial":{"enabled":"This forum allows accounts with limited access to post.","upgrade":"<a href=\"/account/management/upgrade-wow.html\">Click here</a> to upgrade and enable this feature.","disabled":"This forum does not allow accounts with limited access to post."},"replyToThread":"Reply to Thread","forumReadOnly":"This forum is read-only.","topicDisabled":"Posting in this forum is disabled.","context":{"ignore":"Ignore","profile":"View profile","unIgnore":"Unignore","viewPosts":{"_self":"View posts","user":"View my posts"},"showChar":{"true":"Hide my character","false":"Show my character"}},"conductLinkUrl":"http://forums.battle.net/forum-coc.html?sid=3000","conductLinkText":"Click {0}here{1} to view the Forums Code of Conduct.","code-of-conduct":"Forums Code of Conduct","defaultBlizzTitle":"Blizzard Employee","topic":{"postTooSoon":"Time till next post: {0}","postDisabled":"Your posting ability is disabled."},"error":{"accessDenied":{"_self":"Access Denied","desc":"This is a private forum and can only be accessed by logging in with an enabled account."}}},"topic":{"poll":{"_self":"Poll","max":{"_self":"Max","tip":"You can make up to {0} selections"},"vote":"Vote","ends":"ends","ended":"This poll has ended","results":"Results","started":"started","loggedOut":"You must be logged in to vote","notactive":"Poll is not active yet","alreadyVoted":"You have already voted in this poll.","resultsAvailable":"Results will be available {0}."},"topic":"Topic","cm":{"ban":"Ban","edit":"Edit","delete":"Delete","moderate":"Moderate","blizzTrack":"BlizzTrack","postHistory":{"_self":"View Post History","close":"Close","nodata":"No edited history"},"topicTitleHistory":{"_self":"View topic title history","header":"","tooltip":{"_self":"The title of this topic has been edited {0} {0,choice,1#time|1<times}","empty":"This topic has no title edits"}},"postFrozen":{"tooltip":"Post is frozen by <b>{0} {1}</b>"},"topicFrozen":{"tooltip":"Topic is frozen by <b>{0} {1}</b>"}},"editedBy":"Edited by {0} on {1}","postedOn":"Posted by {0} on {1}","voteSticky":{"_self":"Request Sticky","desc":"Request that this topic be pinned to the top of this forum’s topic list."},"postBuried":"Post Buried","showHidden":"show post","postDeleted":"Deleted","postIgnored":"Post Ignored","post":{"author":"the post’s author"},"postDeletedBy":"Deleted by {0}"},"common":{"edit":"Edit","reply":"Reply","draft":"Draft","error":"An error occurred. Please log out and back in, and try again.","buried":"Buried","delete":"Delete","ignored":"Ignored","deleted":"Deleted","pending":"Pending","private":"Private","lowRated":"Low Rated","readonly":"Read-Only","ban":{"type":"Ban Type","title":"Account Banned","relog":"If you believe you are seeing this message in error, log out and log back in to clear your session.","trial":"Trial accounts do not have the ability to create posts or use the rating buttons. Please upgrade to a full account to enable these features.","reason":"Ban Reason","frozen":"This game license has expired or it may have been frozen.","locked":"This account has had its communication ability disabled.","expires":"Expires","disabled":"You cannot post on this account due to Parental Controls settings.","permanent":"Permanent","notBanned":"This account is not banned. Let’s keep it that way, shall we?","cancelled":"This game license has expired or been cancelled.","bannedText":"Your account has been banned for {0}","suspension":"Suspension","origination":{"_self":"Origination","web":"Forums / Comments","game":"In-game Activity"},"disabledText":"This account cannot post on the forums due to Parental Controls settings.","notAvailable":"N/A","postDisabled":"Posting on this account has been disabled.","suspendedText":"Your account has been temporarily suspended for {0}","noRestriction":"This account appears to be in good standing. Carry on."},"highRated":"Highly Rated","nextBlizz":"Next Blizzard Post","invisible":"Invisible","firstBlizz":"Jump to first Blizzard Post","lastReadPage":"Jump to your last read page","blizzardStaff":"Blizzard Staff","suspension":{"title":"Account Suspended"},"confirmCharacterToggle":"This will show your character on all your posts, including ones you’ve already posted. Are you sure?"},"forum":{"forum":"Forum","views":{"_self":"Views","count":"{0} views"},"author":"Author","subject":"Subject","replies":{"_self":"Replies","count":"{0} replies"},"lastPost":"Last Post by {0}","originalBy":"Original post by {0} on {1}","station":{"sc2":{"_self":"StarCraft II Forums","desc":"Visit the Official StarCraft II Forums.","disclaimer":"* You must have added StarCraft II to this Blizzard Account in order to post."},"wow":{"_self":"World of Warcraft Forums","desc":"Visit the Official World of Warcraft Forums.","disclaimer":"* You must have added World of Warcraft to this Blizzard Account in order to post."},"games":"Game Forums","allBlizz":"All Blizzard posts","latestBlizz":"Latest Blizzard Posts"},"report":{"icon":"This post has been reported","reason":"Reason","success":"Reported!","reasonDetail":"Explain <small>(256 characters max)</small>"},"status":{"sticky":"Sticky","locked":"Locked","frozen":"Frozen","featured":"Featured","forumPoll":"Poll","placeHolder":"Redirect"},"lastPostTitle":"Last Post","reportDetails":"Report Post #{0} written by {1}","viewsAndReplies":"{0} Views / {1} Replies"},"rating":{"like":"Like","spam":"Spam","troll":"Trolling","login":"{0}Login{1} to rate","report":"Report","dislike":"Dislike","postMin":"25","postValUp":"66","postValDown":"75","alreadyRated":"You have already rated this item.","postValBuried":"90"},"sidebar":{"sotd":{"_self":"Screenshot of the Day","error":"There was an error retrieving the screenshot.","submit":"Submit Screenshot","viewAll":"All Screenshots"},"forums":{"_self":"Popular Topics","in":"","error":"There was an error loading the trending forum topics.","empty":"There are no trending forum topics."},"loading":"Content loading…","friends":{"_self":"Friends","all":"All friends","error":"There was an error loading your friend list.","empty":"You have no {0} or Real ID friends."},"activity":{"_self":"Activity","error":"There was an error loading your activity feed.","empty":"You have no activity."},"bnet-ads":"Recommended Services","achievements":{"_self":"Earned Achievements","error":"There was an error loading your achievements.","empty":"You have not earned any achievements."},"social-media":"Stay Connected","blizzard-posts":"Latest Blizzard Posts"},"comments":{"post":"Post","title":"Comments","latest":"Latest Comments","cm":{"lock":"Lock","purge":"Purge All Comments","unlock":"Unlock","delete":"Delete","deleteConfirm":"Purge all comments on this page?","rating-values":{"_self":"Rating values","up":"Up","down":"Down"}},"grouped":"Grouped","loading":"Loading Comments…","response":"In response to {0}","top-rated":"Top Rated","read":{"more":"Read more…","less":"Read less…"},"lockedDesc":"Comments on this page have been locked.","showHidden":"Show Comment","error":{"login":"You must <a href=\"{0}\" onclick=\"{1}\">log in</a> with a Blizzard Account before you can post a comment.","loading":"An error has occurred loading comments."},"disabledDesc":"Comments are disabled","sorting":{"best":"Best","latest":"Latest"},"throttle":{"wait":"You must wait before you can post again."},"delete":{"blocked":"You can no longer delete this comment.","confirm":"Are you sure you want to delete this post?","timeframe":"You have {0} left to delete this comment."},"unavailableDesc":"Comments temporarily unavailable.","numberOfComments":"{0} comments","user":{"delete":{"time":"Posts may be deleted within 15 minutes of posting."},"deleteConfirm":"Are you sure you want to delete this post?","freezeConfirm":"Are you sure you want to freeze this post?","unfreezeConfirm":"Are you sure you want to unfreeze this post?"},"moderator-delete":"Moderator Delete","pull":{"reload":{"single":"There is <span>{0}</span> new comment. <strong>Reload?</strong>","multiple":"There are <span>{0}</span> new comments. <strong>Reload?</strong>"}}},"login":{"addReply":"Reply","pleaseLogin":"Please {0}log in{1} to post."},"ad":{"defaultLocale":"en_US"},"avatar":{"noCharacter":"You need a character to post."},"user":{"wow":{"levelraceclass":{"_self":"{0} {1} {2}","lvltxt":"Level {0} {1} {2}"}}},"forms":{"cm":{"postDetails":{"none":"No post information.","title":"Post Details","created":"Created","original":"Orginal","revision":"Revision {0}","edited-by":"Edited By {0}","topic-title":"Topic Title","public-note":"Public Note","last-updated":"Last Updated {0}","copy-details":"Copy details to","post-history":"Post History","private-note":"Private Note"}}}},"i18n":{"region":{"_self":"Region","cn":"China","eu":"Europe","ru":"Russia","kr":{"_self":"Korea","tw":"Korea & Taiwan"},"us":{"_self":"Americas","na":"North America","la":"Latin America","sea":"Americas & Southeast Asia"},"tw":"Taiwan","sea":"Southeast Asia","fea":"Far East Asia","asia":"Asia","select":"Select a Region"},"language":{"_self":"Language","de-de":"Deutsch","en-gb":"English (EU)","en-au":"English (ANZ)","en-sg":"English (SEA)","en-us":"English (US)","es-es":"Español (España)","es-mx":"Español (Latino)","fr-fr":"Français","it-it":"Italiano","ko-kr":"한국어","pt-br":"Português (Brasil)","pt-pt":"Português (EU)","pl-pl":"Polski","ru-ru":"Русский","nl-nl":"Nederlands","da-dk":"Dansk","sv-se":"Svenska","nb-no":"Norsk","fi-fi":"Suomi","th-th":"ภาษาไทย","tr-tr":"Türkçe","in-id":"Bahasa Indonesia","id-id":"Bahasa Indonesia","zh-sg":"新加坡华语","zh-cn":"简体中文","zh-tw":"繁體中文","ja-jp":"日本語","select":"Select a Language"},"unavailable":{"_self":"We’re sorry, but this content is not yet available in your language. The page you requested is still undergoing translation and will be available soon.","alt":"We’re sorry, but this content is not yet available in your language. The page you requested is still undergoing translation and will be available soon; meanwhile, you can view the content in the following languages:","title":"Content Unavailable"},"support":{"full":"Full Support","partial":"Partial Support"}},"nav":{"auth":{"why":{"1":"It helps protect your account.","2":"You get a Core Hound pet for WoW.","3":"It's (mostly) free!","_self":"Why should I get an authenticator?"},"title":"Security Check: No Authenticator","link":{"add":"Add Authenticator","more":"Tell me more about account security."}},"title":{"igr":{"_self":"Blizzard PC Rooms","desc":"Buy and manage Blizzard PC rooms game time."},"bnet":{"_self":"Battle.net Home","desc":"Connect. Play. Unite."},"shop":{"_self":"Shop","desc":"Digital Games for Download"},"games":"Games","store":{"_self":"Blizzard Store","desc":"Buy Blizzard games and related products."},"forums":{"_self":"Forums","desc":"Discuss games and find help here."},"buy":{"d3":{"_self":"Buy Diablo III","desc":"Buy Diablo III."},"wow":{"_self":"World of Warcraft Subscription","desc":"Subscribe now."},"sc2":{"_self":"Buy StarCraft II","desc":"Buy StarCraft II unlimited & limited game time."}},"explore":"Explore","account":{"_self":"Account","desc":"Manage your Account"},"support":{"_self":"Support","desc":"Get Support and explore the knowledgebase."},"tickets":{"_self":"Your Support Tickets","new":"Ticket {0} was created.","all":"View All Tickets","desc":"View your active tickets (login required).","status":{"_self":"Ticket {0}’s status changed to {1}.","open":"Open","info":"Need Info","answered":"Answered","resolved":"Resolved","canceled":"Canceled","archived":"Archived"},"history":"View your active support tickets."},"contact":{"_self":"Ask a Question","desc":"Create a new support ticket"},"articles":{"_self":"Knowledge Center","desc":"Browse our support articles"},"purchase":{"_self":"Buy Games","desc":"Digital Games for Download"},"download":{"_self":"Client Download","desc":"Download Blizzard games."},"workAtBlizzard":"Work At Blizzard"},"bnet":{"home":"Home","forums":"Forums","whatIs":"What is Battle.net?","realId":"What is Real ID?","esports":"E-Sports","classic":"Classic Games","parental":"Parental Controls","security":"Account Security","community":"Community","responsible":"Responsible Gaming"},"header":{"more":{"_self":"More","games":"Games on Battle.net"},"gameSites":{"_self":"Game Community Sites","desc":"Latest news, info on game content, fan community and game-related services."},"userError":"An error has occurred while fetching your account","signinOrCreate":"<a href=\"{0}\">Log in</a> or <a href=\"{1}\">Create an Account</a>"},"sitemap":{"faq":"FAQs","igr":"Blizzard IGR","shop":"Shop","codes":"Redeem Codes","whatIs":"What is Battle.net®?","realId":"Real ID","create":"Create Account","hacked":"Help! I got hacked!","eSports":"E-Sports","account":"Account","support":"Support","summary":"Account Summary","addGame":"Add a Game","mediate":"mediate","protect":"Protect Your Account","buy":{"sc2":"Buy StarCraft II"},"buyGames":"Buy Games","download":"Game Client Downloads","password":"Can’t log in?","parental":"Parental Controls","jobs":{"faq":"Jobs FAQ","search":"Search for Jobs","profile":"Candidate Profile","support":"Job Site Support","workAtBlizzard":"Work At Blizzard","universityRelations":"University Relations"},"battleTag":"BattleTag®","tournament":"Organizing Community Tournaments","wow":{"unlock":"Suspended/Compromised Account Recovery","support":"World of Warcraft Support","contact":"Contact World of Warcraft Support"},"blz":{"support":"Blizzard Support"},"cancelAccount":"Cancel Account","accountSupport":"Account Support","accountSecurity":"Account Security","supportArticles":"Support Articles"},"card":{"signIn":"<strong>Log in now</strong> to enhance and personalize your experience!","noChars":"No characters were found.","fullname":"{0} {1}","employee":"You are logged in as a community manager.","noLicense":"No game license was found.","singleName":"{0}"},"breaking":{"news":"Breaking News"},"footer":{"contact":"Contact Us","wenHuabu":"only for cn","netRules":"only for cn","policies":"Privacy Policy","copyright":"Copyright Infringement","gameNotices":"only for cn","xinchuShenzi":"","international":"International","cnLicense":{"moc":"【MOC license #[2008]164","icp":"ICP License: SHB2-20080012","zx110":"zx110","police":"police","shjubao":"shjubao"},"legalDocuments":"Legal","cnLicense003":{"moc":"【MOC license #[2011]003"},"legalDocuments-sc2":"Legal-sc2","juvenileprotection":"Youth Policy","gameRating":{"warning":"Please pay attention to the game play time in order to avoid any game obsession.","notice":{"d3":"reference of violence, terror and false language. Not fit for players under 18 years of age.","hs":"reference of violence and alcohol.","sc2":"reference of violence, tobacco and alcohol.","wow":"reference of violence and alcohol."}}},"warning":{"locale":"Region and language set to:","browser":{"_self":"You are using an outdated web browser.","html5":"You are using a browser that does not support HTML5.","upgradeOptions":"{0}Upgrade{1} or {2}install Google Chrome Frame{3}."},"javascript":"JavaScript must be enabled to use this site."},"blizzcon":{"title":"BlizzCon 2011","link":{"blog":"Get the latest news"},"status":{"today":"BlizzCon begins today!","before":"BlizzCon begins tomorrow!","during":"BlizzCon has begun!"},"button":{"ticket":"Buy Virtual Ticket","tournament":"Watch Free Tournament Streams"}},"game":{"d3":{"desc":{"html":"<span>Game Guide</span> <span>News</span> <span>Forums</span>"}},"hs":{"desc":{"html":"<span>Home</span> <span>Media</span> <span>Forums &amp; FAQ</span>"}},"sc2":{"desc":{"html":"<span>News &amp; Forums</span> <span>Beginner’s Guide</span> <span>Player Profiles</span>"}},"wow":{"desc":{"html":"<span>Character Profiles</span> <span>News &amp; Forums</span> <span>Game Guide</span>"}},"heroes":{"desc":{"html":"<span>Home</span> <span>Media</span> <span>Forums &amp; FAQ</span>"}}},"bnet-app-tooltip":{"title":"Get the Desktop App for Battle.net Now","subtitle":"Launcher Update","feature":{"1":"All your games in 1 place","2":"Log in once","3":"Automatic game updates"},"no-thanks":"No thanks"}},"genre_expansion":"Expansion","social":{"vk":{"d3":{"url":"http://vk.com/diablo","title":"VK"},"wow":{"url":"http://vk.com/worldofwarcraft","desc":"","title":""},"sc2":{"url":"http://vk.com/starcraft","desc":"","title":""}},"sina":{"d3":{"url":"http://www.weibo.com/diablo","desc":"","title":""},"wow":{"url":"http://www.kaixin001.com/warcraft","desc":"for cn","title":"sina"},"sc2":{"url":"http://www.weibo.com/starcraft","desc":"","title":""},"support":{"url":"","desc":"","title":""}},"plurk":{"d3":{"url":"","desc":"","title":""},"wow":{"url":"","desc":"","title":""},"sc2":{"url":"http://www.plurk.com/StarCraftZHTW","desc":"","title":""}},"minik":{"d3":{"url":"","desc":"","title":""},"wow":{"url":"http://www.minik.tw/space.ph?uid=47","desc":"","title":""},"sc2":{"url":"http://www.minik.tw/space.ph?uid=47","desc":"","title":""}},"site-name":{"d3":"Diablo III","wow":"World of Warcraft","sc2":"StarCraft II","arcade":"Arcade","blizzcon":"BlizzCon","hearthstone":"Hearthstone"},"reddit":{"d3":{"url":"http://www.reddit.com/r/diablo","desc":"","title":"Diablo on reddit"},"wow":{"url":"http://www.reddit.com/r/wow","desc":"","title":"World of Warcraft on reddit"},"sc2":{"url":"http://www.reddit.com/r/starcraft","desc":"","title":"StarCraft on reddit"},"arcade":{"url":"","desc":"","title":""}},"kaixin":{"d3":{"url":"","desc":"","title":""},"wow":{"url":"http://weibo.com/wow","desc":"for cn","title":"kaixin"},"sc2":{"url":"http://www.kaixin001.com/starcraft","desc":"","title":""}},"me2day":{"d3":{"url":"http://me2day.net/diablo_kr","desc":"","title":""},"wow":{"url":"http://me2day.net/warcraft_kr","desc":"","title":""},"sc2":{"url":"http://me2day.net/starcraft2","desc":"","title":""}},"wechat":{"wow":{"url":"http://www.battlenet.com.cn/wow/static/local-common/images/icons/wechatQR.jpg","desc":"","title":"for cn"}},"twitter":{"d3":{"url":"https://twitter.com/Diablo","desc":"","title":""},"wow":{"url":"https://twitter.com/warcraft","desc":"Keep in touch with World of Warcraft on Twitter.","title":"World of Warcraft on Twitter"},"sc2":{"url":"https://twitter.com/StarCraft","desc":"","title":""},"arcade":{"url":"https://twitter.com/blizzardarcade","desc":"","title":""},"support":{"url":"https://twitter.com/BlizzardCS","desc":"","title":"@BlizzardCS"}},"youtube":{"d3":{"url":"https://www.youtube.com/Diablo","desc":"","title":""},"wow":{"url":"https://www.youtube.com/user/WorldofWarcraft","desc":"Watch videos, trailers, teasers, cinematics, and more on our official channel.","title":"World of Warcraft on Youtube"},"sc2":{"url":"https://www.youtube.com/StarCraft","desc":"","title":""},"arcade":{"url":"","desc":"","title":""},"support":{"url":"https://www.youtube.com/user/BlizzardTutorial","desc":"","title":"BlizzardTutorial"}},"tencent":{"wow":{"url":"http://t.qq.com/wow","desc":"","title":"for cn"}},"facebook":{"d3":{"url":"https://www.facebook.com/Diablo","desc":"","title":""},"wow":{"url":"https://www.facebook.com/Warcraft","desc":"Become a fan of World of Warcraft on Facebook to get a constant feed of news and videos.","title":"World of Warcraft on Facebook"},"sc2":{"url":"https://www.facebook.com/StarCraft","desc":"","title":"StarCraft on Facebook"},"arcade":{"url":"","desc":"","title":""},"support":{"url":"https://www.facebook.com/BlizzardCS","desc":"","title":"BlizzardCS"}},"twitterSEA":{"sc2":{"url":"https://twitter.com/StarCraftSEA","desc":"","title":""}},"facebookSEA":{"sc2":{"url":"https://www.facebook.com/StarCraftSEA","desc":"","title":"StarCraft on Facebook"}}},"content-news":{"title":"Blizzard News","short":{"title":"News"},"error":{"header":"Uh oh!","message":{"try-again":"Please try again, or try refreshing the page if the issue persists.","unexpected":{"_self":"An unexpected error occurred.","load-more":"An unexpected error occurred while loading more news."},"check-connection":"Check your connection and try refreshing the page, or try again later."}},"social":{"share":"Share to:","community":{"description":{"all":"Get the latest updates on all things Blizzard Entertainment!","blizzard":"Your direct line to the studio behind your favorite games!","diablo-3":"Keep up with the latest Diablo III news, announcements, and more!","diablo-4":"Keep up with the latest Diablo IV news, announcements, and more!","blizzcon":"Don't miss out on the latest announcements and news about BlizzCon!","starcraft":"Visit the official Blizzard site for StarCraft: Remastered news, announcements, and more!","overwatch":"All your Overwatch 2 news, announcements, esports updates, and more!","warcraft-3":"Visit the official Blizzard site for Warcraft III: Reforged news, announcements, and more!","battle-net":"Keep up with the latest news across Battle.net!","starcraft-2":"Visit the official Blizzard site for StarCraft II news, announcements, and more!","hearthstone":"Ah, it's a jungle out there. Come in and check out the latest Hearthstone news!","diablo-immortal":"Keep up with the latest Diablo Immortal news, announcements, and more!","warcraft-rumble":"Get the latest updates for Warcraft Arclight Rumble!","world-of-warcraft":"Get the most up-to-date World of Warcraft news on the official Blizzard site!","heroes-of-the-storm":"Read the latest on new Heroes, in-game events, and other Heroes of the Storm news!","diablo-2-resurrected":"Get the latest updates for Diablo II: Resurrected!"}}},"button":{"buyNow":"Buy Now","refresh":"Refresh","playNow":"Play Now","loadMore":"Load More"},"community":{"all":"All News","blizzard":"Inside Blizzard","diablo-3":"Diablo III","diablo-4":"Diablo IV","blizzcon":"BlizzCon","overwatch":"Overwatch 2","starcraft":"StarCraft: Remastered","warcraft-3":"Warcraft III: Reforged","battle-net":"Battle.net","starcraft-2":"StarCraft II","hearthstone":"Hearthstone","diablo-immortal":"Diablo Immortal","warcraft-rumble":"Warcraft Rumble","world-of-warcraft":"World of Warcraft","heroes-of-the-storm":"Heroes of the Storm","diablo-2-resurrected":"Diablo II: Resurrected"},"section":{"latest":{"_self":"Latest News","header":"Latest Articles"},"featured":{"_self":"Featured News","header":"Featured Articles"},"readMore":{"header":"Read More"}},"patch":{"type":{"ptr":"PTR","beta":"Beta","retail":"Retail"}},"card":{"label":{"patch":"Patch Notes"}},"message":{"noContent":"No additional content available."}},"sc2":{"legal":{"copyright":"©{0} Blizzard Entertainment, Inc. All rights reserved"},"nav":{"footer":{"cnLicense":{"moc":"MOC license #[2008]164"}}}},"wow":{"legal":{"copyright":"©{0} Blizzard Entertainment, Inc. All rights reserved"},"realmstatus":{"myRealms":"My Realms","allRealms":"All Realms"},"nav":{"footer":{"xinchuShenzi":"only for cn","cnLicense":{"moc":"only for cn"}}}},"game_card_genre_moba":"MOBA","game_card_url_diablo":"https://www.gog.com/game/diablo","game_card_logo_diablo":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt61a1b49f0ef91a44/63819b986663180e7cbbcec1/d1-logo.png","game_card_genre_mmorpg":"MMORPG","game_card_title_diablo":"Diablo","game_card_url_diablo_3":"https://us.diablo3.blizzard.com/en-us/","game_card_url_diablo_4":"https://diablo4.blizzard.com/","cookie-consent":{"cookies":"Cookies","privacy":{"title":"Your Privacy","description":"When you visit any web site, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because Blizzard respects your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings below to find out more and change our default settings. Please be advised that blocking some types of cookies may directly affect your experience of our site and the services we are able to offer."},"cookie-policy":"Cookie Policy","personal":{"data":{"_self":"Share Or Sale of Personal Data","body":{"1":"Under the laws of some states, including VA and CA, you have the right to opt-out of the sale or sharing of your personal information to predict your preferences or interests to personalize ads for you on those third-party platforms. These cookies collect information for analytics and to personalize your experience with targeted ads. You may exercise your right to opt out of the sale (should we do so in the future) or sharing of personal information by using this toggle switch. If you choose to opt-out of Blizzard’s disclosure of your personal information for these purposes, we will not sell or share your personal information collected from you, including to our third-party marketing partners.","2":"Additionally, you may review our Privacy Policy for further clarification about your rights in applicable states. If you have enabled privacy controls on your browser (such as a plugin), in applicable states, where required, we recognize that as a valid request to opt-out of these types of cookies. Therefore, we would not be able to track your activity through the web. This may affect our ability to personalize ads according to your preferences."}}},"details":{"body":{"2":{"_self":"We may allow third-party companies to collect information about your activity on our websites, for example through cookies, pixels, and web beacons. These companies use information they collect to help us predict your preferences or interests to personalize advertisements or marketing for purposes described in our Privacy Policy. You can control the sharing of your personal information for such advertising through our websites in the following ways:","a":"To set up cookie controls and opt-out of advertising/marketing cookies, including third-party advertising cookies, you can change your cookie setting preferences as linked above.","b":"You can also set up cookie controls through many browser settings and you can use industry-wide opt outs to control the use of cookies for interest-based advertising purposes. Blizzard honors these browser level settings. This may affect our ability to personalize ads according to your preferences."},"html":"To provide an epic website experience, we use cookies to personalize content and ads, to provide you with social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.  Cookies include required cookies, functional cookies, performance cookies, social media cookies, and Blizzard & Affiliate cookies. You can learn more about the types of cookies collected and change your cookie settings at any time by clicking <a class=\"optanon-toggle-display\" onkeypress=\"if(event.key==='Enter' || event.key===' ') this.click(); return false;\" tabindex=\"0\" role=\"button\">here</a>."},"marketing-partners":"Blizzard uses various marketing partners and analytics providers to personalize and improve the online products and services we provide to you. You can find a list of our partners <a href=\"https://blizzard.com/marketing-partners\">here</a>."},"cookie-settings":"Cookie Settings"},"game_card_url_overwatch":"https://overwatch.blizzard.com/en-us/","game_card_logo_diablo_3":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt0b5533d9cf200658/6324da146d5f7a0df8d92982/d3-logo.png","game_card_logo_diablo_4":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt0724a1154e2c1b56/63dd977a6ce8bf6444a8bf4f/d4-logo.png","game_card_title_diablo_3":"Diablo III","game_card_url_warcraft_2":"https://www.gog.com/game/warcraft_2_battlenet_edition","game_card_title_diablo_4":"Diablo IV","game_card_title_overwatch":"Overwatch","game_card_url_overwatch_2":"https://overwatch.blizzard.com/en-us/","game_card_url_starcraft_2":"https://starcraft2.com/en-us/","game_card_url_hearthstone":"https://hearthstone.blizzard.com/en-us","game_card_logo_warcraft_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltc2ec3349be1b6f25/638196973cbefd1110811133/wc2-logo.png","game_card_genre_action_rpg":"Action RPG","game_card_title_warcraft_2":"Warcraft II","game_card_logo_hearthstone":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt72f583c5d5dcb749/63819746a86e5310c692c087/hs-logo.png","game_card_logo_overwatch_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltdd8cf187e6017c9b/6381971a6f080311223b547e/ow2-logo.png","game_card_logo_starcraft_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltdde1074eb4cbead7/638196e232db130e11be7e8a/sc2-logo.png","game_card_title_overwatch_2":"Overwatch 2","game_card_title_starcraft_2":"StarCraft II","game_card_title_hearthstone":"Hearthstone","game_card_url_diablo_immortal":"https://diabloimmortal.blizzard.com","game_card_url_blizzard_arcade":"https://news.blizzard.com/blizzard/23617535/","game_card_logo_compact_diablo":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt6ca5fbc88d876ee9/63dd9c4933d2117644a4a8b7/diablo-logo-square.png","game_card_url_warcraft_rumble":"https://warcraftrumble.blizzard.com/","game_card_logo_blizzard_arcade":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltcf5d14052511bbf7/6324d18c5f39a30d9cedbcfd/blizzard-arcade-logo.png","game_card_logo_diablo_immortal":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blte1660d881ad24cfd/6381ca5a3cbefd111081113f/di-logo.png","game_card_logo_warcraft_rumble":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltcf06ea65efca1cd7/652857ad23ad6f40f0303427/Rumble_Logo_enus.webp","game_card_title_blizzard_arcade":"Blizzard Arcade Collection","game_card_title_diablo_immortal":"Diablo Immortal","game_card_url_world_of_warcraft":"https://worldofwarcraft.com/en-us/start?utm_source=6372051&utm_medium=Paid&utm_content=335647190&utm_campaign=BLZ_27584621&dclid=&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsbOqxGb0kDTm3_osGscxVHH1EaR423Yfrf_h__Fr-lMG_4ulN55vGxoCNu4QAvD_BwE","game_card_logo_compact_diablo_3":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt8963705ee27cb17d/63dd9abf8c633965d7dab5db/d3-logo-square.png","game_card_logo_compact_diablo_4":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt41d3aea43fdc8753/638856956663180e7cbbcf95/d4-logo-square.webp","game_card_title_warcraft_rumble":"Warcraft Rumble","game_card_logo_world_of_warcraft":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt50bb85e2fded08e7/638855153b13b1106f74ec64/wow-logo.webp","game_card_genre_platformer_racing":"Platformer, Racing","game_card_genre_team_based_action":"Team-Based Action","game_card_title_world_of_warcraft":"World of Warcraft","game_card_url_warcraft_3_reforged":"https://playwarcraft3.com/en-us/","game_card_url_heroes_of_the_storm":"https://heroesofthestorm.com/en-us/","game_card_logo_compact_warcraft_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltc70a592bf50a49be/63dd9de4c353a8764532d4a4/warcraft2-logo-square.png","game_card_genre_real_time_strategy":"Real-Time Strategy","game_card_genre_strategy_card_game":"Strategy Card Game","game_card_url_diablo_2_resurrected":"https://diablo2.blizzard.com/en-us/","game_card_url_starcraft_remastered":"https://starcraft.com/en-us/","game_card_logo_heroes_of_the_storm":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltfb7c9cabe89681fc/63819757d44c1b0e1f0e8cb1/hots-logo.png","game_card_logo_warcraft_3_reforged":"https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/blta5a7d76f5944ffbe/671fd01b8a2e264d22f02b83/blizzard_game_card_logo_w3r.png","game_card_logo_compact_hearthstone":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltd0ad672609360630/638197468b3bbe1129cea4b9/hs-logo-compact.png","game_card_logo_compact_overwatch_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt8c560a4c243bfd68/6381971a6663180e7cbbceb9/ow2-logo-compact.png","game_card_logo_compact_starcraft_2":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt11e2bc1415da4ea3/63dd9cdec353a8764532d4a0/starcraft2-logo-square.png","game_card_title_warcraft_3_reforged":"Warcraft III: Reforged","game_card_url_warcraft_dragonflight":"https://dragonflight.blizzard.com/en-us/","game_card_title_heroes_of_the_storm":"Heroes of the Storm","game_card_logo_diablo_2_resurrected":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blte34b6a10bdbf1dad/63819b866663180e7cbbcebd/d2-logo.png","game_card_logo_starcraft_remastered":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt6cbb00f1b076a847/638196bf443fa70e71d4bf31/scr-logo.png","game_card_title_diablo_2_resurrected":"Diablo II: Resurrected","game_card_title_starcraft_remastered":"StarCraft: Remastered","game_card_title_warcraft_dragonflight":"World of Warcraft: Dragonflight","game_card_genre_mobile_action_strategy":"Mobile Action Strategy","game_card_url_warcraft_orcs_and_humans":"https://www.gog.com/game/warcraft_orcs_and_humans","game_card_url_warcraft_arclight_rumble":"https://warcraftrumble.blizzard.com/","game_card_logo_compact_blizzard_arcade":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt4680749164166f0a/63dd79d96ce8bf6444a8bf47/blizzard-arcade-logo-square.png","game_card_logo_compact_diablo_immortal":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltac9ecdf3aa58835d/6324d4af1566e20e82f30484/di-logo-compact.png","game_card_logo_compact_warcraft_rumble":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltd7c139ca194b5155/65289d11b057fa6fd78f8f9a/Rumble_Logo_enus-square.png","game_card_logo_warcraft_arclight_rumble":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltb3d71b8b8273509c/63e1eb436ce8bf6444a8bfaf/gryphon-logo.png","game_card_logo_warcraft_orcs_and_humans":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltef9d534a1d90323a/638196ce3cbefd1110811137/wc-logo.png","game_card_url_world_of_warcraft_classic":"https://wowclassic.blizzard.com/en-us/","game_card_title_warcraft_orcs_and_humans":"Warcraft: Orcs and Humans","game_card_title_warcraft_arclight_rumble":"Warcraft Rumble","game_card_logo_world_of_warcraft_classic":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt02a221255fac8e62/6381965ea4a28e10bf84d7aa/wow-classic-logo.png","game_card_logo_compact_world_of_warcraft":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt9db239e7d1a54370/63dd9d4a33d2117644a4a8bb/wow-logo-square.png","game_card_title_world_of_warcraft_classic":"World of Warcraft Classic","game_card_logo_compact_heroes_of_the_storm":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltdf1de66b92bf88fa/63dd9c96b1fdca6baeec910f/heroes-logo-square.png","game_card_logo_compact_warcraft_3_reforged":"https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/blt7655db509904519e/672bad17109361cce899383a/blizzard_game_card_logo_w3r_compact.webp","game_card_logo_compact_diablo_2_resurrected":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltbc2ada3472899601/63dd9ba21e0ba8779c1c2b31/d2-logo-square.png","game_card_logo_compact_starcraft_remastered":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt48f681cd56635cf3/63dd9e3bd3a8a26401215bac/starcraft-remastered-logo-square.png","game_card_logo_compact_warcraft_dragonflight":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt5bafd06c4e315268/63819638e5d09810cdaff606/wow-dragonflight-logo-compact.png","game_card_logo_compact_warcraft_arclight_rumble":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltd04993757760360a/638857aa3cbefd11108111ea/gryphon-logo-square.webp","game_card_logo_compact_warcraft_orcs_and_humans":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltbfe37587f4c8e54e/63dd9e838c633965d7dab5df/warcraft-logo-square.png","game_card_url_wow_classic_wrath_of_the_lich_king":"https://wowclassic.blizzard.com/en-us/","game_card_logo_compact_world_of_warcraft_classic":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt48e5400369b13b82/63901865f629290fb8e773f2/wow-classic-logo-square[1].png","game_card_title_wow_classic_wrath_of_the_lich_king":"World of Warcraft: Wrath of the Lich King","game_card_logo_world_of_warcraft_wrath_of_the_lich_king":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/bltbeac0744a7b8ce8b/638851ece5d09810cdaff6a1/WoWClassicWrath-logo.webp","game_card_logo_compact_world_of_warcraft_wrath_of_the_lich_king":"https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blt98f9718bc16068af/6381961a8b3bbe1129cea4ad/wow-wotlk-logo-compact.png"},"now":"$undefined","timeZone":"UTC","children":["$L26","$L27"]}]
+26:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Blizzard Entertainment\",\"url\":\"https://news.blizzard.com\"}"}}]
+27:["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+14:{"metadata":[["$","title","0",{"children":"WoW: Forever Hotfixes - November 11, 2026 — World of Warcraft — Blizzard News"}],["$","meta","1",{"name":"description","content":"Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever. "}],["$","meta","2",{"name":"Blz-App-Path","content":"/"}],["$","link","3",{"rel":"canonical","href":"https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","4",{"rel":"alternate","hrefLang":"de-de","href":"https://news.blizzard.com/de-de/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","5",{"rel":"alternate","hrefLang":"en-gb","href":"https://news.blizzard.com/en-gb/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","6",{"rel":"alternate","hrefLang":"en-us","href":"https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","7",{"rel":"alternate","hrefLang":"es-es","href":"https://news.blizzard.com/es-es/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","8",{"rel":"alternate","hrefLang":"es-mx","href":"https://news.blizzard.com/es-mx/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","9",{"rel":"alternate","hrefLang":"fr-fr","href":"https://news.blizzard.com/fr-fr/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","10",{"rel":"alternate","hrefLang":"it-it","href":"https://news.blizzard.com/it-it/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","11",{"rel":"alternate","hrefLang":"ja-jp","href":"https://news.blizzard.com/ja-jp/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","12",{"rel":"alternate","hrefLang":"ko-kr","href":"https://news.blizzard.com/ko-kr/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","13",{"rel":"alternate","hrefLang":"pl-pl","href":"https://news.blizzard.com/pl-pl/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","14",{"rel":"alternate","hrefLang":"pt-br","href":"https://news.blizzard.com/pt-br/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","15",{"rel":"alternate","hrefLang":"ru-ru","href":"https://news.blizzard.com/ru-ru/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","16",{"rel":"alternate","hrefLang":"th-th","href":"https://news.blizzard.com/th-th/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","17",{"rel":"alternate","hrefLang":"zh-tw","href":"https://news.blizzard.com/zh-tw/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","link","18",{"rel":"alternate","hrefLang":"x-default","href":"https://news.blizzard.com/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","meta","19",{"property":"og:title","content":"WoW: Forever Hotfixes - November 11, 2026 — World of Warcraft — Blizzard News"}],["$","meta","20",{"property":"og:description","content":"Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever. "}],["$","meta","21",{"property":"og:url","content":"https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026"}],["$","meta","22",{"property":"og:locale","content":"en-us"}],["$","meta","23",{"property":"og:image","content":"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png"}],["$","meta","24",{"property":"og:image:alt","content":"WoW: Forever Hotfixes - November 11, 2026"}],["$","meta","25",{"property":"og:type","content":"article"}],["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","27",{"name":"twitter:site","content":"@Warcraft"}],["$","meta","28",{"name":"twitter:creator","content":"Blizzard Entertainment"}],["$","meta","29",{"name":"twitter:title","content":"WoW: Forever Hotfixes - November 11, 2026 — World of Warcraft — Blizzard News"}],"$L28","$L29","$L2a"],"error":null,"digest":"$undefined"}
+19:"$14:metadata"
+28:["$","meta","30",{"name":"twitter:description","content":"Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever. "}]
+29:["$","meta","31",{"name":"twitter:image","content":"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png"}]
+2a:["$","meta","32",{"name":"twitter:image:alt","content":"WoW: Forever Hotfixes - November 11, 2026"}]
+2b:I[5868,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+2c:I[2894,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+2d:I[1006,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+2e:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzBreadcrumb"]
+2f:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzBreadcrumbItem"]
+30:I[9230,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"BlzTimestamp"]
+31:I[5050,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+10:[["$","$L2b",null,{"theme":"world-of-warcraft"}],[["$","link",null,{"rel":"preconnect","href":"https://d1yyz1eeguqcjh.cloudfront.net"}],["$","link",null,{"rel":"preconnect","href":"https://d1yyz1eeguqcjh.cloudfront.net","crossOrigin":"anonymous"}]],[["$","link","pc-https://blz-contentstack-assets.akamaized.net",{"rel":"preconnect","href":"https://blz-contentstack-assets.akamaized.net"}],["$","link","pc-cors-https://blz-contentstack-assets.akamaized.net",{"rel":"preconnect","href":"https://blz-contentstack-assets.akamaized.net","crossOrigin":"anonymous"}]],[["$","link","https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/media/bg-wow.9c3d4b92.webp",{"rel":"preload","as":"image","href":"https://d1yyz1eeguqcjh.cloudfront.net/production-next/_next/static/media/bg-wow.9c3d4b92.webp","fetchPriority":"high"}]],[["$","link","https://blz-contentstack-assets.akamaized.net/v3/assets/blt72f16e066f85e164/bltaac52e6d027f4f04/652f2c1eb057fa33288f9191/semplicitaPro.css",{"rel":"stylesheet","href":"https://blz-contentstack-assets.akamaized.net/v3/assets/blt72f16e066f85e164/bltaac52e6d027f4f04/652f2c1eb057fa33288f9191/semplicitaPro.css","precedence":"theme"}]],["$","link",null,{"rel":"icon","type":"image/png","href":"/images/favicons/favicon-world-of-warcraft.png"}],["$","div",null,{"data-theme":"world-of-warcraft","className":"theme-root","children":["$","main",null,{"className":"main-container","children":[null,[["$","$L2c",null,{"contentId":"blta034da697f7dca6e"}],["$","$L2d",null,{"contentId":"blta034da697f7dca6e","contentType":"blog","newsId":"24315281"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"WoW: Forever Hotfixes - November 11, 2026\",\"image\":[\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"],\"datePublished\":\"2026-11-12T00:46:04Z\",\"dateModified\":\"2026-11-12T00:46:04Z\",\"author\":[{\"name\":\"Blizzard Entertainment\"}],\"publisher\":[{\"@type\":\"Organization\",\"name\":\"Blizzard Entertainment\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Blizzard News\",\"item\":\"https://news.blizzard.com/en-us\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"World of Warcraft\",\"item\":\"https://news.blizzard.com/en-us/feed/world-of-warcraft\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"WoW: Forever Hotfixes - November 11, 2026\",\"item\":\"https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026\"}]}"}}],["$","article",null,{"className":"Content theme-bg","children":[["$","header",null,{"className":"ContentHeader","children":[["$","$L2e",null,{"className":"breadcrumb","lang":"en-us","children":[[["$","$L2f","/en-us",{"href":"/en-us","children":"Blizzard News"}],["$","$L2f","/en-us/feed/world-of-warcraft",{"href":"/en-us/feed/world-of-warcraft","children":"World of Warcraft"}]],["$","$L2f",null,{"cosmetic":true,"aria-current":"page","children":"WoW: Forever Hotfixes - November 11, 2026"}]]}],["$","$L22",null,{"size":"medium","layout":"center","children":[["$","h1",null,{"slot":"heading","className":"blz-title-text-md","children":"WoW: Forever Hotfixes - November 11, 2026"}],["$","div",null,{"className":"details","slot":"description","children":[["$","div",null,{"className":"details_article","children":[["$","div",null,{"className":"author","children":"Blizzard Entertainment"}],["$","$L30",null,{"lang":"en-us","timestamp":"2026-11-12T00:46:04Z"}],null,null]}],["$","div",null,{"className":"details_social","children":["$","$L31",null,{"articleId":"24315281","deviceType":"","locale":"en-us","region":"","title":"WoW: Forever Hotfixes - November 11, 2026","url":"https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026"}]}]]}]]}],["$","$L21",null,{"src":"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png","alt":"WoW: Forever Hotfixes - November 11, 2026","sizes":"(max-width: 1024px) 100vw, 960px","priority":true}]]}],"$L32","$L33"]}],"$L34","$L35",null]]}]}]]
+37:I[6208,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+38:I[5018,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+39:I[7701,["6842","static/chunks/6842-7646c2e129eb91a6.js?dpl=de3c92e","9859","static/chunks/9859-b6b3bd7bfbe378c6.js?dpl=de3c92e","161","static/chunks/161-503a3d3080ffda3f.js?dpl=de3c92e","7611","static/chunks/7611-4d18465638113117.js?dpl=de3c92e","5472","static/chunks/5472-9801f4f1681ce0be.js?dpl=de3c92e","2435","static/chunks/app/(standard)/%5Blang%5D/%5Bcountry%5D/(isr)/article/%5BcontentId%5D/%5B%5B...slug%5D%5D/page-d5a5e9a674bf491c.js?dpl=de3c92e"],"default"]
+36:T75c9,<p>Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.</p>
+
+<p>This list will be updated as additional hotfixes are applied.</p>
+
+<h2><strong>Hotfixes</strong></h2>
+
+<hr />
+<p><strong><span>November 11, 2026</span></strong></p>
+
+<p><strong>Classes</strong></p>
+
+<ul>
+	<li><strong>Druid</strong>
+
+	<ul>
+		<li><strong>Feral</strong>
+
+		<ul>
+			<li>Rend and Tear now works on Pounce Bleed.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Hunter</strong>
+	<ul>
+		<li>Fixed an issue where Volley was activating procs.</li>
+		<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>
+	</ul>
+	</li>
+	<li><strong>Paladin</strong>
+	<ul>
+		<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin's Ranged Hit chance.</li>
+		<li><strong>Retribution</strong>
+		<ul>
+			<li>With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Priest</strong>
+	<ul>
+		<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>
+		<li><strong>Holy</strong>
+		<ul>
+			<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Shaman</strong>
+	<ul>
+		<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Customer Support</strong></p>
+
+<ul>
+	<li><strong> </strong>The Item Restoration service has been disabled while we investigate and address a critical bug.</li>
+</ul>
+
+<p><strong>Enemies and NPCs</strong></p>
+
+<ul>
+	<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer's "Smash" ability.</li>
+	<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>
+	<li>Riverglades - Twilight Forgemaster's "Mark of Flames" now increases damage dealt by 50 (was 1000).</li>
+</ul>
+
+<p><strong>Items</strong></p>
+
+<ul>
+	<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>
+	<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>
+</ul>
+
+<p><strong>Professions</strong></p>
+
+<ul>
+	<li><strong>Tailoring</strong>
+
+	<ul>
+		<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.
+		<ul>
+			<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.</li>
+			<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.</li>
+			<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.</li>
+			<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>
+			<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Quests</strong></p>
+
+<ul>
+	<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest "Scarlet Diversions".</li>
+	<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>
+	<li>Feralas - Fixed an issue where the Cage Door for the quest "Freedom for All Creatures" would not reset. It feels wrong to close it, but...</li>
+</ul>
+
+<p><strong>World</strong></p>
+
+<ul>
+	<li>Fixed a bug that prevented the ability to mount in named areas of Shen'dralas.</li>
+</ul>
+
+<hr />
+<p><strong><span>November 10, 2026</span></strong></p>
+
+<p><strong>Classes</strong></p>
+
+<ul>
+	<li><strong>Druid</strong>
+
+	<ul>
+		<li>Fixed an issue where Omen of Clarity could not activate after swapping specializations.</li>
+		<li><strong>Restoration</strong>
+		<ul>
+			<li>Nature's Swiftness now also makes Wild Growth instant.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Hunter</strong>
+	<ul>
+		<li>Fixed a bug where Pets erroneously had 150% of their normal health. This is now corrected to 115% of their normal health.</li>
+		<li>Arcane Shot mana cost changed to 11% of base Mana for all ranks of Arcane Shot.
+		<ul>
+			<li><em>Developers’ notes: This means the Mana cost on all ranks will always be the same and rise gradually with level. Overall Mana cost at levels 6 and 60 are nearly identical to before this change, and slightly lower for levels in-between.</em></li>
+		</ul>
+		</li>
+		<li><strong>Beast Mastery</strong>
+		<ul>
+			<li>Summon Hawk Mana cost changed to 11% of base Mana for all ranks of Summon Hawk, same as Arcane Shot.</li>
+			<li>Melee damage dealt by the Hawk pet increased by about 80%.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><strong>Paladin</strong>
+
+	<ul>
+		<li>Redoubt can now be tracked in the Cooldown Manager.</li>
+	</ul>
+	</li>
+	<li><strong>Priest</strong>
+	<ul>
+		<li>Fixed an issue where the Revelation enchant was activated by Vampiric Embrace healing.</li>
+		<li><strong>Holy</strong>
+		<ul>
+			<li>Fixed an issue where Holy Nova was not correctly unlearend when untalenting from the spell.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Shaman</strong>
+	<ul>
+		<li>Maelstrom Weapon can now be tracked in the Cooldown Manager.</li>
+		<li>Weapon imbues and Weapon totems can now be used at the same time.
+		<ul>
+			<li><em>Developers’ notes: For example, this means the Shaman can benefit from Windfury Weapon and Windfury Totem at the same time, granting their attacks a chance to activate both.</em></li>
+		</ul>
+		</li>
+		<li><strong>Enhancement</strong>
+		<ul>
+			<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>
+			<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>
+			<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>
+			<li>Maelstrom Weapon tooltip updated to display the Shaman's % chance to activate it based on their Main Hand Weapon's speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>
+			<li><em>Developers’ notes: Beta changes to Enhancement Shaman, alongside the Shock and Lightning Bolt changes aimed at Elemental Shaman, caused Enhancement to favor Spell Power and Intellect gear too heavily. While that gearing direction is not inherently a problem, it also pushed Enhancement away from Windfury, which we believe should remain at the heart of the specialization’s fantasy and gameplay. We want to make this adjustment now because it has significant implications for gearing in the upcoming raid. Addressing it before the raid opens will help prevent players from pursuing and winning highly contested items that could become much less valuable after a later change. With that in mind, many of these changes reverse the Beta adjustments aimed specifically at Enhancement and move the specialization in a more Windfury-friendly direction. We believe this better serves both Enhancement’s core fantasy and its intended gearing.</em></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Warlock</strong>
+	<ul>
+		<li>Fixed a bug causing the Succubus whip sound to play much too often.</li>
+		<li>Imp base damage of the first 4 Ranks of Imp's Firebolt increased, and base Imp Health increased by ~15%.</li>
+		<li>Voidwalker base Health increased by ~15%.</li>
+		<li>Incubus base Health increased by ~15%.</li>
+		<li>Succubus base Health increased by ~15%.</li>
+		<li><strong>Affliction</strong>
+		<ul>
+			<li>Soul Siphon now grants increased effect to your Drain Life, Drain Soul, and Wrack spells by 4/8/12% per each of your Corruption, Siphon Life, and Bane of Agony spells active on the target, up to a maximum of 36% (was any Affliction spell).</li>
+			<li>Wrack damage reduced by 30%.</li>
+			<li>Wrack no longer increases the damage of the Warlock's periodic effects on the target.</li>
+			<li>Wrack tears the target apart from within for 6 seconds, inflicting Shadow damage every 1 second. While channeling, your Siphon Life, Corruption, and Bane of Agony effects on the target deal their periodic damage 100% faster.</li>
+			<li><em>Developers’ notes: Wrack speeds up how often your periodic effects deal damage, not how long they last. Bane of Agony still lasts its full 24 seconds, but while Wrack is channeled on the target, it deals damage twice as often. Why this change? Besides being unique, interesting, and more viscerally satisfying to see numbers pop up more often as Affliction - it fixes an issue that the previous design of Wrack had. Previously, Wrack increased periodic damage by a percentage, so if you stopped channeling just before a periodic effect dealt damage, that effect gained 0 benefit from the Wrack you just ended. Now Wrack speeds up your periodic effects while channeled, and the time it skips is kept after Wrack's channel ends or is interrupted. For example, if you channel Wrack for 1 second during a 3-second Corruption tick, Corruption advances 2 seconds instead of 1, so its next tick lands 1 second later instead of 2, even if you stopped channeling Wrack.</em></li>
+		</ul>
+		</li>
+		<li><strong>Destruction</strong>
+		<ul>
+			<li>Bane of Havoc - fixed a bug where this ability was not incurring a global cooldown.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Warrior</strong>
+	<ul>
+		<li><strong>Arms</strong>
+		<ul>
+			<li>Sweeping Strikes no longer loses charges if no second target is hit.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Enemies and NPCs</strong></p>
+
+<ul>
+	<li>Shatterspear Trolls no longer grant XP on kill. They're dancers, not fighters!</li>
+	<li>Innkeepers now provide better responses when asked “Tell me about the dungeons I can explore”.</li>
+</ul>
+
+<p><strong>Items</strong></p>
+
+<ul>
+	<li>All racial vendor mounts are now Bind-on-Pickup.</li>
+	<li>Sparklance Wand now does Arcane damage (was Nature damage).</li>
+	<li>Rage of the Storm (Shaman quest reward) now has 16 Strength (was 16 Intellect), and weapon speed decreased to 3.6 (was 3.2 seconds).</li>
+	<li>Reduced the price vendors pay for some crafted armor items from Leatherworking, Tailoring, and Blacksmithing.
+	<ul>
+		<li><em>Developers’ notes: The adjusted items were all bind-on-pickup items that a player was intended to craft only once for themselves.</em></li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Professions</strong></p>
+
+<ul>
+	<li><strong>Alchemy</strong>
+
+	<ul>
+		<li>Minor Arcane Elixir sell value reduced to 5 copper (was 25 copper).</li>
+		<li>Corrected the name of "Recipe: Elixir of Greater Firepower" to "Recipe: Elixir of Holy Power", and the elixir's aura is now called "Holy Power".</li>
+	</ul>
+	</li>
+	<li><strong>Blacksmithing</strong>
+	<ul>
+		<li>Coarse Grinding Stone now provides skill-ups to 90 (was 75).</li>
+	</ul>
+	</li>
+	<li><strong>Cooking</strong>
+	<ul>
+		<li>Journeyman Campfire Kit now requires Cooking 90 to place, matching its recipe skill requirement (was Cooking 140).</li>
+	</ul>
+	</li>
+	<li><strong>Enchanting</strong>
+	<ul>
+		<li>Arcane Salvager now requires the Runed Golden Rod tool to craft (was Runed Truesilver Rod).</li>
+		<li>Arcane Salvager now correctly applies its disenchanting bonus to lower-level enchanters.</li>
+		<li>Enchant Boots - Lesser Spirit and Enchant Bracer - Lesser Spirit now correctly give their stated bonus to Spirit (was Resist All).</li>
+	</ul>
+	</li>
+	<li><strong>Engineering</strong>
+	<ul>
+		<li>Iron Grenades vendor price reduced to 1 silver 25 copper (was 5 silver).</li>
+		<li>Swiftstrike Shot and Swiftfeather Arrow are no longer Bind-on-Pickup.
+		<ul>
+			<li><em>Developers’ notes: These are not available until raids unlock, but we want to make sure this change is known, because it may influence profession choice. These were not intended to be Bind-on-Pickup.</em></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Fishing</strong>
+	<ul>
+		<li>Fixed a condition mismatch that sometimes caused Fishing Racks to fail to provide lures to eligible players.</li>
+		<li><em>Developers’ notes: We are aware there are other ongoing issues with the Fishing Rack, including other situations that result in "There is no loot" errors.</em></li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Quests</strong></p>
+
+<ul>
+	<li>Most quests level 48 and higher now additionally reward gold.
+	<ul>
+		<li><em>Developers’ notes: WoW Forever does not include the XP-to-gold conversion for level 60 quests that was added to original WoW just before the release of the original Burning Crusade. We felt that it would be inappropriate for WoW: Forever players to be compelled to save up quests as they approach level 60 and then not turn them in until they transformed into a great profit. This change brings high-level quests in-line with the rest of questing in WoW: Forever, with the goal of giving players a good reason to complete those quests while leveling up to 60 and thereafter. Quests that were not affected by this change include those that already reward valuable items, repeatable quests, and those that don’t provide significant rewards because they’re quick, easy, or trivial to complete.</em></li>
+	</ul>
+	</li>
+	<li>Fixed an issue for the "Call of Water" quests where the events of the final quests would not play out properly consistently.</li>
+	<li>Fixed an issue where Sovik would not offer the quest "Chief Engineer Scooty" after selecting his gossip option.</li>
+	<li>Fixed multiple issues with the quest "Helping Hands."</li>
+	<li>Zephras Isle - “Camping 101: Herbalism” now completes in Shen'dar Village instead of Valanaar.</li>
+	<li>The Broken Frond of Celastrus quest item dropped by “Celastrus the Bitter” should now properly drop for all eligible members of the party.</li>
+	<li>Feralas - Fixed an issue where players could not start the quest "Rescue OOX-22/FE!".</li>
+	<li>Riverglades - There are now significantly more Glade Vipers available for the quest "Poison Tips."</li>
+	<li>Duskwood - There are now more Nightbane Vile Fang and Nightbane Tainted Ones available for the quest "Worgen in the Woods."</li>
+	<li>Fixed an issue where Murloc Tideskimmers would not drop the Saltwater Murloc Eyes for the quest "A Taste of the Sea". Mmmmm, murloc eyes.</li>
+</ul>
+
+<p><strong>World</strong></p>
+
+<ul>
+	<li>Fixed issues causing players to be sent to an incorrect graveyard when they died.</li>
+	<li>Fixed an issue where the denizens of Pyrewood Village would not spawn around Dawn and Dusk for periods of time. Probably nothing to worry about; the villagers seem fine and love howling at night.</li>
+</ul>
+
+<hr />
+<p><strong><span>November 9, 2026</span></strong></p>
+
+<p><strong>Classes</strong></p>
+
+<ul>
+	<li><strong>Druid</strong>
+
+	<ul>
+		<li>The Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned.</li>
+		<li>Idol of Ferocity no longer lists Mangle as an ability it discounts.</li>
+		<li><strong>Feral</strong>
+		<ul>
+			<li>Fixed an issue where Feral Charge (Cat) was not putting the Druid in combat right away.</li>
+			<li>Fixed an issue where Natural Instinct was not applying correctly to Lacerate or Pounce.</li>
+			<li>Fixed an issue where the Pounce Stun debuff was not showing in the enemy debuffs while active.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Hunter</strong>
+	<ul>
+		<li>Vulgara the Insatiable and the Shrieklings of Zephras should now belong to the correct hunter pet families.</li>
+		<li>Fixed an issue causing Hunters to sometimes aggro enemies from very far away by targeting them.</li>
+	</ul>
+	</li>
+	<li><strong>Mage</strong>
+	<ul>
+		<li>Flamestirke's ticks on the ground no longer incorrectly consume clearcasting.</li>
+		<li>Arcane Concentration's activation chance now correctly splits across the cast and every bolt (was granting 10% on cast and per bolt).</li>
+	</ul>
+	</li>
+	<li><strong>Paladin</strong>
+	<ul>
+		<li>Fixed an issue where Consecration could stop dealing increased damage to enemies if targets inside of the Consecration despawned previously.</li>
+		<li>Fixed an issue where Cooldown Manager wasn't showing Seals correctly.</li>
+	</ul>
+	</li>
+	<li><strong>Priest</strong>
+	<ul>
+		<li>Shadowform no longer breaks when casting Fear Ward.</li>
+		<li>Power Infusion will now correctly persist when used on allies.</li>
+	</ul>
+	</li>
+	<li><strong>Shaman</strong>
+	<ul>
+		<li>Updated the visual effect for Lightning Mastery.</li>
+		<li>Lightning Overload now deals the correct amount of damage for Lightning Bolt.</li>
+		<li>Fixed an issue causing Improved Ghost Wolf to not hold the Night Watchman's Torch in its mouth.</li>
+	</ul>
+	</li>
+	<li><strong>Warlock</strong>
+	<ul>
+		<li>Completing “Summon Felsteed” will correctly grant the player the appropriate riding skill.
+		<ul>
+			<li><em>Developers’ notes: If a player completed the quest before this hotfix, summoning the Felsteed once will grant them the apprentice riding skill, allowing them to ride other mounts if desired.</em></li>
+		</ul>
+		</li>
+		<li>Fixed an issue allowing Incinerate to be available to non-Destruction specializations.</li>
+	</ul>
+	</li>
+	<li><strong>Warrior</strong>
+	<ul>
+		<li>Thunderclap no longer tracks its duration on the target via Cooldown Manager and now only shows its cooldown.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Dungeons</strong></p>
+
+<ul>
+	<li>Experience rewarded for all enemy kills in dungeons increased by 50%.</li>
+	<li><strong>Alcaz Prison</strong>
+	<ul>
+		<li>Defeating Zarla Ober will now drop loot.</li>
+	</ul>
+	</li>
+	<li><strong>Blackfathom Deeps</strong>
+	<ul>
+		<li>Fixed an issue that could cause players to become unable to release after dying in Blackfathom Deeps.</li>
+	</ul>
+	</li>
+	<li><strong>Blackrock Depths</strong>
+	<ul>
+		<li>Fixed an issue that prevented the throne room doors from opening if the party wiped while fighting Emperor Thaurissan.</li>
+		<li>Heart of the Mountain can now be looted more than once.</li>
+	</ul>
+	</li>
+	<li><strong>The Drowned City</strong>
+	<ul>
+		<li>Fixed an issue that was causing creatures inside the Drowned City to do about 30% more damage than intended.</li>
+		<li><strong>Deathless Marrow</strong>
+		<ul>
+			<li>Lowered the health of the creatures in the Deathless Marrow encounter by 25%.</li>
+			<li>Lowered the damage of the Deathless Sorcerer's Fireball by 25%.</li>
+			<li>Lowered the damage of the Deathless Watcher's Charge by 50%.</li>
+			<li>Reduced the cast frequency of the Deathless Guardian's Shield Slam ability by about 50%.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>The Shaper’s Terrace</strong>
+	<ul>
+		<li>The Shaper's Terrace: Vitrix, Snowtalon, and Cinder now correctly drop loot and higher-level skinning materials.</li>
+		<li>Cinder should now correctly spawn after players use the Archival Panel.</li>
+	</ul>
+	</li>
+	<li><strong>Stratholme</strong>
+	<ul>
+		<li>Fixed an issue that allowed players to mount inside Stratholme.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Enemies and NPCs</strong></p>
+
+<ul>
+	<li>Silverpine Forest - Fixed an issue where Ivar the Foul was respawning more slowly than intended.</li>
+	<li>Teldrassil - Spawn time reduced for Ferocitas the Dream Eater.</li>
+	<li>Un’goro Crater - Fixed an issue that was causing Young Diemetradons to spawn at level 58 (rather than 51 to 52).</li>
+	<li>Zephras - Malduko Cloudcrush now respawns slightly more slowly.</li>
+</ul>
+
+<p><strong>Items</strong></p>
+
+<ul>
+	<li>Fixed an issue with the Pouch of Violet Dust preventing players from receiving an extra hour of duration of the Camp Benefits aura as intended.</li>
+	<li>Fixed a bug that prevented Waylaid Crates and Craftsman's Writs from dropping inside dungeons.</li>
+	<li>Berdun's Trusty Rifle no longer has random stats and is not Bind-on-Equip.</li>
+	<li>Fixed a bug causing Nifty Stopwatch to share a cooldown with Dash, Blink, Sprint, and other movement abilities.</li>
+	<li>Zephrali Greatstaff and Fallen Dragon's Scepter now appear correctly oriented when sheathed on the player's back.</li>
+	<li>Gloves of Holy Might now work as intended.</li>
+</ul>
+
+<p><strong>Player versus Player</strong></p>
+
+<ul>
+	<li>Removed an invisible wall that was incorrectly blocking the roof of the Alliance base in Warsong Gulch. Please be careful up there.</li>
+</ul>
+
+<p><strong>Quests</strong></p>
+
+<ul>
+	<li>"The Monster Surfaces" quest item is now available to all players in a party.</li>
+	<li>“Croaky's Head” is now available to all players in a party.</li>
+	<li>“Elmpaw's Head” is now available to all players in a party.</li>
+	<li>Mistreating Astor Hadren during the quest “The Deathstalkers” should now properly anger him, allowing you to fight him.</li>
+	<li>Fixed a bug preventing Jom-jom from continuing his escape on “Jom-jom’s Escape”.</li>
+	<li>The door available after the quest “Ever After” should now correctly teleport players who interact with the door.</li>
+	<li>Fixed a bug keeping Terry Longdrink alive during the quest "Unwelcome Guests".</li>
+	<li>Fixed an issue where the quest "Find Bingles" was incorrectly categorized in Ironforge, rather than Loch Modan.</li>
+	<li>Updated Skonk's list to be readable by everyone going on "A Quick Grocery Run".</li>
+	<li>Henrig Lonebrow’s Journal now respawns more quickly, so that more players can get started on “Lonebrow's Journal”. It has also moved slightly down the road. Look for a similar skeleton to mark the location.</li>
+	<li>Addressed an issue that could prevent players from looting Berard's Journal from Berard's Bookshelf for “A Recipe for Death”.</li>
+	<li>Resolved an issue preventing completion of “Fetch ‘n’ Fletch”.</li>
+	<li>Fixed an issue where restarting the Rogue quest “Mission: Possible not Probable” was much less possible than intended.</li>
+	<li>Resolved an issue where Jezap Jinglesprocket could fail to provide players a “Bloodmaster’s Ring”.</li>
+	<li>Fixed an issue during the quest "Feathers in Flight" where players below level 60 could not loot the Hyjal Owl Nests.</li>
+</ul>
+
+<p><strong>Races</strong></p>
+
+<ul>
+	<li><strong>Tauren</strong>
+
+	<ul>
+		<li>Cultivation now correctly only goes on cooldown after completing the cast.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>World</strong></p>
+
+<ul>
+	<li>Lowered the population of players in various zones where there was significant congestion.
+	<ul>
+		<li><em>Developers' notes: We've made this an even bigger change on the PvP ruleset, following feedback from players that they felt overcrowded in several places. We will continue to monitor how zones feel and make further adjustments as necessary.</em></li>
+	</ul>
+	</li>
+	<li>Resolved an issue where the flight path from Camp Taurajo to Thunder Bluff could unintentionally go through objects.</li>
+</ul>
+
+<hr />
+<p><strong><span>November 6, 2026</span></strong></p>
+
+<p><strong>Classes</strong></p>
+
+<ul>
+	<li>Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.</li>
+	<li><strong>Cooldown Manager</strong>
+	<ul>
+		<li>The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns or mechanic reductions (like orc stun reduction) are factors.</li>
+	</ul>
+	</li>
+	<li><strong>Druid</strong>
+	<ul>
+		<li>Bloom will now correctly heal the target.</li>
+		<li>Fixed a bug where the tooltip of Bear Form claimed an incorrect health value increase. The functionality was correct, but the wrong value was reported.</li>
+		<li>The tooltip for Ravage reported an incorrect value for its damage, and the tooltip has been corrected. There was no change made to damage done.</li>
+		<li>Fixed the tooltip for Swiftmend to no longer incorrectly mention consuming the effect.</li>
+	</ul>
+	</li>
+	<li><strong>Mage</strong>
+	<ul>
+		<li>Fixed an issue where Mages were still learning the Research spell and then losing it upon relogging. This spell should not exist, and you should only have the Study spell after completing the relevant quest.</li>
+		<li>Fixed an issue with Arcane Blast where its duration was not properly 18 seconds.</li>
+	</ul>
+	</li>
+	<li><strong>Rogue</strong>
+	<ul>
+		<li>Shank will now display Rank 1 and Rank 2 in the tooltips.</li>
+		<li>While Boot Knife is talented, Shank will now correctly display the number of Combo Points it grants.</li>
+	</ul>
+	</li>
+	<li><strong>Warlock</strong>
+	<ul>
+		<li>Voidwalker base health increased by about 40 at all levels.</li>
+		<li>The Soul Siphon talent no longer incorrectly causes Wrack to increase its own damage.</li>
+	</ul>
+	</li>
+	<li><strong>Warrior</strong>
+	<ul>
+		<li>Fixed the tooltip for Reckless Swings to mention that it activates Gore Drinker.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Dungeons</strong></p>
+
+<ul>
+	<li>Fixed an issue that would prevent Zaetar's Spirit from spawning after defeating Princess Theradras in Maraudon.</li>
+	<li>Fixed an issue that could cause some creatures inside Blackmaw Hold and The Drowned City to erroneously disengage.</li>
+	<li>The instance portal should now correctly teleport you inside The Drowned City</li>
+</ul>
+
+<p><strong>Enemies and NPCs</strong></p>
+
+<ul>
+	<li>Dun Morogh - Fixed an issue where the troggs in Grol'bolar Quarry would respawn too quickly.</li>
+	<li>Durotar - Ridgeshade Lurkers now correctly have loot.</li>
+	<li>Riverglades - Krek the Noxious now has correct loot when defeated.</li>
+	<li>Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.</li>
+	<li>Teldrassil - Fixed an issue where Lasher Sproutlings, Blooming Lashers, and Wrathvine were immune to nature damage.</li>
+</ul>
+
+<p><strong>Items</strong></p>
+
+<ul>
+	<li>Searing Dagger is now only activated by spells that have a damaging component.</li>
+</ul>
+
+<p><strong>Professions</strong></p>
+
+<ul>
+	<li><strong>Leatherworking</strong>
+
+	<ul>
+		<li>Tanning Rack skill requirement lowered to 125 (was 140). This prevents it from being an obstacle to crafting various Leatherworking patterns that require 125 skill. Tanning Rack skill-ups lowered by 15 skill points to account for this.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Quests</strong></p>
+
+<ul>
+	<li>Resolved an issue with the quest “Vorsha the Lasher” rudely lashing everyone in the zone.</li>
+	<li>Brewed a fresh pot of Darnassus’s finest coffee for Kerlonian Evershade so he falls asleep less often during "The Sleeper Has Awakened". Players now also start with the Horn of Awakening item to wake him up when needed.</li>
+	<li>The quest "Rough Wolf Pelts" is now automatically cancelled if you unlearn the Skinning skill.</li>
+	<li>Resolved an issue with "Rediscovering the Light" where players were sometimes unable to heal NPCs.</li>
+	<li>Fixed an issue during the quest "Ammo for Rumbleshot" where players could not see loot if interacting immediately following another player.</li>
+	<li>Resolved an issue where some quest item drops in Riverglades were not shared by players in a party.</li>
+	<li>"Never Saddle on Quality" spawns and quest item drops should now be more plentiful.</li>
+	<li>The Abomimable Head dropped from The Baron in the Ruins of Lordaeron dungeon will now properly offer the quest "Unending Torment" for Horde players at level 15 (was level 16).</li>
+	<li>Damp Note drop rate increased. Eww.</li>
+</ul>
+
+<p><strong>Races</strong></p>
+
+<ul>
+	<li><strong>Night Elf</strong>
+
+	<ul>
+		<li>Fixed a bug granting Shadowmelded Druids access to Ravage and Pounce.</li>
+	</ul>
+	</li>
+	<li><strong>Orc</strong>
+	<ul>
+		<li>Fixes an issue where some Warlock pet abilities were benefitting too much from the Orc Command racial ability.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>World</strong></p>
+
+<ul>
+	<li>Deployed some improvements to the visibility of other players and their targets across relatively large distances.</li>
+	<li>Thunder Bluff - Fixed an issue where the Barbershop was darker than intended. We moooved the lights around.</li>
+</ul>
+
+<hr />
+<p><strong><span>November 5, 2026</span></strong></p>
+
+<p><strong>Enemies and NPCs</strong></p>
+
+<ul>
+	<li>Durotar - Fixed an issue where Yarrog Baneshadow was respawning more slowly than intended.</li>
+	<li>Zephras - Lotheluum Starbreeze now offers training to Druids as expected.</li>
+	<li>Dustwallow Marsh - Fixed an issue where some murlocs in Dustwallow Marsh were respawning too quickly.</li>
+	<li>Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.</li>
+</ul>
+
+<p><strong>Items</strong></p>
+
+<ul>
+	<li>Fixed an issue where trade supply vendors on Zephras Isle didn't sell apprentice tradeskill bags.</li>
+	<li>Mild Spices now sell to vendors for 1 copper each (was 2 copper).</li>
+</ul>
+
+<p><strong>Player versus Player</strong></p>
+
+<ul>
+	<li>Fixed an issue where Plainsrunning could be stacked in a battleground's preparation phase.</li>
+	<li>Plainsrunning can no longer stack and stacks will be cancelled when carrying a flag in a battleground.</li>
+</ul>
+
+<p><strong>Quests</strong></p>
+
+<ul>
+	<li>Fixed an issue with incorrect text in "The Sisterhood of Elune".</li>
+	<li>Deathstalker Erland respawns much more quickly for the quest "Escorting Erland".</li>
+</ul>
+32:["$","section",null,{"className":"blog","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"$36"}}]
+33:["$","$L37",null,{}]
+34:["$","$L38",null,{}]
+35:["$","$L39",null,{}]

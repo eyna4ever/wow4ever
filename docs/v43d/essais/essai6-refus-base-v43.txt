@@ -1,0 +1,5 @@
+1/7 Vérifications
+ERREUR: la release actuelle n'est pas la v43b (wiki fd0c62ca454498c97964c1b3c701089cb27a7a494f976dad05ec26c0fb9216f7, attendu c82421613a35ec1c3306c82b908c545f353347ea22c324589db355337f649517) : rien modifié.
+Rien n'a été modifié.
+Journal : /tmp/w43d-root/root/wow4ever-v43d-20261125T172110.log
+code 1    [current -> releases/20261118T005337]

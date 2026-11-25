@@ -1,5 +1,7 @@
 # WoW Forever — wiki et communauté
 
+Le wiki actuellement en ligne sur [wowkipedia.com](https://wowkipedia.com) est la version **v43d** (25/11/2026, Europe/Paris), empreinte `5875d6be00b3d058195bd8000f0ea194b323ab5dfb78e8bb7eb91858421e8dd4`. Voir [docs/SYNC-LIVE-v43d.md](docs/SYNC-LIVE-v43d.md).
+
 Le wiki HTML/CSS/JavaScript français et anglais est conservé. Le service Flask ajoute les forums, les comptes Discord et la modération sur la même origine. SQLite stocke uniquement les données communautaires. Aucune génération de faux comptes, sujets ou activité.
 
 Branche de travail : `codex/community-redesign`. Base auditée : `9b51f381bba732e084157b7335afb5f6f503c3b5` de [eyna4ever/wow4ever](https://github.com/eyna4ever/wow4ever).

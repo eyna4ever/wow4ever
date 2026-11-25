@@ -1,0 +1,14 @@
+[
+  {
+    "retired": "forever-news-golive-nov4",
+    "into": "forever-news-launch",
+    "at": "2026-11-01",
+    "note": "Doublon : « Lancement mondial le 4 novembre : ce qu'il faut savoir » (30/10) réuni avec « Lancement mondial annoncé » (24/10), qui garde son adresse et ses 12 liens entrants. Décision de Mathieu le 01/11/2026."
+  },
+  {
+    "retired": "forever-news-podcast-tech",
+    "into": "forever-news-podcast-series",
+    "at": "2026-11-01",
+    "note": "Doublon : « Podcast WoW Forever : la technique » (épisode 6) réuni avec « Le podcast officiel WoW: Forever » (épisodes 1 à 6, rubrique Communauté). Décision de Mathieu le 01/11/2026."
+  }
+]

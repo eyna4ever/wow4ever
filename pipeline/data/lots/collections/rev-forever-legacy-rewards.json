@@ -1,0 +1,471 @@
+{
+ "id": "forever-legacy-rewards",
+ "title": {
+  "fr": "Récompenses d’héritage : les 4 récompenses du lancement",
+  "en": "Legacy Rewards: the 4 launch rewards"
+ },
+ "description": {
+  "fr": "Les quatre récompenses d’héritage annoncées pour le lancement (jouet, mascotte, tabard, monture), débloquées par les points d’héritage cumulés sur le compte.",
+  "en": "The four Legacy Rewards announced for launch (toy, pet, tabard, mount), unlocked by Legacy Points accumulated on the account."
+ },
+ "category": "quests",
+ "subcategory": "heritage",
+ "sources": [
+  {
+   "key": "bz-legacy-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+   "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "bz-legacy-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+   "title": "Get to Know the World of Warcraft: Forever Legacy System",
+   "publishedAt": "2026-09-23",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "client-fichiers-en",
+   "language": "en",
+   "url": "https://us.cdn.blizzard.com/tpr/wow/config/5a/da/5ada954223f7c409ea172361f5c9e565",
+   "title": "WoW Forever client files, build 1.60.1.70862 — data tables and icons read from Blizzard’s official CDN",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Fichiers du jeu World of Warcraft: Forever (build 1.60.1.70862) lus sur le CDN officiel Blizzard : noms, prix, niveaux et icônes ; icônes converties en WebP sans retouche. Contenus et images du jeu © Blizzard Entertainment ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+   "clientBuild": "1.60.1.70862",
+   "verification": "données du jeu"
+  },
+  {
+   "key": "client-quetes-en",
+   "language": "en",
+   "url": "https://eternadex.com/en/daten/quests/0.json",
+   "title": "Quest data JSON (Forever game data 1.60.1, partly completed by player-addon contributions; 64 files consulted)",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Base de fans sans licence de réutilisation : faits courts repris avec lien, à confirmer ; site non commercial. Contenus de jeu © Blizzard Entertainment.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  },
+  {
+   "key": "client-fichiers-en",
+   "language": "en",
+   "url": "https://us.cdn.blizzard.com/tpr/wow/config/5a/da/5ada954223f7c409ea172361f5c9e565",
+   "title": "WoW Forever client files, build 1.60.1.70862 — data tables and icons read from Blizzard’s official CDN",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Fichiers du jeu World of Warcraft: Forever (build 1.60.1.70862) lus sur le CDN officiel Blizzard : noms, prix, niveaux et icônes ; icônes converties en WebP sans retouche. Contenus et images du jeu © Blizzard Entertainment ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+   "clientBuild": "1.60.1.70862",
+   "verification": "données du jeu"
+  },
+  {
+   "key": "client-quetes-en",
+   "language": "en",
+   "url": "https://eternadex.com/en/daten/quests/0.json",
+   "title": "Quest data JSON (Forever game data 1.60.1, partly completed by player-addon contributions; 64 files consulted)",
+   "accessedAt": "2026-11-17",
+   "undated": true,
+   "license": "Base de fans sans licence de réutilisation : faits courts repris avec lien, à confirmer ; site non commercial. Contenus de jeu © Blizzard Entertainment.",
+   "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17"
+  }
+ ],
+ "status": "published",
+ "updatedAt": "2026-11-17T17:00:00.000Z",
+ "gameVersion": "World of Warcraft: Forever — annonces officielles et fichiers du jeu (client 1.60.1.70862), état documentaire 2026-11-17",
+ "version": 16,
+ "relations": [
+  "forever-items-collections",
+  "forever-legacy-challenges",
+  "forever-legacy-perks",
+  "forever-progression-legacy",
+  "article-forever-legacy",
+  "forever-items-toys",
+  "forever-items-pets",
+  "forever-items-mounts"
+ ],
+ "history": [
+  {
+   "at": "2026-11-09",
+   "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
+   "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
+   "version": 1
+  },
+  {
+   "at": "2026-11-09T20:24:10.402Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-11-09T20:24:12.147Z",
+   "actor": "Mathieu",
+   "note": "submit: Lot 1 (étape 03) soumis pour publication v32 ; validation de Mathieu t338u (2026-11-09)",
+   "version": 2
+  },
+  {
+   "at": "2026-11-09T20:24:12.395Z",
+   "actor": "Mathieu",
+   "note": "approve: Validé par Mathieu : t338u (2026-11-09, 7 fiches validées, Gelkis/Magram conservée) ; publication « Oui » t339u (2026-11-09). Exécuté par GrokBot sur instruction.",
+   "version": 3
+  },
+  {
+   "at": "2026-11-09T20:24:12.641Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication v32 lot 1 : « Oui » de Mathieu t339u (2026-11-09)",
+   "version": 4
+  },
+  {
+   "at": "2026-11-12T05:10:12.497Z",
+   "actor": "Mathieu",
+   "note": "revise: Révision t351u (Mathieu) : liens vers les listes Forever désormais publiées (recettes t349u, jouets/mascottes/montures t350u).",
+   "version": 5
+  },
+  {
+   "at": "2026-11-12T05:10:12.914Z",
+   "actor": "Mathieu",
+   "note": "submit: submit t351u: Republication t351u (Mathieu) après révision des liens vers les listes Forever publiées.",
+   "version": 6
+  },
+  {
+   "at": "2026-11-12T05:10:13.267Z",
+   "actor": "Mathieu",
+   "note": "approve: approuvé par Mathieu (t351u) : Republication t351u (Mathieu) après révision des liens vers les listes Forever publiées.",
+   "version": 7
+  },
+  {
+   "at": "2026-11-12T05:10:13.621Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu (t351u) : Republication t351u (Mathieu) après révision des liens vers les listes Forever publiées.",
+   "version": 8
+  },
+  {
+   "at": "2026-11-13T02:27:42.283Z",
+   "actor": "Mathieu",
+   "note": "revise: t359u : retirer « à confirmer » des faits trouvés dans les fichiers du jeu (client 1.60.1.70862). L’obtention « inconnu », les zones non indiquées et les sources sans tampon de build restent à confirmer. Pas une mise en ligne.",
+   "version": 9
+  },
+  {
+   "at": "2026-11-14T19:42:34.154Z",
+   "actor": "Mathieu",
+   "note": "submit: t359u : relire la révision (retrait de « à confirmer » sur les données du client 1.60.1.70862).",
+   "version": 10
+  },
+  {
+   "at": "2026-11-14T19:42:34.305Z",
+   "actor": "Mathieu",
+   "note": "approve: t359u Oui (t361u) : validation humaine, identité, droits et traductions.",
+   "version": 11
+  },
+  {
+   "at": "2026-11-14T19:42:34.487Z",
+   "actor": "Mathieu",
+   "note": "publish: t359u Oui (t361u, 14 novembre 2026) : republication des fiches révisées, d’un seul tenant.",
+   "version": 12
+  },
+  {
+   "at": "2026-11-17T17:32:37.366Z",
+   "actor": "GrokBot-test-v41",
+   "note": "revise: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu.",
+   "version": 13
+  },
+  {
+   "at": "2026-11-17T17:32:40.259Z",
+   "actor": "GrokBot-test-v41",
+   "note": "submit: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. submit",
+   "version": 14
+  },
+  {
+   "at": "2026-11-17T17:32:40.464Z",
+   "actor": "GrokBot-test-v41",
+   "note": "approve: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. approve",
+   "version": 15
+  },
+  {
+   "at": "2026-11-17T17:32:40.679Z",
+   "actor": "GrokBot-test-v41",
+   "note": "publish: Aperçu de test v41 (t403u), non publié — en attente du Oui de Mathieu. publish",
+   "version": 16
+  }
+ ],
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "recompenses-heritage",
+   "en": "legacy-rewards"
+  },
+  "illustration": "quests",
+  "lead": {
+   "fr": "En plus des avantages par personnage, les points d’héritage s’accumulent sur tout le compte et débloquent des jouets et des objets ornementaux. Quatre récompenses sont annoncées au lancement.",
+   "en": "Besides per-character perks, Legacy Points accumulate across the account and unlock toys and cosmetic items. Four rewards are announced at launch.",
+   "src": [
+    "bz-legacy"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Quatre récompenses au lancement.",
+    "en": "Four rewards at launch.",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "fr": "De nouvelles récompenses sont prévues à chaque mise à jour de contenu.",
+    "en": "New rewards are planned with each content update.",
+    "src": [
+     "bz-legacy"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   },
+   {
+    "fr": "Icônes du jeu affichées pour les quatre récompenses (fichiers du jeu, client 1.60.1.70862).",
+    "en": "Game icons shown for all four rewards (game files, client 1.60.1.70862).",
+    "src": [
+     "client-fichiers"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "illustrees",
+    "title": {
+     "fr": "Les quatre récompenses, illustrées",
+     "en": "The four rewards, illustrated"
+    },
+    "blocks": [
+     {
+      "type": "collection",
+      "ref": "heritage-lancement",
+      "fr": "Les quatre récompenses du lancement avec leur icône du jeu et leurs données des fichiers du jeu (client 1.60.1.70862). Chaque récompense a aussi une quête « Legacy Reward » dans les données de quêtes (à confirmer).",
+      "en": "The four launch rewards with their game icon and game-file data (client 1.60.1.70862). Each reward also has a “Legacy Reward” quest in the quest data (to be confirmed).",
+      "src": [
+       "bz-legacy",
+       "client-fichiers",
+       "client-quetes"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "liste",
+    "title": {
+     "fr": "Les récompenses",
+     "en": "The rewards"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Récompenses d’héritage au lancement",
+       "en": "Legacy Rewards at launch"
+      },
+      "head": [
+       {
+        "fr": "Nom (FR)",
+        "en": "Name (FR)"
+       },
+       {
+        "fr": "Nom (EN)",
+        "en": "Name (EN)"
+       },
+       {
+        "fr": "Type et description",
+        "en": "Type and description"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "Réplique de carabine à air comprimé de Forgefer",
+         "en": "Réplique de carabine à air comprimé de Forgefer"
+        },
+        {
+         "fr": "Replica Ironforge Air Rifle",
+         "en": "Replica Ironforge Air Rifle"
+        },
+        {
+         "fr": "Jouet : batailles factices entre joueurs ; étourdit et compte les points",
+         "en": "Toy: mock shootouts between players; stuns and keeps score"
+        }
+       ],
+       [
+        {
+         "fr": "Ourson spectral",
+         "en": "Ourson spectral"
+        },
+        {
+         "fr": "Spectral Bear Cub",
+         "en": "Spectral Bear Cub"
+        },
+        {
+         "fr": "Mascotte exclusive, inspirée du chasseur nain et de son compagnon de la cinématique",
+         "en": "Exclusive pet inspired by the Dwarven Hunter and his companion in the cinematic"
+        }
+       ],
+       [
+        {
+         "fr": "Tabard d’ours spectral",
+         "en": "Tabard d’ours spectral"
+        },
+        {
+         "fr": "Spectral Bear Tabard",
+         "en": "Spectral Bear Tabard"
+        },
+        {
+         "fr": "Tabard exclusif",
+         "en": "Exclusive tabard"
+        }
+       ],
+       [
+        {
+         "fr": "Rênes d’ours spectral",
+         "en": "Rênes d’ours spectral"
+        },
+        {
+         "fr": "Reins of the Spectral Bear",
+         "en": "Reins of the Spectral Bear"
+        },
+        {
+         "fr": "Monture spectrale exclusive",
+         "en": "Exclusive spectral mount"
+        }
+       ]
+      ],
+      "src": [
+       "bz-legacy"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "collections",
+    "title": {
+     "fr": "Toutes les collections",
+     "en": "All collections"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Toutes les montures, mascottes et jouets, avec image du jeu et obtention : /fr/objets/collections/ (montures : /fr/objets/montures/, mascottes : /fr/objets/mascottes/, jouets : /fr/objets/jouets/).",
+      "en": "All mounts, pets and toys, with game image and acquisition: /en/items/collections/ (mounts: /en/items/mounts/, pets: /en/items/companion-pets/, toys: /en/items/toys/).",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "historique-des-corrections",
+    "title": {
+     "fr": "Historique des corrections",
+     "en": "Correction history"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "17 novembre 2026 (v41, test) : fiches illustrées par les icônes du jeu, regroupées par moyen d’obtention ; noms français officiels et prix repris des fichiers du jeu (client 1.60.1.70862) ; quêtes et PNJ des données de quêtes, à confirmer. Remplace l’ancien tableau. Pas une mise en ligne.",
+      "en": "17 November 2026 (v41, test): cards illustrated with game icons, grouped by acquisition; official French names and prices taken from the game files (client 1.60.1.70862); quests and NPCs from quest data, to be confirmed. Replaces the former table. Not a publication.",
+      "src": [
+       "client-fichiers"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Les quatre noms FR/EN et leur type.",
+    "en": "The four FR/EN names and their type.",
+    "src": [
+     "bz-legacy"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Nombre de points d’héritage nécessaire pour chaque récompense : non publié.",
+    "en": "Number of Legacy Points needed for each reward: not published."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   },
+   {
+    "fr": "Quête « Legacy Reward » de chaque récompense : vue dans les données de quêtes, sans PNJ ni lieu ; à confirmer en jeu.",
+    "en": "“Legacy Reward” quest of each reward: seen in the quest data, without NPC or location; to be confirmed in game."
+   }
+  ],
+  "noAmbiance": true
+ },
+ "identityConfirmed": true,
+ "importMeta": {
+  "fingerprint": "eae82ff8f50146a566bc1f3dcebffbc4ce8311f39ef910b1c64b2b5a97684f9a",
+  "importedAt": "2026-11-17T17:32:37.366Z",
+  "sourceStatus": "published"
+ },
+ "review": {
+  "approved": true,
+  "reviewer": "GrokBot-test-v41",
+  "at": "2026-11-17T17:32:40.464Z",
+  "rightsConfirmed": true,
+  "translationsConfirmed": true,
+  "contentDigest": "198ef3637f0e127efb4ff3102d8f73f03c731004f74ea345b7411915b91d15f4"
+ }
+}

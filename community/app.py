@@ -15,6 +15,7 @@ import requests
 from itsdangerous import BadSignature, URLSafeTimedSerializer
 from flask import (Flask, abort, g, make_response, redirect, render_template,
                    request, send_from_directory, url_for)
+from markupsafe import Markup
 from werkzeug.exceptions import HTTPException
 
 from community.proxy import trusted_client_ip
@@ -24,6 +25,28 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI_ROOT = Path(os.getenv('WIKI_ROOT', str(ROOT / 'wiki'))).resolve()
 STATIC_ROOT = ROOT / 'community' / 'static'
 DAY = 86400
+# v14: a signed-in browser stays signed in for 30 days of inactivity (90 days at most); a login in progress lasts 10 minutes.
+REMEMBER = 30 * DAY
+REMEMBER_MAX = 90 * DAY
+LOGIN_FLOW = 600
+LOGIN_LABEL = '<span>Se connecter<span class="visually-hidden"> avec Discord</span></span>'
+DISCORD_ERRORS = {
+    'invalid_client': ('secret', 'Discord ne reconnaît pas le site : le « Client Secret » enregistré sur le serveur est incorrect. '
+                       'L’administrateur doit recoller le Client Secret de l’application Discord.'),
+    'unauthorized_client': ('secret', 'Discord refuse cette application (Client ID ou secret incorrect).'),
+    'invalid_grant': ('grant', 'Discord a refusé le code de connexion (expiré, déjà utilisé, ou adresse de retour différente de '
+                      'celle déclarée sur le portail Discord). Réessayez ; si cela persiste, l’adresse de retour doit être corrigée.'),
+    'invalid_request': ('request', 'Discord a refusé la demande de connexion (paramètres invalides).'),
+}
+
+
+def safe_next(value):
+    """Only a local path of this site (never another origin, never /auth/...), else None."""
+    if not value or len(value) > 300 or not re.fullmatch(r"/[A-Za-z0-9/_.~%?=&+-]*", value):
+        return None
+    if value.startswith('//') or value.startswith('/auth/') or '..' in value:
+        return None
+    return value
 
 
 def digest(value):
@@ -57,6 +80,26 @@ def create_app(test_config=None):
     csrf_cookie_name = '__Host-forever-csrf' if secure else 'forever-csrf-local'
     anonymous_csrf = URLSafeTimedSerializer(app.config['SECRET_KEY'], salt='forever-login-csrf-v1')
     app.wsgi_app = trusted_client_ip(app.wsgi_app, app.config['TRUSTED_PROXY_IPS'])
+
+    def migrate(conn):
+        """v14 (schema 3): Discord avatars are never fetched, stored or shown; purge stored references.
+        Additive only (new table), so the v13 code still runs on this database after a rollback."""
+        conn.execute('PRAGMA busy_timeout=10000')
+        conn.execute('BEGIN IMMEDIATE')
+        try:
+            if conn.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='migrations'").fetchone() \
+                    and not conn.execute('SELECT 1 FROM migrations WHERE version=3').fetchone():
+                conn.execute('UPDATE users SET avatar=NULL,show_avatar=0')
+                conn.execute('CREATE TABLE IF NOT EXISTS oauth_next (state TEXT PRIMARY KEY, next TEXT NOT NULL, expires INTEGER NOT NULL)')
+                conn.execute('INSERT INTO migrations VALUES(3,?)', (int(time.time()),))
+            conn.execute('COMMIT')
+        except Exception:
+            conn.execute('ROLLBACK')
+            raise
+
+    if Path(app.config['DATABASE']).exists():
+        with sqlite3.connect(app.config['DATABASE'], timeout=10, isolation_level=None) as conn:
+            migrate(conn)
 
     def db():
         if 'db' not in g:
@@ -168,6 +211,7 @@ def create_app(test_config=None):
         g.user = None
         g.session = None
         g.new_cookie = None
+        g.cookie_age = None
         g.anonymous_csrf = ''
         g.clear_anonymous_csrf = False
         if request.host != origin.netloc:
@@ -178,16 +222,17 @@ def create_app(test_config=None):
             return
         token = request.cookies.get(cookie_name, '')
         if len(token) <= 128 and token:
-            g.session = query('SELECT * FROM sessions WHERE token=? AND seen>? AND created>?',
-                              (digest(token), now()-3600, now()-DAY), True)
+            g.session = query('''SELECT * FROM sessions WHERE token=? AND (
+                (user_id IS NULL AND seen>? AND created>?) OR (user_id IS NOT NULL AND seen>? AND created>?))''',
+                (digest(token), now()-3600, now()-DAY, now()-REMEMBER, now()-REMEMBER_MAX), True)
         if g.session:
             if now()-g.session['seen'] >= 60:
                 db().execute('UPDATE sessions SET seen=? WHERE token=?', (now(), g.session['token']))
                 db().commit()
+                if g.session['user_id'] and now()-g.session['seen'] >= DAY:
+                    g.new_cookie, g.cookie_age = token, REMEMBER  # slide the 30-day cookie, at most once a day
             if g.session['user_id']:
                 g.user = query('SELECT * FROM users WHERE id=?', (g.session['user_id'],), True)
-        if request.endpoint == 'callback' and not g.session:
-            abort(400, 'La session de connexion Discord est absente ou expirée.')
         if request.endpoint == 'account' and request.method == 'GET' and not g.session and app.config['DISCORD_CLIENT_ID'] and app.config['DISCORD_CLIENT_SECRET']:
             existing = request.cookies.get(csrf_cookie_name, '')
             try:
@@ -230,7 +275,7 @@ def create_app(test_config=None):
             response.headers['Cache-Control'] = 'no-store'
             response.headers['X-Robots-Tag'] = 'noindex, nofollow'
         if getattr(g, 'new_cookie', None):
-            response.set_cookie(cookie_name, g.new_cookie, secure=secure, httponly=True, samesite='Lax', path='/')
+            response.set_cookie(cookie_name, g.new_cookie, max_age=g.cookie_age, secure=secure, httponly=True, samesite='Lax', path='/')
         if getattr(g, 'anonymous_csrf', ''):
             response.set_cookie(csrf_cookie_name, g.anonymous_csrf, max_age=600, secure=secure, httponly=True, samesite='Lax', path='/')
         if getattr(g, 'clear_anonymous_csrf', False):
@@ -242,7 +287,9 @@ def create_app(test_config=None):
         unread = query('SELECT count(*) n FROM notifications n JOIN topics t ON t.id=n.topic_id JOIN posts p ON p.id=n.post_id WHERE n.user_id=? AND n.seen=0 AND t.hidden=0 AND p.hidden=0', (g.user['id'],), True)['n'] if g.user else 0
         return dict(user=g.user, csrf=g.session['csrf'] if g.session else getattr(g,'anonymous_csrf',''), staff=staff(),
                     oauth_enabled=bool(app.config['DISCORD_CLIENT_ID'] and app.config['DISCORD_CLIENT_SECRET']),
-                    unread=unread, contact=app.config['PRIVACY_CONTACT'], controller=app.config['CONTROLLER_NAME'])
+                    unread=unread, contact=app.config['PRIVACY_CONTACT'], controller=app.config['CONTROLLER_NAME'],
+                    login_label=Markup(LOGIN_LABEL), remember_days=REMEMBER//DAY,
+                    account_label=Markup('<span>{}<span class="visually-hidden"> · mon compte</span></span>').format(g.user['name']) if g.user else '')
 
     @app.template_filter('date')
     def date(value):
@@ -250,7 +297,8 @@ def create_app(test_config=None):
 
     @app.errorhandler(HTTPException)
     def error(exc):
-        response = make_response(render_template('error.html', error=exc), exc.code)
+        retry = request.endpoint in ('login', 'callback') and exc.code != 503
+        response = make_response(render_template('error.html', error=exc, retry=retry, hint=getattr(g, 'login_hint', '')), exc.code)
         if exc.code == 429:
             response.headers['Retry-After'] = '600'
         return response
@@ -259,16 +307,27 @@ def create_app(test_config=None):
     def health():
         return {'status': 'ok', 'schema': query('SELECT max(version) v FROM migrations', one=True)['v']}
 
-    @app.post('/auth/discord')
+    def login_failed(code, message, log, hint=''):
+        # Diagnostics for the operator: HTTP status / Discord error code only, never a secret, code or token.
+        app.logger.warning('discord-login: %s', log)
+        g.login_hint = hint
+        abort(code, message)
+
+    @app.route('/auth/discord', methods=['GET', 'POST'])
     def login():
+        """One click: GET from the header (via /account/) or POST from the account page. The flow is bound to this
+        browser (state + PKCE in the server-side session); first login creates the account automatically."""
         if not app.config['DISCORD_CLIENT_ID'] or not app.config['DISCORD_CLIENT_SECRET']:
             abort(503, 'Connexion Discord non configurée sur cet environnement.')
-        limit('oauth', 10, 600)
+        limit('oauth', 20, 600)
         create_login_session()
+        target = safe_next(request.values.get('next', '')) or '/community/'
         state, verifier = secrets.token_urlsafe(32), secrets.token_urlsafe(64)
         challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b'=').decode()
         db().execute('DELETE FROM oauth WHERE session_token=? OR expires<?', (g.session['token'], now()))
-        db().execute('INSERT INTO oauth VALUES(?,?,?,?)', (digest(state), g.session['token'], verifier, now()+600))
+        db().execute('INSERT INTO oauth VALUES(?,?,?,?)', (digest(state), g.session['token'], verifier, now()+LOGIN_FLOW))
+        db().execute('DELETE FROM oauth_next WHERE expires<?', (now(),))
+        db().execute('INSERT OR REPLACE INTO oauth_next VALUES(?,?,?)', (digest(state), target, now()+LOGIN_FLOW))
         db().commit()
         return redirect('https://discord.com/oauth2/authorize?' + urlencode(dict(
             client_id=app.config['DISCORD_CLIENT_ID'], response_type='code',
@@ -277,42 +336,74 @@ def create_app(test_config=None):
 
     @app.get('/auth/discord/callback')
     def callback():
-        limit('oauth-callback', 20, 600)
+        limit('oauth-callback', 30, 600)
         state = request.args.get('state', '')
-        if len(state) > 128:
-            abort(400)
-        flow = db().execute('DELETE FROM oauth WHERE state=? AND session_token=? AND expires>? RETURNING verifier',
-                            (digest(state), g.session['token'], now())).fetchone()
+        if len(state) > 128 or not state:
+            login_failed(400, 'Lien de retour Discord incomplet.', 'callback without state')
+        if request.args.get('error'):
+            err = re.sub(r'[^a-z_]', '', request.args.get('error', ''))[:40]
+            db().execute('DELETE FROM oauth WHERE state=?', (digest(state),)); db().commit()
+            if err == 'access_denied':
+                login_failed(400, 'Connexion annulée sur Discord : aucune donnée n’a été transmise.', 'user cancelled (access_denied)')
+            login_failed(400, f'Discord a refusé la demande ({err or "erreur inconnue"}).', f'authorize error={err}')
+        # Bound to the browser that started the login. A browser WITHOUT any session cookie may still finish a flow
+        # that is valid, unused and < 10 min old: phones often come back from the Discord app into another browser.
+        if g.session:
+            flow = db().execute('DELETE FROM oauth WHERE state=? AND session_token=? AND expires>? RETURNING verifier',
+                                (digest(state), g.session['token'], now())).fetchone()
+        else:
+            flow = db().execute('DELETE FROM oauth WHERE state=? AND expires>? RETURNING verifier',
+                                (digest(state), now())).fetchone()
+        target = query('SELECT next FROM oauth_next WHERE state=?', (digest(state),), True)
+        db().execute('DELETE FROM oauth_next WHERE state=?', (digest(state),))
         db().commit()
-        if not flow or request.args.get('error') or not request.args.get('code'):
-            abort(400, 'Autorisation Discord expirée, refusée ou déjà utilisée.')
+        if not flow:
+            login_failed(400, 'Cette connexion a expiré ou a déjà été utilisée (plus de 10 minutes, ou lancée depuis un autre navigateur). Recommencez : un clic suffit.',
+                         'unknown, expired or reused state' + ('' if g.session else ' (no session cookie)'))
+        if not request.args.get('code'):
+            login_failed(400, 'Lien de retour Discord incomplet.', 'callback without code')
         if request.args.get('iss', 'https://discord.com') != 'https://discord.com':
-            abort(400, 'Émetteur OAuth invalide.')
+            login_failed(400, 'Émetteur OAuth invalide.', 'unexpected iss')
         access_token = None
+        step = 'token'
         try:
             response = requests.post('https://discord.com/api/oauth2/token', data={
                 'grant_type': 'authorization_code', 'code': request.args['code'],
                 'redirect_uri': app.config['PUBLIC_URL']+'/auth/discord/callback',
                 'client_id': app.config['DISCORD_CLIENT_ID'], 'client_secret': app.config['DISCORD_CLIENT_SECRET'],
                 'code_verifier': flow['verifier'],
-            }, timeout=10, allow_redirects=False)
-            response.raise_for_status()
+            }, headers={'Accept': 'application/json'}, timeout=10, allow_redirects=False)
+            if response.status_code != 200:
+                try:
+                    err = re.sub(r'[^a-z_]', '', str(response.json().get('error', '')))[:40]
+                except ValueError:
+                    err = ''
+                kind, message = DISCORD_ERRORS.get(err, ('http', 'Discord a refusé l’échange du code de connexion.'))
+                if response.status_code == 429:
+                    message = 'Discord limite temporairement les connexions depuis ce serveur. Réessayez dans quelques minutes.'
+                elif response.status_code >= 500:
+                    message = 'Discord est momentanément indisponible. Réessayez dans quelques minutes.'
+                login_failed(502, message, f'token exchange HTTP {response.status_code} error={err or "-"}',
+                             'secret' if kind == 'secret' else '')
             token_data = response.json()
             access_token = token_data['access_token']
-            if token_data.get('token_type', '').lower() != 'bearer' or set(token_data.get('scope', '').split()) != {'identify'}:
+            if token_data.get('token_type', '').lower() != 'bearer' or 'identify' not in set(token_data.get('scope', '').split()):
                 raise ValueError('Invalid token scope/type')
+            step = 'identity'
             response = requests.get('https://discord.com/api/v10/users/@me',
                                     headers={'Authorization': 'Bearer '+access_token}, timeout=10, allow_redirects=False)
-            response.raise_for_status()
+            if response.status_code != 200:
+                login_failed(502, 'Discord n’a pas transmis votre identité. Réessayez.', f'users/@me HTTP {response.status_code}')
             person = response.json()
             if not re.fullmatch(r'\d{5,25}', str(person['id'])):
                 raise ValueError('Invalid Discord ID')
-            name = str(person.get('global_name') or person['username'])[:80]
-            avatar = person.get('avatar')
-            if avatar and not re.fullmatch(r'(a_)?[a-f0-9]{32}', avatar):
-                avatar = None
-        except (requests.RequestException, KeyError, ValueError, TypeError):
-            abort(502, 'Discord est indisponible ou a retourné une réponse invalide. Réessayez la connexion.')
+            name = re.sub(r'\s+', ' ', str(person.get('global_name') or person['username'])).strip()[:80] or 'Aventurier'
+            # The Discord avatar is deliberately ignored: never requested, stored or displayed (v14).
+        except requests.RequestException as exc:
+            login_failed(502, 'Le serveur du site n’arrive pas à joindre Discord. Réessayez dans quelques minutes.',
+                         f'{step}: network error {type(exc).__name__}')
+        except (KeyError, ValueError, TypeError) as exc:
+            login_failed(502, 'Discord a retourné une réponse inattendue. Réessayez.', f'{step}: invalid response {type(exc).__name__}')
         finally:
             # No Discord access/refresh token is retained. Revoke immediately after identification.
             if access_token:
@@ -323,21 +414,24 @@ def create_app(test_config=None):
                     }, timeout=10, allow_redirects=False)
                     revoked.raise_for_status()
                 except requests.RequestException:
-                    app.logger.warning('Discord token revocation failed; no token stored locally')
-        existing = query('SELECT * FROM users WHERE discord_id=?', (person['id'],), True)
+                    app.logger.warning('discord-login: token revocation failed; no token stored locally')
+        existing = query('SELECT * FROM users WHERE discord_id=?', (str(person['id']),), True)
         if existing:
             uid = existing['id']
-            db().execute('UPDATE users SET name=?,avatar=?,last_login=? WHERE id=?', (name, avatar, now(), uid))
+            db().execute('UPDATE users SET name=?,avatar=NULL,last_login=? WHERE id=?', (name, now(), uid))
         else:
-            uid = db().execute('INSERT INTO users(discord_id,name,handle,avatar,created,last_login) VALUES(?,?,?,?,?,?)',
-                (str(person['id']), name, 'u-'+secrets.token_hex(8), avatar, now(), now())).lastrowid
-        db().execute('DELETE FROM sessions WHERE token=?', (g.session['token'],))
+            # First Discord login = account created automatically (no form), as a simple member.
+            uid = db().execute('INSERT INTO users(discord_id,name,handle,avatar,show_avatar,created,last_login) VALUES(?,?,?,NULL,0,?,?)',
+                (str(person['id']), name, 'u-'+secrets.token_hex(8), now(), now())).lastrowid
+            app.logger.warning('discord-login: new account user:%s', uid)
+        if g.session:
+            db().execute('DELETE FROM sessions WHERE token=?', (g.session['token'],))
         token = secrets.token_urlsafe(32)
         db().execute('INSERT INTO sessions VALUES(?,?,?,?,?,?)',
                      (digest(token), uid, secrets.token_urlsafe(32), now(), now(), now()))
         db().commit()
-        g.new_cookie = token
-        return redirect(url_for('account'))
+        g.new_cookie, g.cookie_age = token, REMEMBER
+        return redirect(safe_next(target['next'] if target else '') or '/community/')
 
     @app.post('/auth/logout')
     def logout():
@@ -347,6 +441,59 @@ def create_app(test_config=None):
         response = redirect(url_for('forum'))
         response.delete_cookie(cookie_name, path='/', secure=secure, httponly=True, samesite='Lax')
         return response
+
+    # v20 RP gamification: everything is derived from existing public posts (no schema change, nothing stored).
+    RP_SHEETS, RP_STORIES, RP_EVENTS = 'Présentation de personnages', 'Récits & histoires', 'Événements RP & rendez-vous'
+    RP_CATEGORIES = (RP_SHEETS, RP_STORIES, RP_EVENTS, 'Guildes & confréries RP')
+    RP_RANKS = ((0, 'Recrue'), (10, 'Aventurier'), (30, 'Conteur'), (100, 'Légende'))
+
+    def rp_progress(user_id):
+        marks = ','.join('?'*len(RP_CATEGORIES))
+        rows = query(f"""SELECT c.name cat, count(*) posts,
+            sum(p.id=(SELECT min(f.id) FROM posts f WHERE f.topic_id=t.id)) opened
+            FROM posts p JOIN topics t ON t.id=p.topic_id JOIN categories c ON c.id=t.category_id
+            WHERE p.author_id=? AND p.hidden=0 AND t.hidden=0 AND c.name IN ({marks}) GROUP BY c.name""", (user_id, *RP_CATEGORIES))
+        by = {r['cat']: r for r in rows}
+        posts = sum(r['posts'] for r in rows)
+        opened = sum(r['opened'] or 0 for r in rows)
+        points = posts + 2*opened
+        rank, nxt = RP_RANKS[0], None
+        for i, step in enumerate(RP_RANKS):
+            if points >= step[0]:
+                rank, nxt = step, (RP_RANKS[i+1] if i+1 < len(RP_RANKS) else None)
+        def opened_in(name):
+            return bool(by.get(name) and by[name]['opened'])
+        badges = [('Première fiche de personnage', opened_in(RP_SHEETS)), ('Premier récit', opened_in(RP_STORIES)),
+                  ('Organisateur d’événement', opened_in(RP_EVENTS)), ('10 répliques RP', posts >= 10)]
+        percent = 100 if not nxt else int(100*(points-rank[0])/(nxt[0]-rank[0]))
+        return {'points': points, 'rank': rank[1], 'next': nxt, 'percent': percent, 'badges': badges}
+
+    def story_of_week():
+        return query("""SELECT t.id,t.title,count(p.id) n FROM topics t JOIN categories c ON c.id=t.category_id
+            JOIN posts p ON p.topic_id=t.id AND p.hidden=0 AND p.created>=?
+            WHERE t.hidden=0 AND c.name=? GROUP BY t.id HAVING n>=2 ORDER BY n DESC,t.updated DESC LIMIT 1""",
+            (now()-7*86400, RP_STORIES), True)
+
+    @app.get('/community/cockpit/')
+    def cockpit():
+        # v20: one page, sections shown by role; every figure is re-checked server-side and actions stay on their own guarded routes.
+        require_user()
+        uid = g.user['id']
+        marks = ','.join('?'*len(RP_CATEGORIES))
+        mine = query(f"""SELECT t.id,t.title,c.name cat FROM topics t JOIN categories c ON c.id=t.category_id
+            WHERE t.author_id=? AND t.hidden=0 AND c.name IN ({marks}) ORDER BY t.updated DESC LIMIT 10""", (uid, *RP_CATEGORIES))
+        unread = query('SELECT count(*) n FROM notifications WHERE user_id=? AND seen=0', (uid,), True)['n']
+        data = {'rp': rp_progress(uid), 'mine': mine, 'unread': unread}
+        if staff():
+            data['reports'] = query("SELECT count(*) n FROM reports WHERE status='open'", one=True)['n']
+            data['hidden'] = query('SELECT count(*) n FROM topics WHERE hidden=1', one=True)['n']
+            data['story'] = story_of_week()
+        if g.user['role'] == 'admin':
+            data['roles'] = query('SELECT role,count(*) n FROM users GROUP BY role ORDER BY role')
+            data['stats'] = query('SELECT (SELECT count(*) FROM categories) cats,(SELECT count(*) FROM topics WHERE hidden=0) topics,(SELECT count(*) FROM posts WHERE hidden=0) posts', one=True)
+            data['logs'] = query('SELECT a.created,a.action,a.target,u.name actor FROM audit a LEFT JOIN users u ON u.id=a.actor_id ORDER BY a.id DESC LIMIT 10')
+            data['ranks'] = RP_RANKS
+        return render_template('cockpit.html', **data)
 
     @app.get('/community/')
     def forum():
@@ -371,9 +518,10 @@ def create_app(test_config=None):
             (SELECT count(*) FROM posts p WHERE p.topic_id=t.id AND p.hidden=0) posts
             FROM topics t JOIN categories c ON c.id=t.category_id LEFT JOIN users u ON u.id=t.author_id
             WHERE {where} ORDER BY t.updated DESC,t.id DESC LIMIT 21 OFFSET ?''', (*args, (p-1)*20))
-        categories = query('SELECT c.*,p.name parent FROM categories c LEFT JOIN categories p ON p.id=c.parent_id ORDER BY coalesce(c.parent_id,c.id),c.parent_id IS NOT NULL,c.position,c.id')
+        categories = query('SELECT c.*,p.name parent FROM categories c LEFT JOIN categories p ON p.id=c.parent_id ORDER BY coalesce(p.position,c.position),coalesce(c.parent_id,c.id),c.parent_id IS NOT NULL,c.position,c.id')
+        current = next((c for c in categories if str(c['id']) == selected), None)
         return render_template('forum.html', topics=topics[:20], more=len(topics)>20, categories=categories,
-                               q=q, selected=selected, mode=mode, page=p)
+                               q=q, selected=selected, mode=mode, page=p, current=current, story=story_of_week())
 
     @app.route('/community/new', methods=['GET', 'POST'])
     def new_topic():
@@ -512,7 +660,7 @@ def create_app(test_config=None):
 
     @app.get('/community/profiles/<int:user_id>')
     def profile(user_id):
-        person = query('SELECT id,name,handle,role,public_history,show_avatar,avatar,created FROM users WHERE id=?',(user_id,),True)
+        person = query('SELECT id,name,handle,role,public_history,created FROM users WHERE id=?',(user_id,),True)
         if not person:
             abort(404)
         public = person['public_history'] or g.user and g.user['id'] == user_id
@@ -523,36 +671,33 @@ def create_app(test_config=None):
             WHERE p.author_id=? AND p.hidden=0 AND t.hidden=0 AND r.kind='helpful' ''',(user_id,),True)['n'] if public else None
         contributions = query('SELECT count(*) n FROM posts p JOIN topics t ON t.id=p.topic_id WHERE p.author_id=? AND p.hidden=0 AND t.hidden=0',(user_id,),True)['n'] if public else None
         return render_template('profile.html',person=person,history=history[:20],more=len(history)>20,page=p,
-                               reputation=reputation,contributions=contributions,public=public)
+                               reputation=reputation,contributions=contributions,public=public,
+                               rp=rp_progress(user_id) if public else None)
 
     @app.get('/community/profiles/<int:user_id>/avatar')
     def avatar(user_id):
-        person = query('SELECT discord_id,avatar,show_avatar FROM users WHERE id=?',(user_id,),True)
-        if not person or not person['avatar'] or not person['show_avatar']:
-            return redirect('/community/static/img/default.svg')
-        limit('avatar-ip',60,60)
-        try:
-            result = requests.get(f"https://cdn.discordapp.com/avatars/{person['discord_id']}/{person['avatar']}.png?size=128",
-                                  timeout=5, allow_redirects=False)
-            result.raise_for_status()
-            if not result.content.startswith(b'\x89PNG\r\n\x1a\n') or len(result.content)>256000:
-                raise ValueError('Invalid avatar')
-        except (requests.RequestException,ValueError):
-            return redirect('/community/static/img/default.svg')
-        return app.response_class(result.content, mimetype='image/png')
+        # v14: Discord avatars are never fetched nor shown; the old address keeps answering with the neutral image.
+        return redirect('/community/static/img/default.svg')
 
     @app.route('/account/', methods=['GET','POST'])
     def account():
         if not g.user:
+            if request.method == 'GET' and app.config['DISCORD_CLIENT_ID'] and app.config['DISCORD_CLIENT_SECRET'] \
+                    and request.args.get('manual') is None:
+                ref = urlsplit(request.referrer or '')
+                back = ref.path + ('?' + ref.query if ref.query else '') if ref.netloc == origin.netloc else ''
+                return redirect('/auth/discord?' + urlencode({'next': safe_next(back) or '/community/'}))
+            if request.method == 'POST':
+                abort(401, 'Connectez-vous avec Discord pour continuer.')
             return render_template('account.html')
         # Suspended users retain export, erasure and privacy settings.
         if request.method == 'POST':
-            db().execute('UPDATE users SET public_history=?,show_avatar=?,notify=? WHERE id=?',
-                         tuple(int(request.form.get(k)=='on') for k in ('public_history','show_avatar','notify'))+(g.user['id'],))
+            db().execute('UPDATE users SET public_history=?,notify=? WHERE id=?',
+                         tuple(int(request.form.get(k)=='on') for k in ('public_history','notify'))+(g.user['id'],))
             audit('privacy.update',f"user:{g.user['id']}")
             db().commit()
             return redirect(url_for('account'))
-        return render_template('account.html',sessions=query('SELECT created,seen,token FROM sessions WHERE user_id=? AND seen>? AND created>?',(g.user['id'],now()-3600,now()-DAY)),current=g.session['token'])
+        return render_template('account.html',sessions=query('SELECT created,seen,token FROM sessions WHERE user_id=? AND seen>? AND created>?',(g.user['id'],now()-REMEMBER,now()-REMEMBER_MAX)),current=g.session['token'])
 
     @app.post('/account/sessions/revoke')
     def revoke_sessions():
@@ -676,6 +821,7 @@ def create_app(test_config=None):
         name,description=field('name',2,80),field('description',0,500)
         cid=integer(request.form['id']) if request.form.get('id') else None
         parent=integer(request.form['parent']) if request.form.get('parent') else None
+        position=min(max(integer(request.form['position']),0),999) if request.form.get('position') else 0
         if parent and not query('SELECT id FROM categories WHERE id=? AND parent_id IS NULL',(parent,),True):
             abort(400,'Parent invalide : deux niveaux maximum.')
         if cid:
@@ -683,9 +829,9 @@ def create_app(test_config=None):
                 abort(404)
             if cid==parent or parent and query('SELECT id FROM categories WHERE parent_id=?',(cid,),True):
                 abort(400,'Hiérarchie cyclique ou trop profonde.')
-            db().execute('UPDATE categories SET name=?,description=?,parent_id=? WHERE id=?',(name,description,parent,cid))
+            db().execute('UPDATE categories SET name=?,description=?,parent_id=?,position=? WHERE id=?',(name,description,parent,position,cid))
         else:
-            cid=db().execute('INSERT INTO categories(name,description,parent_id) VALUES(?,?,?)',(name,description,parent)).lastrowid
+            cid=db().execute('INSERT INTO categories(name,description,parent_id,position) VALUES(?,?,?,?)',(name,description,parent,position)).lastrowid
         audit('category.save',f'category:{cid}')
         db().commit()
         return redirect(url_for('moderation'))
@@ -724,8 +870,14 @@ def create_app(test_config=None):
         # Explicit allowlist over the separate wiki/ build: never expose source, SQLite, .env or deployment files.
         if '..' in Path(path).parts or '\\' in path:
             abort(404)
-        if re.fullmatch(r'assets/[a-z0-9-]+\.(?:webp|jpg|svg)',path) or path in ('index.html','site.css','app.js','ui-core.mjs'):
+        if re.fullmatch(r'assets/[a-z0-9-]+\.(?:avif|webp|jpg|svg|woff2)',path) or path in ('index.html','v2.css','site.css','wiki-theme.css','app.js','ui-core.mjs','wk-header.js','search-index.json','search-detail-fr.json','search-detail-en.json','theme.js','theme-wow.css','wk-map.css','wk-map.js'):
             pass
+        elif re.fullmatch(r'assets/carte/[0-9]{1,5}/(?:r[0-9]{1,2}-c[0-9]{1,2}\.webp|donnees\.json)',path):
+            pass  # v43: carte interactive (images officielles du jeu + repères à confirmer)
+        elif re.fullmatch(r'(?:fr/sources-et-licences|en/sources-and-licences)/(?:donnees-polestar|objets-classic)\.json\.gz',path):
+            response=send_from_directory(WIKI_ROOT,path,mimetype='application/gzip',as_attachment=True)  # v43: données sous forme modifiable (GPL)
+            response.headers['Cache-Control']='no-cache'
+            return response
         elif re.fullmatch(r'(fr|en)/(?:[a-z0-9-]+/)*(?:index\.html)?',path):
             if path.endswith('/'):
                 path+='index.html'
@@ -734,6 +886,8 @@ def create_app(test_config=None):
         else:
             abort(404)
         response=send_from_directory(WIKI_ROOT,path)
+        if path.endswith('.avif'):
+            response.mimetype='image/avif'  # v11: AVIF illustrations (older Python mimetypes tables lack .avif)
         if path.startswith('assets/'):
             response.headers['Cache-Control']='public, max-age=604800'
         else:
@@ -778,7 +932,10 @@ def create_app(test_config=None):
                 WHERE target<>'' AND target NOT GLOB '*[^0-9]*' ''')
             conn.execute('INSERT INTO migrations VALUES(2,?)',(now(),))
         conn.commit()
-        click.echo('Schéma 2 prêt. Aucun faux membre ni sujet créé.')
+        g.pop('db').close()
+        with sqlite3.connect(app.config['DATABASE'], timeout=10, isolation_level=None) as fresh:
+            migrate(fresh)
+        click.echo('Schéma 3 prêt. Aucun faux membre ni sujet créé.')
 
     @app.cli.command('set-role')
     @click.argument('discord_id')
@@ -795,11 +952,26 @@ def create_app(test_config=None):
         db().commit()
         click.echo('Rôle mis à jour et action journalisée.')
 
+    @app.cli.command('claim-owner')
+    def claim_owner():
+        """Operator bootstrap (v14): connect with Discord on the site first, then run this right away. The account that
+        logged in most recently becomes administrator, only if there is no administrator yet."""
+        if query("SELECT 1 FROM users WHERE role='admin'",one=True):
+            raise click.ClickException('Un administrateur existe déjà : rien modifié (utilisez set-role).')
+        person=query('SELECT * FROM users ORDER BY last_login DESC,id DESC LIMIT 1',one=True)
+        if not person:
+            raise click.ClickException('Aucun compte : connectez-vous d’abord avec Discord sur le site.')
+        db().execute("UPDATE users SET role='admin',suspended=0 WHERE id=?",(person['id'],))
+        db().execute('INSERT INTO audit(actor_id,action,target,created) VALUES(NULL,?,?,?)',('operator.role.admin',f"user:{person['id']}",now()))
+        db().commit()
+        click.echo(f"Administrateur : {person['name']} (connecté le {time.strftime('%d/%m/%Y %H:%M UTC',time.gmtime(person['last_login']))}).")
+
     @app.cli.command('purge')
     def purge():
         """Run daily. Retention values are project policy, subject to controller review."""
         conn=db()
-        conn.execute('DELETE FROM sessions WHERE seen<? OR created<?',(now()-3600,now()-DAY))
+        conn.execute('DELETE FROM sessions WHERE (user_id IS NULL AND (seen<? OR created<?)) OR seen<? OR created<?',(now()-3600,now()-DAY,now()-REMEMBER,now()-REMEMBER_MAX))
+        conn.execute('DELETE FROM oauth_next WHERE expires<?',(now(),))
         conn.execute('DELETE FROM oauth WHERE expires<?',(now(),))
         conn.execute('DELETE FROM rate_limits WHERE expires<?',(now(),))
         conn.execute('DELETE FROM notifications WHERE created<?',(now()-90*DAY,))

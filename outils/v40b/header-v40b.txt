@@ -1,0 +1,16 @@
+#!/bin/bash
+# update-v40b.sh : Wowkipedia v40 -> v40b (Oui de publication de Mathieu t404u, 17 novembre 2026, Europe/Paris).
+#   Production : wowkipedia.com.
+#   v40b : article « Correctifs Forever » FR/EN (mêmes adresses, aucune nouvelle page) mis à jour avec le lot officiel de
+#   correctifs du 16 novembre 2026 (Blizzard 24315281, relais Kaivax US 2403040 #11 / EU 639885 #10) ; titre « du 5 au
+#   16 novembre » repris tel quel dans les liens des autres pages, les accueils (date de mise à jour 17 novembre) et
+#   l'index de recherche. 451 pages, 209 fiches, compteurs inchangés. v2.css (style journal de quêtes) inchangée.
+#   Inchangés : adresses et slugs, CSP, Caddyfile (blocs raveforge compris), /opt/raveforge, noindex (pas de sitemap),
+#   .env (jamais lu), code du forum (app.py, schéma, CSS, base.html, pied, en-tête), page Discord, wk-header.js,
+#   theme-wow.css, v2.css.
+# A lancer en root : bash update-v40b.sh   (sortie courte ; journal détaillé dans /root/wow4ever-v40b-*.log)
+# Exige la v40 en ligne (reconnue par son wiki et son code ; release connue : releases/20261117T013451).
+# Sauvegarde : /root/wow4ever-v40b-backup-<horodatage> (release v40 entière hors venv, base SQLite via l'API backup,
+#   Caddyfile, cible de current). Retour arrière automatique en cas d'échec ; manuel : bash /root/wow4ever-rollback-v40b.sh
+#   (-> release v40, 20261117T013451). N'écrase aucun rollback-v40.sh … rollback-v30.sh.
+# Archive : /root/wow4ever-wiki-v40b.tar.gz si présente avec la bonne empreinte, sinon téléchargement depuis $W40B_URL.

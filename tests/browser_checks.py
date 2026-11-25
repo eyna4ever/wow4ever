@@ -140,10 +140,10 @@ def main():
                         report=page.evaluate("async()=>await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}})")
                         violations=[{'id':v['id'],'nodes':[n['html'] for n in v['nodes']]} for v in report['violations']]
                         wiki_page=path.startswith(('/fr/','/en/'))
-                        # Live wiki pages come from the separate static build (not editable here): their axe findings are
-                        # reported as informational ('axe-wiki'); community pages stay strictly blocking.
+                        # L1 (refonte): the wiki build is now versioned with this tree (pipeline/) and passes axe, so wiki
+                        # findings are blocking too (still reported separately as 'axe-wiki').
                         results.append({'check':'axe-wiki' if wiki_page else 'axe','path':path,'authenticated':authenticated,'violations':violations,'pass':not violations})
-                        assert wiki_page or not violations,(path,violations)
+                        assert not violations,(path,violations)
                         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),path
                 browser.close()
         finally:
@@ -152,8 +152,8 @@ def main():
             connection.close()
             (output/'browser-checks.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
     blocking=[r for r in results if r['check']!='axe-wiki']
-    info=[r for r in results if r['check']=='axe-wiki']
-    print(f"{sum(r['pass'] for r in blocking)}/{len(blocking)} contrôles bloquants réussis ; audits axe du wiki (informatifs) : {sum(r['pass'] for r in info)}/{len(info)} sans violation. Base temporaire supprimée.")
+    info=[r for r in results if r['check']=='axe-wiki']  # blocking since L1 (assert above); counted separately for the summary
+    print(f"{sum(r['pass'] for r in blocking)}/{len(blocking)} contrôles bloquants réussis ; audits axe du wiki (bloquants depuis L1) : {sum(r['pass'] for r in info)}/{len(info)} sans violation. Base temporaire supprimée.")
 
 
 if __name__=='__main__':

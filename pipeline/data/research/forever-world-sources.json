@@ -1,0 +1,636 @@
+{
+  "format": 1,
+  "generatedAt": "2026-10-19",
+  "scope": "Lot candidat monde pour le jeu officiel World of Warcraft: Forever ; rattachement au périmètre du wiki non confirmé.",
+  "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+  "batch": "data/batches/forever-world.json",
+  "identityConfirmed": false,
+  "status": "draft",
+  "sourcePagesOpened": 10,
+  "distinctArticlesUsed": 6,
+  "publication": {
+    "importedIntoRuntime": false,
+    "published": false,
+    "humanReviewRequired": true
+  },
+  "editorialLimits": [
+    "Fiches brèves de faits annoncés, pas des articles complets ni une base exhaustive.",
+    "L’identité du jeu ciblé par le wiki doit être confirmée avant tout import éditorial.",
+    "Aucune fiche n’est marquée comme vérifiée ou testée en jeu.",
+    "Les titres et descriptions bilingues ont un plafond cumulé de 200 mots par article, traductions regroupées."
+  ],
+  "wordBudget": {
+    "method": "Nombre de groupes non vides séparés par espaces ; titres FR/EN et descriptions FR/EN additionnés ; variantes linguistiques groupées par identifiant d’article.",
+    "byArticle": {
+      "24301515": 18,
+      "24302071": 73,
+      "24303313": 53,
+      "24303862": 45,
+      "24304071": 74,
+      "24307383": 22
+    },
+    "maximumPerArticle": 200
+  },
+  "sources": [
+    {
+      "id": "blizzard-24302071-fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24302071/decouvrez-les-eolides-dans-wow-forever",
+      "title": "Découvrez les Éolides dans WoW: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "À retenir ; Commencez votre périple sur l’île de Zéphras",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24302071"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-race-skyborne",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-zephras-isle",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Pas de coordonnées vérifiées pour l’île.",
+        "Les classes non citées dans la fiche ne sont pas implicitement disponibles."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24302071-en",
+      "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+      "title": "WoW: Forever Meet the New Skyborne",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Quick Facts ; Begin Your Journey on Zephras Isle",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24302071"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-race-skyborne",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-zephras-isle",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Aucune extraction des tableaux de traits raciaux ni des images.",
+        "Traductions françaises contrôlées avec la variante FR du même article."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24304071-fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+      "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "De nouvelles façons de voyager ; Les rives Claires et les chemins qui les relient ; Le mont Hyjal",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24304071"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-zone-riverglades",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-mount-hyjal",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-shendralas",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Aucune coordonnée ni route détaillée vérifiée.",
+        "Différence entre « plus de 150 » quêtes dans la présentation 24303862 et « près de 200 » dans cet article : les chiffres ne sont pas repris dans le lot."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24304071-en",
+      "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+      "title": "World of Warcraft: Forever Found Photos Panel Recap",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "New Ways to Travel ; Riverglades and the Roads Between ; Mount Hyjal",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24304071"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-zone-riverglades",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-mount-hyjal",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-zone-shendralas",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "La version anglaise et la version française ne sont pas deux confirmations indépendantes.",
+        "Aucune donnée de navigation ou carte exportée."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24303862-fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+      "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Donjons, raids et champs de bataille",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24303862"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-raid-barrow-deeps",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-raid-hyjal-summit",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-dungeon-hall-of-thanes",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Instances annoncées uniquement ; pas de guides de boss, tables de butin ou identifiants vérifiés.",
+        "Ne pas assimiler les raids aux versions d’autres extensions."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24303862-en",
+      "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "title": "World of Warcraft: Forever What’s Next Panel Recap",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Dungeons, Raids, and Battlegrounds",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24303862"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-raid-barrow-deeps",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-raid-hyjal-summit",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-dungeon-hall-of-thanes",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Les tailles de raid sont des annonces de cette version, pas des résultats de tests en jeu.",
+        "Les contenus peuvent évoluer avant lancement."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24303313-fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+      "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Combat, classes et système d’objets",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24303313"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-item-ladimore-heirloom-ring",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-item-worgenbane-talisman",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Identifiants, statistiques, niveau d’objet, conditions détaillées et probabilités d’obtention non vérifiés.",
+        "X’calibhure est présenté comme un objet ; aucune fiche de créature n’en est déduite."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24303313-en",
+      "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Combat, Classes, and Itemization",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24303313"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-item-ladimore-heirloom-ring",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        },
+        {
+          "draftId": "forever-item-worgenbane-talisman",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Aucun catalogue intégral ni tableau de statistiques fourni dans les passages retenus.",
+        "Les deux fiches ne prétendent pas fournir un équipement optimal."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24307383-fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+      "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+      "language": "fr",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Aperçu des défis d’héritage → Raids",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24307383"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-creature-onyxia",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Seule la présence d’Onyxia parmi les défis Raids est retenue.",
+        "Aucune stratégie, niveau, localisation, table de butin ou nombre de joueurs extrapolé."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    },
+    {
+      "id": "blizzard-24301515-en",
+      "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+      "title": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "publishedAt": null,
+      "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+      "provenance": {
+        "publisher": "Blizzard Entertainment",
+        "type": "official-primary-source",
+        "method": "Ouverture réussie avec l’outil web natif ; page HTML restituée sous forme textuelle, titre et passages pertinents lus.",
+        "section": "Taking Aim at the Hunter Class → Pets",
+        "opened": true,
+        "independentConfirmation": false,
+        "articleFamily": "24301515"
+      },
+      "verifiedFacts": [
+        {
+          "draftId": "forever-creature-family-fox",
+          "batch": "data/batches/forever-world.json",
+          "fields": [
+            "title.fr",
+            "title.en",
+            "description.fr",
+            "description.en"
+          ],
+          "meaning": "Les affirmations visées sont enregistrées dans ces champs, sans seconde copie de la synthèse."
+        }
+      ],
+      "accessLimitations": [
+        "Date exacte de publication absente de la vue textuelle consultée ; publishedAt laissé à null.",
+        "Famille de familiers, pas une créature individuelle ni un point d’apparition.",
+        "Texte et talents signalés comme susceptibles de changer pendant la bêta ; traduction française à relire."
+      ],
+      "rights": {
+        "license": "Droits réservés Blizzard Entertainment",
+        "text": "Courtes synthèses originales uniquement ; relecture humaine et vérification des droits requises.",
+        "media": "Aucun média téléchargé ni réutilisé."
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "category": "races",
+      "remaining": "Autres races, traits et combinaisons à documenter séparément ; aucune table complète importée."
+    },
+    {
+      "category": "zones",
+      "remaining": "Niveaux détaillés, cartes, marqueurs, trajets et quêtes individuelles absents."
+    },
+    {
+      "category": "instances",
+      "remaining": "Accès, compositions, rencontres, stratégies et butins non vérifiés."
+    },
+    {
+      "category": "items",
+      "remaining": "Deux mentions nommées seulement ; identifiants et statistiques absents."
+    },
+    {
+      "category": "creatures",
+      "remaining": "Une rencontre citée et une famille de familiers ; absence de catalogue de boss ou de créatures individuelles."
+    }
+  ],
+  "failedAccesses": [
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24302071/wow-forever-decouvrez-les-nouveaux-eolides",
+      "result": "Internal Error de l’outil web ; URL supposée non retenue. La véritable URL FR a ensuite été trouvée par recherche et ouverte avec succès.",
+      "consultedAt": "2026-10-19"
+    }
+  ],
+  "relatedPrimarySourcesOpened": [
+    {
+      "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+      "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "provenance": "Page officielle ouverte ; tableaux de combinaisons et section de création de personnage lus.",
+      "verifiedFacts": "Source potentielle de brouillons distincts sur les races et combinaisons ; non utilisée dans ce lot.",
+      "accessLimitations": "Date de publication absente de la vue. Pas de table importée."
+    },
+    {
+      "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+      "title": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "provenance": "Page officielle ouverte ; introduction, spécialisations et avertissement de bêta lus.",
+      "verifiedFacts": "Spécialisations Priest : Discipline, Holy, Shadow ; Warrior : Arms, Fury, Protection.",
+      "accessLimitations": "Hors périmètre du lot monde. Date précise absente ; évolutions de bêta signalées."
+    },
+    {
+      "url": "https://news.blizzard.com/en-gb/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+      "title": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+      "language": "en",
+      "consultedAt": "2026-10-19",
+      "provenance": "Page officielle ouverte ; introduction, spécialisations et avertissement de bêta lus.",
+      "verifiedFacts": "Spécialisations Rogue : Assassination, Combat, Subtlety ; Warlock : Affliction, Demonology, Destruction.",
+      "accessLimitations": "Hors périmètre du lot monde. Date précise absente ; évolutions de bêta signalées."
+    }
+  ]
+}

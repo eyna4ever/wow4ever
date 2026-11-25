@@ -1,0 +1,833 @@
+{
+ "source": "wow4ever-web.tar.gz v7 (sha256 2ed60db2b192585b7963d1561afe49246a41df672f044a4b6aedba8c7bcca885)",
+ "rename": [
+  [
+   "WoWki4ever",
+   "WoW Forever Wiki"
+  ]
+ ],
+ "pages": {
+  "en/classes/druid/index.html": {
+   "main": "e20faeb977d9b20f649e65535ee588af1cf813bce55ccdf9ed28bedd8692389c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "274814f1a96fb52d27a72df64b5558e96816647b69f87ec1fc4b024fc414099e"
+  },
+  "en/classes/forever-classes/index.html": {
+   "main": "0b6cee1c4d70e5e1f8e492ff1713e68337480675fc6d0555ea290e4510c9800f",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a7490dafb1eb78faf18324f71f9fca3635d7b0698270cfd1a2b97ef0e2afdcc4"
+  },
+  "en/classes/hunter/index.html": {
+   "main": "eb2b55e6caee40137ff20324516ece17b26780c2cb3ada70e0bafb7e0a499638",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "680ce38047bf1f299d9f7e3956216b0ecc353171be36b86754c6f0442f702e23"
+  },
+  "en/classes/index.html": {
+   "main": "20e3182fcb507dd36ab677a42067b50ad3b71e721659b5a9da024299a29ca72c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "176362d9201a290cdab7ed18edaa3d11f567bdbcc90773be700dba52b58721fb"
+  },
+  "en/classes/mage/index.html": {
+   "main": "7d79dd59c55256c1922ddd1186fad4ed92dbbbc03b4e0bed3e3b7b74514252c8",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e181bc015be0fe01de62a0e9898c690c3a2bb48fa90e4e5cb9aab481ea3fe004"
+  },
+  "en/classes/paladin/index.html": {
+   "main": "f66fe9a851bd46986598750b65959552d1418edeba435a87100126dd6f031a31",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a7d973a732d0577f073922ed98f4e20235dbab50df3a45f478b8d32c7ebcbc38"
+  },
+  "en/classes/rogue/index.html": {
+   "main": "7e0b3bdf9e947285296dac4f325ce336138168d70e68b42dcbb614fecb7e7105",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0b8cdd9ec4e4cbca2aeedbb7e4572400dfbd7e7cbf415dbb99acecafcccbdc21"
+  },
+  "en/classes/shaman/index.html": {
+   "main": "6adc7971d604ce886f271d2fbfdf4588ad930614a41279c81976e7e326fdb0cb",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0953e68a3e85ea3909e6d3786c7afb898713a25d9a66a227e978ffdbf00266e4"
+  },
+  "en/classes/warlock/index.html": {
+   "main": "6ad277dee62cbbe27a50010a6c6c9f88a278e82432374315bf3d3a44c373bd2d",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "6e7e607fb37564c5377836a4f393487bcd394efdf65a48aa7736912791754796"
+  },
+  "en/classes/warrior/index.html": {
+   "main": "036025bea0293d403ab7c1c343cfc7e7191e0364d76d7587b1835ce4183cd5c7",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "eaf0fe0a362b58490e9d73c9584a36ef7353872dd1663afef4e2099b88bf56bf"
+  },
+  "en/creatures/documented-creatures/index.html": {
+   "main": "26e5df36d830b63907e2466f2df631030f8fc33a62567a9125a67ab243526d8d",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4b4f19a273a3e9c106e800507d2f332c108734ee2adf6bcc632e629c6d49d524"
+  },
+  "en/creatures/foxes/index.html": {
+   "main": "2df82e4e5c49278264aa54e8fa1ff9ea6f0fb6688b95a25ee4fa147dd6df7dc4",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "2dce70a68e91973bdb8f83f3ff5e7f7f9d8487edc2d792da8fb472b609863756"
+  },
+  "en/creatures/index.html": {
+   "main": "13c5e2d2bcff7028f306145d65903d9b1b8b96666ceae202495d1e41053cdd37",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4b44c37c95e5716bd0ae99ca39aad8b496a7d871bfbc60f8c8bf7c3edf903e36"
+  },
+  "en/creatures/onyxia/index.html": {
+   "main": "e2555a80bfc9fe90528880073d9412031ac2ef9efddf2c346897361c33251d27",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0327a9d618dcf3c6b1358d1a5add5dbaf05c963d1338282ac1fcd1ec4d749d67"
+  },
+  "en/dungeons-raids/barrow-deeps/index.html": {
+   "main": "6783a47b9f1afaf724663c3d519e4a2385a21affeb131fccbeaf7b56476aed4c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "2a259e90a604eb02bf6804f7633f659bafccc58d156acd713129bdc42dcb41bd"
+  },
+  "en/dungeons-raids/hall-of-thanes/index.html": {
+   "main": "d0cfc98b9806f8c470f0e0115f6e4a74c3b402a1687a25852f7fb9c498e4e255",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "5710239965dc92ef8f9b6a163cc9f747a4af38ea77524b45ce449984cc3769d5"
+  },
+  "en/dungeons-raids/hyjal-summit/index.html": {
+   "main": "0650081e78b78dde30c82bd009ba11d3c127b83940b5b2c2f5912b046fff1283",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "7b5f4e1bd66d3859001014564282f85afb170e43cf04c006f2e75773415f240c"
+  },
+  "en/dungeons-raids/index.html": {
+   "main": "ef1f1d0a36daaa3eac525a715c8b6fab21e1d56326a0e02d90c754c4f71d140e",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b8d110870f106f3e0337bfc169bc20f9a67cb364fecaecf24478f9fe540568fe"
+  },
+  "en/dungeons-raids/raids-and-dungeons/index.html": {
+   "main": "64c57a3aa6153d6fa45decb2eef75956b28b4cfa7d6de11adc115c55b7180da1",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b305cc309821ae9dec3e15d53593497337fcdefad45363ae10c0ac67b674d166"
+  },
+  "en/glossary/index.html": {
+   "main": "008f3c032a0feb4104d6e0d5a78c8c06f47780f8d9e8fa769218002811c949f0",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "91307bd0310153ddc1865846423749e5419265235c7033e55b9837754ea18e1a"
+  },
+  "en/glossary/legacy-and-ruleset-glossary/index.html": {
+   "main": "9f8624243bbafbceb1108bada9612d77d60de35cc5fed76966b01853f1e4a34a",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "95fce44902a561840114cc0220d76e057fc3f73f9cb3cbc7cd28b7ead64f117a"
+  },
+  "en/glossary/legacy-points/index.html": {
+   "main": "513adb1ee1cd25d80611c552113faf429c24131c9279b385fed9feb3479edcee",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "cb58eceb83d3b2935b0a18d491ec9efb39678dceae829c8580eae006bd59b444"
+  },
+  "en/glossary/realmless-play-and-rulesets/index.html": {
+   "main": "99d291697a29ac7c5ae4a60ef018560d36349f6f07f407cdc1665e84b9f1bd33",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b31e9c8cf641e361098bc0a60291854dc57be1bff7558fee252aa2cf3f9b6063"
+  },
+  "en/guides/check-pvp-progress/index.html": {
+   "main": "8370f8f34796af511d303192a8b420fa20d8bfd72a9b0660a205b62e1c1f38c3",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4c86deab70fffe55ffa0c5c61cee742faaacf5c7075dde620b0a4dc4f846a060"
+  },
+  "en/guides/choose-where-to-play-with-friends/index.html": {
+   "main": "b1533b11ecdba71c3197ab2cd0e96969aadc322cffaa84c81e884b887d587519",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d4af7457e7a5447d2dfcc190cf426091fd3189efb885347ebc344f4b35d5ee70"
+  },
+  "en/guides/index.html": {
+   "main": "ed21a5519a4983f563cf6fc948b1975f3844d6b3ab6c907d760e3d9999c92023",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "572cd72feb9a84e0c639af3ccae73f3a4406f69fe193eac69ab0678eee32baff"
+  },
+  "en/guides/prepare-launch-names/index.html": {
+   "main": "7a8b9fa431633bb9001eb2c9bee755eb94a2295293fc3d075883a56dfa8c25a4",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d17b628ae7cb35887eb3801f5e1a631ca3d7ebcdeaa3ff45121977a3e9894ed1"
+  },
+  "en/guides/rulesets/index.html": {
+   "main": "0b40f8af70330e6c7dd8df75ca59173dc98f9953d705db4412a6334c5a3d76c3",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d04eba6260b62cea955bbcb80b8f77fc13693f90526a8ad7b3bea49ebde1e1fb"
+  },
+  "en/index.html": {
+   "main": "5e3c7d092c3b9883b624bef718637236d63a96561f518793f11e34794d03dc9e",
+   "notice": "6aee6a4c3a63203384217e10270d9eb330c43108268b7c62a03e194a0e4d1b70",
+   "tail": "88e7b81a5ba797f9e6ac22401e7098921aa614ff9c3d215719c771efa0cd25be",
+   "title": "5296ca82d304377765a3692266c507bad3b0b8ff8dacd2a82b9a1080895174c5"
+  },
+  "en/items/documented-items/index.html": {
+   "main": "e3177114ea1aa7a481f7dd0e87572c29b582f91c318f067d660deb56f884ff7f",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "ab9e912410de1e1aa301e1e6029256515f44d521f3e32bc0cb2d391a6eeb5551"
+  },
+  "en/items/index.html": {
+   "main": "c8b44ba966012848cbbd9b8eb74c8e7a2c6a0e0320db31c361b00a8f0c5babe1",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "382978fd86678de8b79e6968900f8eaf57ed0fdb52500dbed01cb31a82a3f381"
+  },
+  "en/items/ladimore-heirloom-ring/index.html": {
+   "main": "ea8f056a7ef105dcbb8e81d29b39e953b38caad3b5b5daea05c3767a43fcbdb1",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "9c3112a25461a44479eee5e91fe0f7f848b08eeb2c4f838e46f0c23438ba29c8"
+  },
+  "en/items/worgenbane-talisman/index.html": {
+   "main": "c247aec410bd80f924d631a3b49207fd0b59fc44f8aa19ca8a2639efe0de5d3c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d73472d114664aaa3a8437cb8183a1450040a791caefe9c3fba7dc3bb170a4b1"
+  },
+  "en/news/announced-worldwide-launch/index.html": {
+   "main": "fb09921805274168d2729089c66a79ad70e91766ea81a216c01f5038e5d9c29a",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e3fcaa41d3a6ed61ba6f6dd2e0a5a87d014b0025e4deef50b08f5d371c0335aa"
+  },
+  "en/news/forever-beta-recap/index.html": {
+   "main": "93043d9e3cd625f0768320254cf7806bae0b1d5154d12c035dfa03f14e806fc9",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "80e26d92ea7b87f93cf9aecfbc9ab34e01e134aee958650bad78936df4abe3ad"
+  },
+  "en/news/forever-schedule/index.html": {
+   "main": "861d23be3193965054b360378f4be389da6888c22b508a4e6934fe96de3c8d47",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "52d2e8a11a0ce0d8dbcbb44dc736a922d187497f5bae6dacf5d29063fa866b49"
+  },
+  "en/news/global-launch-on-november-4-what-to-know/index.html": {
+   "main": "4272dff860e8c9b25ab1cfa54bdcb7c7af64477e1483517373825f98bce22ab6",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4259b9dd771f4f3374913a19dfb170ddb93e7391df1ca3035786713dc32fb15b"
+  },
+  "en/news/index.html": {
+   "main": "a11f0473348e4f7ab156d4b3a092bbb181273c81c8574024b1c76ec6d17fab91",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "f359dfe03f5e960c711958cf844867e356f156640b0e3b0e098c4c11ab9ebb1d"
+  },
+  "en/news/irvine-improv-poster-signing/index.html": {
+   "main": "2a3567392d78499104e1a2022e45f6e57d53a1eddfedbb3d5993f583062b5a3c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "8d53900a067c6bdd194b81e8c414aac0c4d4ef787dd349e8433968a6fa1d98e6"
+  },
+  "en/news/new-player-s-starter-guide/index.html": {
+   "main": "05081c8bdb2e52f973a53eceb83eefdfcd630e68333d658a6ad1a6fa3223a24c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b8b8ba8771f62edb1de2968cedcdaa436193f2a8d22151aaf15b6f1cc1bb8e9d"
+  },
+  "en/news/official-wow-portal-room-discord-welcomes-forever-players/index.html": {
+   "main": "bea7981cb99a6223b4841c5cbd424653df91ab344d2f8da4b56efab1c1fcac9f",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "6997399f02a1e490f6a79f25784a5416635e985beaf65b59d008108c7e77c277"
+  },
+  "en/news/returning-players-guide/index.html": {
+   "main": "f94d5a7ea9f1bd782e733650db11eaa936350c20327f905b63282cc51e29f7f4",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "7da34963d989595dc746ca2e78edfe3409f06298688c67288cc9451a05186de3"
+  },
+  "en/news/short-story-unbowed/index.html": {
+   "main": "89d597076f3b54fc26bb501bdf30234a9ffc01b7b4364fdc4e2ae10f5c824496",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b3920b6ae4344db7c777f496427be52c53f790154a84bc41c477309f86534be5"
+  },
+  "en/news/subscription-and-game-access/index.html": {
+   "main": "b9502901b699dd5427b6b9ad47ee78ff5f2cc52dfae4692078dc2e02b0e64e16",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "9bdafc21f7df62a9a502274ef06d3610b99f902aaa5cfa6e599f7aa7ce13d552"
+  },
+  "en/news/wow-forever-podcast-all-about-tech/index.html": {
+   "main": "8aac885d1a021db7387e4e0799f4c472f0dd0dbdc814bc17d87fd05bb8afed87",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "40de5cd4074459a35a1a9dc021a3f9e9d569306b13f9d70a2d66810d491f5bb4"
+  },
+  "en/professions/camping-and-crafting/index.html": {
+   "main": "3402a6d2de5de6da16639b5fe765e9a657ae12e5e3591a10cb1f1fb724085d12",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d6ed42eb46f7fe6bc1d9b3f3a4d0ac8f1ab10986e6ffa08a019d568a6fedee4e"
+  },
+  "en/professions/campsite-crafting/index.html": {
+   "main": "ee22d7120ba10372ee9598c8a8c009a08e7d425f2bf498652a00f8a4da8506ea",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a7ec5dc60a07441177471ff3f4ea23abcc5fd5a03b0af3a0fe1af2ebb4a0f3b1"
+  },
+  "en/professions/index.html": {
+   "main": "5beadb5c87d935ad35e290dd6e1aeb9cdb586969f0c3f9407e795c332446d5b5",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "3291c1ee1838b943c642962450a07c9d661abf6133ce1c7030c05d1e0ad14d08"
+  },
+  "en/professions/recipes-and-advanced-blueprints/index.html": {
+   "main": "a99654c9cc7e438a71eafd79f9f2cd02fc416f4ccdb9ac9f4346bc408d531258",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e858728b2b2c82975b300c49e8c09fe633f0185c4af373224ae2ba2971c73b37"
+  },
+  "en/pvp/darkspear-islands/index.html": {
+   "main": "52705c5aa39a18c7635b0f07636886c2c55abf50490c046df3fb9b858337adfe",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "958c446b16fac0b2a2b7e40f48e2ef98eba2a47a99aedbd35bd64eb893b7b078"
+  },
+  "en/pvp/honor/index.html": {
+   "main": "a079f98b10606f66fa2e564d4904e8fc81626e2e61f2945fd5143eed31de2f6b",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "22ea092e7643557ea91b74dea27589acac28a04fce976c577c422cd3ee1c9dc2"
+  },
+  "en/pvp/index.html": {
+   "main": "b46eebfb4c8b1b6f8fc65f124a4935065195fd367c3795862b29a360e2ad3e33",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "8c000c662efcfd1bb81434b41106d3edc94a98551568d58b49091b6e9629975d"
+  },
+  "en/pvp/pvp-honor-and-ranks/index.html": {
+   "main": "b09e061d6fa5f8a136bd1e6808809000f5c0561e0265331e06f3b1880485feb4",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "aaef440bc35f79b5e23daa20816ead3c416d7e8923173fa8c91e0383c9f69d05"
+  },
+  "en/pvp/rank-points/index.html": {
+   "main": "0fdabc34cec442e0ce6a3cdc7f3d8e01a80e9012d47e98e47eeacbfcc6c74807",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "8636725ca245342383853607988b37bc3dac734350ebbe1604d9163dce66f4f1"
+  },
+  "en/quests/index.html": {
+   "main": "f8628c8298ba4dabd9cf8099c5523ba27728e7e0317a591d02b2ebdeac99838c",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "11db15f1c8aa87f4229fa9081d888b24c6253454c2442ca87928b800ebd37636"
+  },
+  "en/quests/legacy-progression/index.html": {
+   "main": "6e621dae18e11b39dd92f2b62a5bbd832fadb0013c405a474cd45bcded29bc39",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "1152c8f3ba82c4adab0ea385a6af3ad420a689fe81a059760c9d2f32fccccda2"
+  },
+  "en/quests/lord-valthalak-questline/index.html": {
+   "main": "867f057dd66688e697171b062cb98c25b29d67e623ec8fb8f85b0711c0bfe9dd",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "3cdb64c3d77237ad58fcf8580ad61c1db940ce1a12fc5a48cd75cb2cfc457dff"
+  },
+  "en/quests/new-level-1-60-adventures/index.html": {
+   "main": "fac1696399bc09fcf584219a0a2b4e6934e4cf0af5c55b21111a11bff0e37679",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a543f82d4f7b7fe244191613368391b99f3a06a4ba781bf8cf81000072236430"
+  },
+  "en/quests/quests-and-progression/index.html": {
+   "main": "4dd7e7ad8240aae69d3828007325c8ef1b20e52aaf64cab9d1d1fd724def4458",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "828aef5905f04083f832b65a9d0778a59e1d52e146d7253cdcd3a7c06828bca6"
+  },
+  "en/races/index.html": {
+   "main": "afd828777c4db86dd8efa0277eb22f64c7173240598f200327ec1731b5ae18af",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "ffb108b83d78b25d73bb16b4905a0679653a28b858e463872e6dc3fa263ab827"
+  },
+  "en/races/skyborne/index.html": {
+   "main": "1f1f46b192e13d951f60a06a78ae575c6537c24c66b7e6814ebd9ee359dfaa9b",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b1d58c7b7c1f1cd6699584172adb4bf236c1a2c534f677a098296d7cceee30a9"
+  },
+  "en/races/the-skyborne/index.html": {
+   "main": "49dc5ff12a38f1d9f2f93acd1b24c5fb134dc4a93b6708b88443d1152fdcd94b",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "6d827983e4fcc99eb5ed72d37a5ba488b55243416203cc600813249ee9855d72"
+  },
+  "en/zones/forever-zones/index.html": {
+   "main": "402124ff7a144972a703cf6bc942649b9412e271cd453a2b28bc7fbc8889b3ed",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "7f624fc5b391dcf6090b28f5cdcd637338dec3bc05fa88e5aa98a5a01ffe94ef"
+  },
+  "en/zones/index.html": {
+   "main": "0d11f74b53ae1075807459d518eeacbe06e31add2c9adca5ecd0723f251b6008",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4c849661db1c083650302d894ba386dd7921b549dd5170d9050f208249f0d18f"
+  },
+  "en/zones/mount-hyjal/index.html": {
+   "main": "8d3d6e55ada955b1c0c0fb69d4fc09a792f72c1bf64c4dd968a53871e0450030",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0eab42819fdc5732623021da210d9317f94cc2ce0304bb597d34939b80edf4c6"
+  },
+  "en/zones/riverglades/index.html": {
+   "main": "14250526637b2143747f64edf00e3a651a070f624bd38b552af617246660b35f",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "926ef79db2c976efd545f3b7968a477b168b09e25fb7d77950dea3bc843e2346"
+  },
+  "en/zones/shen-dralas/index.html": {
+   "main": "107e378e5fe2624f3f3d2f93bb87c955d220652b93ef7232b314f78157f9d321",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "645f44bc39b261c5f2b554d0ea505e1ead190d0e5622fe9d459868cc691253ca"
+  },
+  "en/zones/zephras-isle/index.html": {
+   "main": "5999758acd766e30a08fe1ce4202672cba89007f95b7ea5a24b9f472e1380633",
+   "notice": "89bbab7f25e5ab30eaec33ac1edf5f8ef56d2f07703ea4f90919a8bf239c7143",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "959250edcb2f23c161cdef5164421790279fc9a84fee6323df2afc5933e4cd3f"
+  },
+  "fr/actualites/abonnement-et-acces-au-jeu/index.html": {
+   "main": "5c798500a14bd382047be32528cd7ba919db207af0114ab8eb4575e35dcd49c0",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "1b3bf5e4fac9f18650620d9bc0a2fcbb4f035a9de26c738024a63999a00d996d"
+  },
+  "fr/actualites/beta-forever-bilan/index.html": {
+   "main": "27bd909b863a9b6a2bfe2f3509f5c55fbb1cf3a1591afd81a96b0587a88adc40",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "f09521e6566b12a9847420d37ef17cbde1a694f72616d33b234b86e562c7b16a"
+  },
+  "fr/actualites/calendrier-forever/index.html": {
+   "main": "2f6a005c5ad7360c70bbb8f8372a0aa7a6681134ff4950d27e7da2b24c68cb6e",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "f9a70361e797f03e7e43c9798fafc7f01408fc8f4a0696b88fdaa3abb00249fa"
+  },
+  "fr/actualites/dedicaces-irvine-improv/index.html": {
+   "main": "b6958938010d741b581d4cfb3a26387216a95e6bf08494aeafe683f51387e872",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d5777b94fb3e90a5d67ca8588a0a91d6bcb38750d282975d4eb5017f816c9ecd"
+  },
+  "fr/actualites/guide-de-demarrage-pour-les-nouveaux-joueurs/index.html": {
+   "main": "469853da93d7113f9e507285dbd26a9e411fabb60682f49eb6113f73e3a708e3",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "da4ab6282420df0a81f60566048f583921daaec8cf37dd231168b7ddc53a638b"
+  },
+  "fr/actualites/guide-du-retour-sur-azeroth/index.html": {
+   "main": "6378fc1d84ba12c3ecceb1652d8f700ae16f99af385f85d7389ba584fbb93418",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "fe2b80923b799fed73726b1bd1e2446b217ba049ef17b9dc206ce8c3bdba181a"
+  },
+  "fr/actualites/index.html": {
+   "main": "66352f048fb6bdd220de0d43360329fea07f9b22ac67a1d2b14ca8338dfb8359",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b5f9cfaa8e4358d947df08b2ca3d1c539ab784952f87030bfe6548c4749e0ff4"
+  },
+  "fr/actualites/lancement-mondial-annonce/index.html": {
+   "main": "8c53a77ff6881e47e4857456f03633cd28f2ea93a70971a0a1a219e24c4f4b8b",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "96addee71cd77753b54f24031e1467f1af0808f384d46096a44fc96e7682a0b9"
+  },
+  "fr/actualites/lancement-mondial-le-4-novembre-ce-qu-il-faut-savoir/index.html": {
+   "main": "c239b6d774d1032cd93544ced908d9fe1f32103d461e9e86acd98378f65b107f",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "321f1f5c08d6cf1df1d24bea1a43e2b608115bd63357f127653413fe99a54cde"
+  },
+  "fr/actualites/le-discord-officiel-wow-portal-room-accueille-les-joueurs-forever/index.html": {
+   "main": "fcfc2f21279727c9f6ec29846ac339c2bd43d97065925ca8102b36cd7419946d",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "26043c15ee6f1b2b3853b3ad0a4b9eae634524c9e5fbbdb12bf15ba1c785e68c"
+  },
+  "fr/actualites/nouvelle-unbowed/index.html": {
+   "main": "ed5ce6def93a49939122e32136a0e30013fce7e10548ce3260f9554e4ee5b4b9",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "7f0eb684ca239ba475a8e5fcb53d1df0847b4901555ad5167101fda7f56c2394"
+  },
+  "fr/actualites/podcast-wow-forever-la-technique/index.html": {
+   "main": "5886b9811e8b5d8a6219d2f3e2313ba3b9d7044135e9d523c7638afd75144d3b",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "68e8a526e72ef64d745b63991b3b27655acbd830540a9acbfb6eda67fa62a4b4"
+  },
+  "fr/classes/chaman/index.html": {
+   "main": "60d7c98114adbee70a04ffbd6efbd211184da1013c32f72aeaef464cf0641336",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "83623be754ba26f50a023d0f8db840504aa77e5bef22dca7b17363dca40537e7"
+  },
+  "fr/classes/chasseur-chasseresse/index.html": {
+   "main": "dfc7a84a14d3a9d7c34f278e80999cb96a54b55b8213c552b4706c7734948aab",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "9e3ccf98a4932beaff9f15c565a9801620c806aad2244d15781d06bf3f7405b3"
+  },
+  "fr/classes/classes-forever/index.html": {
+   "main": "24c8600c8602c6d251d07f8296bd9c76f310cf310009670bb7240c0009a35bcc",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d8366a14c9366486f55d5af9da9da3dce3476713e40d2fb005f55da9aa984b55"
+  },
+  "fr/classes/demoniste/index.html": {
+   "main": "c7d14cc018f90e39d668f54c05367baa8859871a6e3d417f18e6bda0232a68bc",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "56d10506222d62ac5a1a0bfecc3e7f1dae2b48038add619050967ca4f9b7aadb"
+  },
+  "fr/classes/druide-druidesse/index.html": {
+   "main": "a8bd280bf14d8202c35a2e260c035ad993ac1ee49b5ac009c0a86c2cf6a6fa5a",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "864e17be064d47c48e8ce71ff8429c559cf770bff6c13cef922827d1b4ae2dc0"
+  },
+  "fr/classes/guerrier-guerriere/index.html": {
+   "main": "60cd93e9fb22bf1ed0119d84c75e97c4e3bb0ca17873293d5c6f46a2b09d4334",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "99158abe38f067ac013f96776d8ef88d906e80da44486335f69ea0923581caf1"
+  },
+  "fr/classes/index.html": {
+   "main": "9aedf571832e017b8cb8c551a5e7ba3f04c3cb6305e0274244a95116f29150cc",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d259545a493e39da53e52d6f3b0c708569a060703ea8ef4228efafa941c7f5ac"
+  },
+  "fr/classes/mage/index.html": {
+   "main": "1f4cdbfa1b29e376af67a6adf0246c1096d627eb17d98eab7ad1505e045793bf",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e181bc015be0fe01de62a0e9898c690c3a2bb48fa90e4e5cb9aab481ea3fe004"
+  },
+  "fr/classes/paladin/index.html": {
+   "main": "85aadc8b4747568ba6ad7f0461c9ce4a8a950a453acb35bff426ed48acfbe813",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a7d973a732d0577f073922ed98f4e20235dbab50df3a45f478b8d32c7ebcbc38"
+  },
+  "fr/classes/voleur-voleuse/index.html": {
+   "main": "63d75bc91daacaf91cdcf0461697f19443c98a649b333ba90039b1e2f9658dcc",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4b1ef7f21ead59988c376bfb70c9437b3787dc552699fe6a2ae08bb699b6eaf8"
+  },
+  "fr/creatures/creatures-documentees/index.html": {
+   "main": "564287cf845f5b415081065815e86a5520ae2912c8e4b7a25660fbb0deeabc13",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a75c3c660c9a5033dda7d676fafc3b17d5e15956d7b3a77dd21c342d5b07f852"
+  },
+  "fr/creatures/index.html": {
+   "main": "d9a1503f6830a4f657ad38996aa1d94708c7256b1bf6e1e905722041fe425fac",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b9727add7d5a9ce457c98a4d3ffc1fbb2d1c424b2d9e0184f00bf34119af8395"
+  },
+  "fr/creatures/onyxia/index.html": {
+   "main": "6d442bb3e2dc6dd9a0046308230fa3b00bbd5ce820961b1928380ea92656bac3",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0327a9d618dcf3c6b1358d1a5add5dbaf05c963d1338282ac1fcd1ec4d749d67"
+  },
+  "fr/creatures/renards/index.html": {
+   "main": "33dbec575f755ce50963d4dfdb9b1b00a0bbbdcc20341114745a4397ab0f63b2",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "ffb3bef2ede4382270226bc2bc5b871400e822f1328baaa8fa02e3e6821c46f2"
+  },
+  "fr/donjons-raids/index.html": {
+   "main": "4a6a8d86ea3fb2bc72022ba31cfc82b661a65eee6e7a1355a1114ec8cbe547ca",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "0a8309f2b27119e53571cd558414dabb78dda4ceb919f56f0b98d5dfec20063b"
+  },
+  "fr/donjons-raids/profondeurs-des-saisons/index.html": {
+   "main": "10b589ea592d21dc92fbc2687efade0f3a83aea88d30601a2c97f188bccbe0df",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "adc507660281223b3376443150485c5fc6ec1edab882d202abf44e4988e462fc"
+  },
+  "fr/donjons-raids/raids-et-donjons/index.html": {
+   "main": "1381468028011eee9c6d06d09ba5d97cb7596c1619ae02755f3ad71a30a1ab8e",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "51db8f8ba4f8619db7196f17168b975b28ed7ee8f3ba1baf9862a0aa67bf96df"
+  },
+  "fr/donjons-raids/salle-des-thanes/index.html": {
+   "main": "8a5b95381564f5afb518dc035b7ce85af488b90b6695051353d44d86d8a92ad9",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "8e649139874385eba6b631ca71f71f7d965e21d16605342c4515cfe3ba18165c"
+  },
+  "fr/donjons-raids/sommet-d-hyjal/index.html": {
+   "main": "e58270717a5e6e957435bb8c676e3a1d6217b95e73de02e2bd6690721d0eefd2",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "1369e983179818f9f06b9e22a3e28b8c25912a692e910441503ca37bdadf97fc"
+  },
+  "fr/glossaire/index.html": {
+   "main": "4209fa8d5a73b8e2f696a46d8bb011a3b7ff663601c9696ab073f4f2bdc3f3e9",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "bed3aa006ef1fc94434ed371559bf3d0c8fd3fabd295c6b3b2b572f649a9d1a8"
+  },
+  "fr/glossaire/lexique-heritage-et-ensembles/index.html": {
+   "main": "be9bcb3df506088f4034f16c44a8adc10059af57224f83c7fef8705f45e94017",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "1d4147339a87daaa80b94a8915aa20c43531d36c332fbd17ab7c8fbad4f59cd6"
+  },
+  "fr/glossaire/points-d-heritage/index.html": {
+   "main": "01576efb5141c5608d57f0869448998da414dc1c3f77d8285d5053d05cded2e5",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "79ca26913a892b002b2fb9567756ee5747ec0d877f8a3aec0d8b4e95cbebb201"
+  },
+  "fr/glossaire/sans-royaumes-et-ensembles-de-regles/index.html": {
+   "main": "28df9d953b6a2a3b5c5b763d0fb54a18875c2c88ec6a409188d342f13ca21483",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b21e9444e516d3a636ecdaf67a87ef3ced4b3242167abb9de2c74d23a5d46a11"
+  },
+  "fr/guides/choisir-ou-jouer-avec-ses-proches/index.html": {
+   "main": "86f0190975b6c8c7f9b6fe9c73402ab2bf40aacd23d5875f9d1beb1b3da02f59",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "32983eb2d2200f35ebe4541cde99bdad54bf570c8257239b5c71a52d0d92c15c"
+  },
+  "fr/guides/consulter-sa-progression-jcj/index.html": {
+   "main": "b6f4fadacd69815494d3144c9c9f9a1d5ab8157c5cc703b4325b481ed555fbf9",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d595db2bde233e87d7f51e38c47f47b6b66a09189b32ec8850cc91f79066ca0a"
+  },
+  "fr/guides/ensembles-de-regles/index.html": {
+   "main": "74d787b205e9c2e23a06374e8e17254f56f799975f877586fea38b49eb299b6c",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "d6925da3176a36b051ddfa7fbda01b1ec215c57be5acfb6f2c69c93379baa0fa"
+  },
+  "fr/guides/index.html": {
+   "main": "efbeb4526252a4eef656816d2fdc292c3746feea39012e92f3b1e24bc6d6f60f",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "572cd72feb9a84e0c639af3ccae73f3a4406f69fe193eac69ab0678eee32baff"
+  },
+  "fr/guides/preparer-lancement-noms/index.html": {
+   "main": "50db25294dd5ffd313743c0064c69df0d68eeff1b5f44baabb27cb9e75387a87",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "7527b1181dac3a4368e8f0afab2dc7fa24da21deb07ec677069c1eeb4cf81e49"
+  },
+  "fr/index.html": {
+   "main": "1a3d1972964d06f168403c8c4e892bb018448a3333044929c9d9edec8c203e7a",
+   "notice": "040e8a42f3a68122334e8340eabfeb2dd186c6648a344a876a34b65f6d1340c0",
+   "tail": "c642cf8f2b6384529605e447f7794ca9d067943908a6d1ef584d405b9c932520",
+   "title": "973b4f0bdab40af89394c7c5fd120b602bf211c9ca9c4b6cb20d9331609cebc9"
+  },
+  "fr/jcj/honneur/index.html": {
+   "main": "b33b5c9a5f166653db83ae3ce7f597a48826415dc64e9de78da35d53ed8f6103",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "426f4a45f4dedab17ec4407df113af0f3f540a38d7344ce2b82e46168a3f0c18"
+  },
+  "fr/jcj/iles-des-sombrelances/index.html": {
+   "main": "9bb2b7576a6e149999bd69fbf5f784a79b245081b4361891d47acaf678ace06b",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "f337b3aa78eaea1779f7b5e23d8b4d15da0588d28d5cc4f4918638ddc08540f8"
+  },
+  "fr/jcj/index.html": {
+   "main": "0315a6d12edd3387f640577a5a769024d1be53691d57184e82c153a302f38129",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "175db7d77c079f80c49d0da57a1cd643d120bab502302ca80f34e5d3d5e1dc58"
+  },
+  "fr/jcj/jcj-honneur-et-rangs/index.html": {
+   "main": "28c479bdbf5ee88ba8b19a9119c2614b74b9346404c1cd6d807213c889379b07",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "2def1d1d82c4f8999ff0632044d9ba18c3fa8c45b2b5aee1a7b7b15dc269cafb"
+  },
+  "fr/jcj/points-de-rang/index.html": {
+   "main": "f68ee2db8813569523e267b3a35a61d3c62d51a1d24285db93c58818b3849099",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "24ed62eb46f4dda4cb1e444fe73406d9ef0f2ed9e5a0b4c011111c0e213c83c8"
+  },
+  "fr/metiers/artisanat-du-campement/index.html": {
+   "main": "1ea5d502fd5b92671fe256b11c25c8666a103377de4dba656fb3211c3b10b740",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "6012e8c37e482f381fa86270b386cb9ecfdd4fafb68190f9961404fe6fd346c6"
+  },
+  "fr/metiers/campement-et-artisanat/index.html": {
+   "main": "cfcd644cd138bb1e150752484f0722141e8e873db506d718d5297d6746db67ce",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "6167b20c15a867fadbdd468c1b7d60713a7a8f49092f3d6623234af93f10bfbf"
+  },
+  "fr/metiers/index.html": {
+   "main": "6b7ff2aad8f8bbef853b676c099807322e74de8c858683e72144b49b16704a9e",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a7cc3f5960bad11aadc6ea64f37a2fe690ee2997af2628f691b6d64e4af95a88"
+  },
+  "fr/metiers/recettes-et-plans-avances/index.html": {
+   "main": "cdaf98670c3d6a7f729a9105c3f700ac704eaee5e0f7cfe77ee81dbbb498b4bc",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e98b3df09204c3530bbaf954aff580cb18239f45099ab9cf05eae890aca86272"
+  },
+  "fr/objets/anneau-d-heritage-de-ladimore/index.html": {
+   "main": "ab4f669f096c0d26999b15e590d1fb8c3aebf09ee6b18b6323bdcf0685583ac2",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "18a0dd31213a2ba0c322d17391f92c4fa1cab181fcbc9ca1bd0825e218f3e6d9"
+  },
+  "fr/objets/index.html": {
+   "main": "2a3b1cf1e7b6b6de8851774172af228bae3a9dc65a19df4a85b2d9e06620d48c",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "79a06e75e75b2dec87bb2622c575adfeb103a7da27891b90b25ecd5c01d72e6e"
+  },
+  "fr/objets/objets-documentes/index.html": {
+   "main": "f5cf6fa4bfb2ba576199aef88246e27dc6625edcf7dd61baac176ab3b30afd24",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "c9f26cc5357dd0eea04e4eaca86e4488b0f008a7f3b33180c54370647dd183bf"
+  },
+  "fr/objets/talisman-de-fleau-des-worgens/index.html": {
+   "main": "643cbad2cda59bb9df20b0bcdc3a14da30a8a94be809589c52b67527a508b17e",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "2be1df88cc6bfb44abc804e39b45740bf6fa0349e1f1d9a2a5c22c3ee834f2db"
+  },
+  "fr/quetes/index.html": {
+   "main": "a6da556d337aa778db144b07140addae06a35294ff15f64ad8822d0619cfffb6",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "1a3e864bd928ea67e70995468730be48a91ffb75da4cc6d009c88e59a9668fa3"
+  },
+  "fr/quetes/nouvelles-aventures-de-niveau-1-a-60/index.html": {
+   "main": "36e55335020902d9ce8c9f8856e15af3d78ca3fd70152b23ff813b15de1c0d49",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "2bee39c93f27b299bc7d089be0510b166b5bdd34078d14c1718c7729438b3098"
+  },
+  "fr/quetes/progression-par-l-heritage/index.html": {
+   "main": "9f08a4e49151b4beca87b051bc4653dde35a0baa77e8430e50cc3492aa570eee",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "14deac25670a1bb0d53160a644c1b427421cdbc021f415098b2e7f927bc0bebe"
+  },
+  "fr/quetes/quetes-et-progression/index.html": {
+   "main": "ab22ff8d15efc4ae29129d73f169f8e434ba6878c80ba1444dba9fdd9d612a0f",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "a9cbc26b8294e8de4e7935f40f40e2d16a2ea73fb8ee818268eaf91de82b98ce"
+  },
+  "fr/quetes/suite-de-quetes-du-seigneur-valthalak/index.html": {
+   "main": "bf4c899ff0bb7fddbca7cfe4bc463362ff1492fdbbe549a13c3b3db4c978c303",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "89212ba57899df145e7c2c6d69355f609a9949b6d397c4e3bf2794f233c40f08"
+  },
+  "fr/races/eolides/index.html": {
+   "main": "af92b2eb5cbafeeed84370f0aaf09ed960197123ebbd6d619aeedf22e59bad0a",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "26221e5dab539e0455696e462b58b0a2d571d558e99b70716ef6fdc858088243"
+  },
+  "fr/races/index.html": {
+   "main": "34de1d70181f8dcf198ac0c4dcbdf05f81b4887780159597d2c6badeb8e1c663",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "8135b6e5fc82ca62c215f52dd92fc345e0eacf915e09eb3f9146cd8dd7314abf"
+  },
+  "fr/races/les-eolides/index.html": {
+   "main": "f0500fa587002f369d7020d940f7112a4a44b0b0c80579a55a25ac2032333af1",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "e9630040c7c4eb8669a072f5efb06d7651d9e565248af4f5619345b4e5fe1a90"
+  },
+  "fr/zones/ile-de-zephras/index.html": {
+   "main": "c47a410b7a8ddfe497294b85c366512248f84b407a63f035e3dbaadd599480a4",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "174a552fcca800cd99d0b031052a15549d11a97b3cd24ee391c7f4743eff63d2"
+  },
+  "fr/zones/index.html": {
+   "main": "1ef78038d247ec8e96aafb76c4047ea8558b07af1be5db57e26ac0ec53c49d15",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "b14efc31e16363c911e7009c94a38095d21346417b92ba19217c325e88643a8c"
+  },
+  "fr/zones/mont-hyjal/index.html": {
+   "main": "ade04310087c69f20835236d1f1dbeed49fc89f33c79bde17fd9695cc684ad43",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "4542651f150529a384bd6606cc7ad8b78e0537672f201cf05a776c04cf2f62b2"
+  },
+  "fr/zones/rives-claires/index.html": {
+   "main": "415002e728c28eb1428a16e325f8513714406dc23721224eb36ec017b9dcb43f",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "860f649c20f88c412e0e2f4e5bfb772cb4cc71d0e1b10d6b5bb03ff4c25d4927"
+  },
+  "fr/zones/shen-dralas/index.html": {
+   "main": "b2b20302f847ace58554b6dcf19907853328429b54de67bef1125c4d294c8b35",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "645f44bc39b261c5f2b554d0ea505e1ead190d0e5622fe9d459868cc691253ca"
+  },
+  "fr/zones/zones-forever/index.html": {
+   "main": "05f97d9cf6831a4a3f86cc3302f95daa0d9c105e34ad0b54fbaf93d3099535a6",
+   "notice": "179853611623ecef220a000128c2bf717d5d1b54543f03f464601946bfb089be",
+   "tail": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "title": "3b2b22be0a190e3baecf8d67428c3025348a0e7cca9e5dacdf113db70526a1cd"
+  },
+  "index.html": {
+   "main": "b3fbe0afc265e14bb67452cd4b90a3d32b7852b298457fd869177234b2cd7dac",
+   "notice": "040e8a42f3a68122334e8340eabfeb2dd186c6648a344a876a34b65f6d1340c0",
+   "tail": "c642cf8f2b6384529605e447f7794ca9d067943908a6d1ef584d405b9c932520",
+   "title": "973b4f0bdab40af89394c7c5fd120b602bf211c9ca9c4b6cb20d9331609cebc9"
+  }
+ }
+}

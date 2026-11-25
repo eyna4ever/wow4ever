@@ -1,0 +1,15 @@
+{
+ "archive_sha256": "454a7aa35509e3fd09ff14a4a87a73088946c529af39b8b54e0aaab18c50a9db",
+ "archive_bytes": 5471967,
+ "update_v43d_sh_sha256": "8ee4c1fc97a40f4b0cd62972d7944d473e0ae9ca7c015391d187ef6b8195a295",
+ "wiki_v43d": "5875d6be00b3d058195bd8000f0ea194b323ab5dfb78e8bb7eb91858421e8dd4",
+ "wiki_v43b": "c82421613a35ec1c3306c82b908c545f353347ea22c324589db355337f649517",
+ "files": 478,
+ "html_changed": 471,
+ "new_pages": [
+  "wiki/en/news/blackmaw-hold-abuse-actions/index.html",
+  "wiki/fr/actualites/sanctions-abus-blackmaw-hold/index.html"
+ ],
+ "tar_mtime": 1795623644,
+ "app": "d159df252913b0c569c644e1dfccaddfadb4e3ec2ba468a1f097cc38dc1bbda9"
+}

@@ -1,0 +1,309 @@
+{
+ "id": "forever-dungeon-shapers-terrace",
+ "title": {
+  "fr": "La terrasse du Façonneur",
+  "en": "Shaper’s Terrace"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 58 à 60, dans les collines du nord du cratère d’Un’Goro. Une ancienne installation titan domine le cratère. Les cristaux de puissance récoltés dans Un’Goro servent aux consoles de la terrasse.",
+  "en": "Five-player dungeon, levels 58–60, in the northern hills of Un’Goro Crater. An ancient titan facility overlooks the crater. Power crystals gathered across Un’Goro are used at consoles inside the terrace."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:24.383Z",
+ "version": 4,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+   "at": "2026-10-30",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:19:10.684Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:32:24.194Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 2
+  },
+  {
+   "at": "2026-10-30T21:32:24.287Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 3
+  },
+  {
+   "at": "2026-10-30T21:32:24.383Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 4
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "la-terrasse-du-faconneur",
+   "en": "shaper-s-terrace"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 58 à 60, dans les collines du nord du cratère d’Un’Goro. Une ancienne installation titan domine le cratère. Les cristaux de puissance récoltés dans Un’Goro servent aux consoles de la terrasse.",
+   "en": "Five-player dungeon, levels 58–60, in the northern hills of Un’Goro Crater. An ancient titan facility overlooks the crater. Power crystals gathered across Un’Goro are used at consoles inside the terrace.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 58 à 60 — Collines du nord du cratère d’Un’Goro.",
+    "en": "Levels 58–60 — Northern hills of Un’Goro Crater.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Apporter des cristaux de puissance récoltés dans Un’Goro, utilisés sur des consoles à l’intérieur.",
+    "en": "Bring power crystals gathered in Un’Goro, used at consoles inside.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Mécanique annoncée : cristaux de puissance d’Un’Goro utilisés sur des consoles.",
+    "en": "Announced mechanic: Un’Goro power crystals used at consoles.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "58 à 60",
+         "en": "58–60"
+        },
+        {
+         "fr": "Collines du nord du cratère d’Un’Goro",
+         "en": "Northern hills of Un’Goro Crater"
+        },
+        {
+         "fr": "Apporter des cristaux de puissance récoltés dans Un’Goro, utilisés sur des consoles à l’intérieur.",
+         "en": "Bring power crystals gathered in Un’Goro, used at consoles inside."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Une ancienne installation titan domine le cratère d’Un’Goro : dinosaures, structures titanesques, fosses de goudron et cristaux. Les cristaux de puissance récoltés dehors servent sur les consoles de la terrasse, qui relient l’exploration du monde aux défis de l’intérieur.",
+      "en": "An ancient titan facility overlooks Un’Goro Crater: dinosaurs, titan structures, tar pits and crystals. Power crystals gathered outside are used at the terrace’s consoles, tying outdoor exploration to the challenges inside.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 58 à 60, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 58–60, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env*
+!.env.example
+runtime/
+artifacts/
+dist/
+__pycache__/
+preview/
+next-env.d.ts
+*.tsbuildinfo

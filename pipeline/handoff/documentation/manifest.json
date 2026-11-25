@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "datasetChecksum": "cec78c6c77bf91e646a6aef9fe2b945905b8c2d2ae902888746285ff60564e38",
+  "records": 36,
+  "published": 0,
+  "files": [
+    {
+      "name": "LIRE-MOI.txt",
+      "bytes": 942,
+      "sha256": "bc0264cf9d0824013374f6d95ec6659936000b38a332552babcd05ce6d58128e"
+    },
+    {
+      "name": "relecture.html",
+      "bytes": 94893,
+      "sha256": "b4fc72e1faf9320620617874f70969ec02a3eeb3be2953ac56ccb2ea3a145121"
+    },
+    {
+      "name": "wiki.sqlite",
+      "bytes": 258048,
+      "sha256": "554ac496040572fa89350f2b80b3d9002302a6e2bea34a5e7b1b372a1e0ce00e"
+    },
+    {
+      "name": "entries.json",
+      "bytes": 91070,
+      "sha256": "578d74abb0585d61d38ed9539b6292b8481396a3a7dcb67e5627e21c27134a3f"
+    },
+    {
+      "name": "content-report.json",
+      "bytes": 5879,
+      "sha256": "818b5461b2c7aa0be0950b1484afa7fd0c81ad916e4618e3c6f9911e2d39922d"
+    },
+    {
+      "name": "content-report.md",
+      "bytes": 2750,
+      "sha256": "69b752acf5d60d20f118dd2b5436730b70b412c29f396cbd8a6494f81e260a29"
+    },
+    {
+      "name": "forever-classes-sources.json",
+      "bytes": 17431,
+      "sha256": "30d01d70ec3345529d274f9e005c30ccebe9d801a396c984cceef9a605b18f9a"
+    },
+    {
+      "name": "forever-world-sources.json",
+      "bytes": 28040,
+      "sha256": "82971fd536fec6e8747b9ad2750ce442cae4e1da14c3420668e13e3bbb32ab04"
+    },
+    {
+      "name": "forever-systems-sources.json",
+      "bytes": 5315,
+      "sha256": "5047abc22d4168acf39b9b2d05b4510d70020e7efc371f1f12be5d1e15da3a1d"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+ "id": "forever-dungeon-city-of-dalaran",
+ "title": {
+  "fr": "Cité de Dalaran",
+  "en": "City of Dalaran"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 28 à 33, dans les montagnes d’Alterac. Une suite de quêtes d’harmonisation est requise. Après avoir gagné la confiance du Kirin Tor, le groupe entre par les égouts et choisit entre plusieurs chemins et affrontements dans une cité en plein chaos arcanique.",
+  "en": "Five-player dungeon, levels 28–33, in the Alterac Mountains. An attunement questline is required. After earning the Kirin Tor’s trust, the group enters through the sewers and picks among several paths and encounters in a city gripped by arcane chaos."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-devnotes5",
+   "language": "en",
+   "url": "https://us.forums.blizzard.com/en/wow/t/2360696/5",
+   "title": "WoW Forever Beta Development Notes — message n° 5 du 2026-10-08 (forum officiel US, Kaivax)",
+   "publishedAt": "2026-10-08",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-devnotes6",
+   "language": "en",
+   "url": "https://us.forums.blizzard.com/en/wow/t/2360696/6",
+   "title": "WoW Forever Beta Development Notes — message n° 6 du 2026-10-16 (forum officiel US, Kaivax)",
+   "publishedAt": "2026-10-16",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-devnotes9",
+   "language": "en",
+   "url": "https://us.forums.blizzard.com/en/wow/t/2360696/9",
+   "title": "WoW Forever Beta Development Notes — message n° 9 du 2026-11-03 (forum officiel US, Kaivax)",
+   "publishedAt": "2026-11-03",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:22.492Z",
+ "version": 4,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-questline-dalaran-attunement",
+  "forever-reputations-confirmed",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+   "at": "2026-10-30",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:19:10.684Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:32:22.209Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 2
+  },
+  {
+   "at": "2026-10-30T21:32:22.301Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 3
+  },
+  {
+   "at": "2026-10-30T21:32:22.492Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 4
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "cite-de-dalaran",
+   "en": "city-of-dalaran"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 28 à 33, dans les montagnes d’Alterac. Une suite de quêtes d’harmonisation est requise. Après avoir gagné la confiance du Kirin Tor, le groupe entre par les égouts et choisit entre plusieurs chemins et affrontements dans une cité en plein chaos arcanique.",
+   "en": "Five-player dungeon, levels 28–33, in the Alterac Mountains. An attunement questline is required. After earning the Kirin Tor’s trust, the group enters through the sewers and picks among several paths and encounters in a city gripped by arcane chaos.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 28 à 33 — Montagnes d’Alterac.",
+    "en": "Levels 28–33 — Alterac Mountains.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Harmonisation obligatoire. Alliance : « Une requête alarmante » (émissaire Jacques, Austrivage). Horde : « Clé de la ville » et « L’invasion de la prison » (magus Wordeen Toisevide, Moulin-de-Tarren).",
+    "en": "Attunement required. Alliance: “An Alarming Request” (Emissary Jacques, Southshore). Horde: “Key to the City” and “Prison Break-In” (Magus Wordeen Voidglare, Tarren Mill).",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Entrée par les égouts, plusieurs chemins possibles dans la cité.",
+    "en": "Entry through the sewers, several possible paths through the city.",
+    "src": [
+     "bz-dungeons"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "28 à 33",
+         "en": "28–33"
+        },
+        {
+         "fr": "Montagnes d’Alterac",
+         "en": "Alterac Mountains"
+        },
+        {
+         "fr": "Harmonisation obligatoire. Alliance : « Une requête alarmante » (émissaire Jacques, Austrivage). Horde : « Clé de la ville » et « L’invasion de la prison » (magus Wordeen Toisevide, Moulin-de-Tarren).",
+         "en": "Attunement required. Alliance: “An Alarming Request” (Emissary Jacques, Southshore). Horde: “Key to the City” and “Prison Break-In” (Magus Wordeen Voidglare, Tarren Mill)."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "La barrière qui cachait la reconstruction de Dalaran est tombée : enchantements qui se retournent, assemblages hors de contrôle, énergies magiques dans les rues. Après avoir gagné la confiance du Kirin Tor, le groupe entre par les égouts et choisit entre plusieurs chemins et rencontres jusqu’à la source des perturbations.",
+      "en": "The barrier hiding Dalaran’s restoration has fallen: backfiring enchantments, runaway constructs, magic spilling into the streets. After earning the Kirin Tor’s trust, your group enters through the sewers and picks among several paths and encounters on the way to the source of the trouble.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "horde-kirin-tor",
+    "title": {
+     "fr": "Horde, Kirin Tor et accès à la ville",
+     "en": "Horde, Kirin Tor and city access"
+    },
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       {
+        "fr": "Depuis les notes du 3 novembre, la Horde n’est plus la bienvenue à Dalaran : ses membres y sont attaqués à vue. Cela ne change pas l’accès au donjon, mais la suite de quêtes de la Horde qui donne la clé des égouts de Dalaran (« Dalaran Sewer Key ») n’ouvre plus librement la ville dans le monde extérieur.",
+        "en": "Since the 3 November notes, the Horde is no longer welcome in Dalaran and is attacked on sight. Dungeon access is unaffected, but the Horde questline that grants the Dalaran Sewer Key no longer gives unrestricted access to the open-world city.",
+        "src": [
+         "bz-devnotes9"
+        ]
+       },
+       {
+        "fr": "Le 16 octobre, Blizzard a corrigé un problème qui permettait aux joueurs de la Horde de gagner de la réputation auprès du Kirin Tor. Note de bêta (avant le lancement du 4 novembre) : peut avoir évolué depuis.",
+        "en": "On 16 October, Blizzard fixed an issue that let Horde players gain Kirin Tor reputation. Beta note (before the 4 November launch): may have changed since.",
+        "src": [
+         "bz-devnotes6"
+        ]
+       },
+       {
+        "fr": "Le donjon est ouvert aux tests de la bêta le 8 octobre ; les invocateurs de Dalaran des montagnes d’Alterac, qui invoquaient sans fin, sont corrigés le 3 novembre.",
+        "en": "The dungeon opened for beta testing on 8 October; the Dalaran Summoners in the Alterac Mountains, who kept summoning endlessly, were fixed on 3 November.",
+        "src": [
+         "bz-devnotes5",
+         "bz-devnotes9"
+        ]
+       }
+      ],
+      "src": [
+       "bz-devnotes5",
+       "bz-devnotes6",
+       "bz-devnotes9"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 28 à 33, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 28–33, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Accès : harmonisation propre à chaque faction, entrée par les égouts.",
+    "en": "Access: faction-specific attunement, entry through the sewers.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Horde attaquée à vue dans Dalaran (hors donjon) depuis le 3 novembre.",
+    "en": "Horde attacked on sight in Dalaran (outside the dungeon) since 3 November.",
+    "src": [
+     "bz-devnotes9"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   },
+   {
+    "fr": "Paliers de réputation Kirin Tor exigés et récompenses : non publiés.",
+    "en": "Required Kirin Tor standing and rewards: not published."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "date": "2026-10-08",
+    "fr": "Donjon ouvert aux tests en bêta.",
+    "en": "Dungeon opened for beta testing.",
+    "src": [
+     "bz-devnotes5"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "fr": "La Horde est attaquée à vue dans Dalaran.",
+    "en": "The Horde is attacked on sight in Dalaran.",
+    "src": [
+     "bz-devnotes9"
+    ]
+   }
+  ]
+ }
+}

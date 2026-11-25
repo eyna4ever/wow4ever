@@ -1,0 +1,6 @@
+v43c — 24/11/2026 08:53 (Europe/Paris). Paquet uploadé sur la release GitHub deploy-v5-20261030 (--clobber), revérifié après téléchargement. Serveur NON touché.
+update-v43c.sh            69a246e23030a42935567dedc3ca456bcde171d3fbd43c87fee2970e2cb80a16
+wow4ever-wiki-v43c.tar.gz 475a95ca48f3928e45ac5825816b90ea12cd0f91596997411d3f0b98df4e294c (478 fichiers, 5 468 149 octets)
+empreinte wiki v43c       b2f35655cad35ec602dfa214b9a67a2219ae4f29ec77ec9921494e9c0bf50bc8 (base v43b c82421613a35…, release 20261118T005337)
+Commande (après Oui de Mathieu) : voir v43c-deploy/d43c.sh. Retour arrière : bash /root/wow4ever-rollback-v43c.sh
+Chaîne : outils/fix_blackmaw43c.py, apply-v43c.mjs (/tmp/v43c-pipe), make_tree43c.py, search43c.py, tests43c.py, validate_v43c.py, make_deploy43c.py, essais43c.sh

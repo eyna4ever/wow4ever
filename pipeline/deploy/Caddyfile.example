@@ -1,0 +1,35 @@
+# WoW Forever Wiki — bloc Caddy autonome pour le site statique (aucune fiche publique, 36 brouillons non servis).
+# Pré-requis : extraire l'archive web dans /srv/wow4ever :  tar -xzf wow4ever-web.tar.gz -C /srv/wow4ever
+# Le dossier servi ne contient que : index.html, fr/, en/, site.css, app.js, ui-core.mjs, assets/.
+# CSP testée localement (Chrome headless) : aucun script, style ni image inline/data: n'est nécessaire.
+wow4ever.raveforge.eu {
+	root * /srv/wow4ever
+	encode zstd gzip
+
+	header {
+		Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; object-src 'none'"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Frame-Options "DENY"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+		Cross-Origin-Opener-Policy "same-origin"
+		Strict-Transport-Security "max-age=31536000"
+		# Démo en construction : ne pas indexer (cohérent avec <meta name="robots" content="noindex,nofollow">).
+		X-Robots-Tag "noindex, nofollow"
+		-Server
+	}
+
+	# Module ES du contrôleur : type MIME explicite.
+	@mjs path *.mjs
+	header @mjs Content-Type "text/javascript; charset=utf-8"
+
+	# Images d'ambiance : cache d'une semaine ; HTML/JS/CSS revalidés.
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=604800"
+	@pages path / /fr/ /en/ /index.html /fr/index.html /en/index.html /app.js /ui-core.mjs /site.css
+	header @pages Cache-Control "no-cache"
+
+	file_server {
+		hide .*
+	}
+}

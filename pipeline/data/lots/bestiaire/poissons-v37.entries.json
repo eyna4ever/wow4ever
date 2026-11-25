@@ -1,0 +1,1743 @@
+[
+  {
+    "id": "forever-professions-fish",
+    "title": {
+      "fr": "Poissons",
+      "en": "Fish"
+    },
+    "description": {
+      "fr": "Liste de 37 poissons et prises apparentées relevés dans les données du jeu Forever (client 1.60.1.70862 et catalogue d’objets Forever), à confirmer. Aucune zone de pêche ni compétence de pêche requise n’est indiquée dans ces données ; les tableaux « Zones (Classic) » n’ont pas été repris.",
+      "en": "List of 37 fish and related catches recorded in Forever game data (client 1.60.1.70862 and the Forever item catalog), to be confirmed. No fishing zone or required fishing skill is given in that data; “Zones (Classic)” tables were not used."
+    },
+    "category": "professions",
+    "subcategory": "poissons",
+    "status": "draft",
+    "updatedAt": "2026-11-12T06:15:00.000Z",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+    "version": 1,
+    "verification": "à confirmer",
+    "identityConfirmed": false,
+    "relations": [
+      "forever-professions-recipes-fishing",
+      "forever-professions-recipes-cooking",
+      "forever-professions-recipes-alchemy",
+      "forever-professions-blueprints",
+      "forever-professions-overview",
+      "forever-camp-features"
+    ],
+    "sources": [
+      {
+        "key": "bz-24303313-fr",
+        "language": "fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+        "accessedAt": "2026-11-12",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "publishedAt": "2026-09-13"
+      },
+      {
+        "key": "bz-24303313-en",
+        "language": "en",
+        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+        "accessedAt": "2026-11-12",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "publishedAt": "2026-09-13"
+      },
+      {
+        "key": "bz-camp-fr",
+        "language": "fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+        "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+        "accessedAt": "2026-11-12",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "publishedAt": "2026-10-21"
+      },
+      {
+        "key": "bz-camp-en",
+        "language": "en",
+        "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+        "title": "Gather Around the Campfire in World of Warcraft: Forever",
+        "accessedAt": "2026-11-12",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "publishedAt": "2026-10-21"
+      },
+      {
+        "key": "client-guide-kochkunst-fr",
+        "language": "fr",
+        "url": "https://eternadex.com/fr/berufe/kochkunst/",
+        "title": "Guide Cuisine — recettes et matériaux (données du jeu, client 1.60.1.70862, à confirmer)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-guide-kochkunst-en",
+        "language": "en",
+        "url": "https://eternadex.com/en/berufe/kochkunst/",
+        "title": "Cooking guide — recipes and materials (game data, client 1.60.1.70862, to be confirmed)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-guide-alchemie-en",
+        "language": "en",
+        "url": "https://eternadex.com/en/berufe/alchemie/",
+        "title": "Alchemy guide — recipes and materials (game data, client 1.60.1.70862, to be confirmed)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-datenbank-en",
+        "language": "en",
+        "url": "https://eternadex.com/en/datenbank/",
+        "title": "Item database — game data, WoW Forever client build 1.60.1.70862, as of 7 November 2026 (to be confirmed)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-datenbank-fr",
+        "language": "fr",
+        "url": "https://eternadex.com/fr/datenbank/",
+        "title": "Base d’objets — données du jeu, client WoW Forever build 1.60.1.70862, au 7 novembre 2026 (à confirmer)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-handwerk-en",
+        "language": "en",
+        "url": "https://eternadex.com/en/datenbank/items/handwerkswaren/",
+        "title": "Trade goods catalog for WoW Forever (to be confirmed)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      },
+      {
+        "key": "client-handwerk-fr",
+        "language": "fr",
+        "url": "https://eternadex.com/fr/datenbank/items/handwerkswaren/",
+        "title": "Catalogue d’artisanat de WoW Forever (à confirmer)",
+        "accessedAt": "2026-11-12",
+        "license": "Données de tiers (extrait de fichiers client) ; consultation le 12 novembre 2026 ; informations à confirmer, non officielles.",
+        "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-12",
+        "undated": true,
+        "verification": "à confirmer"
+      }
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Liste de poissons d’après les sources officielles citées et les données du client Forever 1.60.1.70862 (à confirmer). Aucune zone Classic n’est reprise. Brouillon à relire. Pas une validation de publication.",
+        "at": "2026-11-12T06:15:00.000Z",
+        "version": 1
+      }
+    ],
+    "article": {
+      "format": 1,
+      "slug": {
+        "fr": "poissons",
+        "en": "fish"
+      },
+      "illustration": "professions",
+      "lead": {
+        "fr": "Blizzard n’a pas publié de liste officielle de poissons par zone pour World of Warcraft: Forever. Cette fiche rassemble 37 poissons et prises apparentées relevés dans les données du jeu (guide de cuisine et d’alchimie, client build 1.60.1.70862 au 7 novembre 2026, et catalogue d’objets Forever). Chaque ligne est à confirmer. La zone et la compétence de pêche requise ne sont pas indiquées dans ces données : elles ne sont pas remplies à partir de tableaux Classic. Les recettes de cuisine déjà documentées sont renvoyées vers /fr/metiers/recettes-cuisine/. Les recettes de l’objet de pêche restent sur /fr/metiers/recettes-peche/.",
+        "en": "Blizzard has not published an official fish-by-zone list for World of Warcraft: Forever. This page gathers 37 fish and related catches recorded in game data (cooking and alchemy guides, client build 1.60.1.70862 as of 7 November 2026, and the Forever item catalog). Every row is to be confirmed. Zone and required fishing skill are not given in that data: they are not filled from Classic tables. Cooking recipes already documented are linked to /en/professions/cooking-recipes/. Fishing profession recipes stay on /en/professions/fishing-recipes/.",
+        "src": [
+          "bz-24303313",
+          "bz-camp",
+          "client-guide-kochkunst",
+          "client-guide-alchemie",
+          "client-datenbank",
+          "client-handwerk"
+        ]
+      },
+      "keyPoints": [
+        {
+          "fr": "37 lignes à confirmer ; 0 avec une zone de pêche dans les données Forever consultées ; 0 avec une compétence de pêche requise.",
+          "en": "37 rows to be confirmed; 0 with a fishing zone in the Forever data consulted; 0 with a required fishing skill.",
+          "src": [
+            "client-guide-kochkunst",
+            "client-guide-alchemie",
+            "client-datenbank",
+            "client-handwerk"
+          ]
+        },
+        {
+          "fr": "Les noms français viennent de la localisation du catalogue et des guides de métier consultés. Le Fantaileron (Whimsyfin) et les Filets de poisson de saison portent des numéros d’objet élevés, rangés parmi les nouveaux objets de Forever.",
+          "en": "French names come from the localization of the catalog and profession guides consulted. Whimsyfin (Fantaileron) and Seasonal Fish Steaks have high item ids, filed under new items in Forever.",
+          "src": [
+            "client-guide-kochkunst",
+            "client-guide-alchemie",
+            "client-datenbank",
+            "client-handwerk"
+          ]
+        },
+        {
+          "fr": "Un guide de pêche Forever, consulté le même jour, contient un tableau « Zones (Classic) » et prévient que les emplacements peuvent différer dans Forever : ce tableau n’est pas repris.",
+          "en": "A Forever fishing guide, consulted the same day, contains a “Zones (Classic)” table and warns that locations may differ in Forever: that table is not used.",
+          "src": [
+            "client-guide-kochkunst",
+            "client-guide-alchemie",
+            "client-datenbank",
+            "client-handwerk"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "lire-cette-liste",
+          "title": {
+            "fr": "Comment lire cette liste",
+            "en": "How to read this list"
+          },
+          "blocks": [
+            {
+              "type": "p",
+              "fr": "Les recettes de l’objet Pêche (bocal, râtelier, hutte) restent sur la fiche déjà publiée /fr/metiers/recettes-peche/. Cette page ajoute les poissons et prises apparentées, pas une seconde liste de recettes de pêche.",
+              "en": "Fishing profession recipes (bowl, rack, hut) stay on the already published sheet /en/professions/fishing-recipes/. This page adds the fish and related catches, not a second fishing-recipe list.",
+              "src": [
+                "bz-24303313",
+                "bz-camp",
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "fr": "Chaque ligne issue des données du client ou du catalogue d’objets est à confirmer.",
+                  "en": "Every row from client data or the item catalog is to be confirmed.",
+                  "src": [
+                    "client-guide-kochkunst",
+                    "client-guide-alchemie",
+                    "client-datenbank",
+                    "client-handwerk"
+                  ]
+                },
+                {
+                  "fr": "La compétence de pêche requise et la zone (ou le type d’eau) ne figurent pas dans les fiches d’objets ni dans les guides de métier 1.60.1.70862 consultés : les cellules restent à « non indiqué ».",
+                  "en": "Required fishing skill and zone (or water type) are not on the item pages or in the 1.60.1.70862 profession guides consulted: those cells stay as “not given”.",
+                  "src": [
+                    "client-guide-kochkunst",
+                    "client-guide-alchemie",
+                    "client-datenbank",
+                    "client-handwerk"
+                  ]
+                },
+                {
+                  "fr": "Le prix indiqué est le prix de vente de l’objet, quand il figurait sur la fiche Forever. Aucun vendeur d’achat n’était nommé pour ces poissons.",
+                  "en": "The price shown is the item’s sell price, when it appeared on the Forever item page. No purchase vendor was named for these fish.",
+                  "src": [
+                    "client-guide-kochkunst",
+                    "client-guide-alchemie",
+                    "client-datenbank",
+                    "client-handwerk"
+                  ]
+                },
+                {
+                  "fr": "Les liens de recettes pointent vers les fiches de cuisine ou d’alchimie déjà en ligne, sans taux d’obtention.",
+                  "en": "Recipe links point to the cooking or alchemy sheets already online, without drop rates.",
+                  "src": [
+                    "client-guide-kochkunst",
+                    "client-guide-alchemie",
+                    "client-datenbank",
+                    "client-handwerk"
+                  ]
+                }
+              ],
+              "src": [
+                "bz-24303313",
+                "bz-camp",
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "perimetre",
+          "title": {
+            "fr": "Périmètre et preuves Forever",
+            "en": "Scope and Forever evidence"
+          },
+          "blocks": [
+            {
+              "type": "p",
+              "fr": "Les guides de cuisine et d’alchimie consultés portent la mention : données du jeu, client WoW Forever build 1.60.1.70862, au 7 novembre 2026. La base d’objets de la même documentation reprend le même build. Les fiches d’objets sont libellées « objet de WoW Forever », mais n’indiquent pas le lieu d’obtention (« pas encore connu »).",
+              "en": "The cooking and alchemy guides consulted are stamped: game data, WoW Forever client build 1.60.1.70862, as of 7 November 2026. The item database in the same documentation uses the same build. Item pages are labelled as items in WoW Forever, but they do not give a source location (“not known yet”).",
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            },
+            {
+              "type": "p",
+              "fr": "Aucune table de prises par zone propre à Forever (y compris l’île de Zéphras et Shen’dralas) n’a été trouvée dans ces sources. Les liens « pages liées » de certaines fiches d’objets (par exemple Shen’dralas) sont un pied de page générique, pas un lieu de pêche : ils ne sont pas repris comme zones.",
+              "en": "No Forever-specific catch-by-zone table (including Zephras Isle and Shen’dralas) was found in these sources. “Related pages” links on some item pages (for example Shen’dralas) are a generic footer, not a fishing location: they are not used as zones.",
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "poissons-cuisine",
+          "title": {
+            "fr": "Poissons et prises utilisés en cuisine",
+            "en": "Fish and catches used in cooking"
+          },
+          "blocks": [
+            {
+              "type": "table",
+              "caption": {
+                "fr": "24 poissons ou prises servant de matériau de cuisine dans le guide 1.60.1.70862 — à confirmer (12/11/2026). Zone et compétence de pêche : non indiquées.",
+                "en": "24 fish or catches used as cooking materials in the 1.60.1.70862 guide — to be confirmed (12 November 2026). Zone and fishing skill: not given."
+              },
+              "head": [
+                {
+                  "fr": "Nom",
+                  "en": "Name"
+                },
+                {
+                  "fr": "Compétence de pêche requise",
+                  "en": "Required fishing skill"
+                },
+                {
+                  "fr": "Zone / eau",
+                  "en": "Zone / water"
+                },
+                {
+                  "fr": "Recette (cuisine ou alchimie)",
+                  "en": "Recipe (cooking or alchemy)"
+                },
+                {
+                  "fr": "Prix de vente",
+                  "en": "Sell price"
+                },
+                {
+                  "fr": "Vendeur",
+                  "en": "Vendor"
+                },
+                {
+                  "fr": "Statut",
+                  "en": "Status"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Goujon brillant cru",
+                    "en": "Raw Brilliant Smallfish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Goujon brillant (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Brilliant Smallfish (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "1 cuivre",
+                    "en": "1 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Maquereau ombré cru",
+                    "en": "Raw Slitherskin Mackerel"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Maquereau ombré (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Slitherskin Mackerel (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "1 cuivre",
+                    "en": "1 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Furie du loch crue",
+                    "en": "Raw Loch Frenzy"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Délice de furie du loch (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Loch Frenzy Delight (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "2 cuivre",
+                    "en": "2 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Lutjan à longue mâchoire cru",
+                    "en": "Raw Longjaw Mud Snapper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Lutjan à longue mâchoire (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Longjaw Mud Snapper (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "1 cuivre",
+                    "en": "1 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Thon arc-en-ciel cru",
+                    "en": "Raw Rainbow Fin Albacore"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Thon arc-en-ciel (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Rainbow Fin Albacore (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "2 cuivre",
+                    "en": "2 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Sagerelle crue",
+                    "en": "Raw Sagefish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Sagerelle fumée (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Smoked Sagefish (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "25 cuivre",
+                    "en": "25 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Poisson-chat moustachu cru",
+                    "en": "Raw Bristle Whisker Catfish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Poisson-chat moustachu (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Bristle Whisker Catfish (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "2 cuivre",
+                    "en": "2 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Truite tête-mithril crue",
+                    "en": "Raw Mithril Head Trout"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Truite tête-mithril (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Mithril Head Trout (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Morue rochécaille crue",
+                    "en": "Raw Rockscale Cod"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Morue rochécaille (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Rockscale Cod (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Grande sagerelle crue",
+                    "en": "Raw Greater Sagefish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Délice de sagerelle (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Sagefish Delight (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "1 pièce d’argent et 25 cuivre",
+                    "en": "1 silver, 25 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Barracuda luisant cru",
+                    "en": "Raw Glossy Mightfish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Barracuda luisant cuit (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Cooked Glossy Mightfish (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "6 cuivre",
+                    "en": "6 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Lutjan nagenuit cru",
+                    "en": "Raw Nightfin Snapper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Soupe de lutjan nagenuit (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Nightfin Soup (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "10 cuivre",
+                    "en": "10 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Rouget cru",
+                    "en": "Raw Redgill"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Filet de rouget (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Filet of Redgill (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Jaune-queue tacheté cru",
+                    "en": "Raw Spotted Yellowtail"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Jaune-queue tacheté (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Spotted Yellowtail (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Perche estivale crue",
+                    "en": "Raw Summer Bass"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Perche fumée (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Hot Smoked Bass (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "9 cuivre",
+                    "en": "9 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Saumon solécaille cru",
+                    "en": "Raw Sunscale Salmon"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Saumon solécaille poché (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Poached Sunscale Salmon (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "10 cuivre",
+                    "en": "10 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Flétan épineux cru",
+                    "en": "Raw Spinefin Halibut"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Flétan épineux (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Spinefin Halibut (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "1 pièce d’argent et 60 cuivre",
+                    "en": "1 silver, 60 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru ; la recette cuisinée est indiquée comme nouvelle dans Forever (apprise auprès du maître)",
+                    "en": "to be confirmed — raw fish; the cooked recipe is marked new in Forever (from the trainer)"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Saumon Blanchécaille cru",
+                    "en": "Raw Whitescale Salmon"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Pain de saumon (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Baked Salmon (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "5 cuivre",
+                    "en": "5 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine",
+                    "en": "to be confirmed — raw fish, cooking ingredient"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Poisson cuirassé cru",
+                    "en": "Raw Plated Armorfish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Poisson cuirassé (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Plated Armorfish (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "70 cuivre",
+                    "en": "70 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru ; aussi objet de quête « Crafting Order - Armorfish » ; la recette cuisinée est indiquée comme nouvelle dans Forever",
+                    "en": "to be confirmed — raw fish; also a quest item for “Crafting Order - Armorfish”; the cooked recipe is marked new in Forever"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Calmar hivernal cru",
+                    "en": "Raw Winter Squid"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Calmar grillé (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Grilled Squid (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "7 cuivre",
+                    "en": "7 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — calmar cru, ingrédient de cuisine (catalogué comme nourriture)",
+                    "en": "to be confirmed — raw squid, cooking ingredient (filed as food & drink)"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Grand barracuda cru",
+                    "en": "Large Raw Mightfish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Steak de barracuda (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Mightfish Steak (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "15 cuivre",
+                    "en": "15 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — poisson cru, ingrédient de cuisine (catalogué comme nourriture)",
+                    "en": "to be confirmed — raw fish, cooking ingredient (filed as food & drink)"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Homard Pince-noire",
+                    "en": "Darkclaw Lobster"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Ragoût de homard (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Lobster Stew (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "12 cuivre",
+                    "en": "12 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — homard, ingrédient de cuisine ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — lobster, cooking ingredient; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Poisson déviant",
+                    "en": "Deviate Fish"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Délice de déviant (cuisine, /fr/metiers/recettes-cuisine/); Elixir de croissance géante (alchimie, /fr/metiers/recettes-alchimie/)",
+                    "en": "Savory Deviate Delight (cooking, /en/professions/cooking-recipes/); Elixir of Giant Growth (alchemy, /en/professions/alchemy-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — catalogué comme nourriture ; sert aussi en alchimie ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — filed as food & drink; also used in alchemy; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Fantaileron",
+                    "en": "Whimsyfin"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Délice de fantaileron (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Savory Whimsyfin Delight (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — objet au numéro élevé, rangé parmi les nouveaux objets de Forever ; ingrédient d’une recette de cuisine nouvelle dans Forever ; le lieu de pêche n’est pas indiqué",
+                    "en": "to be confirmed — high item id, filed under new items in Forever; reagent for a cooking recipe marked new in Forever; catch location is not given"
+                  }
+                ]
+              ],
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "poissons-alchimie",
+          "title": {
+            "fr": "Poissons utilisés en alchimie",
+            "en": "Fish used in alchemy"
+          },
+          "blocks": [
+            {
+              "type": "table",
+              "caption": {
+                "fr": "3 poissons ou anguilles servant de matériau d’alchimie dans le guide 1.60.1.70862 — à confirmer. Le poisson déviant, déjà dans le tableau de cuisine, sert aussi à l’élixir de croissance géante.",
+                "en": "3 fish or eels used as alchemy materials in the 1.60.1.70862 guide — to be confirmed. Deviate Fish, already in the cooking table, is also used for Elixir of Giant Growth."
+              },
+              "head": [
+                {
+                  "fr": "Nom",
+                  "en": "Name"
+                },
+                {
+                  "fr": "Compétence de pêche requise",
+                  "en": "Required fishing skill"
+                },
+                {
+                  "fr": "Zone / eau",
+                  "en": "Zone / water"
+                },
+                {
+                  "fr": "Recette (cuisine ou alchimie)",
+                  "en": "Recipe (cooking or alchemy)"
+                },
+                {
+                  "fr": "Prix de vente",
+                  "en": "Sell price"
+                },
+                {
+                  "fr": "Vendeur",
+                  "en": "Vendor"
+                },
+                {
+                  "fr": "Statut",
+                  "en": "Status"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Bouche-noire huileux",
+                    "en": "Oily Blackmouth"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Huile de bouche-noire (alchimie, /fr/metiers/recettes-alchimie/)",
+                    "en": "Blackmouth Oil (alchemy, /en/professions/alchemy-recipes/)"
+                  },
+                  {
+                    "fr": "4 cuivre",
+                    "en": "4 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — matériau d’alchimie ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — alchemy material; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Lutjan de nagefeu",
+                    "en": "Firefin Snapper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Huile de feu (alchimie, /fr/metiers/recettes-alchimie/)",
+                    "en": "Fire Oil (alchemy, /en/professions/alchemy-recipes/)"
+                  },
+                  {
+                    "fr": "5 cuivre",
+                    "en": "5 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — matériau d’alchimie ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — alchemy material; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Anguille pierre-écaille",
+                    "en": "Stonescale Eel"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Huile de pierre-écaille (alchimie, /fr/metiers/recettes-alchimie/)",
+                    "en": "Stonescale Oil (alchemy, /en/professions/alchemy-recipes/)"
+                  },
+                  {
+                    "fr": "10 cuivre",
+                    "en": "10 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — anguille, matériau d’alchimie ; aussi objet de quête « Craftsman's Writ - Stonescale Eel » ; le lieu de pêche n’est pas indiqué",
+                    "en": "to be confirmed — eel, alchemy material; also a quest item for “Craftsman's Writ - Stonescale Eel”; catch location is not given"
+                  }
+                ]
+              ],
+              "src": [
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autres",
+          "title": {
+            "fr": "Autres prises ou ingrédients",
+            "en": "Other catches or ingredients"
+          },
+          "blocks": [
+            {
+              "type": "table",
+              "caption": {
+                "fr": "3 autres lignes du catalogue Forever, sans recette de cuisine dans les 123 recettes, ou dont le mode d’obtention n’est pas précisé — à confirmer.",
+                "en": "3 other rows from the Forever catalog, with no cooking recipe in the 123 recipes, or whose method of obtainment is not given — to be confirmed."
+              },
+              "head": [
+                {
+                  "fr": "Nom",
+                  "en": "Name"
+                },
+                {
+                  "fr": "Compétence de pêche requise",
+                  "en": "Required fishing skill"
+                },
+                {
+                  "fr": "Zone / eau",
+                  "en": "Zone / water"
+                },
+                {
+                  "fr": "Recette (cuisine ou alchimie)",
+                  "en": "Recipe (cooking or alchemy)"
+                },
+                {
+                  "fr": "Prix de vente",
+                  "en": "Sell price"
+                },
+                {
+                  "fr": "Vendeur",
+                  "en": "Vendor"
+                },
+                {
+                  "fr": "Statut",
+                  "en": "Status"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Anguille électrique",
+                    "en": "Lightning Eel"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "aucune recette dans les guides de cuisine et d’alchimie consultés",
+                    "en": "no recipe in the cooking and alchemy guides consulted"
+                  },
+                  {
+                    "fr": "10 cuivre",
+                    "en": "10 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — anguille au catalogue d’artisanat Forever ; aucune recette de cuisine ni d’alchimie dans les guides 1.60.1.70862 consultés",
+                    "en": "to be confirmed — eel in the Forever trade-goods catalog; no cooking or alchemy recipe in the 1.60.1.70862 guides consulted"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Filets de poisson de saison",
+                    "en": "Seasonal Fish Steaks"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "aucune recette dans les guides de cuisine et d’alchimie consultés",
+                    "en": "no recipe in the cooking and alchemy guides consulted"
+                  },
+                  {
+                    "fr": "7 cuivre",
+                    "en": "7 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — ingrédient de cuisine au catalogue Forever (numéro d’objet élevé, « nouveaux objets ») ; aucune des 123 recettes de cuisine consultées ne l’utilise ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — cooking ingredient in the Forever catalog (high item id, “new items”); none of the 123 cooking recipes consulted use it; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Chair tendre de Furie",
+                    "en": "Soft Frenzy Flesh"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Filet de furie (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Fillet of Frenzy (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "12 cuivre",
+                    "en": "12 copper"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — ingrédient de cuisine (icône de poisson) ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — cooking ingredient (fish icon); how it is obtained is not given"
+                  }
+                ]
+              ],
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "palourdes",
+          "title": {
+            "fr": "Palourdes et viandes de palourde",
+            "en": "Clams and clam meat"
+          },
+          "blocks": [
+            {
+              "type": "p",
+              "fr": "Ces objets figurent au catalogue Forever (artisanat / cuisine). Les données consultées n’indiquent pas qu’ils se pêchent, ni de quelle palourde vient chaque viande. Ils sont listés ici pour mémoire, sans zone inventée.",
+              "en": "These items appear in the Forever catalog (trade goods / cooking). The data consulted does not say they are fished, nor which clam each meat comes from. They are listed here for the record, with no invented zone.",
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            },
+            {
+              "type": "table",
+              "caption": {
+                "fr": "7 palourdes ou viandes de palourde au catalogue Forever — à confirmer. Mode d’obtention et zone : non indiqués.",
+                "en": "7 clams or clam meats in the Forever catalog — to be confirmed. How obtained and zone: not given."
+              },
+              "head": [
+                {
+                  "fr": "Nom",
+                  "en": "Name"
+                },
+                {
+                  "fr": "Compétence de pêche requise",
+                  "en": "Required fishing skill"
+                },
+                {
+                  "fr": "Zone / eau",
+                  "en": "Zone / water"
+                },
+                {
+                  "fr": "Recette (cuisine ou alchimie)",
+                  "en": "Recipe (cooking or alchemy)"
+                },
+                {
+                  "fr": "Prix de vente",
+                  "en": "Sell price"
+                },
+                {
+                  "fr": "Vendeur",
+                  "en": "Vendor"
+                },
+                {
+                  "fr": "Statut",
+                  "en": "Status"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Petite palourde spiralée",
+                    "en": "Small Barnacled Clam"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "aucune recette dans les guides de cuisine et d’alchimie consultés",
+                    "en": "no recipe in the cooking and alchemy guides consulted"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — cataloguée « autre » ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — filed as “other”; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Palourde à coque épaisse",
+                    "en": "Thick-shelled Clam"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "aucune recette dans les guides de cuisine et d’alchimie consultés",
+                    "en": "no recipe in the cooking and alchemy guides consulted"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — cataloguée « autre » ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — filed as “other”; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Palourde à large bouche",
+                    "en": "Big-mouth Clam"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "aucune recette dans les guides de cuisine et d’alchimie consultés",
+                    "en": "no recipe in the cooking and alchemy guides consulted"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — cataloguée « autre » ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — filed as “other”; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Chair de palourde",
+                    "en": "Clam Meat"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Palourdes bouillies (cuisine, /fr/metiers/recettes-cuisine/); Soupe de palourdes (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Boiled Clams (cooking, /en/professions/cooking-recipes/); Clam Chowder (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — viande, ingrédient de cuisine ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — meat, cooking ingredient; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Chair de palourde relevée",
+                    "en": "Tangy Clam Meat"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Palourdes gobelines (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Goblin Deviled Clams (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — viande, ingrédient de cuisine ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — meat, cooking ingredient; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Chair de palourde géante",
+                    "en": "Giant Clam Meat"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Ardeur de palourde géante (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Giant Clam Scorcho (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — viande, ingrédient de cuisine ; le mode d’obtention n’est pas indiqué",
+                    "en": "to be confirmed — meat, cooking ingredient; how it is obtained is not given"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Chair de palourde piquante",
+                    "en": "Zesty Clam Meat"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "Soupe de palourdes d’Undermine (cuisine, /fr/metiers/recettes-cuisine/); Linguines aux palourdes (cuisine, /fr/metiers/recettes-cuisine/)",
+                    "en": "Undermine Clam Chowder (cooking, /en/professions/cooking-recipes/); Clam Linguine (cooking, /en/professions/cooking-recipes/)"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "non indiqué",
+                    "en": "not given"
+                  },
+                  {
+                    "fr": "à confirmer — viande, ingrédient de cuisine ; Linguines aux palourdes est indiquée comme nouvelle dans Forever",
+                    "en": "to be confirmed — meat, cooking ingredient; Clam Linguine is marked new in Forever"
+                  }
+                ]
+              ],
+              "src": [
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "historique-des-corrections",
+          "title": {
+            "fr": "Historique des corrections",
+            "en": "Correction history"
+          },
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                {
+                  "fr": "12 novembre 2026 — première rédaction de la liste de poissons, sans tableaux Classic de zones. Brouillon.",
+                  "en": "12 November 2026 — first draft of the fish list, without Classic zone tables. Draft.",
+                  "src": [
+                    "bz-24303313",
+                    "bz-camp",
+                    "client-guide-kochkunst",
+                    "client-guide-alchemie",
+                    "client-datenbank",
+                    "client-handwerk"
+                  ]
+                }
+              ],
+              "src": [
+                "bz-24303313",
+                "bz-camp",
+                "client-guide-kochkunst",
+                "client-guide-alchemie",
+                "client-datenbank",
+                "client-handwerk"
+              ]
+            }
+          ]
+        }
+      ],
+      "confirmed": [
+        {
+          "fr": "Blizzard a annoncé plus de 600 nouvelles recettes, sans en publier la liste complète, et n’a pas publié, dans les articles officiels cités, de liste de poissons par zone.",
+          "en": "Blizzard announced over 600 new recipes, without publishing a complete list, and has not, in the official articles cited, published a fish-by-zone list.",
+          "src": [
+            "bz-24303313",
+            "bz-camp"
+          ]
+        }
+      ],
+      "pending": [
+        {
+          "fr": "Zone ou type d’eau, et compétence de pêche requise : non indiqués dans les données Forever consultées (fiches d’objets : obtention « pas encore connue »).",
+          "en": "Zone or water type, and required fishing skill: not given in the Forever data consulted (item pages: source “not known yet”)."
+        },
+        {
+          "fr": "Aucune table de prises pour l’île de Zéphras, Shen’dralas ou une autre zone propre à Forever n’a été trouvée.",
+          "en": "No catch table for Zephras Isle, Shen’dralas or another Forever-only zone was found."
+        },
+        {
+          "fr": "Vendeur d’achat et prix d’achat en jeu : non indiqués pour ces poissons (seul le prix de vente de l’objet l’était, le cas échéant).",
+          "en": "Purchase vendor and in-game buy price: not given for these fish (only the item sell price was, when present)."
+        },
+        {
+          "fr": "Des poissons de quête éventuellement présents dans Forever (par exemple des prises d’évènement) n’ont pas été ajoutés s’ils n’apparaissaient pas dans les guides de métier 1.60.1.70862 ou le catalogue d’artisanat consultés.",
+          "en": "Quest or event fish that may exist in Forever were not added if they did not appear in the 1.60.1.70862 profession guides or the trade-goods catalog consulted."
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-09-13",
+          "fr": "Présentation officielle « Au cœur de Forever » : plus de 600 recettes, sans liste complète.",
+          "en": "Official Deep Dive: over 600 recipes, without a complete list.",
+          "src": [
+            "bz-24303313"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "fr": "Guides cuisine et alchimie, et base d’objets : client WoW Forever build 1.60.1.70862.",
+          "en": "Cooking and alchemy guides, and the item database: WoW Forever client build 1.60.1.70862.",
+          "src": [
+            "client-guide-kochkunst",
+            "client-guide-alchemie",
+            "client-datenbank"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "fr": "Consultation des catalogues et fiches d’objets Forever ; le tableau « Zones (Classic) » du guide de pêche n’est pas repris.",
+          "en": "Consultation of Forever catalogs and item pages; the fishing guide’s “Zones (Classic)” table is not used.",
+          "src": [
+            "client-datenbank",
+            "client-handwerk"
+          ]
+        }
+      ]
+    }
+  }
+]

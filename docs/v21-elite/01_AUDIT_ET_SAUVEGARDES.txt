@@ -1,0 +1,14 @@
+MISSION ÉLITE WOWKIPEDIA V2.1 — Audit de l’existant
+
+PROJET : Wowkipedia.com — exclusivement World of Warcraft: Forever.
+EXÉCUTANT : GrokBot, qui vérifie ses accès existants avant de réclamer des informations.
+RÈGLES PERMANENTES : conserver l'architecture, les données, les comptes, Discord, les forums et la direction artistique dark fantasy bleu/or. Ne toucher à aucun autre projet. Ne jamais inventer d'informations ou prétendre avoir testé/déployé sans preuve. Toute donnée doit porter source, date, build, statut de vérification et droits de réutilisation. Les chiffres évoqués précédemment (5167 quêtes, 48 factions, 65 défis, etc.) sont à vérifier et ne sont pas des objectifs. Pas de mélange avec Classic/Retail. Travail par branche, changements révisables, secrets jamais publiés. Autonomie sur opérations réversibles ; arrêt et demande d'accord en cas de destruction, risque critique ou restauration impossible.
+
+OBJECTIF DE CETTE ÉTAPE
+1. Identifier dépôt, branche, commit déployé, services, base, hébergement, CI/CD, environnements et droits réellement disponibles.
+2. Cartographier routes, contenus, schéma, authentification Discord, forums, permissions, SEO, performances, interface Android.
+3. Établir inventaire des données existantes, doublons et défauts ; conserver métriques de référence.
+4. Vérifier sauvegardes et effectuer un test de restauration sur environnement isolé, sans exposer de données personnelles.
+5. Préparer branche dédiée, plan de rollback et risques.
+LIVRABLE : AUDIT.md, INVENTAIRE.csv, RISQUES.md, preuves des tests de restauration, commit de base et statut GO/NO-GO.
+SORTIE : aucune modification en production ; sauvegarde restaurable confirmée avant migration ultérieure.

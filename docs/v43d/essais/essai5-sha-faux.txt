@@ -1,0 +1,7 @@
+1/7 Vérifications
+   v43b reconnue (wiki c82421613a35ec1c3306c82b908c545f353347ea22c324589db355337f649517, application, CSS, JS, schéma, en-tête, pied de page) : releases/20261118T005337 (release connue)
+2/7 Archive + SHA-256
+ERREUR: SHA-256 de l'archive incorrect.
+Rien n'a été modifié.
+Journal : /tmp/w43d-root/root/wow4ever-v43d-20261125T172109.log
+code 1    [current -> releases/20261118T005337]

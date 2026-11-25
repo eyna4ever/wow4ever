@@ -1,0 +1,77 @@
+/* v13 — forums in the wiki v2 look (loaded after v2.css, style.css and community.css). Same tokens, system fonts,
+   the same symmetric phone gutter as the wiki (v2-wrap), no web font, no inline style. */
+:root{--bg:#060a14;--panel:#0d1528;--panel2:#111b33;--line:#1f2c4a;--line2:#2c3d63;--text:#e9edf6;--fg:#e9edf6;--muted:#a9b4ca;--gold:#f2b84b;--gold2:#ffd789;--link:#ffd789}
+@media(max-width:640px){:root{--muted:#b6c0d4}}
+body.v2.community{overflow-wrap:break-word}
+.community h1,.community h2,.community h3{font-family:var(--sans);letter-spacing:normal;color:#fff;line-height:1.25}
+.community h2{border-bottom:0;padding-bottom:0}
+.community a{color:var(--gold2)}
+.community .wk-header a:not(.wk-discord),.community .v2-footer a{color:inherit}
+.community .wk-header .wk-discord{color:#fff}
+.community .wk-header button{min-height:0;box-shadow:none;font-weight:inherit;gap:inherit}
+.community .wk-header .wk-top{gap:6px}
+.community-main{padding-top:14px;min-height:60vh}
+/* community bar (forums / notifications / account) */
+.community-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px}
+.community-bar a{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1px solid var(--line2);border-radius:8px;background:#0b1325;color:var(--text);font-weight:600;font-size:14.5px;text-decoration:none}
+.community-bar a[aria-current=page]{border-color:var(--gold);color:var(--gold2);background:#141f3a}
+.community-bar .community-account{margin-left:auto;background:var(--blue-btn);border-color:var(--blue-btn);color:#fff}
+/* hero = wiki banner look */
+.community .portal-hero{padding:34px 22px 30px;border:1px solid #2a3a5f;border-radius:14px;background:radial-gradient(ellipse at 85% 0,#2f6bff33,transparent 55%),radial-gradient(ellipse at 10% 100%,#f2b84b22,transparent 50%),linear-gradient(160deg,#0d1730,#060a14);box-shadow:0 18px 40px #000a}
+.community .portal-hero:after{border-color:#f2b84b22;box-shadow:0 0 80px #2f6bff22}
+.community .portal-hero h1{font-size:clamp(26px,20px + 1.9vw,46px);font-weight:800;color:#fff;max-width:640px;margin:10px 0}
+.community .portal-hero p{color:#dfe6f3;font-size:clamp(15px,14px + .3vw,17px)}
+.community .hero-rune{color:#f2b84b26;text-shadow:0 0 70px #2f6bff55}
+.community .eyebrow{color:var(--gold);font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+/* buttons = v2-btn */
+.community .button,.community main button{min-height:48px;padding:0 20px;border:0;border-radius:8px;background:linear-gradient(#ffd27a,#f0a93a);color:#1a1205;font-weight:700;font-size:15px;box-shadow:0 6px 18px #f2b84b33;text-decoration:none}
+.community .button.secondary,.community main button.secondary{background:#0a1430;color:#fff;border:1.5px solid #6f8fe8;box-shadow:none}
+.community main button.danger,.community .danger button{background:#4a1220;color:#ffe1e6;border:1.5px solid #e0526b;box-shadow:none}
+.community .text-link{color:var(--gold2);font-weight:600}
+/* panels, tabs, lists = wiki cards */
+.community .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+.community .panel h2{font-size:17px;color:#fff;margin:0 0 10px}
+.community .tabs{border-bottom:1px solid var(--line);gap:4px;margin:22px 0 18px}
+.community .tabs a{display:inline-flex;align-items:center;min-height:46px;padding:0 14px;color:var(--text);font-weight:600;text-decoration:none;border-bottom:2px solid transparent}
+.community .tabs a[aria-current]{color:var(--gold2);border-bottom-color:var(--gold)}
+.community .category-link{color:var(--text);border-radius:8px;display:flex;align-items:center;font-size:14.5px}
+.community .category-link:hover,.community .category-link[aria-current]{background:#141f3a;color:var(--gold2)}
+.community .section-heading h2{font-size:clamp(19px,17px + .6vw,22px)}
+.community .topic-list{border:1px solid var(--line);border-radius:12px;background:var(--panel);overflow:hidden}
+.community .topic-row{border-bottom:1px solid var(--line)}
+.community .topic-row:last-child{border-bottom:0}
+.community .topic-row h3{font:600 16px/1.4 var(--sans)}
+.community .topic-row h3 a{color:#fff;text-decoration:none}
+.community .topic-row h3 a:hover{color:var(--gold2)}
+.community .topic-icon{border-color:#3a4f80;color:var(--gold);background:#0b1325}
+.community .category-tag{display:inline-block;background:#3a2a0ce6;border:1px solid var(--gold);color:#ffe7b3;border-radius:4px;padding:2px 7px;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.community .topic-meta strong{color:var(--gold2)}
+.community .wiki-callout{border:1px solid #3a4f80;border-radius:14px;background:linear-gradient(100deg,#111b33,#0b1222)}
+.community .wiki-callout h2{font-size:clamp(19px,17px + .6vw,24px)}
+.community .post{background:var(--panel);border-color:var(--line)}
+.community .post-content,.community .prose{font-size:clamp(15px,13.5px + .47vw,16.5px);line-height:1.62;color:#dde3ef}
+.community .post-author a{color:var(--gold2)}
+.community .avatar-initial{background:#0b1325;border:1px solid var(--gold);color:var(--gold2)}
+.community .topic-heading h1{font-size:clamp(23px,17.5px + 1.72vw,34px);font-weight:800}
+.community .breadcrumbs a{color:#e7ecf7}
+.community .notice{background:#141f3a;border:1px solid #3a4f80;border-left:3px solid var(--gold);color:#e9edf6;border-radius:8px}
+.community input:not([type=checkbox]):not([type=hidden]),.community textarea,.community select{background:#0a1122;border:1px solid #3a4a6e;border-radius:8px;color:var(--text)}
+.community .muted{color:var(--muted)}
+.community .badge.b-A{background:#16244a;border:1px solid #2c4a8a;color:#cfe0ff}
+@media(max-width:640px){
+.community .portal-hero{padding:26px 18px 24px}
+.community .hero-rune{display:none}
+.community .forum-layout{grid-template-columns:minmax(0,1fr)}
+.community .forum-layout aside{display:grid;grid-template-columns:minmax(0,1fr);overflow:visible}
+.community .forum-layout aside .panel{min-width:0}
+.community .forum-search{flex-wrap:wrap}
+.community .forum-search input,.community .forum-search select,.community .forum-search button{flex:1 1 100%;min-width:0;width:100%}
+.community .actions .button{width:100%}
+.community-bar a{flex:1 1 auto;justify-content:center}
+.community-bar .community-account{margin-left:0}
+}
+/* v20 touches d’ambiance légères (forum, profils, cockpits) : CSS seule, création originale, mêmes couleurs et polices système que le wiki. */
+.community .panel>h2,.community .section-heading h2{position:relative;padding-bottom:10px}
+.community .panel>h2::after,.community .section-heading h2::after{content:"";position:absolute;left:0;bottom:0;width:min(200px,70%);height:9px;background:linear-gradient(90deg,var(--gold),#f2b84b00) center/100% 1px no-repeat,radial-gradient(circle,var(--gold2) 0 2.5px,transparent 3px) 0 50%/9px 9px no-repeat}
+.community .portal-hero{border-bottom-color:#f2b84b88}
+.community .rp-charter,.community .rp-progress,.community .story-week{border-color:#3a4f80;border-left:3px solid var(--gold)}

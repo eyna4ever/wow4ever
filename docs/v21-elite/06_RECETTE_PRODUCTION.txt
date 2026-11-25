@@ -1,0 +1,14 @@
+MISSION ÉLITE WOWKIPEDIA V2.1 — Recette finale, SEO, performance et exploitation
+
+PROJET : Wowkipedia.com — exclusivement World of Warcraft: Forever.
+EXÉCUTANT : GrokBot, qui vérifie ses accès existants avant de réclamer des informations.
+RÈGLES PERMANENTES : conserver l'architecture, les données, les comptes, Discord, les forums et la direction artistique dark fantasy bleu/or. Ne toucher à aucun autre projet. Ne jamais inventer d'informations ou prétendre avoir testé/déployé sans preuve. Toute donnée doit porter source, date, build, statut de vérification et droits de réutilisation. Les chiffres évoqués précédemment (5167 quêtes, 48 factions, 65 défis, etc.) sont à vérifier et ne sont pas des objectifs. Pas de mélange avec Classic/Retail. Travail par branche, changements révisables, secrets jamais publiés. Autonomie sur opérations réversibles ; arrêt et demande d'accord en cas de destruction, risque critique ou restauration impossible.
+
+OBJECTIF DE CETTE ÉTAPE
+1. Repasser les 15 modules : aucun bouton factice, aucune fiche vide publiée, aucune confusion avec une autre version de WoW.
+2. Vérifier recherche, navigation, liens, pagination, filtres, accessibilité, mobile Android et desktop.
+3. SEO : URLs stables, canonical, métadonnées, sitemap, noindex des fiches insuffisantes, liens internes.
+4. Sécurité : auth, permissions, protections API, RGPD, absence de secrets ; tester la restauration et rollback.
+5. Performance et observabilité : temps de réponse, journaux structurés sans PII, erreurs, health checks, alertes adaptées.
+6. Vérifier chaque URL en production après déploiement ; ne déclarer « terminé » que si la fonctionnalité est réellement accessible.
+LIVRABLE : RAPPORT_FINAL.md avec commit/version, dates, URLs, 15 modules (fait/partiel/non fait), fiches créées/modifiées/rejetées, sources, build, tests exécutés, sauvegarde et procédure de retour arrière, prochaines priorités.

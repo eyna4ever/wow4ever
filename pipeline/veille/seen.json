@@ -1,0 +1,21 @@
+{
+  "lastCheck": "2026-10-30T08:00:00+01:00",
+  "handled": [
+    "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+    "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+    "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+    "https://news.blizzard.com/fr-fr/article/24315280/guide-de-demarrage-pour-les-novices-bienvenue-dans-world-of-warcraft-forever",
+    "https://news.blizzard.com/en-us/article/24315280/new-players-starter-guide-welcome-to-world-of-warcraft-forever",
+    "https://news.blizzard.com/en-us/article/24315819/watch-the-wow-forever-podcast-all-about-tech",
+    "https://news.blizzard.com/en-us/article/24313105/watch-the-wow-forever-short-story-unbowed",
+    "https://news.blizzard.com/en-us/article/24315203/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room"
+  ],
+  "ignoredNotForever": [
+    "https://news.blizzard.com/en-us/article/24303011",
+    "https://news.blizzard.com/en-us/article/24304164",
+    "https://news.blizzard.com/en-us/article/24307310",
+    "https://news.blizzard.com/en-us/article/24310657",
+    "https://news.blizzard.com/en-us/article/24313104",
+    "https://news.blizzard.com/en-us/article/24313107"
+  ]
+}

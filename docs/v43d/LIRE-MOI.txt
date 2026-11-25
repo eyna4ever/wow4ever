@@ -1,0 +1,4 @@
+Wowkipedia v43d — Correctifs Forever (17, 19, 20 et 23 novembre, encadré « problèmes en cours »), article Blackmaw Hold FR/EN, podcast épisode 8 (25/11/2026, Europe/Paris). Paquet de TEST, non déployé.
+Archive : wow4ever-wiki-v43d.tar.gz sha256 454a7aa35509e3fd09ff14a4a87a73088946c529af39b8b54e0aaab18c50a9db (478 fichiers : 471 pages HTML modifiées, 2 nouvelles pages, 3 index de recherche, 2 tests).
+Empreinte wiki v43d : 5875d6be00b3d058195bd8000f0ea194b323ab5dfb78e8bb7eb91858421e8dd4 (base v43b : c82421613a35ec1c3306c82b908c545f353347ea22c324589db355337f649517). Application inchangée : d159df252913b0c569c644e1dfccaddfadb4e3ec2ba468a1f097cc38dc1bbda9.
+Commandes : d43d.sh. Retour arrière : bash /root/wow4ever-rollback-v43d.sh (-> releases/20261118T005337).

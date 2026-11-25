@@ -1,0 +1,2009 @@
+[
+ {
+  "id": "forever-reputations-confirmed",
+  "title": {
+   "fr": "Réputations : ce que Blizzard a confirmé (Kirin Tor, champs de bataille, Diplomatie)",
+   "en": "Reputations: what Blizzard has confirmed (Kirin Tor, battlegrounds, Diplomat)"
+  },
+  "description": {
+   "fr": "Les seules informations officielles sur les réputations de WoW: Forever au 9 novembre 2026 : le Kirin Tor (confiance requise pour Dalaran, réputation fermée à la Horde), les réputations de champ de bataille comptées par l’héritage et l’avantage Diplomatie. Ni liste complète des factions, ni vendeurs, ni récompenses publiés.",
+   "en": "The only official information about WoW: Forever reputations as of 9 November 2026: the Kirin Tor (trust required for Dalaran, reputation closed to the Horde), battleground reputations counted by the Legacy System and the Diplomat perk. No full faction list, vendors or rewards published."
+  },
+  "category": "quests",
+  "subcategory": "reputations",
+  "sources": [
+   {
+    "key": "bz-dungeons-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-dungeons-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes6",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/6",
+    "title": "WoW Forever Beta Development Notes — message n° 6 du 2026-10-16 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-10-16",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes9",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/9",
+    "title": "WoW Forever Beta Development Notes — message n° 9 du 2026-11-03 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-11-03",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-legacy-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+    "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+    "publishedAt": "2026-09-23",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-legacy-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+    "title": "Get to Know the World of Warcraft: Forever Legacy System",
+    "publishedAt": "2026-09-23",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-golive-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24315820/world-of-warcraft-forever-sort-partout-dans-le-monde-le-5-novembre",
+    "title": "World of Warcraft: Forever est disponible !",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-golive-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24315820",
+    "title": "World of Warcraft: Forever Now Live!",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   }
+  ],
+  "status": "draft",
+  "updatedAt": "2026-11-09",
+  "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "forever-dungeon-city-of-dalaran",
+   "forever-questline-dalaran-attunement",
+   "forever-legacy-challenges",
+   "forever-legacy-perks",
+   "forever-pvp-darkspear-islands"
+  ],
+  "verification": "officiel confirmé",
+  "history": [
+   {
+    "at": "2026-11-09",
+    "actor": "GrokBot — lot 2 étape 04 (environnement de test isolé)",
+    "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, noms repris tels quels ; noms anglais conservés quand aucune traduction française officielle n’a été publiée). Relecture humaine de Mathieu requise avant toute mise en production.",
+    "version": 1
+   }
+  ],
+  "article": {
+   "format": 1,
+   "slug": {
+    "fr": "reputations-confirmees",
+    "en": "confirmed-reputations"
+   },
+   "illustration": "quests",
+   "lead": {
+    "fr": "Blizzard n’a publié aucun article consacré aux réputations de Forever. Cette fiche rassemble les mentions éparses des sources officielles : le Kirin Tor de Dalaran, les réputations de champ de bataille dans le système d’héritage et l’avantage Diplomatie. Le reste (factions, gains, vendeurs, récompenses) n’est pas confirmé.",
+    "en": "Blizzard has published no article dedicated to Forever reputations. This entry gathers the scattered mentions in official sources: Dalaran’s Kirin Tor, battleground reputations in the Legacy System and the Diplomat perk. Everything else (factions, gains, vendors, rewards) is unconfirmed.",
+    "src": [
+     "bz-dungeons",
+     "bz-devnotes6",
+     "bz-legacy"
+    ]
+   },
+   "keyPoints": [
+    {
+     "fr": "Kirin Tor : il faut gagner sa confiance pour entrer dans le donjon de la cité de Dalaran.",
+     "en": "Kirin Tor: you must earn its trust to enter the City of Dalaran dungeon.",
+     "src": [
+      "bz-dungeons"
+     ]
+    },
+    {
+     "fr": "La Horde ne doit pas gagner de réputation Kirin Tor (correction du 16 octobre) et est attaquée à vue dans Dalaran depuis le 3 novembre.",
+     "en": "The Horde is not meant to gain Kirin Tor reputation (16 October fix) and is attacked on sight in Dalaran since 3 November.",
+     "src": [
+      "bz-devnotes6",
+      "bz-devnotes9"
+     ]
+    },
+    {
+     "fr": "Héritage : être exalté auprès de chaque réputation de champ de bataille rapporte 4 points.",
+     "en": "Legacy: Exalted with each battleground reputation is worth 4 points.",
+     "src": [
+      "bz-legacy"
+     ]
+    }
+   ],
+   "sections": [
+    {
+     "id": "tableau",
+     "title": {
+      "fr": "Réputations citées par Blizzard",
+      "en": "Reputations mentioned by Blizzard"
+     },
+     "blocks": [
+      {
+       "type": "table",
+       "caption": {
+        "fr": "Mentions officielles de réputation (sources Blizzard, septembre–novembre 2026)",
+        "en": "Official reputation mentions (Blizzard sources, September–November 2026)"
+       },
+       "head": [
+        {
+         "fr": "Réputation",
+         "en": "Reputation"
+        },
+        {
+         "fr": "Ce que Blizzard confirme",
+         "en": "What Blizzard confirms"
+        },
+        {
+         "fr": "Date",
+         "en": "Date"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "fr": "Kirin Tor",
+          "en": "Kirin Tor"
+         },
+         {
+          "fr": "Confiance requise pour entrer dans le donjon de la cité de Dalaran, après la suite d’harmonisation de sa faction",
+          "en": "Trust required to enter the City of Dalaran dungeon, after your faction’s attunement questline"
+         },
+         {
+          "fr": "20/10/2026",
+          "en": "2026-10-20"
+         }
+        ],
+        [
+         {
+          "fr": "Kirin Tor",
+          "en": "Kirin Tor"
+         },
+         {
+          "fr": "Problème corrigé : des joueurs de la Horde pouvaient gagner cette réputation (bêta)",
+          "en": "Fixed: Horde players could gain this reputation (beta)"
+         },
+         {
+          "fr": "16/10/2026",
+          "en": "2026-10-16"
+         }
+        ],
+        [
+         {
+          "fr": "Réputations de champ de bataille",
+          "en": "Battleground reputations"
+         },
+         {
+          "fr": "Exalté auprès de chacune : 4 points d’héritage au total (catégorie JcJ)",
+          "en": "Exalted with each: 4 Legacy Points in total (PvP category)"
+         },
+         {
+          "fr": "23/09/2026",
+          "en": "2026-09-23"
+         }
+        ],
+        [
+         {
+          "fr": "Avantage Diplomatie",
+          "en": "Diplomat perk"
+         },
+         {
+          "fr": "Augmente les gains de réputation (arbre d’avantages d’héritage)",
+          "en": "Increases reputation gains (Legacy perk tree)"
+         },
+         {
+          "fr": "23/09/2026",
+          "en": "2026-09-23"
+         }
+        ]
+       ],
+       "src": [
+        "bz-dungeons",
+        "bz-devnotes6",
+        "bz-legacy"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dalaran",
+     "title": {
+      "fr": "Kirin Tor et Horde à Dalaran",
+      "en": "Kirin Tor and the Horde in Dalaran"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "Le 3 novembre, Blizzard précise que la Horde n’est plus la bienvenue à Dalaran et y est attaquée à vue. L’accès au donjon n’est pas touché, mais la suite de quêtes de la Horde qui donne la clé des égouts n’ouvre plus librement la ville.",
+       "en": "On 3 November, Blizzard stated the Horde is no longer welcome in Dalaran and is attacked on sight. Dungeon access is unaffected, but the Horde questline that grants the sewer key no longer opens the city freely.",
+       "src": [
+        "bz-devnotes9"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champs-de-bataille",
+     "title": {
+      "fr": "Réputations de champ de bataille",
+      "en": "Battleground reputations"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "Le système d’héritage compte « chaque réputation de champ de bataille » dans ses défis JcJ (4 points), sans en publier la liste dans l’article. Pour les îles des Sombrelances, Blizzard nomme les deux camps, les chevaucheurs sombrelances et la troupe d’intervention de Theramore, sans dire dans les sources consultées s’il s’agit de réputations. Le détail du JcJ relève des fiches JcJ.",
+       "en": "The Legacy System counts “each Battleground reputation” in its PvP challenges (4 points) without listing them in the article. For the Darkspear Islands, Blizzard names both sides, the Darkspear Raiders and the Theramore Expeditionary Force, without saying in the sources consulted whether these are reputations. PvP details belong to the PvP entries.",
+       "src": [
+        "bz-legacy",
+        "bz-golive"
+       ]
+      }
+     ]
+    }
+   ],
+   "confirmed": [
+    {
+     "fr": "Kirin Tor : confiance requise pour le donjon de Dalaran ; réputation fermée à la Horde.",
+     "en": "Kirin Tor: trust required for the Dalaran dungeon; reputation closed to the Horde.",
+     "src": [
+      "bz-dungeons",
+      "bz-devnotes6"
+     ]
+    },
+    {
+     "fr": "4 points d’héritage pour l’exalté auprès de chaque réputation de champ de bataille.",
+     "en": "4 Legacy Points for Exalted with each battleground reputation.",
+     "src": [
+      "bz-legacy"
+     ]
+    },
+    {
+     "fr": "Diplomatie augmente les gains de réputation.",
+     "en": "Diplomat increases reputation gains.",
+     "src": [
+      "bz-legacy"
+     ]
+    }
+   ],
+   "pending": [
+    {
+     "fr": "Liste officielle des factions de Forever : non publiée. Les chiffres de factions qui circulent viennent de bases extraites du client (par ex. Eternadex) et ne sont pas repris ici.",
+     "en": "Official list of Forever factions: not published. Faction counts going around come from client-extracted databases (e.g. Eternadex) and are not used here."
+    },
+    {
+     "fr": "Gains par action, paliers, intendants, vendeurs et récompenses de chaque réputation : non publiés par Blizzard.",
+     "en": "Gains per action, standings, quartermasters, vendors and rewards of each reputation: not published by Blizzard."
+    },
+    {
+     "fr": "Pourcentage exact de l’avantage Diplomatie : non indiqué dans l’article officiel.",
+     "en": "Exact Diplomat percentage: not given in the official article."
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-10-16",
+     "fr": "Correction : la Horde ne gagne plus de réputation Kirin Tor (bêta).",
+     "en": "Fix: the Horde no longer gains Kirin Tor reputation (beta).",
+     "src": [
+      "bz-devnotes6"
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "fr": "La Horde est attaquée à vue dans Dalaran.",
+     "en": "The Horde is attacked on sight in Dalaran.",
+     "src": [
+      "bz-devnotes9"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "forever-exploration-named-places",
+  "title": {
+   "fr": "Exploration : lieux nommés par Blizzard et repères d’accès",
+   "en": "Exploration: places named by Blizzard and access landmarks"
+  },
+  "description": {
+   "fr": "Index des lieux nouveaux ou réinventés de WoW: Forever que Blizzard situe lui-même (donjons, raids, champ de bataille, port, sous-zones de Zéphras), avec le repère officiel de chacun. Aucune coordonnée : Blizzard n’en publie pas.",
+   "en": "Index of the new or reimagined WoW: Forever places that Blizzard locates itself (dungeons, raids, battleground, port, Zephras subzones), with each one’s official landmark. No coordinates: Blizzard publishes none."
+  },
+  "category": "zones",
+  "subcategory": "lieux-et-acces",
+  "sources": [
+   {
+    "key": "bz-dungeons-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+    "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-dungeons-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+    "title": "Explore the New Dungeons of World of Warcraft: Forever",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-raids-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+    "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-raids-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+    "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+    "publishedAt": "2026-10-20",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-golive-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24315820/world-of-warcraft-forever-sort-partout-dans-le-monde-le-5-novembre",
+    "title": "World of Warcraft: Forever est disponible !",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-golive-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24315820",
+    "title": "World of Warcraft: Forever Now Live!",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-photos-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+    "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-photos-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+    "title": "World of Warcraft: Forever Found Photos Panel Recap",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes1",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/1",
+    "title": "WoW Forever Beta Development Notes — message n° 1 du 2026-09-24 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-09-24",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   }
+  ],
+  "status": "draft",
+  "updatedAt": "2026-11-09",
+  "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "article-forever-zones",
+   "forever-zone-zephras-isle",
+   "forever-zone-riverglades",
+   "forever-zone-mount-hyjal",
+   "forever-raid-barrow-deeps",
+   "forever-raid-hyjal-summit",
+   "forever-raid-onyxias-lair",
+   "forever-pvp-darkspear-islands"
+  ],
+  "verification": "officiel confirmé",
+  "history": [
+   {
+    "at": "2026-11-09",
+    "actor": "GrokBot — lot 2 étape 04 (environnement de test isolé)",
+    "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, noms repris tels quels ; noms anglais conservés quand aucune traduction française officielle n’a été publiée). Relecture humaine de Mathieu requise avant toute mise en production.",
+    "version": 1
+   }
+  ],
+  "article": {
+   "format": 1,
+   "slug": {
+    "fr": "lieux-nommes-acces",
+    "en": "named-places-access"
+   },
+   "illustration": "zones",
+   "lead": {
+    "fr": "Blizzard situe ses nouveaux lieux par des repères en toutes lettres (« sous Forgefer », « à l’ouest de Grom’gol »), jamais par des coordonnées. Cette fiche les rassemble en un seul tableau, avec un identifiant stable par lieu, pour pouvoir y rattacher plus tard d’autres données officielles.",
+    "en": "Blizzard locates its new places with written landmarks (“beneath Ironforge”, “west of Grom’gol”), never with coordinates. This entry gathers them in one table, with a stable identifier per place, so that more official data can be attached later.",
+    "src": [
+     "bz-dungeons",
+     "bz-raids"
+    ]
+   },
+   "keyPoints": [
+    {
+     "fr": "9 donjons, 3 raids, 1 champ de bataille, 1 port et 2 lieux de Zéphras situés par Blizzard.",
+     "en": "9 dungeons, 3 raids, 1 battleground, 1 port and 2 Zephras places located by Blizzard.",
+     "src": [
+      "bz-dungeons",
+      "bz-raids",
+      "bz-golive",
+      "bz-photos",
+      "bz-devnotes1"
+     ]
+    },
+    {
+     "fr": "Entrées sous l’eau (cité Submergée) ou par les égouts (Dalaran) : seuls repères d’accès détaillés.",
+     "en": "Underwater (Drowned City) or sewer (Dalaran) entrances: the only detailed access landmarks.",
+     "src": [
+      "bz-dungeons"
+     ]
+    },
+    {
+     "fr": "Coordonnées : aucune publiée par Blizzard ; aucune reprise de bases tierces.",
+     "en": "Coordinates: none published by Blizzard; none taken from third-party databases.",
+     "src": [
+      "bz-dungeons"
+     ]
+    }
+   ],
+   "sections": [
+    {
+     "id": "index",
+     "title": {
+      "fr": "Index des lieux",
+      "en": "Place index"
+     },
+     "blocks": [
+      {
+       "type": "table",
+       "caption": {
+        "fr": "Lieux nommés et repères officiels (Blizzard, sept.–nov. 2026)",
+        "en": "Named places and official landmarks (Blizzard, Sept.–Nov. 2026)"
+       },
+       "head": [
+        {
+         "fr": "Identifiant",
+         "en": "Identifier"
+        },
+        {
+         "fr": "Lieu",
+         "en": "Place"
+        },
+        {
+         "fr": "Zone",
+         "en": "Zone"
+        },
+        {
+         "fr": "Type",
+         "en": "Type"
+        },
+        {
+         "fr": "Repère officiel",
+         "en": "Official landmark"
+        },
+        {
+         "fr": "Coordonnées",
+         "en": "Coordinates"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "fr": "salle-des-thanes",
+          "en": "salle-des-thanes"
+         },
+         {
+          "fr": "Salle des Thanes",
+          "en": "Hall of Thanes"
+         },
+         {
+          "fr": "Dun Morogh",
+          "en": "Dun Morogh"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Sous Forgefer",
+          "en": "Beneath Ironforge"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "ruines-de-lordaeron",
+          "en": "ruines-de-lordaeron"
+         },
+         {
+          "fr": "Ruines de Lordaeron",
+          "en": "Ruins of Lordaeron"
+         },
+         {
+          "fr": "Clairières de Tirisfal",
+          "en": "Tirisfal Glades"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Cité en ruine au-dessus de Fossoyeuse",
+          "en": "Ruined city above the Undercity"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "excavations",
+          "en": "excavations"
+         },
+         {
+          "fr": "Excavations",
+          "en": "Excavation Site"
+         },
+         {
+          "fr": "Paluns",
+          "en": "Wetlands"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Près du rocher de Thelgen et de Dun Algaz, au-dessus des excavations de Whelgar",
+          "en": "Near Thelgen Rock and Dun Algaz, above Whelgar’s Excavation"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "cite-de-dalaran",
+          "en": "cite-de-dalaran"
+         },
+         {
+          "fr": "Cité de Dalaran",
+          "en": "City of Dalaran"
+         },
+         {
+          "fr": "Montagnes d’Alterac",
+          "en": "Alterac Mountains"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Entrée par les égouts, après harmonisation",
+          "en": "Sewer entrance, after attunement"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "cite-submergee",
+          "en": "cite-submergee"
+         },
+         {
+          "fr": "La cité Submergée",
+          "en": "The Drowned City"
+         },
+         {
+          "fr": "Vallée de Strangleronce (large)",
+          "en": "Stranglethorn Vale (offshore)"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "À l’ouest de Grom’gol ; entrée sous l’eau",
+          "en": "West of Grom’gol; underwater entrance"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "bastion-kroldok",
+          "en": "bastion-kroldok"
+         },
+         {
+          "fr": "Bastion Krol’dok",
+          "en": "Krol’dok Stronghold"
+         },
+         {
+          "fr": "Rives Claires",
+          "en": "Riverglades"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Dans les rives Claires (pas de repère plus précis publié)",
+          "en": "In the Riverglades (no finer landmark published)"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "prison-dalcaz",
+          "en": "prison-dalcaz"
+         },
+         {
+          "fr": "Prison d’Alcaz",
+          "en": "Alcaz Prison"
+         },
+         {
+          "fr": "Marécage d’Âprefange",
+          "en": "Dustwallow Marsh"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Île d’Alcaz",
+          "en": "Alcaz Island"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "repaire-des-noiregueules",
+          "en": "repaire-des-noiregueules"
+         },
+         {
+          "fr": "Repaire des Noiregueules",
+          "en": "Blackmaw Hold"
+         },
+         {
+          "fr": "Azshara",
+          "en": "Azshara"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Derrière une porte longtemps scellée",
+          "en": "Behind a long-sealed gate"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "terrasse-du-faconneur",
+          "en": "terrasse-du-faconneur"
+         },
+         {
+          "fr": "La terrasse du Façonneur",
+          "en": "Shaper’s Terrace"
+         },
+         {
+          "fr": "Cratère d’Un’Goro",
+          "en": "Un’Goro Crater"
+         },
+         {
+          "fr": "Donjon",
+          "en": "Dungeon"
+         },
+         {
+          "fr": "Collines du nord du cratère",
+          "en": "Northern hills of the crater"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "profondeurs-des-saisons",
+          "en": "profondeurs-des-saisons"
+         },
+         {
+          "fr": "Profondeurs des Saisons",
+          "en": "Barrow Deeps"
+         },
+         {
+          "fr": "Mont Hyjal",
+          "en": "Mount Hyjal"
+         },
+         {
+          "fr": "Raid",
+          "en": "Raid"
+         },
+         {
+          "fr": "Entrées reliées au mont Hyjal, au Berceau-de-l’Hiver et au repaire des Noiregueules",
+          "en": "Entrances connected through Mount Hyjal, Winterspring and Blackmaw Hold"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "sommet-dhyjal",
+          "en": "sommet-dhyjal"
+         },
+         {
+          "fr": "Sommet d’Hyjal",
+          "en": "Hyjal Summit"
+         },
+         {
+          "fr": "Mont Hyjal",
+          "en": "Mount Hyjal"
+         },
+         {
+          "fr": "Raid",
+          "en": "Raid"
+         },
+         {
+          "fr": "Au sommet, près de Nordrassil, l’Arbre-Monde",
+          "en": "At the peak, near the World Tree Nordrassil"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "repaire-donyxia",
+          "en": "repaire-donyxia"
+         },
+         {
+          "fr": "Repaire d’Onyxia",
+          "en": "Onyxia’s Lair"
+         },
+         {
+          "fr": "Marécage d’Âprefange",
+          "en": "Dustwallow Marsh"
+         },
+         {
+          "fr": "Raid",
+          "en": "Raid"
+         },
+         {
+          "fr": "Au fond du marécage (pas de repère plus précis publié)",
+          "en": "Deep in the marsh (no finer landmark published)"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "iles-des-sombrelances",
+          "en": "iles-des-sombrelances"
+         },
+         {
+          "fr": "Îles des Sombrelances",
+          "en": "Darkspear Islands"
+         },
+         {
+          "fr": "Marécage d’Âprefange (large)",
+          "en": "Dustwallow Marsh (offshore)"
+         },
+         {
+          "fr": "Champ de bataille",
+          "en": "Battleground"
+         },
+         {
+          "fr": "Au large du marécage d’Âprefange",
+          "en": "Off the coast of Dustwallow Marsh"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "port-de-poudremeche",
+          "en": "port-de-poudremeche"
+         },
+         {
+          "fr": "Port de Poudremèche",
+          "en": "Powderfuse Port"
+         },
+         {
+          "fr": "Rives Claires",
+          "en": "Riverglades"
+         },
+         {
+          "fr": "Port",
+          "en": "Port"
+         },
+         {
+          "fr": "Arrivée de la nouvelle liaison de Gentepression partie de Tanaris",
+          "en": "Arrival of the new Steamwheedle route from Tanaris"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "shendar-highlands",
+          "en": "shendar-highlands"
+         },
+         {
+          "fr": "Shen’dar Highlands (nom anglais)",
+          "en": "Shen’dar Highlands"
+         },
+         {
+          "fr": "Île de Zéphras",
+          "en": "Zephras Isle"
+         },
+         {
+          "fr": "Sous-zone",
+          "en": "Subzone"
+         },
+         {
+          "fr": "Pierres levées « Overlook Standing Stones » (quête « Catching Wind » de l’Ordre suprême)",
+          "en": "Overlook Standing Stones (High Order quest “Catching Wind”)"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ],
+        [
+         {
+          "fr": "nightclaw-cavern",
+          "en": "nightclaw-cavern"
+         },
+         {
+          "fr": "Nightclaw Cavern (nom anglais)",
+          "en": "Nightclaw Cavern"
+         },
+         {
+          "fr": "Île de Zéphras",
+          "en": "Zephras Isle"
+         },
+         {
+          "fr": "Grotte",
+          "en": "Cave"
+         },
+         {
+          "fr": "Druides de la grotte, quête « Wounds of Betrayal »",
+          "en": "The cavern’s druids, quest “Wounds of Betrayal”"
+         },
+         {
+          "fr": "Non publiées",
+          "en": "Not published"
+         }
+        ]
+       ],
+       "src": [
+        "bz-devnotes1",
+        "bz-dungeons",
+        "bz-golive",
+        "bz-photos",
+        "bz-raids"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "zephras",
+     "title": {
+      "fr": "Lieux de l’île de Zéphras",
+      "en": "Zephras Isle places"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "Les notes de bêta du 24 septembre citent, sur l’île de Zéphras, les pierres levées « Overlook Standing Stones » dans les Shen’dar Highlands (quête « Catching Wind » de l’Ordre suprême) et les druides de la grotte Nightclaw (quête « Wounds of Betrayal »). Aucune traduction française officielle de ces noms n’est publiée. Note de bêta (avant le lancement du 4 novembre) : peut avoir évolué depuis.",
+       "en": "The 24 September beta notes name, on Zephras Isle, the Overlook Standing Stones in the Shen’dar Highlands (High Order quest “Catching Wind”) and the druids of Nightclaw Cavern (quest “Wounds of Betrayal”). No official French translation of these names is published. Beta note (before the 4 November launch): may have changed since.",
+       "src": [
+        "bz-devnotes1"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "rives-claires",
+     "title": {
+      "fr": "Rives Claires : la route maritime",
+      "en": "Riverglades: the sea route"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "La dernière nouvelle liaison part de Tanaris avec le cartel Gentepression et arrive au port de Poudremèche, dans les rives Claires, une zone de niveau intermédiaire à peu près aussi vaste que la vallée de Strangleronce.",
+       "en": "The last new route leaves Tanaris with the Steamwheedle Cartel and arrives at Powderfuse Port in the Riverglades, a mid-level zone roughly the size of Stranglethorn Vale.",
+       "src": [
+        "bz-photos"
+       ]
+      }
+     ]
+    }
+   ],
+   "confirmed": [
+    {
+     "fr": "Les repères du tableau sont repris des articles officiels donjons et raids du 20 octobre 2026.",
+     "en": "The table’s landmarks come from the official 20 October 2026 dungeon and raid articles.",
+     "src": [
+      "bz-dungeons",
+      "bz-raids"
+     ]
+    },
+    {
+     "fr": "Îles des Sombrelances au large du marécage d’Âprefange.",
+     "en": "Darkspear Islands off the coast of Dustwallow Marsh.",
+     "src": [
+      "bz-golive"
+     ]
+    }
+   ],
+   "pending": [
+    {
+     "fr": "Coordonnées (x, y) des entrées et des lieux : non publiées par Blizzard. Ce wiki n’en reprend pas d’Eternadex, de Wowhead ou d’autres bases extraites du client.",
+     "en": "Coordinates (x, y) of entrances and places: not published by Blizzard. This wiki does not take any from Eternadex, Wowhead or other client-extracted databases."
+    },
+    {
+     "fr": "Liste officielle des sous-zones de Zéphras, des rives Claires, du mont Hyjal et de Shen’dralas : non publiée.",
+     "en": "Official subzone list for Zephras, the Riverglades, Mount Hyjal and Shen’dralas: not published."
+    },
+    {
+     "fr": "Aucune carte interactive n’est proposée : un futur outil cartographique ne pourra utiliser que des positions officielles ou constatées en jeu et documentées.",
+     "en": "No interactive map is offered: a future mapping tool could only use official or documented in-game positions."
+    }
+   ]
+  }
+ },
+ {
+  "id": "forever-creatures-official-notes",
+  "title": {
+   "fr": "Bestiaire : créatures nommées par les notes officielles (apparitions et butins corrigés)",
+   "en": "Bestiary: creatures named in the official notes (spawns and loot fixes)"
+  },
+  "description": {
+   "fr": "Les créatures du monde que Blizzard cite dans ses correctifs et notes de développement de Forever, avec la zone et ce qui a changé. Blizzard ne publie aucun taux de butin ni minuteur : ce wiki n’en invente pas.",
+   "en": "The world creatures Blizzard names in its Forever hotfixes and development notes, with the zone and what changed. Blizzard publishes no drop rates or timers, and this wiki invents none."
+  },
+  "category": "creatures",
+  "subcategory": "notes-officielles",
+  "sources": [
+   {
+    "key": "bz-hotfixes-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-6-2026",
+    "title": "WoW: Forever Hotfixes - November 6, 2026 (correctifs des 5 et 6 novembre)",
+    "publishedAt": "2026-11-06",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-hotfixes-eu",
+    "language": "en",
+    "url": "https://eu.forums.blizzard.com/en/wow/t/639885",
+    "title": "WoW: Forever Hotfixes - November 6, 2026 — forum officiel EU (Kaivax)",
+    "publishedAt": "2026-11-06",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes1",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/1",
+    "title": "WoW Forever Beta Development Notes — message n° 1 du 2026-09-24 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-09-24",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes5",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/5",
+    "title": "WoW Forever Beta Development Notes — message n° 5 du 2026-10-08 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-10-08",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes9",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/9",
+    "title": "WoW Forever Beta Development Notes — message n° 9 du 2026-11-03 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-11-03",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-dive-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+    "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-dive-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+    "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   }
+  ],
+  "status": "draft",
+  "updatedAt": "2026-11-09",
+  "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "article-forever-creatures",
+   "forever-creature-onyxia",
+   "forever-dungeon-ruins-of-lordaeron",
+   "forever-zone-riverglades",
+   "forever-news-hotfixes-nov5-6",
+   "forever-items-loot-appearances"
+  ],
+  "verification": "officiel confirmé",
+  "history": [
+   {
+    "at": "2026-11-09",
+    "actor": "GrokBot — lot 2 étape 04 (environnement de test isolé)",
+    "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, noms repris tels quels ; noms anglais conservés quand aucune traduction française officielle n’a été publiée). Relecture humaine de Mathieu requise avant toute mise en production.",
+    "version": 1
+   }
+  ],
+  "article": {
+   "format": 1,
+   "slug": {
+    "fr": "creatures-notes-officielles",
+    "en": "creatures-official-notes"
+   },
+   "illustration": "creatures",
+   "lead": {
+    "fr": "Blizzard ne publie pas de bestiaire de Forever. Ses correctifs et notes de développement nomment pourtant des créatures précises quand leur apparition ou leur butin change. Cette fiche les recense, sans statut « rare » ni taux d’obtention que Blizzard n’indique pas.",
+    "en": "Blizzard publishes no Forever bestiary. Its hotfixes and development notes still name specific creatures when their spawn or loot changes. This entry lists them, without any “rare” status or drop rate Blizzard does not state.",
+    "src": [
+     "bz-hotfixes",
+     "bz-devnotes9"
+    ]
+   },
+   "keyPoints": [
+    {
+     "fr": "8 corrections de créatures depuis le lancement (5 et 6 novembre 2026).",
+     "en": "8 creature fixes since launch (5 and 6 November 2026).",
+     "src": [
+      "bz-hotfixes"
+     ]
+    },
+    {
+     "fr": "Des centaines de nouveaux butins de créatures rares ont été ajoutés, sans liste publiée.",
+     "en": "Hundreds of new rare-creature drops have been added, with no published list.",
+     "src": [
+      "bz-dive"
+     ]
+    },
+    {
+     "fr": "Noms anglais conservés : Blizzard n’a pas publié ces correctifs en français.",
+     "en": "English names kept: Blizzard did not publish these hotfixes in French.",
+     "src": [
+      "bz-hotfixes"
+     ]
+    }
+   ],
+   "sections": [
+    {
+     "id": "depuis-le-lancement",
+     "title": {
+      "fr": "Depuis le lancement (correctifs officiels)",
+      "en": "Since launch (official hotfixes)"
+     },
+     "blocks": [
+      {
+       "type": "table",
+       "caption": {
+        "fr": "Créatures citées par les correctifs des 5 et 6 novembre 2026",
+        "en": "Creatures named in the 5 and 6 November 2026 hotfixes"
+       },
+       "head": [
+        {
+         "fr": "Créature (nom anglais)",
+         "en": "Creature"
+        },
+        {
+         "fr": "Zone",
+         "en": "Zone"
+        },
+        {
+         "fr": "Ce que dit Blizzard",
+         "en": "What Blizzard says"
+        },
+        {
+         "fr": "Date",
+         "en": "Date"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "fr": "Krek the Noxious",
+          "en": "Krek the Noxious"
+         },
+         {
+          "fr": "Rives Claires",
+          "en": "Riverglades"
+         },
+         {
+          "fr": "Butin corrigé : la créature a désormais le bon butin",
+          "en": "Loot fixed: now has the correct loot"
+         },
+         {
+          "fr": "06/11/2026",
+          "en": "2026-11-06"
+         }
+        ],
+        [
+         {
+          "fr": "Ridgeshade Lurkers",
+          "en": "Ridgeshade Lurkers"
+         },
+         {
+          "fr": "Durotar",
+          "en": "Durotar"
+         },
+         {
+          "fr": "Ont désormais du butin",
+          "en": "Now correctly have loot"
+         },
+         {
+          "fr": "06/11/2026",
+          "en": "2026-11-06"
+         }
+        ],
+        [
+         {
+          "fr": "Pelluk",
+          "en": "Pelluk"
+         },
+         {
+          "fr": "Marais des Chagrins",
+          "en": "Swamp of Sorrows"
+         },
+         {
+          "fr": "N’apparaissait parfois pas : corrigé",
+          "en": "Would sometimes not spawn: fixed"
+         },
+         {
+          "fr": "05–06/11/2026",
+          "en": "2026-11-05/06"
+         }
+        ],
+        [
+         {
+          "fr": "Yarrog Baneshadow",
+          "en": "Yarrog Baneshadow"
+         },
+         {
+          "fr": "Durotar",
+          "en": "Durotar"
+         },
+         {
+          "fr": "Réapparition plus lente que prévu : corrigée",
+          "en": "Respawned more slowly than intended: fixed"
+         },
+         {
+          "fr": "05/11/2026",
+          "en": "2026-11-05"
+         }
+        ],
+        [
+         {
+          "fr": "Troggs de la carrière Grol’bolar",
+          "en": "Troggs in Grol’bolar Quarry"
+         },
+         {
+          "fr": "Dun Morogh",
+          "en": "Dun Morogh"
+         },
+         {
+          "fr": "Réapparaissaient trop vite : corrigé",
+          "en": "Respawned too quickly: fixed"
+         },
+         {
+          "fr": "06/11/2026",
+          "en": "2026-11-06"
+         }
+        ],
+        [
+         {
+          "fr": "Lasher Sproutlings, Blooming Lashers, Wrathvine",
+          "en": "Lasher Sproutlings, Blooming Lashers, Wrathvine"
+         },
+         {
+          "fr": "Teldrassil",
+          "en": "Teldrassil"
+         },
+         {
+          "fr": "Étaient à tort insensibles aux dégâts de nature : corrigé",
+          "en": "Were wrongly immune to Nature damage: fixed"
+         },
+         {
+          "fr": "06/11/2026",
+          "en": "2026-11-06"
+         }
+        ],
+        [
+         {
+          "fr": "Murlocs",
+          "en": "Murlocs"
+         },
+         {
+          "fr": "Marécage d’Âprefange",
+          "en": "Dustwallow Marsh"
+         },
+         {
+          "fr": "Certains réapparaissaient trop vite : corrigé",
+          "en": "Some respawned too quickly: fixed"
+         },
+         {
+          "fr": "05/11/2026",
+          "en": "2026-11-05"
+         }
+        ],
+        [
+         {
+          "fr": "The Baron",
+          "en": "The Baron"
+         },
+         {
+          "fr": "Ruines de Lordaeron (donjon)",
+          "en": "Ruins of Lordaeron (dungeon)"
+         },
+         {
+          "fr": "Laisse tomber la tête qui propose « Unending Torment » à la Horde dès le niveau 15",
+          "en": "Drops the head that offers “Unending Torment” to the Horde from level 15"
+         },
+         {
+          "fr": "06/11/2026",
+          "en": "2026-11-06"
+         }
+        ]
+       ],
+       "src": [
+        "bz-hotfixes"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "beta",
+     "title": {
+      "fr": "Pendant la bêta (notes de développement)",
+      "en": "During the beta (development notes)"
+     },
+     "blocks": [
+      {
+       "type": "table",
+       "caption": {
+        "fr": "Créatures citées par les notes de bêta (septembre–novembre 2026)",
+        "en": "Creatures named in the beta notes (September–November 2026)"
+       },
+       "head": [
+        {
+         "fr": "Créature (nom anglais)",
+         "en": "Creature"
+        },
+        {
+         "fr": "Zone",
+         "en": "Zone"
+        },
+        {
+         "fr": "Ce que dit Blizzard",
+         "en": "What Blizzard says"
+        },
+        {
+         "fr": "Date",
+         "en": "Date"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "fr": "Mother Fang",
+          "en": "Mother Fang"
+         },
+         {
+          "fr": "Forêt d’Elwynn",
+          "en": "Elwynn Forest"
+         },
+         {
+          "fr": "Réapparaît un peu plus lentement et ne laisse plus systématiquement un objet vert",
+          "en": "Respawns a bit more slowly and no longer always drops a green item"
+         },
+         {
+          "fr": "24/09/2026",
+          "en": "2026-09-24"
+         }
+        ],
+        [
+         {
+          "fr": "Snow Leopard Prowler",
+          "en": "Snow Leopard Prowler"
+         },
+         {
+          "fr": "Dun Morogh",
+          "en": "Dun Morogh"
+         },
+         {
+          "fr": "Réapparition beaucoup plus rapide",
+          "en": "Much faster respawn"
+         },
+         {
+          "fr": "24/09/2026",
+          "en": "2026-09-24"
+         }
+        ],
+        [
+         {
+          "fr": "Stitches",
+          "en": "Stitches"
+         },
+         {
+          "fr": "Bois de la Pénombre",
+          "en": "Duskwood"
+         },
+         {
+          "fr": "De nouveau hostile en entrant à Sombre-Comté",
+          "en": "Hostile again as he enters Darkshire"
+         },
+         {
+          "fr": "08/10/2026",
+          "en": "2026-10-08"
+         }
+        ],
+        [
+         {
+          "fr": "Alliance Outrunners",
+          "en": "Alliance Outrunners"
+         },
+         {
+          "fr": "Barrens (nom anglais)",
+          "en": "The Barrens"
+         },
+         {
+          "fr": "Apparaissent désormais à des emplacements aléatoires",
+          "en": "Now spawn in random locations"
+         },
+         {
+          "fr": "03/11/2026",
+          "en": "2026-11-03"
+         }
+        ],
+        [
+         {
+          "fr": "Dalaran Summoners",
+          "en": "Dalaran Summoners"
+         },
+         {
+          "fr": "Montagnes d’Alterac",
+          "en": "Alterac Mountains"
+         },
+         {
+          "fr": "N’invoquent plus sans fin",
+          "en": "No longer summon endlessly"
+         },
+         {
+          "fr": "03/11/2026",
+          "en": "2026-11-03"
+         }
+        ],
+        [
+         {
+          "fr": "Certains satyres",
+          "en": "Some satyrs"
+         },
+         {
+          "fr": "Plusieurs zones",
+          "en": "Several zones"
+         },
+         {
+          "fr": "Classés démons (et non plus humanoïdes)",
+          "en": "Classified as demons (no longer humanoids)"
+         },
+         {
+          "fr": "03/11/2026",
+          "en": "2026-11-03"
+         }
+        ]
+       ],
+       "src": [
+        "bz-devnotes1",
+        "bz-devnotes5",
+        "bz-devnotes9"
+       ]
+      },
+      {
+       "type": "p",
+       "fr": "Note de bêta (avant le lancement du 4 novembre) : peut avoir évolué depuis. Ces lignes décrivent l’état de la bêta à la date indiquée.",
+       "en": "Beta note (before the 4 November launch): may have changed since. These rows describe the beta at the date shown.",
+       "src": [
+        "bz-devnotes1",
+        "bz-devnotes5",
+        "bz-devnotes9"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "rares-et-butins",
+     "title": {
+      "fr": "Créatures rares et butins",
+      "en": "Rare creatures and loot"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "Selon Blizzard, des centaines de nouveaux butins provenant de créatures rares ont été ajoutés et les objets épiques hors instance ont été améliorés. Aucune liste de créatures rares, aucune position et aucun taux ne sont publiés ; le correctif du 6 novembre augmente par exemple le taux d’obtention de la « Damp Note » sans donner de chiffre.",
+       "en": "According to Blizzard, hundreds of new rare-creature drops have been added and world-drop epics improved. No list of rare creatures, positions or rates is published; the 6 November hotfix, for example, raises the “Damp Note” drop rate without giving a figure.",
+       "src": [
+        "bz-dive",
+        "bz-hotfixes"
+       ]
+      }
+     ]
+    }
+   ],
+   "confirmed": [
+    {
+     "fr": "8 corrections de créatures listées par les correctifs officiels des 5 et 6 novembre.",
+     "en": "8 creature fixes listed in the official 5 and 6 November hotfixes.",
+     "src": [
+      "bz-hotfixes"
+     ]
+    },
+    {
+     "fr": "Centaines de nouveaux butins de créatures rares (annonce, sans liste).",
+     "en": "Hundreds of new rare-creature drops (announced, no list).",
+     "src": [
+      "bz-dive"
+     ]
+    }
+   ],
+   "pending": [
+    {
+     "fr": "Statut « rare » ou « élite » de ces créatures, niveaux, positions, minuteurs de réapparition et tables de butin : non publiés par Blizzard.",
+     "en": "Rare or elite status of these creatures, levels, positions, respawn timers and loot tables: not published by Blizzard."
+    },
+    {
+     "fr": "Taux d’obtention : jamais publiés. Les « taux » diffusés par des bases tierces sont des échantillons ou des extractions du client et ne sont pas repris.",
+     "en": "Drop rates: never published. “Rates” shown by third-party databases are samples or client extractions and are not used."
+    },
+    {
+     "fr": "Noms français officiels de ces créatures : non publiés dans les correctifs.",
+     "en": "Official French names of these creatures: not published in the hotfixes."
+    }
+   ],
+   "dates": [
+    {
+     "date": "2026-11-05",
+     "fr": "Premier lot de correctifs après le lancement.",
+     "en": "First post-launch hotfix list.",
+     "src": [
+      "bz-hotfixes"
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "fr": "Second lot de correctifs (créatures, donjons, quêtes).",
+     "en": "Second hotfix list (creatures, dungeons, quests).",
+     "src": [
+      "bz-hotfixes"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "forever-items-loot-appearances",
+  "title": {
+   "fr": "Objets : butin de donjon, apparences et itemisation de Forever",
+   "en": "Items: dungeon loot, appearances and itemization in Forever"
+  },
+  "description": {
+   "fr": "Ce que Blizzard a confirmé sur les objets de WoW: Forever : statistiques remaniées, butin de donjon réexaminé (objets uniques des boss en bleu), règles de collection des apparences en donjon et en raid, et ajustements de bêta. Aucune table de butin.",
+   "en": "What Blizzard has confirmed about WoW: Forever items: reworked stats, re-examined dungeon loot (unique boss items in blue), appearance collection rules in dungeons and raids, and beta adjustments. No loot tables."
+  },
+  "category": "items",
+  "subcategory": "itemisation",
+  "sources": [
+   {
+    "key": "bz-dive-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+    "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-dive-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+    "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+    "publishedAt": "2026-09-13",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-camp-fr",
+    "language": "fr",
+    "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+    "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+    "publishedAt": "2026-10-21",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-camp-en",
+    "language": "en",
+    "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "title": "Gather Around the Campfire in World of Warcraft: Forever",
+    "publishedAt": "2026-10-21",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes1",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/1",
+    "title": "WoW Forever Beta Development Notes — message n° 1 du 2026-09-24 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-09-24",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes4",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/4",
+    "title": "WoW Forever Beta Development Notes — message n° 4 du 2026-10-01 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-10-01",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   },
+   {
+    "key": "bz-devnotes5",
+    "language": "en",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2360696/5",
+    "title": "WoW Forever Beta Development Notes — message n° 5 du 2026-10-08 (forum officiel US, Kaivax)",
+    "publishedAt": "2026-10-08",
+    "accessedAt": "2026-11-09",
+    "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+    "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+   }
+  ],
+  "status": "draft",
+  "updatedAt": "2026-11-09",
+  "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+  "version": 1,
+  "relations": [
+   "article-forever-items",
+   "forever-item-worgenbane-talisman",
+   "forever-item-ladimore-heirloom-ring",
+   "forever-quest-rewards-expanded",
+   "forever-camp-features",
+   "forever-guide-experience-preset"
+  ],
+  "verification": "officiel confirmé",
+  "history": [
+   {
+    "at": "2026-11-09",
+    "actor": "GrokBot — lot 2 étape 04 (environnement de test isolé)",
+    "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, noms repris tels quels ; noms anglais conservés quand aucune traduction française officielle n’a été publiée). Relecture humaine de Mathieu requise avant toute mise en production.",
+    "version": 1
+   }
+  ],
+  "article": {
+   "format": 1,
+   "slug": {
+    "fr": "butin-apparences-itemisation",
+    "en": "loot-appearances-itemization"
+   },
+   "illustration": "items",
+   "lead": {
+    "fr": "Forever garde les statistiques de Classic mais en remanie plusieurs pour que l’équipement varie selon le rôle et l’activité. Tout le butin des donjons a été réexaminé, les objets uniques des boss passent en qualité bleue et la collection d’apparences suit des règles pensées pour le jeu en groupe.",
+    "en": "Forever keeps Classic’s stats but reworks several so gear varies by role and activity. Every dungeon drop has been re-examined, unique boss items move to blue quality and appearance collection follows rules designed for group play.",
+    "src": [
+     "bz-dive"
+    ]
+   },
+   "keyPoints": [
+    {
+     "fr": "Objets uniques des boss de donjon : qualité bleue ; bonus d’ensemble améliorés.",
+     "en": "Unique dungeon boss items: blue quality; improved set bonuses.",
+     "src": [
+      "bz-dive"
+     ]
+    },
+    {
+     "fr": "Objet inhabituel ou rare lié quand ramassé en donjon : apparence pour tous les membres éligibles.",
+     "en": "Bind-on-pickup Uncommon or Rare dungeon drop: appearance for every eligible looter.",
+     "src": [
+      "bz-dive"
+     ]
+    },
+    {
+     "fr": "Butin épique de raid : apparence pour le seul joueur à qui l’objet se lie.",
+     "en": "Epic raid drop: appearance only for the player it binds to.",
+     "src": [
+      "bz-dive"
+     ]
+    }
+   ],
+   "sections": [
+    {
+     "id": "statistiques",
+     "title": {
+      "fr": "Statistiques remaniées",
+      "en": "Reworked stats"
+     },
+     "blocks": [
+      {
+       "type": "list",
+       "items": [
+        {
+         "fr": "Chances de toucher des sorts, de la mêlée et à distance combinées ; idem pour les chances de coup critique.",
+         "en": "Spell, melee and ranged hit chance are combined, as are critical strike chances.",
+         "src": [
+          "bz-dive"
+         ]
+        },
+        {
+         "fr": "La compétence d’arme fonctionne comme avant, mais chaque objet en donne moins.",
+         "en": "Weapon skill works as before, but each item grants less of it.",
+         "src": [
+          "bz-dive"
+         ]
+        },
+        {
+         "fr": "Le bonus aux soins inclut aussi un tiers de bonus aux dégâts.",
+         "en": "Bonus healing also includes one third as much bonus damage.",
+         "src": [
+          "bz-dive"
+         ]
+        },
+        {
+         "fr": "Nouveaux effets liés à des environnements (bois, montagnes, déserts) ou à des types de créatures, comme X’calibhure.",
+         "en": "New effects tied to environments (woodlands, mountains, deserts) or creature types, such as X’caliboar.",
+         "src": [
+          "bz-dive"
+         ]
+        },
+        {
+         "fr": "Bijoux plus situationnels, par exemple le talisman de fléau des Worgens.",
+         "en": "More situational trinkets, such as the Worgenbane Talisman.",
+         "src": [
+          "bz-dive"
+         ]
+        }
+       ],
+       "src": [
+        "bz-dive"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "butin",
+     "title": {
+      "fr": "Butin des donjons et du monde",
+      "en": "Dungeon and world loot"
+     },
+     "blocks": [
+      {
+       "type": "p",
+       "fr": "Chaque butin de donjon a été réexaminé : les objets marquants le restent, les moins intéressants sont ajustés et des centaines de nouveaux objets sont ajoutés. Les objets épiques hors instance sont améliorés et des centaines de nouveaux butins de créatures rares font leur apparition.",
+       "en": "Every dungeon drop has been re-examined: memorable items stay memorable, less exciting ones are adjusted and hundreds of new drops are added. World-drop epics are improved and hundreds of new rare-creature drops appear.",
+       "src": [
+        "bz-dive"
+       ]
+      },
+      {
+       "type": "p",
+       "fr": "Les plans d’objets de campement avancés tombent sur certains boss de donjon.",
+       "en": "Advanced camp feature blueprints drop from specific dungeon bosses.",
+       "src": [
+        "bz-camp"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "apparences",
+     "title": {
+      "fr": "Collection d’apparences",
+      "en": "Appearance collection"
+     },
+     "blocks": [
+      {
+       "type": "table",
+       "caption": {
+        "fr": "Règles de collection d’apparences (Blizzard, 13/09/2026)",
+        "en": "Appearance collection rules (Blizzard, 2026-09-13)"
+       },
+       "head": [
+        {
+         "fr": "Cas",
+         "en": "Case"
+        },
+        {
+         "fr": "Règle",
+         "en": "Rule"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "fr": "Objet inhabituel ou rare lié quand ramassé, en donjon",
+          "en": "Bind-on-pickup Uncommon or Rare item, in a dungeon"
+         },
+         {
+          "fr": "Apparence accordée à tous les membres éligibles quand l’objet est ramassé",
+          "en": "Appearance granted to all eligible looters when the item is looted"
+         }
+        ],
+        [
+         {
+          "fr": "Butin épique de raid",
+          "en": "Epic raid drop"
+         },
+         {
+          "fr": "Apparence accordée au seul joueur à qui l’objet se lie",
+          "en": "Appearance granted only to the player the item binds to"
+         }
+        ],
+        [
+         {
+          "fr": "Objet de qualité médiocre ou commune",
+          "en": "Poor or Common quality item"
+         },
+         {
+          "fr": "Apparence obtenue dès le ramassage, sans liaison",
+          "en": "Appearance granted as soon as it is looted, without binding"
+         }
+        ],
+        [
+         {
+          "fr": "Type d’objet",
+          "en": "Item type"
+         },
+         {
+          "fr": "Plaque sur plaque, tissu sur tissu",
+          "en": "Plate to plate, cloth to cloth"
+         }
+        ],
+        [
+         {
+          "fr": "Niveau",
+          "en": "Level"
+         },
+         {
+          "fr": "Apparences de haut niveau utilisables à partir du niveau 60",
+          "en": "High-level appearances usable from level 60"
+         }
+        ]
+       ],
+       "src": [
+        "bz-dive"
+       ]
+      },
+      {
+       "type": "p",
+       "fr": "Le système de transmogrification peut être désactivé chez un transmogrifieur ; il l’est automatiquement en mode Classique, et la collection continue en arrière-plan. Les objets purement cosmétiques seront rares.",
+       "en": "Transmog can be disabled at a transmogrifier; it is off automatically in Classic Mode, and collecting continues in the background. Cosmetic-only items will be rare.",
+       "src": [
+        "bz-dive"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "beta",
+     "title": {
+      "fr": "Ajustements pendant la bêta",
+      "en": "Beta adjustments"
+     },
+     "blocks": [
+      {
+       "type": "list",
+       "items": [
+        {
+         "fr": "Vendre à un marchand un objet lié quand équipé dont l’apparence n’est pas collectée le rend lié à l’âme (et non plus lié au compte) — 1er octobre.",
+         "en": "Selling a bind-on-equip item with an uncollected appearance to a vendor now makes it soulbound (was bound to account) — 1 October.",
+         "src": [
+          "bz-devnotes4",
+          "bz-devnotes5",
+          "bz-devnotes1"
+         ]
+        },
+        {
+         "fr": "Plusieurs récompenses de quêtes de donjon passent de rare à inhabituel, avec des statistiques adaptées — 8 octobre.",
+         "en": "Various dungeon quest rewards lowered from Rare to Uncommon, with adjusted stats — 8 October.",
+         "src": [
+          "bz-devnotes4",
+          "bz-devnotes5",
+          "bz-devnotes1"
+         ]
+        },
+        {
+         "fr": "Les baguettes ne profitent plus des dégâts des sorts de l’utilisateur — 24 septembre.",
+         "en": "Wands no longer gain damage from the user’s spell damage — 24 September.",
+         "src": [
+          "bz-devnotes4",
+          "bz-devnotes5",
+          "bz-devnotes1"
+         ]
+        }
+       ],
+       "src": [
+        "bz-devnotes4",
+        "bz-devnotes5",
+        "bz-devnotes1"
+       ]
+      },
+      {
+       "type": "p",
+       "fr": "Note de bêta (avant le lancement du 4 novembre) : peut avoir évolué depuis.",
+       "en": "Beta note (before the 4 November launch): may have changed since.",
+       "src": [
+        "bz-devnotes1",
+        "bz-devnotes4",
+        "bz-devnotes5"
+       ]
+      }
+     ]
+    }
+   ],
+   "confirmed": [
+    {
+     "fr": "Objets uniques des boss de donjon en qualité bleue ; bonus d’ensemble améliorés.",
+     "en": "Unique dungeon boss items in blue quality; improved set bonuses.",
+     "src": [
+      "bz-dive"
+     ]
+    },
+    {
+     "fr": "Règles d’apparence : donjon partagé, raid épique réservé, médiocre/commun dès le ramassage.",
+     "en": "Appearance rules: shared in dungeons, reserved for epic raid drops, Poor/Common on loot.",
+     "src": [
+      "bz-dive"
+     ]
+    },
+    {
+     "fr": "Plans de campement avancés sur certains boss de donjon.",
+     "en": "Advanced camp blueprints from specific dungeon bosses.",
+     "src": [
+      "bz-camp"
+     ]
+    }
+   ],
+   "pending": [
+    {
+     "fr": "Tables de butin par boss, statistiques détaillées des objets et taux d’obtention : non publiés par Blizzard ; aucune base tierce reprise.",
+     "en": "Per-boss loot tables, detailed item stats and drop rates: not published by Blizzard; no third-party database reused."
+    },
+    {
+     "fr": "Liste des nouveaux objets de créatures rares et des objets épiques hors instance : non publiée.",
+     "en": "List of new rare-creature drops and world-drop epics: not published."
+    },
+    {
+     "fr": "Numéro de build : non indiqué dans les sources officielles consultées.",
+     "en": "Build number: not given in the official sources consulted."
+    }
+   ]
+  }
+ }
+]

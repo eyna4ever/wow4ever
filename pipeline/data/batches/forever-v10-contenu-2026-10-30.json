@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "forever-race-human",
+    "title": {
+      "fr": "Humain / Humaine",
+      "en": "Human"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de l’Alliance. Classes : chasseur (nouveau dans Forever), mage, paladin, prêtre, voleur, démoniste et guerrier. Blizzard la présente comme une race jeune et polyvalente, qui maîtrise vite combat, artisanat et magie et cherche à retrouver sa gloire passée.",
+      "en": "Alliance race. Classes: Hunter (new in Forever), Mage, Paladin, Priest, Rogue, Warlock and Warrior. Blizzard presents humans as a young, versatile race that quickly masters combat, craft and magic and seeks to rekindle its former glory."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-hunter"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-dwarf",
+    "title": {
+      "fr": "Nain / Naine",
+      "en": "Dwarf"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de l’Alliance. Classes : chasseur, paladin, prêtre, voleur, chaman (nouveau dans Forever) et guerrier. Les nains, autrefois tournés vers les richesses du sous-sol, se consacrent désormais à l’archéologie et à la quête de leurs origines.",
+      "en": "Alliance race. Classes: Hunter, Paladin, Priest, Rogue, Shaman (new in Forever) and Warrior. Once focused on riches from the deep, dwarves now devote themselves to archaeology and the search for their origins."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-shaman"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-gnome",
+    "title": {
+      "fr": "Gnome",
+      "en": "Gnome"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de l’Alliance. Classes : mage, prêtre (nouveau dans Forever), voleur, démoniste et guerrier. Les gnomes de Khaz Modan, ingénieurs de génie, ont perdu leur cité de Gnomeregan face aux troggs et vivent en exil chez leurs alliés nains.",
+      "en": "Alliance race. Classes: Mage, Priest (new in Forever), Rogue, Warlock and Warrior. The brilliant gnomes of Khaz Modan lost their city of Gnomeregan to a trogg invasion and now live as exiles among their dwarven allies."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-priest"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-night-elf",
+    "title": {
+      "fr": "Elfe de la nuit",
+      "en": "Night Elf"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de l’Alliance. Classes : druide, chasseur, prêtre, voleur et guerrier (aucune combinaison nouvelle annoncée). Après la chute de leur empire, les elfes de la nuit se sont retirés dans les forêts, avant d’en sortir face au retour de la Légion ardente.",
+      "en": "Alliance race. Classes: Druid, Hunter, Priest, Rogue and Warrior (no new combination announced). After their empire fell, night elves withdrew to the forests and only emerged when the Burning Legion returned."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-orc",
+    "title": {
+      "fr": "Orc / Orque",
+      "en": "Orc"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de la Horde. Classes : chasseur, mage (nouveau dans Forever), voleur, chaman, démoniste et guerrier. Venus de Draenor, les orcs se sont libérés de la corruption démoniaque et combattent pour leur honneur dans un monde hostile.",
+      "en": "Horde race. Classes: Hunter, Mage (new in Forever), Rogue, Shaman, Warlock and Warrior. Originally from Draenor, orcs broke free of demonic corruption and fight for honour in a hostile world."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-mage",
+      "forever-news-racials-final-pass"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-tauren",
+    "title": {
+      "fr": "Tauren / Taurène",
+      "en": "Tauren"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de la Horde. Classes : druide, chasseur, chaman et guerrier (aucune combinaison nouvelle annoncée). Gardiens de l’équilibre de la nature et fidèles à la Terre-mère, les taurens ont rejoint la Horde par dette de sang envers les orcs.",
+      "en": "Horde race. Classes: Druid, Hunter, Shaman and Warrior (no new combination announced). Guardians of nature’s balance devoted to the Earth Mother, the tauren joined the Horde through a blood debt to the orcs."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-news-racials-final-pass"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-troll",
+    "title": {
+      "fr": "Troll / Trollesse",
+      "en": "Troll"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de la Horde. Classes : chasseur, mage, prêtre, voleur, chaman, démoniste (nouveau dans Forever) et guerrier. Chassés de la vallée de Strangleronce, les trolls Sombrelance ont suivi Thrall jusqu’en Kalimdor et occupent une place d’honneur dans la Horde.",
+      "en": "Horde race. Classes: Hunter, Mage, Priest, Rogue, Shaman, Warlock (new in Forever) and Warrior. Driven out of Stranglethorn Vale, the Darkspear trolls followed Thrall to Kalimdor and hold a place of honour in the Horde."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-warlock",
+      "forever-news-racials-final-pass"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-race-undead",
+    "title": {
+      "fr": "Mort-vivant / Morte-vivante",
+      "en": "Undead"
+    },
+    "category": "races",
+    "subcategory": "race-jouable",
+    "description": {
+      "fr": "Race de la Horde. Classes : mage, paladin (nouveau dans Forever), prêtre, voleur, démoniste et guerrier. Libérés du roi-liche et menés par Sylvanas, les Réprouvés cherchent à se venger du Fléau et voient la Horde comme un outil.",
+      "en": "Horde race. Classes: Mage, Paladin (new in Forever), Priest, Rogue, Warlock and Warrior. Freed from the Lich King and led by Sylvanas, the Forsaken seek vengeance on the Scourge and see the Horde as a tool."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes",
+      "forever-class-paladin",
+      "forever-news-racials-final-pass"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-ruins-of-lordaeron",
+    "title": {
+      "fr": "Ruines de Lordaeron",
+      "en": "Ruins of Lordaeron"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 15 à 20, dans la cité en ruine au-dessus de Fossoyeuse (clairières de Tirisfal). Entrée facile pour la Horde, expédition en territoire ennemi pour l’Alliance. Les Réprouvés veulent reprendre la ville, hantée par le Fléau, alors qu’un nécromancien y gagne en puissance.",
+      "en": "Five-player dungeon, levels 15–20, in the ruined city above the Undercity (Tirisfal Glades). Easy access for the Horde, a trip into enemy territory for the Alliance. The Forsaken want to reclaim the Scourge-haunted city while a necromancer gathers power there."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-excavation-site",
+    "title": {
+      "fr": "Excavations",
+      "en": "Excavation Site"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 24 à 29, près du rocher de Thelgen et de Dun Algaz, dans les Paluns. Au-delà des excavations de Whelgar, une brume étrange cache un lieu figé dans le temps, gardé par des assemblages titans errants et une faune dangereuse.",
+      "en": "Five-player dungeon, levels 24–29, near Thelgen Rock and Dun Algaz in the Wetlands. Beyond Whelgar’s Excavation, a strange mist hides a place frozen in time, guarded by errant titan constructs and dangerous wildlife."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-city-of-dalaran",
+    "title": {
+      "fr": "Cité de Dalaran",
+      "en": "City of Dalaran"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 28 à 33, dans les montagnes d’Alterac. Une suite de quêtes d’harmonisation est requise. Après avoir gagné la confiance du Kirin Tor, le groupe entre par les égouts et choisit entre plusieurs chemins et affrontements dans une cité en plein chaos arcanique.",
+      "en": "Five-player dungeon, levels 28–33, in the Alterac Mountains. An attunement questline is required. After earning the Kirin Tor’s trust, the group enters through the sewers and picks among several paths and encounters in a city gripped by arcane chaos."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids",
+      "forever-questline-dalaran-attunement"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-drowned-city",
+    "title": {
+      "fr": "La cité Submergée",
+      "en": "The Drowned City"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 35 à 40, au large de la vallée de Strangleronce, à l’ouest de Grom’gol. D’anciennes ruines trolles ont émergé de l’océan ; trolls et nagas y rôdent. On plonge pour trouver l’entrée. Le donjon est à ciel ouvert et la météo se dégrade jusqu’à la tempête avant le combat final.",
+      "en": "Five-player dungeon, levels 35–40, off the coast of Stranglethorn Vale, west of Grom’gol. Ancient troll ruins have risen from the ocean, roamed by trolls and naga. You dive to find the entrance. The open-air dungeon’s weather builds into a full storm before the final fight."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-kroldok-stronghold",
+    "title": {
+      "fr": "Bastion Krol’dok",
+      "en": "Krol’dok Stronghold"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 40 à 45, dans les rives Claires. Des estafettes ogres enlèvent des voyageurs et pillent la région ; leur piste mène à une vaste forteresse d’ateliers, de campements et de passages gardés, d’où montent la nuit d’étranges incantations.",
+      "en": "Five-player dungeon, levels 40–45, in the Riverglades. Ogre outrunners kidnap travellers and raid the region; their trail leads to a sprawling fortress of workshops, encampments and guarded passages, where strange chanting is heard after nightfall."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids",
+      "forever-zone-riverglades"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-alcaz-prison",
+    "title": {
+      "fr": "Prison d’Alcaz",
+      "en": "Alcaz Prison"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 48 à 53, sur l’île d’Alcaz (marécage d’Âprefange). La prison, longtemps inaccessible et entourée de rumeurs sur ses captifs de haut rang, dont le roi Varian Wrynn, ouvre ses portes. La Confrérie défias et des nagas s’y affrontent.",
+      "en": "Five-player dungeon, levels 48–53, on Alcaz Island (Dustwallow Marsh). The long-sealed prison, surrounded by rumours of high-ranking captives including King Varian Wrynn, finally opens. The Defias Brotherhood and naga are fighting inside."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-blackmaw-hold",
+    "title": {
+      "fr": "Repaire des Noiregueules",
+      "en": "Blackmaw Hold"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 55 à 60, en Azshara. Derrière une porte longtemps scellée s’étend une grande cité furbolg dont le clan lutte contre une corruption. Aventure de niveau maximum à plusieurs itinéraires et boss ; c’est aussi l’une des entrées des profondeurs des Saisons.",
+      "en": "Five-player dungeon, levels 55–60, in Azshara. Behind a long-sealed gate lies a great furbolg city whose clan is fighting a spreading corruption. A max-level adventure with multiple routes and bosses; it is also one of the entrances to the Barrow Deeps."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+        "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+        "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids",
+      "forever-raid-barrow-deeps"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-shapers-terrace",
+    "title": {
+      "fr": "La terrasse du Façonneur",
+      "en": "Shaper’s Terrace"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon à cinq, niveaux 58 à 60, dans les collines du nord du cratère d’Un’Goro. Une ancienne installation titan domine le cratère. Les cristaux de puissance récoltés dans Un’Goro servent aux consoles de la terrasse.",
+      "en": "Five-player dungeon, levels 58–60, in the northern hills of Un’Goro Crater. An ancient titan facility overlooks the crater. Power crystals gathered across Un’Goro are used at consoles inside the terrace."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-raid-onyxias-lair",
+    "title": {
+      "fr": "Repaire d’Onyxia",
+      "en": "Onyxia’s Lair"
+    },
+    "category": "instances",
+    "subcategory": "raid-annonce",
+    "description": {
+      "fr": "Raid de niveau 60 pour 40 joueurs, dans le marécage d’Âprefange, ouvert le 9 décembre 2026. Combat en trois phases avec de fortes attaques de feu : prévoir de la résistance au feu. Chaque membre doit avoir l’amulette drakefeu dans son inventaire (inutile de l’équiper). Réinitialisation hebdomadaire prévue.",
+      "en": "Level-60 raid for 40 players in Dustwallow Marsh, opening December 9, 2026. Three-phase fight with heavy fire attacks: bring fire resistance. Every member must carry the Drakefire Amulet in their bags (no need to equip it). Weekly reset planned."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+        "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+        "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-raids",
+      "forever-creature-onyxia",
+      "forever-questline-onyxia-attunement"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-questline-dalaran-attunement",
+    "title": {
+      "fr": "Harmonisation de la cité de Dalaran",
+      "en": "City of Dalaran attunement"
+    },
+    "category": "quests",
+    "subcategory": "suite-de-quetes",
+    "description": {
+      "fr": "Suite de quêtes requise pour le donjon de Dalaran. Alliance : « Une requête alarmante », auprès de l’émissaire Jacques à Austrivage. Horde : « Clé de la ville » et « L’invasion de la prison », auprès du magus Wordeen Toisevide à Moulin-de-Tarren.",
+      "en": "Questline required for the City of Dalaran dungeon. Alliance: “An Alarming Request” from Emissary Jacques in Southshore. Horde: “Key to the City” and “Prison Break-In” from Magus Wordeen Voidglare in Tarren Mill."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+        "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+        "title": "Explore the New Dungeons of World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-dungeon-city-of-dalaran"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-questline-onyxia-attunement",
+    "title": {
+      "fr": "Harmonisation du repaire d’Onyxia (amulette drakefeu)",
+      "en": "Onyxia’s Lair attunement (Drakefire Amulet)"
+    },
+    "category": "quests",
+    "subcategory": "suite-de-quetes",
+    "description": {
+      "fr": "Suite de quêtes propre à chaque faction pour obtenir l’amulette drakefeu. Alliance : départ avec « La menace des draconiens » (steppes Ardentes), passage par les profondeurs de Rochenoire et Hurlevent. Horde : départ avec « Sang et tonnerre » (Kargath, terres Ingrates), jusqu’à Rexxar en Désolace. Les deux finissent face au général Drakkisath au sommet du pic Rochenoire.",
+      "en": "Faction-specific questline to earn the Drakefire Amulet. Alliance: starts with “Dragonkin Menace” (Burning Steppes), through Blackrock Depths and Stormwind. Horde: starts with “Blood and Thunder” (Kargath, Badlands), up to Rexxar in Desolace. Both end against General Drakkisath in Upper Blackrock Spire."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+        "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+        "language": "fr",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+        "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+        "language": "en",
+        "publishedAt": "2026-10-20",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-raid-onyxias-lair"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-pvp-gear-rank-rewards",
+    "title": {
+      "fr": "Équipement JcJ et récompenses de rang",
+      "en": "PvP gear and rank rewards"
+    },
+    "category": "pvp",
+    "subcategory": "equipement",
+    "description": {
+      "fr": "L’honneur achète deux ensembles JcJ : un rare et un épique. La pièce épique s’obtient en améliorant la pièce rare avec un sceau enhardi, vendu à partir de certains rangs. Récompenses par rang : 1 tabard, 2 bijou JcJ, 3 capes, 4 collier, 5 potions de combat, 6 tabard, 7 étendard de bataille, 8 à 10 et 12 à 13 jetons d’amélioration épiques, 11 montures, 14 armes épiques.",
+      "en": "Honor buys two PvP sets: one rare and one epic. Epic pieces come from upgrading the rare piece with an Emboldened Seal, sold from certain ranks. Rewards by rank: 1 tabard, 2 PvP trinket, 3 cloaks, 4 necklace, 5 combat potions, 6 tabard, 7 battle standard, 8–10 and 12–13 epic upgrade tokens, 11 mounts, 14 epic weapons."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+        "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-07",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303316/how-pvp-progression-in-world-of-warcraft-forever-works",
+        "title": "How PvP Progression in World of Warcraft: Forever Works",
+        "language": "en",
+        "publishedAt": "2026-10-07",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-pvp",
+      "forever-pvp-honor",
+      "forever-pvp-rank-points"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-pvp-seasons",
+    "title": {
+      "fr": "Saisons JcJ et tâches hebdomadaires",
+      "en": "PvP seasons and weekly tasks"
+    },
+    "category": "pvp",
+    "subcategory": "progression",
+    "description": {
+      "fr": "Chaque saison JcJ permet de monter en rang et de gagner de l’honneur. Elle comprend un parcours de tâches hebdomadaires qui donnent honneur et points de rang ; trois tâches par saison donnent aussi un point d’héritage. Liées au système d’héritage, ces tâches restent faisables lors des saisons suivantes.",
+      "en": "Each PvP season lets players climb ranks and earn Honor. It includes a journey of weekly tasks granting Honor and Rank Points; three tasks per season also grant a Legacy Point. Because they are tied to the Legacy System, these tasks remain available in later seasons."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+        "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-07",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303316/how-pvp-progression-in-world-of-warcraft-forever-works",
+        "title": "How PvP Progression in World of Warcraft: Forever Works",
+        "language": "en",
+        "publishedAt": "2026-10-07",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-pvp",
+      "forever-glossary-legacy-points"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-guide-experience-preset",
+    "title": {
+      "fr": "Choisir son préréglage : Classique ou Amélioré",
+      "en": "Choosing a preset: Classic or Enhanced"
+    },
+    "category": "guides",
+    "subcategory": "premiers-pas",
+    "description": {
+      "fr": "À la première connexion, avant l’ensemble de règles, on choisit un préréglage d’expérience. Classique : modèles en définition standard, sans points d’intérêt de quête, sans sac unique ni transmogrification, interface classique. Amélioré : haute définition, aides activées, interface centralisée. Blizzard conseille Amélioré en cas de doute ; tout se règle ensuite dans les options.",
+      "en": "At first login, before the Ruleset, you pick an experience preset. Classic: standard-definition models, no quest points of interest, no one-bag or transmog, classic UI. Enhanced: high definition, helpers on, centralized UI. Blizzard suggests Enhanced if unsure; everything can be changed later in the options."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315820/world-of-warcraft-forever-sort-partout-dans-le-monde-le-5-novembre",
+        "title": "World of Warcraft: Forever sort partout dans le monde le 5 novembre !",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+        "title": "World of Warcraft: Forever Goes Live Globally November 4!",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-golive-nov4",
+      "article-forever-rulesets"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-guide-install-account",
+    "title": {
+      "fr": "Installer le jeu et récupérer son compte",
+      "en": "Installing the game and recovering your account"
+    },
+    "category": "guides",
+    "subcategory": "premiers-pas",
+    "description": {
+      "fr": "Mettre à jour système et pilotes graphiques, installer l’application Battle.net, choisir WoW: Forever puis la version de jeu et le compte, et lancer l’installation. Un abonnement ou du temps de jeu est nécessaire. En cas de compte perdu ou piraté, l’assistance Blizzard propose une récupération (« Je n’arrive pas à me connecter »), la sécurisation et un authentificateur, puis un maître de jeu si besoin.",
+      "en": "Update your OS and graphics drivers, install the Battle.net app, pick WoW: Forever, then the game version and account, and install. A subscription or Game Time is required. For a lost or hacked account, Blizzard Support offers recovery (“Can’t Log In?”), securing the account and an authenticator, then a Game Master if needed."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-return-guide",
+      "forever-news-starter-guide"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-racials-final-pass",
+    "title": {
+      "fr": "Traits raciaux : dernière passe avant le lancement (26–27 octobre)",
+      "en": "Racial traits: final pass before launch (October 26–27)"
+    },
+    "category": "news",
+    "subcategory": "notes-de-developpement",
+    "description": {
+      "fr": "Blizzard privilégie l’identité de chaque race. Principaux changements : humains Ruthless +1 % critique, Human Spirit +10 % esprit ; nains Artisan’s Precision +1 % toucher ; taurens Plainsrunning jusqu’à 60 % de vitesse à pied ; orcs Command (familiers +5 %), Blood Fury 2 min ; trolls Berserking 15 s ; morts-vivants Touch of the Grave 15 s ; Éolides Wind-Blessed 2 % de hâte. Les spécialisations d’armes ne reviennent pas.",
+      "en": "Blizzard prioritises each race’s identity. Main changes: humans Ruthless +1% crit, Human Spirit +10% Spirit; dwarves Artisan’s Precision +1% hit; tauren Plainsrunning up to 60% run speed; orcs Command (pets +5%), Blood Fury 2 min; trolls Berserking 15 s; undead Touch of the Grave 15 s; Skyborne Wind-Blessed 2% haste. Weapon specialisations do not return."
+    },
+    "sources": [
+      {
+        "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696",
+        "title": "WoW Forever Beta Development Notes – Updated October 26 (Kaivax, forum officiel)",
+        "language": "en",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "article-forever-races-classes"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-news-podcast-series",
+    "title": {
+      "fr": "Le podcast officiel WoW: Forever",
+      "en": "The official WoW: Forever podcast"
+    },
+    "category": "news",
+    "subcategory": "communaute",
+    "description": {
+      "fr": "Animé par Countdown To Classic avec des développeurs et des créateurs invités. Épisode 1 (24 sept.) : la bêta, avec Xaryu. Épisode 2 (1er oct.) : les classes, avec Sodapoppin. Épisode 3 (8 oct.) : donjons et quêtes, avec Hammerdance. Épisode 4 (15 oct.) : le JcJ. Épisode 5 (22 oct.) : fin de la bêta. Épisode 6 (29 oct.) : la technique.",
+      "en": "Hosted by Countdown To Classic with developers and guest creators. Episode 1 (Sep 24): the beta, with Xaryu. Episode 2 (Oct 1): classes, with Sodapoppin. Episode 3 (Oct 8): dungeons and questing, with Hammerdance. Episode 4 (Oct 15): PvP. Episode 5 (Oct 22): end of beta. Episode 6 (Oct 29): tech."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304076/regardez-le-1er-episode-du-podcast-de-world-of-warcraft-forever",
+        "title": "Regardez le 1er épisode du podcast de World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-24",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304076/watch-the-world-of-warcraft-forever-podcast-ep-1",
+        "title": "Watch the World of Warcraft: Forever Podcast, Ep. 1",
+        "language": "en",
+        "publishedAt": "2026-09-24",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24298592/regardez-des-maintenant-deuxieme-episode-du-podcast-wow-forever-le-speedrun-des-classes",
+        "title": "Regardez dès maintenant ! Deuxième épisode du podcast WoW: Forever, le speedrun des classes",
+        "language": "fr",
+        "publishedAt": "2026-10-01",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24298592/watch-now-wow-forever-podcast-ep-2-speedrunning-classes",
+        "title": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes",
+        "language": "en",
+        "publishedAt": "2026-10-01",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24310653/ecoutez-le-3e-episode-du-podcast-wow-forever",
+        "title": "Écoutez le 3e épisode du podcast WoW: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-08",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24310653/check-out-episode-3-of-the-wow-forever-podcast",
+        "title": "Check Out Episode 3 of the WoW: Forever Podcast",
+        "language": "en",
+        "publishedAt": "2026-10-08",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304079/decouvrez-un-apercu-du-jcj-dans-le-4e-episode-du-podcast-de-wow-forever",
+        "title": "Découvrez un aperçu du JcJ dans le 4e épisode du podcast de WoW: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-15",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304079/explore-pvp-in-episode-4-of-the-wow-forever-podcast",
+        "title": "Explore PvP in Episode 4 of the WoW: Forever Podcast",
+        "language": "en",
+        "publishedAt": "2026-10-15",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302577/un-nouvel-episode-sur-la-fin-de-la-beta-est-arrive",
+        "title": "Un nouvel épisode sur la fin de la bêta est arrivé !",
+        "language": "fr",
+        "publishedAt": "2026-10-22",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302577/dive-into-the-end-of-beta-special",
+        "title": "Dive into the End of Beta Special!",
+        "language": "en",
+        "publishedAt": "2026-10-22",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24315819/decouvrez-le-podcast-wow-forever-tout-sur-la-technologie",
+        "title": "Découvrez le podcast WoW: Forever : tout sur la technologie",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24315819/watch-the-wow-forever-podcast-all-about-tech",
+        "title": "Watch the WoW: Forever Podcast: All About Tech",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-30",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-10-30",
+    "relations": [
+      "forever-news-podcast-tech"
+    ],
+    "history": [
+      {
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+        "at": "2026-10-30",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "article-forever-races-classes",
+    "title": {
+      "fr": "Races et classes : toutes les combinaisons de World of Warcraft: Forever",
+      "en": "Races and classes: every combination in World of Warcraft: Forever"
+    },
+    "description": {
+      "fr": "Neuf races jouables, neuf classes et six combinaisons inédites (mage orc, démoniste troll, paladin mort-vivant, chasseur humain, prêtre gnome, chaman nain), plus les deux branches des Éolides.",
+      "en": "Nine playable races, nine classes and six new combinations (Orc Mage, Troll Warlock, Undead Paladin, Human Hunter, Gnome Priest, Dwarf Shaman), plus the two Skyborne branches."
+    },
+    "category": "races",
+    "subcategory": "races-et-classes",
+    "sources": [
+      {
+        "key": "bz-hero-en",
+        "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+        "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-hero-fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+        "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-return-en",
+        "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+        "title": "Return to Azeroth in World of Warcraft: Forever",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-return-fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+        "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-golive-en",
+        "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+        "title": "World of Warcraft: Forever Goes Live Globally November 4!",
+        "language": "en",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-golive-fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24315820/world-of-warcraft-forever-sort-partout-dans-le-monde-le-5-novembre",
+        "title": "World of Warcraft: Forever sort partout dans le monde le 5 novembre !",
+        "language": "fr",
+        "publishedAt": "2026-10-29",
+        "accessedAt": "2026-10-30",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-skyborne-en",
+        "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+        "title": "WoW: Forever Meet the New Skyborne",
+        "language": "en",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      },
+      {
+        "key": "bz-skyborne-fr",
+        "url": "https://news.blizzard.com/fr-fr/article/24302071/decouvrez-les-eolides-dans-wow-forever",
+        "title": "Découvrez les Éolides dans WoW: Forever",
+        "language": "fr",
+        "publishedAt": "2026-09-22",
+        "accessedAt": "2026-10-24",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27"
+      }
+    ],
+    "status": "draft",
+    "updatedAt": "2026-10-30T21:19:02.807Z",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-27",
+    "relations": [
+      "forever-race-human",
+      "forever-race-dwarf",
+      "forever-race-gnome",
+      "forever-race-night-elf",
+      "forever-race-orc",
+      "forever-race-tauren",
+      "forever-race-troll",
+      "forever-race-undead",
+      "forever-race-skyborne",
+      "article-forever-skyborne",
+      "article-forever-classes"
+    ],
+    "history": [
+      {
+        "at": "2026-10-30T21:19:02.807Z",
+        "actor": "compile-articles",
+        "note": "Brouillon d’article long (AR16) compilé depuis content/articles — aucune attestation humaine.",
+        "version": 1
+      }
+    ],
+    "article": {
+      "format": 1,
+      "slug": {
+        "fr": "races-et-classes",
+        "en": "races-and-classes"
+      },
+      "illustration": "races",
+      "lead": {
+        "fr": "World of Warcraft: Forever propose neuf classes et neuf races jouables : les huit races du jeu d’origine et les Éolides. Blizzard publie pour chaque faction un tableau des combinaisons autorisées. Six d’entre elles n’existaient pas dans le World of Warcraft d’origine.",
+        "en": "World of Warcraft: Forever offers nine classes and nine playable races: the eight original races plus the Skyborne. Blizzard publishes a table of allowed combinations for each faction. Six of them did not exist in original World of Warcraft.",
+        "src": [
+          "bz-hero",
+          "bz-return"
+        ]
+      },
+      "keyPoints": [
+        {
+          "fr": "Nouvelles combinaisons côté Alliance : chasseur humain, chaman nain, prêtre gnome.",
+          "en": "New Alliance combinations: Human Hunter, Dwarf Shaman, Gnome Priest.",
+          "src": [
+            "bz-return"
+          ]
+        },
+        {
+          "fr": "Nouvelles combinaisons côté Horde : mage orc, démoniste troll, paladin mort-vivant.",
+          "en": "New Horde combinations: Orc Mage, Troll Warlock, Undead Paladin.",
+          "src": [
+            "bz-return"
+          ]
+        },
+        {
+          "fr": "Les Éolides rejoignent l’une ou l’autre faction : chaman côté Horde (Sculpte-vents), mage côté Alliance (Ordre suprême).",
+          "en": "The Skyborne join either faction: Shaman on the Horde side (Windshapers), Mage on the Alliance side (High Order).",
+          "src": [
+            "bz-hero"
+          ]
+        },
+        {
+          "fr": "Jouer un Éolide demande le pack héroïque des Éolides ou une offre supérieure.",
+          "en": "Playing a Skyborne requires the Skyborne Heroic Pack or a higher upgrade.",
+          "src": [
+            "bz-return"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "horde",
+          "title": {
+            "fr": "Horde : races et classes",
+            "en": "Horde: races and classes"
+          },
+          "blocks": [
+            {
+              "type": "table",
+              "caption": {
+                "fr": "Classes disponibles par race (Horde)",
+                "en": "Available classes by race (Horde)"
+              },
+              "head": [
+                {
+                  "fr": "Race",
+                  "en": "Race"
+                },
+                {
+                  "fr": "Classes",
+                  "en": "Classes"
+                },
+                {
+                  "fr": "Nouveauté Forever",
+                  "en": "New in Forever"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Orc / Orque",
+                    "en": "Orc"
+                  },
+                  {
+                    "fr": "Chasseur, mage, voleur, chaman, démoniste, guerrier",
+                    "en": "Hunter, Mage, Rogue, Shaman, Warlock, Warrior"
+                  },
+                  {
+                    "fr": "Mage",
+                    "en": "Mage"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Tauren / Taurène",
+                    "en": "Tauren"
+                  },
+                  {
+                    "fr": "Druide, chasseur, chaman, guerrier",
+                    "en": "Druid, Hunter, Shaman, Warrior"
+                  },
+                  {
+                    "fr": "—",
+                    "en": "—"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Troll / Trollesse",
+                    "en": "Troll"
+                  },
+                  {
+                    "fr": "Chasseur, mage, prêtre, voleur, chaman, démoniste, guerrier",
+                    "en": "Hunter, Mage, Priest, Rogue, Shaman, Warlock, Warrior"
+                  },
+                  {
+                    "fr": "Démoniste",
+                    "en": "Warlock"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Mort-vivant / Morte-vivante",
+                    "en": "Undead"
+                  },
+                  {
+                    "fr": "Mage, paladin, prêtre, voleur, démoniste, guerrier",
+                    "en": "Mage, Paladin, Priest, Rogue, Warlock, Warrior"
+                  },
+                  {
+                    "fr": "Paladin",
+                    "en": "Paladin"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Éolide (Sculpte-vents)",
+                    "en": "Skyborne (Windshaper)"
+                  },
+                  {
+                    "fr": "Druide, chasseur, voleur, chaman, guerrier",
+                    "en": "Druid, Hunter, Rogue, Shaman, Warrior"
+                  },
+                  {
+                    "fr": "Nouvelle race",
+                    "en": "New race"
+                  }
+                ]
+              ],
+              "src": [
+                "bz-hero"
+              ]
+            },
+            {
+              "type": "p",
+              "fr": "Blizzard décrit la Horde comme une alliance de circonstance entre des peuples fiers, attachés à la force et à l’honneur, qui veulent bâtir un monde où vivre libres.",
+              "en": "Blizzard describes the Horde as an alliance of convenience between proud peoples who value strength and honour and want to build a world where they can live free.",
+              "src": [
+                "bz-hero"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alliance",
+          "title": {
+            "fr": "Alliance : races et classes",
+            "en": "Alliance: races and classes"
+          },
+          "blocks": [
+            {
+              "type": "table",
+              "caption": {
+                "fr": "Classes disponibles par race (Alliance)",
+                "en": "Available classes by race (Alliance)"
+              },
+              "head": [
+                {
+                  "fr": "Race",
+                  "en": "Race"
+                },
+                {
+                  "fr": "Classes",
+                  "en": "Classes"
+                },
+                {
+                  "fr": "Nouveauté Forever",
+                  "en": "New in Forever"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "fr": "Humain / Humaine",
+                    "en": "Human"
+                  },
+                  {
+                    "fr": "Chasseur, mage, paladin, prêtre, voleur, démoniste, guerrier",
+                    "en": "Hunter, Mage, Paladin, Priest, Rogue, Warlock, Warrior"
+                  },
+                  {
+                    "fr": "Chasseur",
+                    "en": "Hunter"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Nain / Naine",
+                    "en": "Dwarf"
+                  },
+                  {
+                    "fr": "Chasseur, paladin, prêtre, voleur, chaman, guerrier",
+                    "en": "Hunter, Paladin, Priest, Rogue, Shaman, Warrior"
+                  },
+                  {
+                    "fr": "Chaman",
+                    "en": "Shaman"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Gnome",
+                    "en": "Gnome"
+                  },
+                  {
+                    "fr": "Mage, prêtre, voleur, démoniste, guerrier",
+                    "en": "Mage, Priest, Rogue, Warlock, Warrior"
+                  },
+                  {
+                    "fr": "Prêtre",
+                    "en": "Priest"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Elfe de la nuit",
+                    "en": "Night Elf"
+                  },
+                  {
+                    "fr": "Druide, chasseur, prêtre, voleur, guerrier",
+                    "en": "Druid, Hunter, Priest, Rogue, Warrior"
+                  },
+                  {
+                    "fr": "—",
+                    "en": "—"
+                  }
+                ],
+                [
+                  {
+                    "fr": "Éolide (Ordre suprême)",
+                    "en": "Skyborne (High Order)"
+                  },
+                  {
+                    "fr": "Druide, chasseur, mage, voleur, guerrier",
+                    "en": "Druid, Hunter, Mage, Rogue, Warrior"
+                  },
+                  {
+                    "fr": "Nouvelle race",
+                    "en": "New race"
+                  }
+                ]
+              ],
+              "src": [
+                "bz-hero"
+              ]
+            },
+            {
+              "type": "p",
+              "fr": "Pour Blizzard, les peuples de l’Alliance partagent des traditions de noblesse, d’honneur, de foi, de justice et de sacrifice, et mettent leur savoir technique, arcanique et spirituel au service d’un monde juste.",
+              "en": "Blizzard presents the Alliance peoples as sharing traditions of nobility, honour, faith, justice and sacrifice, putting their technical, arcane and spiritual knowledge toward a just world.",
+              "src": [
+                "bz-hero"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "choisir",
+          "title": {
+            "fr": "Choisir sa combinaison",
+            "en": "Choosing a combination"
+          },
+          "blocks": [
+            {
+              "type": "p",
+              "fr": "Blizzard conseille de penser à la fois à la classe voulue et aux races qui peuvent la jouer. Chaque race a ses propres traits raciaux, qui s’ajoutent à la classe choisie.",
+              "en": "Blizzard suggests thinking about both the class you want and the races that can play it. Each race has its own racial traits on top of the chosen class.",
+              "src": [
+                "bz-hero"
+              ]
+            },
+            {
+              "type": "p",
+              "fr": "À la création de chaque personnage, on choisit aussi des modèles en haute ou en définition standard. Ce choix ne touche que l’apparence et se modifie plus tard dans les options ou chez un coiffeur.",
+              "en": "When creating each character you also choose high- or standard-definition models. This only affects appearance and can be changed later in the options or at a Barbershop.",
+              "src": [
+                "bz-golive"
+              ]
+            }
+          ]
+        }
+      ],
+      "confirmed": [
+        {
+          "fr": "Neuf classes et neuf races jouables, avec les tableaux de combinaisons publiés par Blizzard.",
+          "en": "Nine classes and nine playable races, with the combination tables published by Blizzard.",
+          "src": [
+            "bz-hero"
+          ]
+        },
+        {
+          "fr": "Six combinaisons inédites : chasseur humain, chaman nain, prêtre gnome, mage orc, démoniste troll, paladin mort-vivant.",
+          "en": "Six new combinations: Human Hunter, Dwarf Shaman, Gnome Priest, Orc Mage, Troll Warlock, Undead Paladin.",
+          "src": [
+            "bz-return"
+          ]
+        },
+        {
+          "fr": "Accès aux Éolides avec le pack héroïque ou une offre supérieure.",
+          "en": "Skyborne access with the Heroic Pack or a higher upgrade.",
+          "src": [
+            "bz-return"
+          ]
+        }
+      ],
+      "pending": [
+        {
+          "fr": "Blizzard ne publie pas de fiche complète et à jour des traits raciaux de chaque race. Seules des modifications ponctuelles figurent dans les notes de développement de la bêta.",
+          "en": "Blizzard has not published a complete, up-to-date sheet of every race’s racial traits. Only individual changes appear in the beta development notes."
+        },
+        {
+          "fr": "Les noms français officiels des traits raciaux ne sont pas publiés dans ces sources.",
+          "en": "Official French names for racial traits are not published in these sources."
+        }
+      ],
+      "notes": [
+        {
+          "fr": "La version française officielle nomme les deux branches « Sculpte-vents » (Horde) et « Ordre suprême » (Alliance), et leur foyer « Mur-Céleste ». Les fiches Éolides déjà publiées sur ce wiki emploient d’autres libellés (« Façonneur de vents », « Haut Ordre », « Planélion ») : correction proposée à la relecture.",
+          "en": "The official French text names the two branches “Sculpte-vents” (Horde) and “Ordre suprême” (Alliance), and their home “Mur-Céleste”. The Skyborne pages already published on this wiki use other French labels: a correction is proposed for review.",
+          "src": [
+            "bz-hero",
+            "bz-skyborne"
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-09-22",
+          "fr": "Publication de l’article sur les races et les classes.",
+          "en": "Races and classes article published.",
+          "src": [
+            "bz-hero"
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "fr": "Récapitulatif des nouvelles combinaisons dans le guide du retour.",
+          "en": "New combinations recapped in the returning players guide.",
+          "src": [
+            "bz-return"
+          ]
+        }
+      ]
+    }
+  }
+]

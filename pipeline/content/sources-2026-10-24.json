@@ -1,0 +1,624 @@
+{
+ "bz-roundup-en": {
+  "url": "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-news-round-up",
+  "title": "World of Warcraft at BlizzCon 2026 News Round-Up",
+  "language": "en",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-13T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301145"
+ },
+ "bz-roundup-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24301145/world-of-warcraft-a-la-blizzcon-2026-resume-des-actualites",
+  "title": "World of Warcraft à la BlizzCon 2026 : résumé des actualités",
+  "language": "fr",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-13T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301145"
+ },
+ "bz-cls-pw-en": {
+  "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+  "title": "World of Warcraft: Forever Class Deep Dives",
+  "language": "en",
+  "publishedAt": "2026-09-30",
+  "publishedAtUTC": "2026-09-30T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301514"
+ },
+ "bz-cls-pw-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere",
+  "title": "Présentation des classes de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-30",
+  "publishedAtUTC": "2026-09-30T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301514"
+ },
+ "bz-cls-hd-en": {
+  "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+  "title": "World of Warcraft: Forever Class Deep Dives",
+  "language": "en",
+  "publishedAt": "2026-09-30",
+  "publishedAtUTC": "2026-09-30T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301515"
+ },
+ "bz-cls-hd-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse",
+  "title": "World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-30",
+  "publishedAtUTC": "2026-09-30T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301515"
+ },
+ "bz-skyborne-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+  "title": "WoW: Forever Meet the New Skyborne",
+  "language": "en",
+  "publishedAt": "2026-09-22",
+  "publishedAtUTC": "2026-09-22T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302071"
+ },
+ "bz-skyborne-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302071/decouvrez-les-eolides-dans-wow-forever",
+  "title": "Découvrez les Éolides dans WoW: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-22",
+  "publishedAtUTC": "2026-09-22T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302071"
+ },
+ "bz-cls-ms-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+  "title": "World of Warcraft: Forever Class Deep Dives",
+  "language": "en",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-07T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302097"
+ },
+ "bz-cls-ms-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans",
+  "title": "Aperçu détaillé des classes de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-07T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302097"
+ },
+ "bz-cls-pal-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302099/world-of-warcraft-forever-class-deep-dives-paladin",
+  "title": "World of Warcraft: Forever Class Deep Dives",
+  "language": "en",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302099"
+ },
+ "bz-cls-pal-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302099/apercu-detaille-des-classes-de-world-of-warcraft-forever-paladins",
+  "title": "Aperçu détaillé des classes de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302099"
+ },
+ "bz-deepdive-en": {
+  "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+  "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+  "language": "en",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-13T17:52:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303313"
+ },
+ "bz-deepdive-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+  "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+  "language": "fr",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-13T17:52:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303313"
+ },
+ "bz-whatsnext-en": {
+  "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+  "title": "World of Warcraft: Forever What’s Next Panel Recap",
+  "language": "en",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-12T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303862"
+ },
+ "bz-whatsnext-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+  "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-13",
+  "publishedAtUTC": "2026-09-12T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303862"
+ },
+ "bz-photos-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+  "title": "World of Warcraft: Forever Found Photos Panel Recap",
+  "language": "en",
+  "publishedAt": "2026-09-14",
+  "publishedAtUTC": "2026-09-13T22:10:01Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304071"
+ },
+ "bz-photos-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+  "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+  "language": "fr",
+  "publishedAt": "2026-09-14",
+  "publishedAtUTC": "2026-09-13T22:10:01Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304071"
+ },
+ "bz-beta-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+  "title": "The World of Warcraft: Forever Beta Now Live",
+  "language": "en",
+  "publishedAt": "2026-09-17",
+  "publishedAtUTC": "2026-09-17T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304160"
+ },
+ "bz-beta-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304160/la-beta-de-world-of-warcraft-forever-est-desormais-disponible",
+  "title": "La bêta de World of Warcraft: Forever est désormais disponible",
+  "language": "fr",
+  "publishedAt": "2026-09-17",
+  "publishedAtUTC": "2026-09-17T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304160"
+ },
+ "bz-legacy-en": {
+  "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+  "title": "Get to Know the World of Warcraft: Forever Legacy System",
+  "language": "en",
+  "publishedAt": "2026-09-23",
+  "publishedAtUTC": "2026-09-23T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24307383"
+ },
+ "bz-legacy-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+  "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-23",
+  "publishedAtUTC": "2026-09-23T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24307383"
+ },
+ "bz-cls-rw-en": {
+  "url": "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+  "title": "World of Warcraft: Forever Class Deep Dives",
+  "language": "en",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-07T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24310968"
+ },
+ "bz-cls-rw-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes",
+  "title": "Aperçu détaillé des classes de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-07T22:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24310968"
+ },
+ "bz-rulesets-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302070/updated-10-22-choose-your-ruleset-in-world-of-warcraft-forever",
+  "title": "[Updated 10/22] Choose Your Ruleset in World of Warcraft: Forever",
+  "language": "en",
+  "publishedAt": "2026-10-22",
+  "publishedAtUTC": "2026-10-22T15:44:03Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24302070"
+ },
+ "bz-rulesets-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302070/choisissez-votre-ensemble-de-regles-dans-world-of-warcraft-forever",
+  "title": "Choisissez votre ensemble de règles dans World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-21",
+  "publishedAtUTC": "2026-09-21T17:00:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24302070"
+ },
+ "bz-pvp-en": {
+  "url": "https://news.blizzard.com/en-us/article/24303316/how-pvp-progression-in-world-of-warcraft-forever-works",
+  "title": "How PvP Progression in World of Warcraft: Forever Works",
+  "language": "en",
+  "publishedAt": "2026-10-07",
+  "publishedAtUTC": "2026-10-07T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303316"
+ },
+ "bz-pvp-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24303316/fonctionnement-de-la-progression-jcj-dans-world-of-warcraft-forever",
+  "title": "Fonctionnement de la progression JcJ dans World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-07",
+  "publishedAtUTC": "2026-10-07T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303316"
+ },
+ "bz-dungeons-en": {
+  "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+  "title": "Explore the New Dungeons of World of Warcraft: Forever",
+  "language": "en",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301455"
+ },
+ "bz-dungeons-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+  "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301455"
+ },
+ "bz-raids-en": {
+  "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+  "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+  "language": "en",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303009"
+ },
+ "bz-raids-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+  "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+  "language": "fr",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24303009"
+ },
+ "bz-names-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304161/create-a-name-of-your-own-in-wow-forever",
+  "title": "Create a Name of Your Own in WoW: Forever",
+  "language": "en",
+  "publishedAt": "2026-09-21",
+  "publishedAtUTC": "2026-09-21T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304161"
+ },
+ "bz-names-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304161/faites-vous-un-nom-dans-wow-forever",
+  "title": "Faites-vous un nom dans WoW: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-21",
+  "publishedAtUTC": "2026-09-21T19:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304161"
+ },
+ "bz-claim-en": {
+  "url": "https://news.blizzard.com/en-us/article/24303866/claim-your-world-of-warcraft-forever-character-names",
+  "title": "Claim Your World of Warcraft: Forever Character Names",
+  "language": "en",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T21:00:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24303866"
+ },
+ "bz-claim-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24303866/reservez-vos-noms-de-personnages-pour-world-of-warcraft-forever",
+  "title": "Réservez vos noms de personnages pour World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-20",
+  "publishedAtUTC": "2026-10-20T21:00:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24303866"
+ },
+ "bz-campfire-en": {
+  "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+  "title": "Gather Around the Campfire in World of Warcraft: Forever",
+  "language": "en",
+  "publishedAt": "2026-10-21",
+  "publishedAtUTC": "2026-10-21T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301516"
+ },
+ "bz-campfire-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+  "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-21",
+  "publishedAtUTC": "2026-10-21T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24301516"
+ },
+ "bz-podcast5-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302577/dive-into-the-end-of-beta-special",
+  "title": "Dive into the End of Beta Special!",
+  "language": "en",
+  "publishedAt": "2026-10-22",
+  "publishedAtUTC": "2026-10-22T16:15:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302577"
+ },
+ "bz-podcast5-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302577/un-nouvel-episode-sur-la-fin-de-la-beta-est-arrive",
+  "title": "Un nouvel épisode sur la fin de la bêta est arrivé !",
+  "language": "fr",
+  "publishedAt": "2026-10-22",
+  "publishedAtUTC": "2026-10-22T16:15:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302577"
+ },
+ "bz-weekly1016-en": {
+  "url": "https://news.blizzard.com/en-us/article/24313102/wow-weekly-highlights-midnight-12-1-5-worldcore-wow-forever-and-more",
+  "title": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
+  "language": "en",
+  "publishedAt": "2026-10-16",
+  "publishedAtUTC": "2026-10-16T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24313102"
+ },
+ "bz-weekly1016-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24313102/resume-hebdomadaire-de-world-of-warcraft-midnight-12-1-5-noyau-monde-wow-forever-et-bien-plus",
+  "title": "Résumé hebdomadaire de World of Warcraft : Midnight 12.1.5, Noyau-monde, WoW: Forever et bien plus",
+  "language": "fr",
+  "publishedAt": "2026-10-16",
+  "publishedAtUTC": "2026-10-16T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24313102"
+ },
+ "bz-weekly1023-en": {
+  "url": "https://news.blizzard.com/en-us/article/24313106/dive-into-wow-forever-the-gods-of-zulaman-hallows-end-and-more-in-wow-weekly",
+  "title": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
+  "language": "en",
+  "publishedAt": "2026-10-23",
+  "publishedAtUTC": "2026-10-23T17:01:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24313106"
+ },
+ "bz-weekly1023-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24313106/retrouvez-wow-forever-les-dieux-de-zulaman-la-sanssaint-et-plus-encore-dans-le-resume-hebdomadaire-de-world-of-warcraft",
+  "title": "Retrouvez WoW: Forever, les dieux de Zul’Aman, la Sanssaint et plus encore dans le résumé hebdomadaire de World of Warcraft.",
+  "language": "fr",
+  "publishedAt": "2026-10-23",
+  "publishedAtUTC": "2026-10-23T17:01:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24313106"
+ },
+ "bz-stress-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test",
+  "title": "[Updated Oct 16] Join the World of Warcraft: Forever Stress Test",
+  "language": "en",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302072"
+ },
+ "bz-stress-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24302072/mis-a-jour-le-19-octobre-participez-au-test-de-charge-de-world-of-warcraft-forever",
+  "title": "[Mis à jour le 19 octobre] Participez au test de charge de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T21:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24302072"
+ },
+ "bz-podcast4-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304079/explore-pvp-in-episode-4-of-the-wow-forever-podcast",
+  "title": "Explore PvP in Episode 4 of the WoW: Forever Podcast",
+  "language": "en",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T16:15:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304079"
+ },
+ "bz-podcast4-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304079/decouvrez-un-apercu-du-jcj-dans-le-4e-episode-du-podcast-de-wow-forever",
+  "title": "Découvrez un aperçu du JcJ dans le 4e épisode du podcast de WoW: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T16:15:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "24304079"
+ },
+ "forum-kaivax1022-en": {
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633",
+  "title": "The WoW Forever Beta Celebration is Underway (Kaivax, forum officiel)",
+  "language": "en",
+  "publishedAt": "2026-10-22",
+  "publishedAtUTC": "2026-10-22T17:00:00Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "2389633"
+ },
+ "forum-kaivax1023-en": {
+  "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466",
+  "title": "Thank You For Testing the WoW Forever Beta (Kaivax, forum officiel)",
+  "language": "en",
+  "publishedAt": "2026-10-23",
+  "publishedAtUTC": "2026-10-23T17:01:12Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "2390466"
+ },
+ "forum-kroldok-en": {
+  "url": "https://us.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/2349672",
+  "title": "Krol’dok Stronghold (Kaivax, forum officiel)",
+  "language": "en",
+  "publishedAt": "2026-09-15",
+  "publishedAtUTC": "2026-09-15T00:59:27Z",
+  "accessedAt": "2026-10-24",
+  "articleId": "2349672"
+ },
+ "bz-poster-en": {
+  "url": "https://news.blizzard.com/en-us/article/24302547/get-your-ticket-to-the-wow-forever-poster-signing-at-the-irvine-improv",
+  "title": "Get Your Ticket to the WoW: Forever Poster Signing at the Irvine Improv",
+  "language": "en",
+  "publishedAt": "2026-10-26",
+  "publishedAtUTC": "2026-10-26T19:00:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24302547",
+  "note": "No FR page found on 2026-10-27 (HTTP 404)."
+ },
+ "bz-sub-year-en": {
+  "url": "https://news.blizzard.com/en-us/article/24310658/unlock-a-year-of-world-of-warcraft-and-get-bonus-treasures",
+  "title": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
+  "language": "en",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T20:12:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24310658"
+ },
+ "bz-sub-year-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24310658/debloquez-un-an-de-world-of-warcraft-et-recevez-des-tresors-bonus",
+  "title": "Débloquez un an de World of Warcraft® et recevez des trésors bonus",
+  "language": "fr",
+  "publishedAt": "2026-10-15",
+  "publishedAtUTC": "2026-10-15T20:12:00Z",
+  "accessedAt": "2026-10-27",
+  "articleId": "24310658"
+ },
+ "bz-hero-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+  "title": "Create the Hero You Want to Be in World of Warcraft: Forever",
+  "language": "en",
+  "publishedAt": "2026-09-22",
+  "publishedAtUTC": "2026-09-22T17:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24304075"
+ },
+ "bz-hero-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304075/creez-le-heros-ou-lheroine-que-vous-voulez-devenir-dans-world-of-warcraft-forever",
+  "title": "Créez le héros ou l’héroïne que vous voulez devenir dans World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-22",
+  "publishedAtUTC": "2026-09-22T17:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24304075"
+ },
+ "bz-golive-en": {
+  "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+  "title": "World of Warcraft: Forever Goes Live Globally November 4!",
+  "language": "en",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T21:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315820"
+ },
+ "bz-golive-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24315820/world-of-warcraft-forever-sort-partout-dans-le-monde-le-5-novembre",
+  "title": "World of Warcraft: Forever sort partout dans le monde le 5 novembre !",
+  "language": "fr",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T21:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315820"
+ },
+ "bz-return-en": {
+  "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+  "title": "Return to Azeroth in World of Warcraft: Forever",
+  "language": "en",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T19:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315643"
+ },
+ "bz-return-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24315643/retournez-sur-azeroth-dans-world-of-warcraft-forever",
+  "title": "Retournez sur Azeroth dans World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T19:00:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315643"
+ },
+ "bz-pod1-en": {
+  "url": "https://news.blizzard.com/en-us/article/24304076/watch-the-world-of-warcraft-forever-podcast-ep-1",
+  "title": "Watch the World of Warcraft: Forever Podcast, Ep. 1",
+  "language": "en",
+  "publishedAt": "2026-09-24",
+  "publishedAtUTC": "2026-09-24T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24304076"
+ },
+ "bz-pod1-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24304076/regardez-le-1er-episode-du-podcast-de-world-of-warcraft-forever",
+  "title": "Regardez le 1er épisode du podcast de World of Warcraft: Forever",
+  "language": "fr",
+  "publishedAt": "2026-09-24",
+  "publishedAtUTC": "2026-09-24T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24304076"
+ },
+ "bz-pod2-en": {
+  "url": "https://news.blizzard.com/en-us/article/24298592/watch-now-wow-forever-podcast-ep-2-speedrunning-classes",
+  "title": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes",
+  "language": "en",
+  "publishedAt": "2026-10-01",
+  "publishedAtUTC": "2026-10-01T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24298592"
+ },
+ "bz-pod2-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24298592/regardez-des-maintenant-deuxieme-episode-du-podcast-wow-forever-le-speedrun-des-classes",
+  "title": "Regardez dès maintenant ! Deuxième épisode du podcast WoW: Forever, le speedrun des classes",
+  "language": "fr",
+  "publishedAt": "2026-10-01",
+  "publishedAtUTC": "2026-10-01T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24298592"
+ },
+ "bz-pod3-en": {
+  "url": "https://news.blizzard.com/en-us/article/24310653/check-out-episode-3-of-the-wow-forever-podcast",
+  "title": "Check Out Episode 3 of the WoW: Forever Podcast",
+  "language": "en",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-08T16:25:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24310653"
+ },
+ "bz-pod3-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24310653/ecoutez-le-3e-episode-du-podcast-wow-forever",
+  "title": "Écoutez le 3e épisode du podcast WoW: Forever",
+  "language": "fr",
+  "publishedAt": "2026-10-08",
+  "publishedAtUTC": "2026-10-08T16:25:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24310653"
+ },
+ "bz-pod6-en": {
+  "url": "https://news.blizzard.com/en-us/article/24315819/watch-the-wow-forever-podcast-all-about-tech",
+  "title": "Watch the WoW: Forever Podcast: All About Tech",
+  "language": "en",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315819"
+ },
+ "bz-pod6-fr": {
+  "url": "https://news.blizzard.com/fr-fr/article/24315819/decouvrez-le-podcast-wow-forever-tout-sur-la-technologie",
+  "title": "Découvrez le podcast WoW: Forever : tout sur la technologie",
+  "language": "fr",
+  "publishedAt": "2026-10-29",
+  "publishedAtUTC": "2026-10-29T16:15:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "24315819"
+ },
+ "forum-devnotes1026-en": {
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696",
+  "title": "WoW Forever Beta Development Notes – Updated October 26 (Kaivax, forum officiel)",
+  "language": "en",
+  "publishedAt": "2026-10-26",
+  "publishedAtUTC": "2026-10-26T20:35:00Z",
+  "accessedAt": "2026-10-30",
+  "articleId": "2360696"
+ }
+}

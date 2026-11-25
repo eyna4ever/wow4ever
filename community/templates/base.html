@@ -1,17 +1,16 @@
 <!doctype html>
-<html lang="fr">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark"><meta name="theme-color" content="#080d19">
-<title>{% block title %}Communauté{% endblock %} · WoW Forever</title>
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/community/static/style.css"><link rel="stylesheet" href="/community/static/community.css">
+<html lang="fr" data-theme="wow">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#060a14">
+<title>{% block title %}Communauté{% endblock %} · Wowkipedia</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/v2.css"><link rel="stylesheet" href="/community/static/style.css"><link rel="stylesheet" href="/community/static/community.css"><link rel="stylesheet" href="/community/static/forum-v2.css"><link rel="stylesheet" href="/theme-wow.css"><script src="/theme.js"></script>
+<link rel="modulepreload" href="/wk-header.js"><link rel="modulepreload" href="/ui-core.mjs"><script type="module" src="/wk-header.js"></script>
 </head>
-<body class="community"><a class="skip" href="#main">Aller au contenu</a>
-<header class="community-header"><div class="wrap bar">
-<a class="brand" href="/fr/"><span class="brand-mark" aria-hidden="true">W</span> WoW <span>Forever</span></a>
-<nav aria-label="Navigation principale" class="portal-nav"><a href="/fr/">Wiki</a><a href="/community/" aria-current="{{ 'page' if request.endpoint == 'forum' else 'false' }}">Forums</a><a href="/fr/actualites/">Actualités</a></nav>
-{% if user %}<a class="account-link" href="/notifications/">Notifications{% if unread %} <span class="badge b-A">{{ unread }} non lues</span>{% endif %}</a><a class="button secondary" href="/account/">{{ user.name }}</a>
-{% else %}<a class="button" href="/account/">Connexion Discord</a>{% endif %}
-</div></header>
-<main id="main" class="wrap community-main">{% block content %}{% endblock %}</main>
-<footer class="portal-footer"><div class="wrap"><a class="brand" href="/fr/">WoW Forever</a><p>Un monde à explorer. Une communauté pour le partager.</p><nav aria-label="Liens utiles"><a href="/privacy/">Confidentialité et données</a><a href="/fr/">Retour au wiki</a><a href="/en/">Wiki (English)</a>{% if staff %}<a href="/moderation/">Modération</a>{% endif %}</nav><p class="muted">Wiki communautaire consacré exclusivement à World of Warcraft: Forever. Site indépendant et non officiel de Blizzard Entertainment.</p></div></footer>
+<body class="v2 community"><a class="skip-link" href="#main">Aller au contenu</a>
+{% if user %}{% filter replace(login_label, account_label) %}{% include '_v2_header.html' %}{% endfilter %}{% else %}{% include '_v2_header.html' %}{% endif %}
+<main id="main" class="v2-wrap community-main">
+<nav class="community-bar" aria-label="Espace communauté"><a href="/community/" {% if request.endpoint == 'forum' %}aria-current="page"{% endif %}>Forums</a>{% if user %}<a href="/notifications/" {% if request.endpoint == 'notifications' %}aria-current="page"{% endif %}>Notifications{% if unread %} <span class="badge b-A">{{ unread }} non lues</span>{% endif %}</a>{% if staff %}<a href="/moderation/">Modération</a>{% endif %}<a class="community-account" href="/account/">{{ user.name }}</a>{% endif %}</nav>
+{% block content %}{% endblock %}
+</main>
+{% include '_v2_footer.html' %}
 </body></html>

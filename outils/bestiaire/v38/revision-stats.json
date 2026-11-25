@@ -1,0 +1,764 @@
+{
+  "pages_revised": [
+    "forever-professions-recipes-alchemy",
+    "forever-professions-recipes-blacksmithing",
+    "forever-professions-recipes-enchanting",
+    "forever-professions-recipes-engineering",
+    "forever-professions-recipes-leatherworking",
+    "forever-professions-recipes-tailoring",
+    "forever-professions-recipes-cooking",
+    "forever-professions-recipes-first-aid",
+    "forever-professions-recipes-mining",
+    "forever-professions-recipes-herbalism",
+    "forever-professions-recipes-skinning",
+    "forever-professions-recipes-fishing",
+    "forever-items-toys",
+    "forever-items-pets",
+    "forever-items-mounts",
+    "forever-bestiary",
+    "forever-bestiary-bosses",
+    "forever-bestiary-zephras",
+    "forever-bestiary-shendralas",
+    "forever-bestiary-forever-dungeons",
+    "forever-bestiary-classic-dungeons",
+    "forever-bestiary-raids",
+    "forever-bestiary-kalimdor",
+    "forever-bestiary-eastern-kingdoms",
+    "forever-bestiary-unlocated",
+    "forever-professions-fish",
+    "forever-professions-blueprints",
+    "forever-legacy-rewards"
+  ],
+  "pages_lose_entry_mark": [
+    "forever-professions-recipes-alchemy",
+    "forever-professions-recipes-blacksmithing",
+    "forever-professions-recipes-enchanting",
+    "forever-professions-recipes-engineering",
+    "forever-professions-recipes-leatherworking",
+    "forever-professions-recipes-tailoring",
+    "forever-professions-recipes-cooking",
+    "forever-professions-recipes-first-aid",
+    "forever-professions-recipes-mining",
+    "forever-professions-recipes-herbalism",
+    "forever-professions-recipes-skinning",
+    "forever-items-toys",
+    "forever-items-pets",
+    "forever-items-mounts",
+    "forever-bestiary",
+    "forever-bestiary-bosses",
+    "forever-bestiary-zephras",
+    "forever-bestiary-shendralas",
+    "forever-bestiary-forever-dungeons",
+    "forever-bestiary-classic-dungeons",
+    "forever-bestiary-raids",
+    "forever-bestiary-kalimdor",
+    "forever-bestiary-eastern-kingdoms",
+    "forever-bestiary-unlocated",
+    "forever-professions-fish",
+    "forever-professions-blueprints",
+    "forever-legacy-rewards (field wording only; entry stays officiel confirmé)"
+  ],
+  "pages_keep_entry_mark": [
+    "forever-professions-recipes-fishing"
+  ],
+  "statut_cells_to_game_data": 4134,
+  "statut_cells_game_data_obtention_unconfirmed": 1710,
+  "statut_cells_kept_unconfirmed": 3,
+  "statut_cells_official_kept": 18,
+  "sources_stamped": 94,
+  "sources_kept_unconfirmed": 2,
+  "why_keep": {
+    "source_unstamped_fishing_guide": [
+      "client-guide-angeln-fr",
+      "client-guide-angeln-en"
+    ],
+    "unstamped_fishing_guide": [
+      "forever-professions-recipes-fishing"
+    ],
+    "toys_official_only_no_client_list": []
+  },
+  "issues": [],
+  "remaining_preview": {
+    "forever-professions-recipes-alchemy": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 179 recettes de Alchimie relevées dans les fichiers du jeu (client 1.60"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 179 Alchemy recipes recorded in the game files (client 1.60.1.70862, consulted on "
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "179 recettes de Alchimie listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "179 Alchemy recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[3][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[3][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-blacksmithing": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 420 recettes de Forge relevées dans les fichiers du jeu (client 1.60.1."
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 420 Blacksmithing recipes recorded in the game files (client 1.60.1.70862, consult"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "420 recettes de Forge listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "420 Blacksmithing recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[9][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[9][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-enchanting": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 223 recettes de Enchantement relevées dans les fichiers du jeu (client "
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 223 Enchanting recipes recorded in the game files (client 1.60.1.70862, consulted "
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "223 recettes de Enchantement listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "223 Enchanting recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[5][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[5][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-engineering": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 241 recettes de Ingénierie relevées dans les fichiers du jeu (client 1."
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 241 Engineering recipes recorded in the game files (client 1.60.1.70862, consulted"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "241 recettes de Ingénierie listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "241 Engineering recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[4][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[4][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-leatherworking": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 508 recettes de Travail du cuir relevées dans les fichiers du jeu (clie"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 508 Leatherworking recipes recorded in the game files (client 1.60.1.70862, consul"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "508 recettes de Travail du cuir listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "508 Leatherworking recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[8][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[8][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-tailoring": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 401 recettes de Couture relevées dans les fichiers du jeu (client 1.60."
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 401 Tailoring recipes recorded in the game files (client 1.60.1.70862, consulted o"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "401 recettes de Couture listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "401 Tailoring recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[7][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[7][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-cooking": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 123 recettes de Cuisine relevées dans les fichiers du jeu (client 1.60."
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 123 Cooking recipes recorded in the game files (client 1.60.1.70862, consulted on "
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "123 recettes de Cuisine listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "123 Cooking recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[2][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[2][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-first-aid": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 31 recettes de Secourisme relevées dans les fichiers du jeu (client 1.6"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 31 First Aid recipes recorded in the game files (client 1.60.1.70862, consulted on"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "31 recettes de Secourisme listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "31 First Aid recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[2].blocks[0].rows[3][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[2].blocks[0].rows[3][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-mining": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 18 recettes de Minage relevées dans les fichiers du jeu (client 1.60.1."
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 18 Mining recipes recorded in the game files (client 1.60.1.70862, consulted on 12"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "18 recettes de Minage listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "18 Mining recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[1].blocks[0].rows[0][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[1].blocks[0].rows[0][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-herbalism": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 3 recettes de Herboristerie relevées dans les fichiers du jeu (client 1"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 3 Herbalism recipes recorded in the game files (client 1.60.1.70862, consulted on "
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "3 recettes de Herboristerie listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "3 Herbalism recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[2].blocks[0].rows[0][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[2].blocks[0].rows[0][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-skinning": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 3 recettes de Dépeçage relevées dans les fichiers du jeu (client 1.60.1"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 3 Skinning recipes recorded in the game files (client 1.60.1.70862, consulted on 1"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "3 recettes de Dépeçage listées ci-dessous, d’après les fichiers du jeu (client 1.60.1.70862, 12 novembre 2026) ; l’obtention « inconnu » reste à confirmer."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "3 Skinning recipes listed below, from the game files (client 1.60.1.70862, 12 November 2026); acquisition marked “unknown” remains to be confirmed."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les noms et les compéten"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The names and skills below "
+      ],
+      [
+        "article.sections[2].blocks[0].rows[0][5].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[2].blocks[0].rows[0][5].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-professions-recipes-fishing": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé plus de 600 nouvelles recettes, sans publier la liste complète. Cette fiche rassemble les 3 recettes de Pêche relevées dans des données extraites du client (cons"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced over 600 new recipes without publishing a complete list. This page gathers the 3 Fishing recipes recorded in client-extracted data (consulted on 12 November 2026"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "3 recettes de Pêche listées ci-dessous, toutes à confirmer (données extraites du client, 12 novembre 2026)."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "3 Fishing recipes listed below, all to be confirmed (client-extracted data, 12 November 2026)."
+      ],
+      [
+        "article.keyPoints[1].fr",
+        "Obtention indiquée (à confirmer) : formateur 1, inconnu 2."
+      ],
+      [
+        "article.keyPoints[1].en",
+        "Acquisition given (to be confirmed): trainer 1, unknown 2."
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Cette liste n’est pas officielle. Blizzard n’a pas publié le détail des recettes de ce métier (vendeurs, formateurs, monstres, zones, prix, taux de butin). Les lignes ci-dessous vi"
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "This list is not official. Blizzard has not published the details of this profession’s recipes (vendors, trainers, monsters, zones, prices, drop rates). The rows below come from cl"
+      ]
+    ],
+    "forever-items-toys": [],
+    "forever-items-pets": [
+      [
+        "article.lead.fr",
+        "Blizzard a nommé pour le lancement un petit nombre de mascottes (héritage, packs boutique, et le cas échéant un bonus d’abonnement). Le détail (zone, PNJ, palier d’héritage, prix d"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard has named a small number of companion pets at launch (Legacy, shop packs, and where relevant a subscription bonus). Details (zone, NPC, Legacy threshold, in-game purchase "
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Les lignes « confirmé officiel » viennent uniquement d’articles Blizzard cités. Les autres lignes viennent des fichiers du jeu (client 1.60.1.70862, consultés le 12 novembre 2026) "
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "Rows marked “officially confirmed” come only from the cited Blizzard articles. Other rows come from the game files (client 1.60.1.70862, consulted on 12 November 2026): names, iden"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[0][6].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[0][6].en",
+        "game data — acquisition to be confirmed"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[1][6].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[1][6].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-items-mounts": [
+      [
+        "article.lead.fr",
+        "Blizzard a nommé pour le lancement un petit nombre de montures (héritage, packs boutique, et le cas échéant un bonus d’abonnement). Le détail (zone, PNJ, palier d’héritage, prix d’"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard has named a small number of mounts at launch (Legacy, shop packs, and where relevant a subscription bonus). Details (zone, NPC, Legacy threshold, in-game purchase price) a"
+      ],
+      [
+        "article.sections[0].blocks[0].fr",
+        "Les lignes « confirmé officiel » viennent uniquement d’articles Blizzard cités. Les autres lignes viennent des fichiers du jeu (client 1.60.1.70862, consultés le 12 novembre 2026) "
+      ],
+      [
+        "article.sections[0].blocks[0].en",
+        "Rows marked “officially confirmed” come only from the cited Blizzard articles. Other rows come from the game files (client 1.60.1.70862, consulted on 12 November 2026): names, iden"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[0][6].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[0][6].en",
+        "game data — acquisition to be confirmed"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[1][6].fr",
+        "données du jeu — obtention à confirmer"
+      ],
+      [
+        "article.sections[3].blocks[0].rows[1][6].en",
+        "game data — acquisition to be confirmed"
+      ]
+    ],
+    "forever-bestiary": [],
+    "forever-bestiary-bosses": [],
+    "forever-bestiary-zephras": [],
+    "forever-bestiary-shendralas": [],
+    "forever-bestiary-forever-dungeons": [
+      [
+        "description.fr",
+        "PNJ des donjons nouveaux déjà présents dans la liste (31, dont 23 boss, à confirmer), et rappel des cinq donjons officiels encore sans roster dans l’extrait."
+      ],
+      [
+        "description.en",
+        "NPCs of the new dungeons already present in the list (31, including 23 bosses, to be confirmed), plus the five official dungeons still without a roster in the extract."
+      ]
+    ],
+    "forever-bestiary-classic-dungeons": [
+      [
+        "article.lead.fr",
+        "Les donjons au nom classique restent dans Forever, avec un butin retravaillé selon Blizzard. Cette page ne liste que les 144 PNJ de ces instances qui figurent dans la liste Forever"
+      ],
+      [
+        "article.lead.en",
+        "Classic-named dungeons remain in Forever, with reworked loot according to Blizzard. This page lists only the 144 NPCs of these instances that appear in the Forever list consulted, "
+      ]
+    ],
+    "forever-bestiary-raids": [
+      [
+        "article.lead.fr",
+        "Blizzard a annoncé pour le 9 décembre 2026 trois raids : profondeurs des Saisons (10), sommet d’Hyjal (20) et repaire d’Onyxia (40). Aucun roster de ces trois raids n’est dressé ic"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard announced three raids for 9 December 2026: Barrow Deeps (10), Hyjal Summit (20) and Onyxia’s Lair (40). No roster for those three is compiled here except Onyxia, already d"
+      ],
+      [
+        "article.keyPoints[1].fr",
+        "70 PNJ rattachés aux raids au nom classique présents dans l’extrait, à confirmer."
+      ],
+      [
+        "article.keyPoints[1].en",
+        "70 NPCs attached to classic-named raids present in the extract, to be confirmed."
+      ]
+    ],
+    "forever-bestiary-kalimdor": [
+      [
+        "article.lead.fr",
+        "Cette page rassemble les 1273 PNJ que la liste Forever rattache aux zones extérieures de Kalimdor (y compris les capitales), à confirmer. Ce n’est pas un inventaire de tous les mob"
+      ],
+      [
+        "article.lead.en",
+        "This page gathers the 1273 NPCs that the Forever list attaches to Kalimdor overworld zones (including capitals), to be confirmed. It is not an inventory of every mob in those zones"
+      ],
+      [
+        "article.keyPoints[1].fr",
+        "Ce n’est pas un recensement de tous les mobs : seuls les PNJ de la liste Forever sont repris, à confirmer."
+      ],
+      [
+        "article.keyPoints[1].en",
+        "This is not a census of every mob: only NPCs from the Forever list are included, to be confirmed."
+      ]
+    ],
+    "forever-bestiary-eastern-kingdoms": [
+      [
+        "article.lead.fr",
+        "Cette page rassemble les 1476 PNJ que la liste Forever rattache aux zones extérieures des royaumes de l’Est, à confirmer. Ce n’est pas un inventaire de tous les mobs. Dun Morogh ap"
+      ],
+      [
+        "article.lead.en",
+        "This page gathers the 1476 NPCs that the Forever list attaches to Eastern Kingdoms overworld zones, to be confirmed. It is not an inventory of every mob. Dun Morogh also appears in"
+      ],
+      [
+        "article.keyPoints[1].fr",
+        "Ce n’est pas un recensement de tous les mobs : seuls les PNJ de la liste Forever sont repris, à confirmer."
+      ],
+      [
+        "article.keyPoints[1].en",
+        "This is not a census of every mob: only NPCs from the Forever list are included, to be confirmed."
+      ]
+    ],
+    "forever-bestiary-unlocated": [
+      [
+        "article.lead.fr",
+        "Dans la liste consultée, 202 PNJ n’ont pas de zone. Ils sont listés ici tels quels, à confirmer, sans localisation inventée. Onyxia fait exception pour le statut officiel : voir /f"
+      ],
+      [
+        "article.lead.en",
+        "In the list consulted, 202 NPCs have no zone. They are listed here as they stand, to be confirmed, with no invented location. Onyxia is the exception for official status: see /en/c"
+      ],
+      [
+        "description.fr",
+        "202 PNJ de la liste Forever sans zone renseignée (à confirmer), dont Onyxia (rencontre officielle, fiche déjà en ligne)."
+      ],
+      [
+        "description.en",
+        "202 NPCs in the Forever list with no zone given (to be confirmed), including Onyxia (official encounter, existing sheet)."
+      ]
+    ],
+    "forever-professions-fish": [
+      [
+        "article.lead.fr",
+        "Blizzard n’a pas publié de liste officielle de poissons par zone pour World of Warcraft: Forever. Cette fiche rassemble 37 poissons et prises apparentées relevés dans les données d"
+      ],
+      [
+        "article.lead.en",
+        "Blizzard has not published an official fish-by-zone list for World of Warcraft: Forever. This page gathers 37 fish and related catches recorded in game data (cooking and alchemy gu"
+      ],
+      [
+        "article.keyPoints[0].fr",
+        "37 lignes à confirmer ; 0 avec une zone de pêche dans les données Forever consultées ; 0 avec une compétence de pêche requise."
+      ],
+      [
+        "article.keyPoints[0].en",
+        "37 rows to be confirmed; 0 with a fishing zone in the Forever data consulted; 0 with a required fishing skill."
+      ],
+      [
+        "article.sections[0].blocks[1].items[0].fr",
+        "Chaque ligne issue des données du client ou du catalogue d’objets est à confirmer."
+      ],
+      [
+        "article.sections[0].blocks[1].items[0].en",
+        "Every row from client data or the item catalog is to be confirmed."
+      ],
+      [
+        "article.sections[3].blocks[0].caption.fr",
+        "3 poissons ou anguilles servant de matériau d’alchimie dans le guide 1.60.1.70862 — à confirmer. Le poisson déviant, déjà dans le tableau de cuisine, sert aussi à l’élixir de crois"
+      ],
+      [
+        "article.sections[3].blocks[0].caption.en",
+        "3 fish or eels used as alchemy materials in the 1.60.1.70862 guide — to be confirmed. Deviate Fish, already in the cooking table, is also used for Elixir of Giant Growth."
+      ]
+    ],
+    "forever-professions-blueprints": [
+      [
+        "article.sections[2].title.fr",
+        "Vendeurs à confirmer (données du jeu (client 1.60.1.70862))"
+      ],
+      [
+        "article.sections[2].title.en",
+        "Vendors to be confirmed (game data (client 1.60.1.70862))"
+      ],
+      [
+        "article.sections[2].blocks[1].caption.fr",
+        "Recettes chez un vendeur — à confirmer (données du jeu (client 1.60.1.70862), 12/11/2026)"
+      ],
+      [
+        "article.sections[2].blocks[1].caption.en",
+        "Vendor recipes — to be confirmed (game data (client 1.60.1.70862), 12 Nov 2026)"
+      ],
+      [
+        "article.sections[13].blocks[0].fr",
+        "Les pages ci-dessous rassemblent, métier par métier, les recettes relevées dans les fichiers du jeu (client 1.60.1.70862) le 12 novembre 2026. Les noms et compétences de ces listes"
+      ],
+      [
+        "article.sections[13].blocks[0].en",
+        "The pages below gather, profession by profession, the recipes recorded in the game files (client 1.60.1.70862) on 12 November 2026. Names and skills on those lists come from the ga"
+      ],
+      [
+        "article.pending[1].fr",
+        "PNJ vendeurs, formateurs nommés, zones précises, prix d’achat, prérequis de réputation : non publiés officiellement (deux vendeurs à confirmer ci-dessus)."
+      ],
+      [
+        "article.pending[1].en",
+        "Named vendor NPCs, named trainers, exact zones, purchase prices, reputation requirements: not officially published (two vendors to be confirmed above)."
+      ]
+    ],
+    "forever-legacy-rewards": [
+      [
+        "article.sections[1].blocks[0].fr",
+        "Des listes rassemblent les jouets, mascottes et montures : d’abord les noms officiels (dont les quatre récompenses d’héritage du lancement), puis les noms relevés dans les fichiers"
+      ],
+      [
+        "article.sections[1].blocks[0].en",
+        "Lists gather toys, companion pets and mounts: official names first (including the four launch Legacy rewards), then names recorded in the game files (client 1.60.1.70862); acquisit"
+      ]
+    ]
+  },
+  "remaining_counts": {
+    "forever-professions-recipes-alchemy": 250,
+    "forever-professions-recipes-blacksmithing": 458,
+    "forever-professions-recipes-enchanting": 298,
+    "forever-professions-recipes-engineering": 300,
+    "forever-professions-recipes-leatherworking": 654,
+    "forever-professions-recipes-tailoring": 504,
+    "forever-professions-recipes-cooking": 174,
+    "forever-professions-recipes-first-aid": 36,
+    "forever-professions-recipes-mining": 44,
+    "forever-professions-recipes-herbalism": 12,
+    "forever-professions-recipes-skinning": 12,
+    "forever-professions-recipes-fishing": 27,
+    "forever-items-toys": 0,
+    "forever-items-pets": 150,
+    "forever-items-mounts": 202,
+    "forever-bestiary": 0,
+    "forever-bestiary-bosses": 0,
+    "forever-bestiary-zephras": 0,
+    "forever-bestiary-shendralas": 0,
+    "forever-bestiary-forever-dungeons": 2,
+    "forever-bestiary-classic-dungeons": 2,
+    "forever-bestiary-raids": 4,
+    "forever-bestiary-kalimdor": 4,
+    "forever-bestiary-eastern-kingdoms": 4,
+    "forever-bestiary-unlocated": 4,
+    "forever-professions-fish": 14,
+    "forever-professions-blueprints": 8,
+    "forever-legacy-rewards": 2
+  }
+}

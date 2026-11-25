@@ -1,0 +1,2543 @@
+--- /workspace/wowkipedia-v21-elite/etape-01/src/wowki4ever-source/pipeline/runtime/entries.json	2026-11-09 19:31:46.046095929 +0100
++++ pipeline/runtime/entries.json	2026-11-09 20:16:20.058432124 +0100
+@@ -25141,5 +25141,2540 @@
+       "translationsConfirmed": true,
+       "contentDigest": "e5d306092dbe790e360b30a38bcecf6b36db38afd873befcda15ba7528190ecd"
+     }
++  },
++  {
++    "id": "forever-legacy-challenges",
++    "title": {
++      "fr": "Défis d’héritage : les 65 défis et leurs 6 catégories",
++      "en": "Legacy Challenges: the 65 challenges and their 6 categories"
++    },
++    "description": {
++      "fr": "Répartition officielle des 65 défis d’héritage de WoW: Forever en six catégories (27 + 18 + 12 + 2 + 3 + 3 points), avec la condition de chaque groupe de défis et les règles du mode Extrême.",
++      "en": "Official breakdown of the 65 WoW: Forever Legacy Challenges into six categories (27 + 18 + 12 + 2 + 3 + 3 points), with the condition behind each group of challenges and the Hardcore rules."
++    },
++    "category": "quests",
++    "subcategory": "heritage",
++    "sources": [
++      {
++        "key": "bz-legacy-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
++        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
++        "title": "Get to Know the World of Warcraft: Forever Legacy System",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:16.536Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-progression-legacy",
++      "article-forever-legacy",
++      "forever-glossary-legacy-points",
++      "forever-questline-lord-valthalak",
++      "forever-legacy-perks",
++      "forever-legacy-rewards"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:16.138Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:16.349Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:16.536Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "defis-heritage",
++        "en": "legacy-challenges"
++      },
++      "illustration": "quests",
++      "lead": {
++        "fr": "Blizzard décrit 65 défis d’héritage répartis en six catégories ; chaque défi accompli rapporte un point d’héritage, partagé par tous les personnages du compte Battle.net hors mode Extrême. Cette fiche reprend la répartition officielle sans inventer de nom de défi individuel.",
++        "en": "Blizzard describes 65 Legacy Challenges across six categories; each completed challenge grants one Legacy Point, shared by every character on the Battle.net account except Hardcore ones. This entry restates the official breakdown without inventing any individual challenge name.",
++        "src": [
++          "bz-legacy"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "65 défis au total, 1 point d’héritage par défi.",
++          "en": "65 challenges in total, 1 Legacy Point per challenge.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Points liés au compte Battle.net, disponibles pour tous les personnages hors mode Extrême.",
++          "en": "Points are Battle.net account-wide and available to all non-Hardcore characters.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Accès au système dès le premier point : niveau 25, 150 dans un métier principal non lié à la récolte, ou exploration complète de la carte du monde.",
++          "en": "Access opens with the first point: level 25, 150 in a non-gathering primary profession, or exploring the entire world map.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "categories",
++          "title": {
++            "fr": "Les six catégories",
++            "en": "The six categories"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Défis d’héritage par catégorie (source : Blizzard, 23/09/2026)",
++                "en": "Legacy Challenges by category (source: Blizzard, 2026-09-23)"
++              },
++              "head": [
++                {
++                  "fr": "Catégorie",
++                  "en": "Category"
++                },
++                {
++                  "fr": "Points",
++                  "en": "Points"
++                },
++                {
++                  "fr": "Condition",
++                  "en": "Condition"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Classes",
++                    "en": "Classes"
++                  },
++                  {
++                    "fr": "27",
++                    "en": "27"
++                  },
++                  {
++                    "fr": "Atteindre les niveaux 25, 45 et 60 avec chaque classe",
++                    "en": "Reach level 25, 45 and 60 with each class"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Métiers",
++                    "en": "Tradeskills"
++                  },
++                  {
++                    "fr": "18",
++                    "en": "18"
++                  },
++                  {
++                    "fr": "Atteindre 150, 225 et 300 dans chaque métier principal non lié à la récolte",
++                    "en": "Reach 150, 225 and 300 skill in each non-gathering primary profession"
++                  }
++                ],
++                [
++                  {
++                    "fr": "JcJ",
++                    "en": "Player vs. Player"
++                  },
++                  {
++                    "fr": "12",
++                    "en": "12"
++                  },
++                  {
++                    "fr": "Rangs 3, 7, 10, 13 et 14 (5) ; exalté auprès de chaque réputation de champ de bataille (4) ; quêtes des semaines 4, 7 et 10 du parcours de saison JcJ du champ d’honneur (3)",
++                    "en": "Ranks 3, 7, 10, 13 and 14 (5); Exalted with each battleground reputation (4); week 4, 7 and 10 quests of the Field of Honor PvP Season’s Journey (3)"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Aventure",
++                    "en": "Adventure"
++                  },
++                  {
++                    "fr": "2",
++                    "en": "2"
++                  },
++                  {
++                    "fr": "Explorer toute la carte du monde avec un même personnage ; terminer la suite de quêtes du donjon du seigneur Valthalak",
++                    "en": "Explore the entire world map on one character; complete the Lord Valthalak dungeon set questline"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Donjons",
++                    "en": "Dungeons"
++                  },
++                  {
++                    "fr": "3",
++                    "en": "3"
++                  },
++                  {
++                    "fr": "Vaincre le boss final de tous les donjons de niveaux 15 à 25, 26 à 45 et 46 à 60",
++                    "en": "Defeat the final boss of every level 15–25, 26–45 and 46–60 dungeon"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Raids",
++                    "en": "Raids"
++                  },
++                  {
++                    "fr": "3",
++                    "en": "3"
++                  },
++                  {
++                    "fr": "Vaincre Onyxia ; les 13 boss du sommet d’Hyjal ; les 8 boss des profondeurs des Saisons",
++                    "en": "Defeat Onyxia; all 13 Hyjal Summit bosses; all 8 Barrow Deeps bosses"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-legacy"
++              ]
++            },
++            {
++              "type": "p",
++              "fr": "Total : 27 + 18 + 12 + 2 + 3 + 3 = 65 défis, donc 65 points d’héritage possibles sur l’ensemble du compte au lancement.",
++              "en": "Total: 27 + 18 + 12 + 2 + 3 + 3 = 65 challenges, hence 65 possible Legacy Points across the account at launch.",
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "un-personnage",
++          "title": {
++            "fr": "Un seul personnage suffit-il ?",
++            "en": "Is one character enough?"
++          },
++          "blocks": [
++            {
++              "type": "p",
++              "fr": "Blizzard indique qu’un seul personnage peut gagner jusqu’à 29 points : 3 par la montée en niveau, 6 par les métiers, 12 en JcJ, 2 en aventure et 6 en donjons et raids. Les avantages se dépensent dans la limite de 16 points par personnage au lancement : créer des personnages secondaires n’est donc pas obligatoire.",
++              "en": "Blizzard states that a single character can earn up to 29 points: 3 from leveling, 6 from tradeskills, 12 from PvP, 2 from Adventure and 6 from dungeons and raids. Perks are bought within a cap of 16 points per character at launch, so alts are not required.",
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "extreme",
++          "title": {
++            "fr": "Mode Extrême (Hardcore)",
++            "en": "Hardcore"
++          },
++          "blocks": [
++            {
++              "type": "p",
++              "fr": "Le mode Extrême n’est pas disponible au lancement. Quand il le sera, les défis accomplis ailleurs n’y apparaîtront pas, mais un défi accompli en mode Extrême sera accordé dans les autres ensembles de règles. Les défis JcJ ne pouvant pas y être accomplis, Blizzard prévoit 12 défis propres au mode Extrême.",
++              "en": "Hardcore is not available at launch. When it is, challenges completed elsewhere will not show up there, but a challenge earned in Hardcore will be granted in the other rulesets. Since PvP challenges cannot be completed there, Blizzard plans 12 Hardcore-specific challenges.",
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "65 défis en 6 catégories (27 + 18 + 12 + 2 + 3 + 3).",
++          "en": "65 challenges in 6 categories (27 + 18 + 12 + 2 + 3 + 3).",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "1 point par défi, partagé par le compte hors mode Extrême.",
++          "en": "1 point per challenge, account-wide except Hardcore.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Jusqu’à 29 points sur un seul personnage ; 16 points dépensables par personnage au lancement.",
++          "en": "Up to 29 points on one character; 16 spendable points per character at launch.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Le nom individuel affiché en jeu de chaque défi n’est pas publié par Blizzard : ce wiki ne les liste pas.",
++          "en": "The in-game name of each individual challenge is not published by Blizzard: this wiki does not list them."
++        },
++        {
++          "fr": "Les 12 défis du mode Extrême et les défis des futures mises à jour de contenu ne sont pas encore détaillés.",
++          "en": "The 12 Hardcore challenges and the challenges of future content updates are not detailed yet."
++        },
++        {
++          "fr": "Liste exacte des « réputations de champ de bataille » et des donjons de chaque tranche de niveaux : non précisée dans l’article.",
++          "en": "Exact list of “battleground reputations” and of the dungeons in each level band: not specified in the article."
++        }
++      ],
++      "notes": [
++        {
++          "fr": "Écart FR/EN : la version française parle d’« un métier principal non lié à la récolte » au singulier, la version anglaise de « chaque » métier (each). Le total de 18 points correspond à 6 métiers d’artisanat × 3 paliers, ce qui concorde avec la version anglaise.",
++          "en": "FR/EN discrepancy: the French text says “a” non-gathering primary profession (singular), the English text says “each”. The 18-point total matches 6 crafting professions × 3 tiers, consistent with the English text.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "dates": [
++        {
++          "date": "2026-09-23",
++          "fr": "Publication de la présentation officielle du système d’héritage.",
++          "en": "Official Legacy System overview published.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "ad4dcbbb16956802d7d192b91f344bec843d50194bd9f63f1123c49e7de9a69c",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:16.349Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "10d69b66ddda5b155f7c77a8c9420014f6727b7ea67a1fa1546d2184063bc4da"
++    }
++  },
++  {
++    "id": "forever-legacy-perks",
++    "title": {
++      "fr": "Avantages d’héritage : les 3 arbres et leurs 21 avantages",
++      "en": "Legacy Perks: the 3 trees and their 21 perks"
++    },
++    "description": {
++      "fr": "Les avantages d’héritage annoncés par Blizzard, arbre par arbre (Métiers, Aventure, Ingéniosité), avec leurs noms français et anglais officiels et l’effet décrit ; plafond de 16 points par personnage au lancement.",
++      "en": "The Legacy Perks announced by Blizzard, tree by tree (Professions, Adventure, Resourcefulness), with their official French and English names and the described effect; 16-point cap per character at launch."
++    },
++    "category": "quests",
++    "subcategory": "heritage",
++    "sources": [
++      {
++        "key": "bz-legacy-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
++        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
++        "title": "Get to Know the World of Warcraft: Forever Legacy System",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:17.139Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-legacy-challenges",
++      "forever-legacy-rewards",
++      "forever-progression-legacy",
++      "article-forever-legacy",
++      "forever-camp-features"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:16.738Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:16.959Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:17.139Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "avantages-heritage",
++        "en": "legacy-perks"
++      },
++      "illustration": "quests",
++      "lead": {
++        "fr": "Chaque personnage dépense les points d’héritage du compte pour acheter des avantages qui ne valent que pour lui, dans trois arbres : Métiers, Aventure et Ingéniosité. Blizzard en présente sept par arbre ; les valeurs chiffrées ne sont pas publiées.",
++        "en": "Each character spends the account’s Legacy Points on perks that apply to that character only, in three trees: Professions, Adventure and Resourcefulness. Blizzard presents seven per tree; numeric values are not published.",
++        "src": [
++          "bz-legacy"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Trois arbres : Métiers, Aventure, Ingéniosité.",
++          "en": "Three trees: Professions, Adventure, Resourcefulness.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Chaque personnage dépense ses points indépendamment des autres.",
++          "en": "Each character spends points independently of the others.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Au lancement, 16 points au plus peuvent être dépensés par personnage.",
++          "en": "At launch, at most 16 points can be spent per character.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "metiers",
++          "title": {
++            "fr": "Arbre Métiers",
++            "en": "Professions tree"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Avantages de l’arbre Métiers (7)",
++                "en": "Professions tree perks (7)"
++              },
++              "head": [
++                {
++                  "fr": "Avantage (FR)",
++                  "en": "Perk (FR)"
++                },
++                {
++                  "fr": "Avantage (EN)",
++                  "en": "Perk (EN)"
++                },
++                {
++                  "fr": "Effet annoncé",
++                  "en": "Announced effect"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Heures supplémentaires",
++                    "en": "Heures supplémentaires"
++                  },
++                  {
++                    "fr": "Working Overtime",
++                    "en": "Working Overtime"
++                  },
++                  {
++                    "fr": "Plus de chances de gagner un point de compétence dans tous les métiers, y compris les métiers de classe comme le crochetage",
++                    "en": "Higher chance to gain a skill point in all tradeskills, including class ones such as Lockpicking"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Récolte généreuse",
++                    "en": "Récolte généreuse"
++                  },
++                  {
++                    "fr": "Bountiful Harvest",
++                    "en": "Bountiful Harvest"
++                  },
++                  {
++                    "fr": "Matériaux rares supplémentaires en minage, herboristerie et dépeçage",
++                    "en": "Additional Scarce resources from mining, herbalism and skinning"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Marchandage",
++                    "en": "Marchandage"
++                  },
++                  {
++                    "fr": "Bartering",
++                    "en": "Bartering"
++                  },
++                  {
++                    "fr": "Prix en or réduit chez les marchands",
++                    "en": "Lower gold price at vendors"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Charismatique",
++                    "en": "Charismatique"
++                  },
++                  {
++                    "fr": "Performance bonus",
++                    "en": "Performance bonus"
++                  },
++                  {
++                    "fr": "Chance de faveur marchande supplémentaire auprès de l’Administration commerciale d’Azeroth ou des Transports logistiques Durotar",
++                    "en": "Chance of extra Merchant’s Favor from the Azeroth Commerce Authority or Durotar Supply and Logistics"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Cordon bleu",
++                    "en": "Cordon bleu"
++                  },
++                  {
++                    "fr": "Master Chef",
++                    "en": "Master Chef"
++                  },
++                  {
++                    "fr": "Chance qu’une recette de cuisine produise un plat supplémentaire",
++                    "en": "Chance for cooking recipes to produce additional results"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Maître des appâts",
++                    "en": "Maître des appâts"
++                  },
++                  {
++                    "fr": "Luremaster",
++                    "en": "Luremaster"
++                  },
++                  {
++                    "fr": "Chance de pêcher un poisson supplémentaire",
++                    "en": "Chance to fish up extra fish"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Étude assidue",
++                    "en": "Étude assidue"
++                  },
++                  {
++                    "fr": "Dedicated Study",
++                    "en": "Dedicated Study"
++                  },
++                  {
++                    "fr": "Effet quotidien pour progresser plus vite dans ses métiers, ou essences élémentaires gratuites une fois 300 atteint partout",
++                    "en": "Daily cooldown to level tradeskills faster, or free Elemental Essences once all reach 300"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "aventure",
++          "title": {
++            "fr": "Arbre Aventure",
++            "en": "Adventure tree"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Avantages de l’arbre Aventure (7)",
++                "en": "Adventure tree perks (7)"
++              },
++              "head": [
++                {
++                  "fr": "Avantage (FR)",
++                  "en": "Perk (FR)"
++                },
++                {
++                  "fr": "Avantage (EN)",
++                  "en": "Perk (EN)"
++                },
++                {
++                  "fr": "Effet annoncé",
++                  "en": "Announced effect"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Bien reposé",
++                    "en": "Bien reposé"
++                  },
++                  {
++                    "fr": "Well Rested",
++                    "en": "Well Rested"
++                  },
++                  {
++                    "fr": "Plafond d’expérience de repos plus élevé et accumulation plus rapide",
++                    "en": "Higher rested experience cap and faster accumulation"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Frisson de l’aventure",
++                    "en": "Frisson de l’aventure"
++                  },
++                  {
++                    "fr": "Thrill of Adventure",
++                    "en": "Thrill of Adventure"
++                  },
++                  {
++                    "fr": "Un peu de vie et de mana rendus après chaque victime non négligeable",
++                    "en": "A small amount of health and mana after every non-trivial kill"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Alerte avancée",
++                    "en": "Alerte avancée"
++                  },
++                  {
++                    "fr": "High Alert",
++                    "en": "High Alert"
++                  },
++                  {
++                    "fr": "Meilleure détection du camouflage hors champs de bataille",
++                    "en": "Better stealth detection outside battlegrounds"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Guide de terrain",
++                    "en": "Guide de terrain"
++                  },
++                  {
++                    "fr": "Field Guide",
++                    "en": "Field Guide"
++                  },
++                  {
++                    "fr": "Réduit le temps de recharge d’une heure des fonctionnalités de campement",
++                    "en": "Reduces the 1-hour cooldown on placing camping features"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Médecine de terrain",
++                    "en": "Médecine de terrain"
++                  },
++                  {
++                    "fr": "Field Medicine",
++                    "en": "Field Medicine"
++                  },
++                  {
++                    "fr": "Affaiblissement « Un bandage a été appliqué récemment » plus court, sauf en donjon, raid et champ de bataille",
++                    "en": "Shorter Recently Bandaged debuff, except in dungeons, raids and battlegrounds"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Talent",
++                    "en": "Talent"
++                  },
++                  {
++                    "fr": "Talented",
++                    "en": "Talented"
++                  },
++                  {
++                    "fr": "Points de talent débloqués jusqu’à 5 niveaux plus tôt",
++                    "en": "Talent points unlocked up to 5 levels earlier"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Vols fréquents",
++                    "en": "Vols fréquents"
++                  },
++                  {
++                    "fr": "Frequent Flier",
++                    "en": "Frequent Flier"
++                  },
++                  {
++                    "fr": "Vols moins chers et plus rapides",
++                    "en": "Cheaper, faster flights"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "ingeniosite",
++          "title": {
++            "fr": "Arbre Ingéniosité",
++            "en": "Resourcefulness tree"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Avantages de l’arbre Ingéniosité (7)",
++                "en": "Resourcefulness tree perks (7)"
++              },
++              "head": [
++                {
++                  "fr": "Avantage (FR)",
++                  "en": "Perk (FR)"
++                },
++                {
++                  "fr": "Avantage (EN)",
++                  "en": "Perk (EN)"
++                },
++                {
++                  "fr": "Effet annoncé",
++                  "en": "Announced effect"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Gourmand",
++                    "en": "Gourmand"
++                  },
++                  {
++                    "fr": "Gourmand",
++                    "en": "Gourmand"
++                  },
++                  {
++                    "fr": "Améliorations de nourriture plus longues",
++                    "en": "Longer food buffs"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Mort et vif",
++                    "en": "Mort et vif"
++                  },
++                  {
++                    "fr": "The Quick and the Dead",
++                    "en": "The Quick and the Dead"
++                  },
++                  {
++                    "fr": "Retour plus rapide au corps et améliorations de groupe et de raid gratuites après résurrection",
++                    "en": "Faster corpse runs and free party and raid buffs after resurrecting"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Renforcer",
++                    "en": "Renforcer"
++                  },
++                  {
++                    "fr": "Reinforce",
++                    "en": "Reinforce"
++                  },
++                  {
++                    "fr": "Moins de perte de durabilité à la mort",
++                    "en": "Less durability damage from death"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Pour un grand honneur",
++                    "en": "Pour un grand honneur"
++                  },
++                  {
++                    "fr": "For Great Honor",
++                    "en": "For Great Honor"
++                  },
++                  {
++                    "fr": "Plus de points d’honneur en JcJ",
++                    "en": "More Honor from PvP"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Permanence",
++                    "en": "Permanence"
++                  },
++                  {
++                    "fr": "Permanence",
++                    "en": "Permanence"
++                  },
++                  {
++                    "fr": "Améliorations de groupe, de raid et de campement plus longues",
++                    "en": "Longer party, raid and camping buffs"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Diplomatie",
++                    "en": "Diplomatie"
++                  },
++                  {
++                    "fr": "Diplomat",
++                    "en": "Diplomat"
++                  },
++                  {
++                    "fr": "Gains de réputation augmentés",
++                    "en": "Increased reputation gains"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Économie des composants",
++                    "en": "Économie des composants"
++                  },
++                  {
++                    "fr": "Reagent Economy",
++                    "en": "Reagent Economy"
++                  },
++                  {
++                    "fr": "Techniques de classe sans composants achetables ; éléments de campement de niveau 1 fabriqués sans composants",
++                    "en": "Class abilities without purchasable reagents; tier 1 camping features crafted without materials"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Noms FR/EN et effets des 21 avantages tels que décrits le 23/09/2026.",
++          "en": "FR/EN names and effects of the 21 perks as described on 2026-09-23.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "Plafond de 16 points dépensés par personnage au lancement.",
++          "en": "Cap of 16 spent points per character at launch.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Coût en points de chaque avantage, valeurs chiffrées (pourcentages, durées) et ordre de déblocage : non publiés.",
++          "en": "Point cost of each perk, numeric values (percentages, durations) and unlock order: not published."
++        },
++        {
++          "fr": "Blizzard prévoit de nouveaux avantages, puis de nouveaux arbres, avec les futures mises à jour.",
++          "en": "Blizzard plans new perks, then new trees, in future updates."
++        }
++      ],
++      "notes": [
++        {
++          "fr": "Écart de nom : l’avantage « Charismatique » (FR) est appelé « Performance bonus » dans la version anglaise ; la version anglaise écrit aussi « Bountfiful Harvest » (coquille de la source), retranscrit ici « Bountiful Harvest ».",
++          "en": "Name discrepancy: the perk “Charismatique” (FR) is called “Performance bonus” in the English text; the English text also spells “Bountfiful Harvest” (typo in the source), written here as “Bountiful Harvest”.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "0f7ac8e9979ed1ae29cb368ee1680bb9d82282d9456fe241c1d9b3e34057e490",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:16.959Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "a183219d858a3f50f0e3b89ec54dfac5f3cf0534898e53f6b0057c510ad9b3dd"
++    }
++  },
++  {
++    "id": "forever-legacy-rewards",
++    "title": {
++      "fr": "Récompenses d’héritage : les 4 récompenses du lancement",
++      "en": "Legacy Rewards: the 4 launch rewards"
++    },
++    "description": {
++      "fr": "Les quatre récompenses d’héritage annoncées pour le lancement (jouet, mascotte, tabard, monture), débloquées par les points d’héritage cumulés sur le compte.",
++      "en": "The four Legacy Rewards announced for launch (toy, pet, tabard, mount), unlocked by Legacy Points accumulated on the account."
++    },
++    "category": "quests",
++    "subcategory": "heritage",
++    "sources": [
++      {
++        "key": "bz-legacy-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
++        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
++        "title": "Get to Know the World of Warcraft: Forever Legacy System",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:17.785Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-legacy-challenges",
++      "forever-legacy-perks",
++      "forever-progression-legacy",
++      "article-forever-legacy"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:17.338Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:17.570Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:17.785Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "recompenses-heritage",
++        "en": "legacy-rewards"
++      },
++      "illustration": "quests",
++      "lead": {
++        "fr": "En plus des avantages par personnage, les points d’héritage s’accumulent sur tout le compte et débloquent des jouets et des objets ornementaux. Quatre récompenses sont annoncées au lancement.",
++        "en": "Besides per-character perks, Legacy Points accumulate across the account and unlock toys and cosmetic items. Four rewards are announced at launch.",
++        "src": [
++          "bz-legacy"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Quatre récompenses au lancement.",
++          "en": "Four rewards at launch.",
++          "src": [
++            "bz-legacy"
++          ]
++        },
++        {
++          "fr": "De nouvelles récompenses sont prévues à chaque mise à jour de contenu.",
++          "en": "New rewards are planned with each content update.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "liste",
++          "title": {
++            "fr": "Les récompenses",
++            "en": "The rewards"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Récompenses d’héritage au lancement",
++                "en": "Legacy Rewards at launch"
++              },
++              "head": [
++                {
++                  "fr": "Nom (FR)",
++                  "en": "Name (FR)"
++                },
++                {
++                  "fr": "Nom (EN)",
++                  "en": "Name (EN)"
++                },
++                {
++                  "fr": "Type et description",
++                  "en": "Type and description"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Réplique de carabine à air comprimé de Forgefer",
++                    "en": "Réplique de carabine à air comprimé de Forgefer"
++                  },
++                  {
++                    "fr": "Replica Ironforge Air Rifle",
++                    "en": "Replica Ironforge Air Rifle"
++                  },
++                  {
++                    "fr": "Jouet : batailles factices entre joueurs ; étourdit et compte les points",
++                    "en": "Toy: mock shootouts between players; stuns and keeps score"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Ourson spectral",
++                    "en": "Ourson spectral"
++                  },
++                  {
++                    "fr": "Spectral Bear Cub",
++                    "en": "Spectral Bear Cub"
++                  },
++                  {
++                    "fr": "Mascotte exclusive, inspirée du chasseur nain et de son compagnon de la cinématique",
++                    "en": "Exclusive pet inspired by the Dwarven Hunter and his companion in the cinematic"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Tabard d’ours spectral",
++                    "en": "Tabard d’ours spectral"
++                  },
++                  {
++                    "fr": "Spectral Bear Tabard",
++                    "en": "Spectral Bear Tabard"
++                  },
++                  {
++                    "fr": "Tabard exclusif",
++                    "en": "Exclusive tabard"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Rênes d’ours spectral",
++                    "en": "Rênes d’ours spectral"
++                  },
++                  {
++                    "fr": "Reins of the Spectral Bear",
++                    "en": "Reins of the Spectral Bear"
++                  },
++                  {
++                    "fr": "Monture spectrale exclusive",
++                    "en": "Exclusive spectral mount"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Les quatre noms FR/EN et leur type.",
++          "en": "The four FR/EN names and their type.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Nombre de points d’héritage nécessaire pour chaque récompense : non publié.",
++          "en": "Number of Legacy Points needed for each reward: not published."
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "ce78c16b22169581823fb615af7cb89a70b54c204e118cc61c19b4d6c0445d3c",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:17.570Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "8e28a8c38fcf1f7f11e3aab18bdc71781f325f18bede9da1e086289a5cd01d84"
++    }
++  },
++  {
++    "id": "forever-camp-features",
++    "title": {
++      "fr": "Campements : fonctionnalités par métier, effets et restrictions",
++      "en": "Camping: features by profession, effects and restrictions"
++    },
++    "description": {
++      "fr": "Tableau officiel des fonctionnalités de campement (un exemple par métier) : objet, niveau de compétence, effet et amélioration de classe incompatible, plus les règles d’installation, d’obtention et de risque en JcJ.",
++      "en": "Official table of camp features (one example per profession): item, skill level, effect and the incompatible class buff, plus the placement, acquisition and PvP-risk rules."
++    },
++    "category": "professions",
++    "subcategory": "campement",
++    "sources": [
++      {
++        "key": "bz-camp-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
++        "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
++        "publishedAt": "2026-10-21",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-camp-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
++        "title": "Gather Around the Campfire in World of Warcraft: Forever",
++        "publishedAt": "2026-10-21",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
++        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
++        "title": "Get to Know the World of Warcraft: Forever Legacy System",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:18.386Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-professions-camping",
++      "article-forever-campfire",
++      "forever-professions-overview",
++      "forever-legacy-perks"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:17.981Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:18.202Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:18.386Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "campement-fonctionnalites",
++        "en": "camping-features"
++      },
++      "illustration": "professions",
++      "lead": {
++        "fr": "Le feu de cuisine devient un feu de camp basique autour duquel les joueurs proches ajoutent des objets de métier. Blizzard publie un exemple de fonctionnalité par métier ; ces effets sont des variantes d’améliorations de classe et ne se cumulent pas avec elles.",
++        "en": "The Cooking Fire becomes a Basic Campfire around which nearby players add profession items. Blizzard publishes one example feature per profession; these effects are variants of class buffs and do not stack with them.",
++        "src": [
++          "bz-camp"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Feu de camp basique : jusqu’à 3 fonctionnalités, une par joueur.",
++          "en": "Basic Campfire: up to 3 features, one per player.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "S’asseoir ou fabriquer au campement pendant au moins 1 minute donne les bonus des autres fonctionnalités.",
++          "en": "Sitting or crafting at the campsite for at least 1 minute grants the other features’ benefits.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "Toutes les fonctionnalités exigent un feu de camp et partagent un temps de recharge d’une heure.",
++          "en": "All features require a campfire and share a 1-hour cooldown.",
++          "src": [
++            "bz-camp"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "tableau",
++          "title": {
++            "fr": "Fonctionnalités par métier",
++            "en": "Features by profession"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Exemples officiels de fonctionnalités de campement (Blizzard, 21/10/2026)",
++                "en": "Official camp feature examples (Blizzard, 2026-10-21)"
++              },
++              "head": [
++                {
++                  "fr": "Métier",
++                  "en": "Profession"
++                },
++                {
++                  "fr": "Objet",
++                  "en": "Item"
++                },
++                {
++                  "fr": "Compétence",
++                  "en": "Skill"
++                },
++                {
++                  "fr": "Effet",
++                  "en": "Effect"
++                },
++                {
++                  "fr": "Incompatible avec",
++                  "en": "Exclusive with"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Cuisine",
++                    "en": "Cooking"
++                  },
++                  {
++                    "fr": "Feu de camp basique",
++                    "en": "Basic Campfire"
++                  },
++                  {
++                    "fr": "1",
++                    "en": "1"
++                  },
++                  {
++                    "fr": "Permet de cuisiner et d’ajouter jusqu’à 3 fonctionnalités de campement",
++                    "en": "Allows cooking and up to 3 additional camp features"
++                  },
++                  {
++                    "fr": "—",
++                    "en": "—"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Secourisme",
++                    "en": "First Aid"
++                  },
++                  {
++                    "fr": "Trousse de premiers soins",
++                    "en": "First Aid Kit"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+3 à 56 Endurance (selon le niveau)",
++                    "en": "+3–56 Stamina (level dependent)"
++                  },
++                  {
++                    "fr": "Mot de pouvoir : Robustesse",
++                    "en": "Power Word: Fortitude"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Pêche",
++                    "en": "Fishing"
++                  },
++                  {
++                    "fr": "Bocal à poisson",
++                    "en": "Fishing Bowl"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+8 % aux caractéristiques",
++                    "en": "+8% stats"
++                  },
++                  {
++                    "fr": "Bénédiction des rois",
++                    "en": "Blessing of Kings"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Alchimie",
++                    "en": "Alchemy"
++                  },
++                  {
++                    "fr": "Puits de mana",
++                    "en": "Mana Well"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "10 à 29 points de mana toutes les 5 s (selon le niveau)",
++                    "en": "10–29 Mana every 5 sec (level dependent)"
++                  },
++                  {
++                    "fr": "Bénédiction de sagesse",
++                    "en": "Blessing of Wisdom"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Forge",
++                    "en": "Blacksmithing"
++                  },
++                  {
++                    "fr": "Meule à aiguiser",
++                    "en": "Sharpening Wheel"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+6 à 34 Force (selon le niveau)",
++                    "en": "+6–34 Strength (level dependent)"
++                  },
++                  {
++                    "fr": "Totem de Force de la Terre",
++                    "en": "Strength of Earth Totem"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Enchantement",
++                    "en": "Enchanting"
++                  },
++                  {
++                    "fr": "Luth enchanté",
++                    "en": "Enchanted Lute"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+28 à 260 Armure, +0 à 13 caractéristiques, +0 à 22 résistances (selon le niveau)",
++                    "en": "+28–260 Armor, +0–13 all stats, +0–22 all resistances (level dependent)"
++                  },
++                  {
++                    "fr": "Marque du fauve",
++                    "en": "Mark of the Wild"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Ingénierie",
++                    "en": "Engineering"
++                  },
++                  {
++                    "fr": "Robot vendeur de composants",
++                    "en": "Reagent Bot"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "Achat de composants à proximité",
++                    "en": "Buy reagents nearby"
++                  },
++                  {
++                    "fr": "—",
++                    "en": "—"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Herboristerie",
++                    "en": "Herbalism"
++                  },
++                  {
++                    "fr": "Bougie d’encens",
++                    "en": "Incense Candle"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+2 à 25 Intelligence (selon le niveau)",
++                    "en": "+2–25 Intellect (level dependent)"
++                  },
++                  {
++                    "fr": "Intelligence des arcanes",
++                    "en": "Arcane Intellect"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Travail du cuir",
++                    "en": "Leatherworking"
++                  },
++                  {
++                    "fr": "Tente du camp",
++                    "en": "Camp Tent"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "Expérience de repos +5 % d’un niveau (sans effet au-delà)",
++                    "en": "Rested experience +5% of a level (no effect above that)"
++                  },
++                  {
++                    "fr": "—",
++                    "en": "—"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Dépeçage",
++                    "en": "Skinning"
++                  },
++                  {
++                    "fr": "Chaise du camp",
++                    "en": "Camp Chair"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+2 % de chances de coup critique",
++                    "en": "+2% critical strike chance"
++                  },
++                  {
++                    "fr": "Aura de sélénien",
++                    "en": "Moonkin Aura"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Couture",
++                    "en": "Tailoring"
++                  },
++                  {
++                    "fr": "Bannière de faction",
++                    "en": "Faction Banner"
++                  },
++                  {
++                    "fr": "20",
++                    "en": "20"
++                  },
++                  {
++                    "fr": "+14 à 32 Esprit pour sa faction (selon le niveau)",
++                    "en": "+14–32 Spirit for your faction (level dependent)"
++                  },
++                  {
++                    "fr": "Esprit divin",
++                    "en": "Divine Spirit"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-camp"
++              ]
++            },
++            {
++              "type": "p",
++              "fr": "Blizzard précise que ce tableau est un aperçu (un exemple par métier), pas la liste complète des objets de campement.",
++              "en": "Blizzard specifies that this table is a sample (one example per profession), not the full list of camp items.",
++              "src": [
++                "bz-camp"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "obtention",
++          "title": {
++            "fr": "Obtention",
++            "en": "How to obtain"
++          },
++          "blocks": [
++            {
++              "type": "list",
++              "items": [
++                {
++                  "fr": "Une courte quête présente le système au début de l’aventure (son nom n’est pas publié).",
++                  "en": "A short quest introduces the system early on (its name is not published).",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "À 20 en compétence : premiers objets via des quêtes des zones de départ ou chez un maître de métier.",
++                  "en": "At skill 20: first items from starter-zone quests or from a profession trainer.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Objets demandant 140 ou plus : butin de donjons et de raids.",
++                  "en": "Items requiring 140 or more: dungeon and raid drops.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Les cuisiniers apprennent ensuite des feux de camp améliorés (5 ou 10 objets) ; d’autres métiers débloquent par exemple des laboratoires d’alchimie et des râteliers de tannage.",
++                  "en": "Cooks later learn upgraded campfires (5 or 10 objects); other professions unlock e.g. Alchemy Laboratories and Tanning Racks.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                }
++              ],
++              "src": [
++                "bz-camp"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "restrictions",
++          "title": {
++            "fr": "Restrictions et risques",
++            "en": "Restrictions and risks"
++          },
++          "blocks": [
++            {
++              "type": "list",
++              "items": [
++                {
++                  "fr": "Effets incompatibles avec l’amélioration de classe équivalente (voir tableau).",
++                  "en": "Effects are exclusive with the matching class buff (see table).",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Bannière de faction : seuls les membres de votre faction en profitent.",
++                  "en": "Faction Banner: only members of your faction benefit.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Tente du camp : sans effet si l’expérience de repos dépasse déjà 5 % d’un niveau.",
++                  "en": "Camp Tent: no effect if rested experience already exceeds 5% of a level.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Sous l’ensemble de règles JcJ, le risque augmente si des adversaires trouvent votre campement.",
++                  "en": "On a PvP ruleset, the risk increases when enemy players find your camp.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                }
++              ],
++              "src": [
++                "bz-camp"
++              ]
++            },
++            {
++              "type": "p",
++              "fr": "Avantages d’héritage liés : Guide de terrain réduit le temps de recharge d’une heure, Permanence allonge les améliorations de campement et Économie des composants supprime les composants des éléments de niveau 1.",
++              "en": "Related Legacy Perks: Field Guide reduces the 1-hour cooldown, Permanence lengthens camping buffs and Reagent Economy removes materials from tier 1 features.",
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Les 11 objets du tableau, leur niveau de compétence et leur effet.",
++          "en": "The 11 items in the table, their skill level and effect.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "Règles : 3 fonctionnalités, 1 par joueur, 1 minute, recharge d’1 heure.",
++          "en": "Rules: 3 features, 1 per player, 1 minute, 1-hour cooldown.",
++          "src": [
++            "bz-camp"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Liste complète des objets de campement de chaque métier, composants et recettes : non publiés par Blizzard.",
++          "en": "Full list of each profession’s camp items, their materials and recipes: not published by Blizzard."
++        },
++        {
++          "fr": "Durée exacte des bonus : seule la meule à aiguiser est décrite comme durant « une heure ».",
++          "en": "Exact buff duration: only the Sharpening Wheel is described as lasting “an hour”."
++        }
++      ],
++      "dates": [
++        {
++          "date": "2026-10-21",
++          "fr": "Publication de l’article officiel sur le système de campement.",
++          "en": "Official Camping article published.",
++          "src": [
++            "bz-camp"
++          ]
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "90c11ce7bd571c5e4ebe36008c2cdd713a0172b836454fd02374128adbab8999",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:18.202Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "d0bf48f703422b6d6a7bd1a663a515f096945d84fe9b86297aa984f1b6bb8200"
++    }
++  },
++  {
++    "id": "forever-professions-overview",
++    "title": {
++      "fr": "Métiers : principaux, secondaires, rangs et maîtres de métier",
++      "en": "Professions: primary, secondary, ranks and trainers"
++    },
++    "description": {
++      "fr": "Ce que Blizzard confirme sur les métiers de WoW: Forever : deux métiers principaux parmi neuf, les trois métiers secondaires, les rangs d’Apprenti à Artisan, l’onglet Métiers (K) et les paliers d’héritage 150/225/300.",
++      "en": "What Blizzard confirms about WoW: Forever professions: two primary professions out of nine, the three secondary ones, ranks from Apprentice to Artisan, the Professions tab (K) and the 150/225/300 Legacy tiers."
++    },
++    "category": "professions",
++    "subcategory": "metiers-et-rangs",
++    "sources": [
++      {
++        "key": "bz-camp-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
++        "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
++        "publishedAt": "2026-10-21",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-camp-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
++        "title": "Gather Around the Campfire in World of Warcraft: Forever",
++        "publishedAt": "2026-10-21",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
++        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-legacy-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
++        "title": "Get to Know the World of Warcraft: Forever Legacy System",
++        "publishedAt": "2026-09-23",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:18.907Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-camp-features",
++      "forever-professions-blueprints",
++      "forever-professions-camping",
++      "forever-legacy-challenges",
++      "forever-legacy-perks"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:18.564Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:18.737Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:18.907Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "metiers-principaux-secondaires",
++        "en": "professions-primary-secondary"
++      },
++      "illustration": "professions",
++      "lead": {
++        "fr": "Chaque personnage peut apprendre deux métiers principaux et les trois métiers secondaires. Les métiers s’apprennent auprès d’un maître de métier et progressent d’Apprenti à Artisan.",
++        "en": "Each character can learn two primary professions and all three secondary ones. Professions are learned from a trainer and progress from Apprentice to Artisan.",
++        "src": [
++          "bz-camp"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Deux métiers principaux au plus.",
++          "en": "At most two primary professions.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "Trois métiers secondaires : cuisine, pêche, secourisme.",
++          "en": "Three secondary professions: Cooking, Fishing, First Aid.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "Rangs : Apprenti, Compagnon, Expert, Artisan.",
++          "en": "Ranks: Apprentice, Journeyman, Expert, Artisan.",
++          "src": [
++            "bz-camp"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "liste",
++          "title": {
++            "fr": "Liste des métiers",
++            "en": "Profession list"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Métiers de WoW: Forever (Blizzard, 21/10/2026)",
++                "en": "WoW: Forever professions (Blizzard, 2026-10-21)"
++              },
++              "head": [
++                {
++                  "fr": "Type",
++                  "en": "Type"
++                },
++                {
++                  "fr": "Métiers",
++                  "en": "Professions"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Principal — récolte",
++                    "en": "Primary — gathering"
++                  },
++                  {
++                    "fr": "Dépeçage, minage, herboristerie",
++                    "en": "Skinning, Mining, Herbalism"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Principal — artisanat",
++                    "en": "Primary — crafting"
++                  },
++                  {
++                    "fr": "Alchimie, forge, enchantement, ingénierie, travail du cuir, couture",
++                    "en": "Alchemy, Blacksmithing, Enchanting, Engineering, Leatherworking, Tailoring"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Secondaire",
++                    "en": "Secondary"
++                  },
++                  {
++                    "fr": "Cuisine, pêche, secourisme",
++                    "en": "Cooking, Fishing, First Aid"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-camp"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "maitres",
++          "title": {
++            "fr": "Maîtres de métier et onglet Métiers",
++            "en": "Trainers and the Professions tab"
++          },
++          "blocks": [
++            {
++              "type": "list",
++              "items": [
++                {
++                  "fr": "Apprendre : auprès d’un maître de métier, dans les capitales et ailleurs dans le monde.",
++                  "en": "Learn: from a trainer, in major cities and elsewhere in the world.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "Oublier : onglet Métiers (K) ou barre de menu, puis le « X » à côté du métier.",
++                  "en": "Unlearn: Professions tab (K) or the menu bar, then the “X” next to the profession.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                },
++                {
++                  "fr": "L’onglet Métiers affiche les recettes et plans disponibles, les matériaux nécessaires et si la fabrication fait progresser la compétence.",
++                  "en": "The Professions tab shows available recipes and blueprints, required materials and whether crafting raises your skill.",
++                  "src": [
++                    "bz-camp"
++                  ]
++                }
++              ],
++              "src": [
++                "bz-camp"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "paliers",
++          "title": {
++            "fr": "Paliers 150 / 225 / 300 et héritage",
++            "en": "150 / 225 / 300 tiers and Legacy"
++          },
++          "blocks": [
++            {
++              "type": "p",
++              "fr": "Le système d’héritage récompense 150, 225 et 300 dans chaque métier principal non lié à la récolte (18 défis), et atteindre 150 dans l’un d’eux suffit à ouvrir le système.",
++              "en": "The Legacy System rewards 150, 225 and 300 in each non-gathering primary profession (18 challenges), and reaching 150 in one of them is enough to open the system.",
++              "src": [
++                "bz-legacy"
++              ]
++            }
++          ]
++        },
++        {
++          "id": "calculateur",
++          "title": {
++            "fr": "Pourquoi pas de calculateur de matériaux ?",
++            "en": "Why no material calculator?"
++          },
++          "blocks": [
++            {
++              "type": "p",
++              "fr": "Blizzard n’a publié ni la liste des recettes ni les quantités de composants de Forever. Un calculateur fondé sur des données extraites du client ou d’une base tierce serait « à confirmer » et pourrait induire en erreur : il n’est donc pas proposé tant qu’aucune source officielle ne détaille les recettes.",
++              "en": "Blizzard has published neither the recipe list nor the material quantities for Forever. A calculator built on client-extracted or third-party data would be “unconfirmed” and could mislead, so none is offered until an official source details recipes.",
++              "src": [
++                "bz-camp"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Deux principaux parmi neuf, trois secondaires, quatre rangs.",
++          "en": "Two primary out of nine, three secondary, four ranks.",
++          "src": [
++            "bz-camp"
++          ]
++        },
++        {
++          "fr": "Paliers d’héritage 150/225/300.",
++          "en": "Legacy tiers 150/225/300.",
++          "src": [
++            "bz-legacy"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Recettes, composants, emplacements précis des maîtres de métier et niveaux requis pour chaque rang : non publiés officiellement.",
++          "en": "Recipes, materials, exact trainer locations and the skill needed for each rank: not officially published."
++        },
++        {
++          "fr": "Activités de métier des nouvelles factions Administration commerciale d’Azeroth / Transports logistiques Durotar : seulement mentionnées.",
++          "en": "Tradeskill activities of the new Azeroth Commerce Authority / Durotar Supply and Logistics factions: only mentioned."
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "8070c025b5ec5e20fecec407831b1f3f9324d9d2cae1fcdb54df2d461da9e102",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:18.737Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "78b8662965aca6a82c05092bed470bec4bedd66b2e9c0119ba9afa36bd616514"
++    }
++  },
++  {
++    "id": "forever-quest-rewards-expanded",
++    "title": {
++      "fr": "Récompenses de quêtes élargies : Mor’Ladim et Hemet Nesingwary",
++      "en": "Expanded quest rewards: Mor’ladim and Hemet Nesingwary"
++    },
++    "description": {
++      "fr": "Deux exemples officiels de récompenses de quêtes revues pour davantage de classes : la quête de Mor’Ladim au bois de la Pénombre et les quêtes de Hemet Nesingwary dans la vallée de Strangleronce.",
++      "en": "Two official examples of quest rewards reworked for more classes: Mor’ladim’s quest in Duskwood and Hemet Nesingwary’s quests in Stranglethorn."
++    },
++    "category": "quests",
++    "subcategory": "recompenses-de-quetes",
++    "sources": [
++      {
++        "key": "bz-dive-fr",
++        "language": "fr",
++        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
++        "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
++        "publishedAt": "2026-09-13",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      },
++      {
++        "key": "bz-dive-en",
++        "language": "en",
++        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
++        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
++        "publishedAt": "2026-09-13",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:19.407Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "forever-item-ladimore-heirloom-ring",
++      "article-forever-quests"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:19.076Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:19.245Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:19.407Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "recompenses-quetes-elargies",
++        "en": "expanded-quest-rewards"
++      },
++      "illustration": "quests",
++      "lead": {
++        "fr": "Blizzard indique que des récompenses de quêtes ont été mises à jour ou élargies pour convenir à plus de classes et de rôles, et cite deux exemples.",
++        "en": "Blizzard states that quest rewards were updated or expanded to support more classes and roles, and gives two examples.",
++        "src": [
++          "bz-dive"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Mor’Ladim (bois de la Pénombre) : l’épée à deux mains reste proposée, l’anneau d’héritage de Ladimore s’ajoute pour les lanceurs de sorts.",
++          "en": "Mor’ladim (Duskwood): the two-handed sword remains, the Ladimore Heirloom Ring is added for spellcasters.",
++          "src": [
++            "bz-dive"
++          ]
++        },
++        {
++          "fr": "Hemet Nesingwary (vallée de Strangleronce) : nouvelles options, dont la sorcépée de maître-chasseur.",
++          "en": "Hemet Nesingwary (Stranglethorn): new options, including the Master Hunter’s Spellsword.",
++          "src": [
++            "bz-dive"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "exemples",
++          "title": {
++            "fr": "Exemples officiels",
++            "en": "Official examples"
++          },
++          "blocks": [
++            {
++              "type": "table",
++              "caption": {
++                "fr": "Récompenses de quêtes élargies citées par Blizzard",
++                "en": "Expanded quest rewards cited by Blizzard"
++              },
++              "head": [
++                {
++                  "fr": "PNJ",
++                  "en": "NPC"
++                },
++                {
++                  "fr": "Zone",
++                  "en": "Zone"
++                },
++                {
++                  "fr": "Récompenses citées",
++                  "en": "Rewards cited"
++                }
++              ],
++              "rows": [
++                [
++                  {
++                    "fr": "Mor’Ladim",
++                    "en": "Mor’ladim"
++                  },
++                  {
++                    "fr": "Bois de la Pénombre",
++                    "en": "Duskwood"
++                  },
++                  {
++                    "fr": "Épée à deux mains (inchangée) + anneau d’héritage de Ladimore (lanceurs de sorts)",
++                    "en": "Two-handed sword (unchanged) + Ladimore Heirloom Ring (spellcasters)"
++                  }
++                ],
++                [
++                  {
++                    "fr": "Hemet Nesingwary",
++                    "en": "Hemet Nesingwary"
++                  },
++                  {
++                    "fr": "Vallée de Strangleronce",
++                    "en": "Stranglethorn"
++                  },
++                  {
++                    "fr": "Nouvelles options, dont la sorcépée de maître-chasseur",
++                    "en": "New options, including the Master Hunter’s Spellsword"
++                  }
++                ]
++              ],
++              "src": [
++                "bz-dive"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Les deux exemples ci-dessus.",
++          "en": "The two examples above.",
++          "src": [
++            "bz-dive"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Noms exacts des quêtes, prérequis, statistiques des objets et liste complète des options de Nesingwary : non publiés dans la source.",
++          "en": "Exact quest names, prerequisites, item stats and the full list of Nesingwary options: not published in the source."
++        }
++      ],
++      "notes": [
++        {
++          "fr": "La zone des quêtes de Hemet Nesingwary (Stranglethorn) n’est indiquée que dans la version anglaise ; la version française ne la nomme pas.",
++          "en": "The zone of Hemet Nesingwary’s quests (Stranglethorn) is given only in the English text; the French text does not name it.",
++          "src": [
++            "bz-dive"
++          ]
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "0442d685a3ff8f7269a0c19b08c0233b891bb84d3935f744686f99bf61f8f953",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:19.245Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "092ed35002353a312d86329c0ddb516bf0eb4a69e2abad667614d67fd227fac6"
++    }
++  },
++  {
++    "id": "forever-questline-gelkis-magram",
++    "title": {
++      "fr": "Quêtes des Gelkis et des Magram (Désolace)",
++      "en": "Gelkis and Magram quests (Desolace)"
++    },
++    "description": {
++      "fr": "Nouvelles quêtes des centaures Gelkis et Magram en Désolace, débutant par « Valley of Bones » : niveau minimum relevé à 35 pendant la bêta et 16 récompenses réajustées, selon les notes de développement officielles du 8 octobre 2026.",
++      "en": "New Gelkis and Magram centaur quests in Desolace, starting with “Valley of Bones”: minimum level raised to 35 during the beta and 16 rewards retuned, per the official development notes of 2026-10-08."
++    },
++    "category": "quests",
++    "subcategory": "suite-de-quetes",
++    "sources": [
++      {
++        "key": "bz-devnotes5",
++        "language": "en",
++        "url": "https://us.forums.blizzard.com/en/wow/t/2360696/5",
++        "title": "WoW Forever Beta Development Notes — message du 8 octobre 2026 (forum officiel US)",
++        "publishedAt": "2026-10-08",
++        "accessedAt": "2026-11-09",
++        "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
++        "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09"
++      }
++    ],
++    "status": "published",
++    "updatedAt": "2026-11-09T19:16:19.985Z",
++    "gameVersion": "World of Warcraft: Forever — annonces, état documentaire 2026-11-09",
++    "version": 4,
++    "relations": [
++      "article-forever-quests"
++    ],
++    "verification": "officiel confirmé",
++    "history": [
++      {
++        "at": "2026-11-09",
++        "actor": "GrokBot — lot 1 étape 03 (environnement de test isolé)",
++        "note": "Fiche rédigée uniquement à partir des sources officielles Blizzard citées (synthèse originale, courtes reprises de noms). Relecture humaine de Mathieu requise avant toute mise en production.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:07.341Z",
++        "actor": "local-import",
++        "note": "Imported to draft; external approval is not trusted.",
++        "version": 1
++      },
++      {
++        "at": "2026-11-09T19:16:19.628Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "submit: Soumission pour previsualisation locale du lot 1",
++        "version": 2
++      },
++      {
++        "at": "2026-11-09T19:16:19.804Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "approve: Approbation de TEST uniquement (environnement isole) ; a refaire par Mathieu avant production",
++        "version": 3
++      },
++      {
++        "at": "2026-11-09T19:16:19.985Z",
++        "actor": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++        "note": "publish: Publication dans l'arbre de test isole uniquement",
++        "version": 4
++      }
++    ],
++    "article": {
++      "format": 1,
++      "slug": {
++        "fr": "quetes-gelkis-magram",
++        "en": "gelkis-magram-quests"
++      },
++      "illustration": "quests",
++      "lead": {
++        "fr": "Les notes de développement de la bêta mentionnent de nouvelles quêtes pour les Gelkis et les Magram en Désolace. Les noms de quêtes et d’objets sont donnés en anglais : aucun nom français officiel n’est publié dans cette source.",
++        "en": "The beta development notes mention new quests for the Gelkis and the Magram in Desolace. Quest and item names are given in English: no official French name is published in this source.",
++        "src": [
++          "bz-devnotes5"
++        ]
++      },
++      "keyPoints": [
++        {
++          "fr": "Première quête citée : « Valley of Bones ».",
++          "en": "First quest cited: “Valley of Bones”.",
++          "src": [
++            "bz-devnotes5"
++          ]
++        },
++        {
++          "fr": "Niveau minimum : 35 (au lieu de 30) depuis la build bêta du 8 octobre 2026.",
++          "en": "Minimum level: 35 (was 30) since the 2026-10-08 beta build.",
++          "src": [
++            "bz-devnotes5"
++          ]
++        },
++        {
++          "fr": "16 récompenses réajustées, avec un niveau 35 requis annoncé pour un correctif à venir.",
++          "en": "16 rewards retuned, with a level-35 requirement announced for an upcoming hotfix.",
++          "src": [
++            "bz-devnotes5"
++          ]
++        }
++      ],
++      "sections": [
++        {
++          "id": "recompenses",
++          "title": {
++            "fr": "Récompenses réajustées",
++            "en": "Retuned rewards"
++          },
++          "blocks": [
++            {
++              "type": "list",
++              "items": [
++                {
++                  "fr": "*Abandoned Ferocity*",
++                  "en": "Abandoned Ferocity",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Blade of the Magram Clan*",
++                  "en": "Blade of the Magram Clan",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Bludgeon of Betrayed Virtues*",
++                  "en": "Bludgeon of Betrayed Virtues",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Centaur Spear*",
++                  "en": "Centaur Spear",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Ceremonial Centaur Blanket*",
++                  "en": "Ceremonial Centaur Blanket",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Desert Crawler’s Claw*",
++                  "en": "Desert Crawler’s Claw",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Desperate Barrier*",
++                  "en": "Desperate Barrier",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Greatstaff of the Necrokhans*",
++                  "en": "Greatstaff of the Necrokhans",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Kolkar Hunter’s Belt*",
++                  "en": "Kolkar Hunter’s Belt",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Kolkar Marauder Chain*",
++                  "en": "Kolkar Marauder Chain",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Scavenged Magram Armament*",
++                  "en": "Scavenged Magram Armament",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Soulsplatter Mace*",
++                  "en": "Soulsplatter Mace",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Staff of Revelations*",
++                  "en": "Staff of Revelations",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Thrice-Damned Effigy*",
++                  "en": "Thrice-Damned Effigy",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Traitor’s Finger*",
++                  "en": "Traitor’s Finger",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                },
++                {
++                  "fr": "*Wanderer’s Broadsword*",
++                  "en": "Wanderer’s Broadsword",
++                  "src": [
++                    "bz-devnotes5"
++                  ]
++                }
++              ],
++              "src": [
++                "bz-devnotes5"
++              ]
++            },
++            {
++              "type": "p",
++              "fr": "Les développeurs précisent que la plupart de ces objets ont surtout vu leur puissance alignée sur la valeur attendue de la quête, et que certains ont changé de caractéristiques.",
++              "en": "The developers note that most of these items mainly had their power aligned with the quest’s expected value, while some received stat changes.",
++              "src": [
++                "bz-devnotes5"
++              ]
++            }
++          ]
++        }
++      ],
++      "confirmed": [
++        {
++          "fr": "Quêtes Gelkis/Magram débutant par « Valley of Bones », niveau minimum 35 (bêta).",
++          "en": "Gelkis/Magram quests starting with “Valley of Bones”, minimum level 35 (beta).",
++          "src": [
++            "bz-devnotes5"
++          ]
++        }
++      ],
++      "pending": [
++        {
++          "fr": "Source de bêta : l’état au lancement (4 novembre 2026) et l’application du correctif « niveau 35 pour équiper » ne sont pas confirmés par une source officielle postérieure.",
++          "en": "Beta source: the state at launch (2026-11-04) and whether the “level 35 to equip” hotfix shipped are not confirmed by a later official source."
++        },
++        {
++          "fr": "Noms français officiels, PNJ donneurs, étapes de la suite et prérequis : non publiés.",
++          "en": "Official French names, quest givers, chain steps and prerequisites: not published."
++        }
++      ],
++      "dates": [
++        {
++          "date": "2026-10-08",
++          "fr": "Build bêta : niveau minimum relevé à 35 et récompenses réajustées.",
++          "en": "Beta build: minimum level raised to 35 and rewards retuned.",
++          "src": [
++            "bz-devnotes5"
++          ]
++        }
++      ]
++    },
++    "identityConfirmed": true,
++    "importMeta": {
++      "fingerprint": "a42c8b075af37438e827f9356547f23ff97aaa7bb624610ff3a2095c438f8af9",
++      "importedAt": "2026-11-09T19:16:07.341Z",
++      "sourceStatus": "draft"
++    },
++    "review": {
++      "approved": true,
++      "reviewer": "TEST-ISOLE etape 03 (GrokBot) - PAS une validation humaine de Mathieu",
++      "at": "2026-11-09T19:16:19.804Z",
++      "rightsConfirmed": true,
++      "translationsConfirmed": true,
++      "contentDigest": "8864c29ef2633bc547f7f347cda87bf97325fbffb53897e56c01f7f586ccfa69"
++    }
+   }
+ ]

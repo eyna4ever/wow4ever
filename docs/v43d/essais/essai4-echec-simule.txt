@@ -1,0 +1,14 @@
+1/7 Vérifications
+   v43b reconnue (wiki c82421613a35ec1c3306c82b908c545f353347ea22c324589db355337f649517, application, CSS, JS, schéma, en-tête, pied de page) : releases/20261118T005337 (release connue)
+2/7 Archive + SHA-256
+   archive déjà présente (/tmp/w43d-root/root/wow4ever-wiki-v43d.tar.gz), empreinte conforme
+3/7 Sauvegardes (/tmp/w43d-root/root/wow4ever-v43d-backup-20261125T172104)
+4/7 Nouvelle release (copie de releases/20261118T005337 + actualités v43d)
+   v43d : article Correctifs Forever (lots des 17, 19, 20 et 23 novembre, encadré « problèmes en cours », titre « du 5 au 23 novembre » sur 79 pages), article Blackmaw Hold FR/EN avec lien vers la fiche du donjon, podcast épisode 8, menu Actualités 16 ; 471 pages HTML et index de recherche mis à jour ; application, CSS, JS et images inchangés
+5/7 Bascule : current -> releases/20261125T172104
+6/7 (test) Contrôles du wiki après bascule (serveur local http://wowkipedia.com:8804/)
+ERREUR: échec simulé (test).
+Retour arrière vers la v43b (releases/20261118T005337)…
+Retour arrière OK : v43b (releases/20261118T005337) restaurée, forum redémarré (Caddyfile jamais modifié).
+Journal : /tmp/w43d-root/root/wow4ever-v43d-20261125T172104.log
+code 1    [current -> releases/20261118T005337]

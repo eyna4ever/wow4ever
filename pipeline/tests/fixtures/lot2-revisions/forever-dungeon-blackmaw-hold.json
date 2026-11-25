@@ -1,0 +1,411 @@
+{
+ "id": "forever-dungeon-blackmaw-hold",
+ "title": {
+  "fr": "Repaire des Noiregueules",
+  "en": "Blackmaw Hold"
+ },
+ "category": "instances",
+ "subcategory": "donjon-annonce",
+ "description": {
+  "fr": "Donjon à cinq, niveaux 55 à 60, en Azshara. Derrière une porte longtemps scellée s’étend une grande cité furbolg dont le clan lutte contre une corruption. Aventure de niveau maximum à plusieurs itinéraires et boss ; c’est aussi l’une des entrées des profondeurs des Saisons.",
+  "en": "Five-player dungeon, levels 55–60, in Azshara. Behind a long-sealed gate lies a great furbolg city whose clan is fighting a spreading corruption. A max-level adventure with multiple routes and bosses; it is also one of the entrances to the Barrow Deeps."
+ },
+ "sources": [
+  {
+   "key": "bz-dungeons-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301455/decouvrez-les-nouveaux-donjons-de-world-of-warcraft-forever",
+   "title": "Découvrez les nouveaux donjons de World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dungeons-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+   "title": "Explore the New Dungeons of World of Warcraft: Forever",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-whatsnext-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+   "title": "World of Warcraft: Forever What’s Next Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-raids-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303009/apercu-des-raids-de-world-of-warcraft-forever-emplacements-taille-des-raids-et-harmonisation",
+   "title": "Aperçu des raids de World of Warcraft: Forever – Emplacements, taille des raids et harmonisation",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-raids-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+   "title": "World of Warcraft: Forever Raid Overview—Locations, Raid Sizes, and Attunement",
+   "publishedAt": "2026-10-20",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-hotfixes-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-6-2026",
+   "title": "WoW: Forever Hotfixes - November 6, 2026 (correctifs des 5 et 6 novembre)",
+   "publishedAt": "2026-11-06",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-hotfixes-eu",
+   "language": "en",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/639885",
+   "title": "WoW: Forever Hotfixes - November 6, 2026 — forum officiel EU (Kaivax)",
+   "publishedAt": "2026-11-06",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+   "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-dive-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+   "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+   "publishedAt": "2026-09-13",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-fr",
+   "language": "fr",
+   "url": "https://news.blizzard.com/fr-fr/article/24301516/retrouvez-vous-autour-dun-feu-de-camp-dans-world-of-warcraft-forever",
+   "title": "Retrouvez-vous autour d’un feu de camp dans World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  },
+  {
+   "key": "bz-camp-en",
+   "language": "en",
+   "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+   "title": "Gather Around the Campfire in World of Warcraft: Forever",
+   "publishedAt": "2026-10-21",
+   "accessedAt": "2026-11-09",
+   "license": "Droits réservés Blizzard ; référence et synthèse originale (courtes citations), mention © Blizzard Entertainment conservée ; site non commercial.",
+   "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09"
+  }
+ ],
+ "status": "published",
+ "identityConfirmed": true,
+ "updatedAt": "2026-10-30T21:32:22.106Z",
+ "version": 4,
+ "gameVersion": "World of Warcraft: Forever — annonces et notes officielles, état documentaire 2026-11-09",
+ "relations": [
+  "article-forever-raids",
+  "forever-raid-barrow-deeps",
+  "forever-news-hotfixes-nov5-6",
+  "forever-items-loot-appearances",
+  "forever-exploration-named-places"
+ ],
+ "history": [
+  {
+   "actor": "AI-documentary-draft",
+   "note": "Brouillon v10 (contenu-v10) : synthèse originale de sources officielles Blizzard uniquement ; à relire et valider par Mathieu avant toute publication.",
+   "at": "2026-10-30",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:19:10.684Z",
+   "actor": "local-import",
+   "note": "Imported to draft; external approval is not trusted.",
+   "version": 1
+  },
+  {
+   "at": "2026-10-30T21:32:21.912Z",
+   "actor": "Mathieu",
+   "note": "submit: submit: Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 2
+  },
+  {
+   "at": "2026-10-30T21:32:22.008Z",
+   "actor": "Mathieu",
+   "note": "approve: Publication approuvée par Mathieu le 2026-10-30 (faits, droits, FR/EN) — Décision de Mathieu (propriétaire) dans le chat Grok Bot le 2026-10-30 à 22 h 30 (option 2, message t229u) : publier les brouillons contenu-v10 et corriger les pages signalées, sources Blizzard officielles relues",
+   "version": 3
+  },
+  {
+   "at": "2026-10-30T21:32:22.106Z",
+   "actor": "Mathieu",
+   "note": "publish: Publication validée par Mathieu le 2026-10-30 (option 2)",
+   "version": 4
+  }
+ ],
+ "verification": "officiel confirmé",
+ "article": {
+  "format": 1,
+  "slug": {
+   "fr": "repaire-des-noiregueules",
+   "en": "blackmaw-hold"
+  },
+  "illustration": "instances",
+  "lead": {
+   "fr": "Donjon à cinq, niveaux 55 à 60, en Azshara. Derrière une porte longtemps scellée s’étend une grande cité furbolg dont le clan lutte contre une corruption. Aventure de niveau maximum à plusieurs itinéraires et boss ; c’est aussi l’une des entrées des profondeurs des Saisons.",
+   "en": "Five-player dungeon, levels 55–60, in Azshara. Behind a long-sealed gate lies a great furbolg city whose clan is fighting a spreading corruption. A max-level adventure with multiple routes and bosses; it is also one of the entrances to the Barrow Deeps.",
+   "src": [
+    "bz-dungeons"
+   ]
+  },
+  "keyPoints": [
+   {
+    "fr": "Niveaux 55 à 60 — Azshara, derrière une porte longtemps scellée.",
+    "en": "Levels 55–60 — Azshara, behind a long-sealed gate.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Blizzard ne publie pas de note d’accès propre à une faction.",
+    "en": "Blizzard publishes no faction-specific access note.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Une des entrées du raid des profondeurs des Saisons est reliée au repaire des Noiregueules.",
+    "en": "One of the Barrow Deeps raid entrances connects through Blackmaw Hold.",
+    "src": [
+     "bz-raids"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "id": "acces",
+    "title": {
+     "fr": "Accès, niveaux et emplacement",
+     "en": "Access, levels and location"
+    },
+    "blocks": [
+     {
+      "type": "table",
+      "caption": {
+       "fr": "Fiche d’accès (source : Blizzard, 20/10/2026)",
+       "en": "Access sheet (source: Blizzard, 2026-10-20)"
+      },
+      "head": [
+       {
+        "fr": "Niveaux",
+        "en": "Levels"
+       },
+       {
+        "fr": "Emplacement",
+        "en": "Location"
+       },
+       {
+        "fr": "Accès",
+        "en": "Access"
+       }
+      ],
+      "rows": [
+       [
+        {
+         "fr": "55 à 60",
+         "en": "55–60"
+        },
+        {
+         "fr": "Azshara, derrière une porte longtemps scellée",
+         "en": "Azshara, behind a long-sealed gate"
+        },
+        {
+         "fr": "Blizzard ne publie pas de note d’accès propre à une faction.",
+         "en": "Blizzard publishes no faction-specific access note."
+        }
+       ]
+      ],
+      "src": [
+       "bz-dungeons"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Donjon à cinq joueurs, l’un des neuf nouveaux donjons de WoW: Forever (niveaux 13 à 60, royaumes de l’Est et Kalimdor).",
+      "en": "Five-player dungeon, one of the nine new WoW: Forever dungeons (levels 13–60, Eastern Kingdoms and Kalimdor).",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "histoire",
+    "title": {
+     "fr": "Ce que Blizzard en dit",
+     "en": "What Blizzard says"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Une grande cité furbolg se cache derrière une porte scellée en Azshara. Le clan des Noiregueules y lutte contre une corruption qui gagne ses bosquets et ses tunnels : une aventure de niveau maximum à plusieurs itinéraires et plusieurs boss, dont les profondeurs mèneraient encore plus bas sous Azeroth.",
+      "en": "A great furbolg city lies behind a sealed gate in Azshara. The Blackmaw clan is fighting a corruption spreading through its groves and tunnels: a max-level adventure with several routes and bosses, whose depths may lead even farther below Azeroth.",
+      "src": [
+       "bz-dungeons"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "profondeurs",
+    "title": {
+     "fr": "Lien avec les profondeurs des Saisons",
+     "en": "Link to the Barrow Deeps"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "L’aperçu des raids indique que le raid des profondeurs des Saisons (10 joueurs, niveau 60, à partir du 9 décembre 2026) a plusieurs entrées, reliées au mont Hyjal, au Berceau-de-l’Hiver et au repaire des Noiregueules.",
+      "en": "The raid overview says the Barrow Deeps raid (10 players, level 60, from 9 December 2026) has several entrances, connected through Mount Hyjal, Winterspring and Blackmaw Hold.",
+      "src": [
+       "bz-raids"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "correctifs",
+    "title": {
+     "fr": "Correctifs officiels",
+     "en": "Official hotfixes"
+    },
+    "blocks": [
+     {
+      "type": "list",
+      "items": [
+       {
+        "fr": "6 novembre 2026 : certaines créatures du repaire ne se désengagent plus à tort du combat.",
+        "en": "6 November 2026: some creatures inside no longer erroneously disengage.",
+        "src": [
+         "bz-hotfixes"
+        ]
+       }
+      ],
+      "src": [
+       "bz-hotfixes"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butin",
+    "title": {
+     "fr": "Butin : ce qui est confirmé",
+     "en": "Loot: what is confirmed"
+    },
+    "blocks": [
+     {
+      "type": "p",
+      "fr": "Blizzard indique que tout le butin des donjons a été réexaminé et que des centaines de nouveaux objets ont été ajoutés ; les objets uniques des boss de donjon sont désormais de qualité bleue (rare) et les bonus d’ensemble ont été améliorés. Quand un objet inhabituel ou rare lié quand ramassé tombe en donjon, son apparence est accordée à tous les membres éligibles du groupe.",
+      "en": "Blizzard says every dungeon drop has been re-examined and hundreds of new drops added; unique dungeon boss items are now blue (Rare) quality and set bonuses have been improved. When a bind-on-pickup Uncommon or Rare item drops in a dungeon, its appearance is granted to every eligible looter.",
+      "src": [
+       "bz-dive"
+      ]
+     },
+     {
+      "type": "p",
+      "fr": "Les plans avancés d’objets de campement proviennent de certains boss de donjon, sans que Blizzard précise lesquels.",
+      "en": "Advanced camp feature blueprints drop from specific dungeon bosses; Blizzard does not say which ones.",
+      "src": [
+       "bz-camp"
+      ]
+     }
+    ]
+   }
+  ],
+  "confirmed": [
+   {
+    "fr": "Niveaux 55 à 60, emplacement et accès d’après l’article officiel du 20 octobre 2026.",
+    "en": "Levels 55–60, location and access per the official 20 October 2026 article.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "fr": "Entrée du raid des profondeurs des Saisons reliée au repaire.",
+    "en": "Barrow Deeps raid entrance connected through the hold.",
+    "src": [
+     "bz-raids"
+    ]
+   },
+   {
+    "fr": "Objets uniques des boss de donjon de qualité bleue ; apparence partagée pour les objets liés quand ramassés inhabituels ou rares.",
+    "en": "Unique dungeon boss items are blue quality; shared appearance for bind-on-pickup Uncommon or Rare drops.",
+    "src": [
+     "bz-dive"
+    ]
+   }
+  ],
+  "pending": [
+   {
+    "fr": "Liste des boss, table de butin et taux d’obtention : non publiés par Blizzard ; ce wiki ne reprend pas de bases tierces ni de données extraites du client.",
+    "en": "Boss list, loot table and drop rates: not published by Blizzard; this wiki does not reuse third-party databases or client-extracted data."
+   },
+   {
+    "fr": "Emplacement exact du passage vers le raid : non publié.",
+    "en": "Exact location of the passage to the raid: not published."
+   }
+  ],
+  "dates": [
+   {
+    "date": "2026-10-20",
+    "fr": "Article officiel de présentation des neuf donjons.",
+    "en": "Official article presenting the nine dungeons.",
+    "src": [
+     "bz-dungeons"
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "fr": "Correctif : désengagement des créatures.",
+    "en": "Hotfix: creature disengage.",
+    "src": [
+     "bz-hotfixes"
+    ]
+   }
+  ]
+ }
+}

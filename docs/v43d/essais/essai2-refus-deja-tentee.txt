@@ -1,0 +1,5 @@
+1/7 Vérifications
+ERREUR: /tmp/w43d-root/root/wow4ever-rollback-v43d.sh existe déjà (v43d déjà tentée ?) : rien modifié.
+Rien n'a été modifié.
+Journal : /tmp/w43d-root/root/wow4ever-v43d-20261125T172104.log
+code 1    [current -> releases/20261125T172100]

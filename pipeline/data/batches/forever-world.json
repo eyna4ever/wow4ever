@@ -1,0 +1,534 @@
+[
+  {
+    "id": "forever-race-skyborne",
+    "title": {
+      "fr": "Éolides",
+      "en": "Skyborne"
+    },
+    "category": "races",
+    "subcategory": "race-jouable-annoncee",
+    "description": {
+      "fr": "Race jouable originaire de Zéphras. Le choix de faction ouvre le chaman côté Horde ou le mage côté Alliance.",
+      "en": "Playable race from Zephras. Faction choice enables Shaman for the Horde or Mage for the Alliance."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302071/decouvrez-les-eolides-dans-wow-forever",
+        "title": "Découvrez les Éolides dans WoW: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+        "title": "WoW: Forever Meet the New Skyborne",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-zone-zephras-isle"
+    ],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-zone-zephras-isle",
+    "title": {
+      "fr": "Île de Zéphras",
+      "en": "Zephras Isle"
+    },
+    "category": "zones",
+    "subcategory": "zone-de-depart-annoncee",
+    "description": {
+      "fr": "Zone de départ des Éolides, annoncée pour les niveaux 1 à 12, où les esprits protecteurs ont disparu.",
+      "en": "Skyborne starting zone announced for levels 1–12, where the protective spirits have vanished."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302071/decouvrez-les-eolides-dans-wow-forever",
+        "title": "Découvrez les Éolides dans WoW: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+        "title": "WoW: Forever Meet the New Skyborne",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-race-skyborne"
+    ],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-zone-riverglades",
+    "title": {
+      "fr": "Rives Claires",
+      "en": "Riverglades"
+    },
+    "category": "zones",
+    "subcategory": "region-annoncee",
+    "description": {
+      "fr": "Région desservie par la liaison maritime de Gentepression via le port de Poudremèche.",
+      "en": "Region reached by the Steamwheedle sea route through Powderfuse Port."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+        "title": "World of Warcraft: Forever Found Photos Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-zone-mount-hyjal",
+    "title": {
+      "fr": "Mont Hyjal",
+      "en": "Mount Hyjal"
+    },
+    "category": "zones",
+    "subcategory": "region-annoncee",
+    "description": {
+      "fr": "Zone explorant les suites de la bataille du mont Hyjal.",
+      "en": "Zone exploring the aftermath of the Battle for Mount Hyjal."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+        "title": "World of Warcraft: Forever Found Photos Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-raid-hyjal-summit"
+    ],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-zone-shendralas",
+    "title": {
+      "fr": "Shen’dralas",
+      "en": "Shen’dralas"
+    },
+    "category": "zones",
+    "subcategory": "region-annoncee",
+    "description": {
+      "fr": "Nouvelle région au sud de Désolace, au-delà de la vallée des Ossements.",
+      "en": "New area south of Desolace through the Valley of Bones."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24304071/recapitulatif-de-la-conference-photos-retrouvees-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence « Photos retrouvées de World of Warcraft: Forever »",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+        "title": "World of Warcraft: Forever Found Photos Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-raid-barrow-deeps",
+    "title": {
+      "fr": "Profondeurs des Saisons",
+      "en": "Barrow Deeps"
+    },
+    "category": "instances",
+    "subcategory": "raid-annonce",
+    "description": {
+      "fr": "Raid annoncé pour dix joueurs au niveau maximal.",
+      "en": "Announced maximum-level raid for ten players."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+        "title": "World of Warcraft: Forever What’s Next Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-raid-hyjal-summit",
+    "title": {
+      "fr": "Sommet d’Hyjal",
+      "en": "Hyjal Summit"
+    },
+    "category": "instances",
+    "subcategory": "raid-annonce",
+    "description": {
+      "fr": "Raid annoncé pour vingt joueurs.",
+      "en": "Announced twenty-player raid."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+        "title": "World of Warcraft: Forever What’s Next Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [
+      "forever-zone-mount-hyjal"
+    ],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-dungeon-hall-of-thanes",
+    "title": {
+      "fr": "Salle des Thanes",
+      "en": "Hall of Thanes"
+    },
+    "category": "instances",
+    "subcategory": "donjon-annonce",
+    "description": {
+      "fr": "Donjon annoncé sous Forgefer.",
+      "en": "Announced dungeon beneath Ironforge."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303862/recapitulatif-de-la-conference-lavenir-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la conférence L’avenir de World of Warcraft: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+        "title": "World of Warcraft: Forever What’s Next Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-item-ladimore-heirloom-ring",
+    "title": {
+      "fr": "Anneau d’héritage de Ladimore",
+      "en": "Ladimore Heirloom Ring"
+    },
+    "category": "items",
+    "subcategory": "recompense-de-quete-annoncee",
+    "description": {
+      "fr": "Récompense annoncée pour lanceurs de sorts dans la quête de Mor’Ladim au bois de la Pénombre.",
+      "en": "Announced caster reward for Mor’ladim’s quest in Duskwood."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-item-worgenbane-talisman",
+    "title": {
+      "fr": "Talisman de fléau des Worgens",
+      "en": "Worgenbane Talisman"
+    },
+    "category": "items",
+    "subcategory": "bijou-annonce",
+    "description": {
+      "fr": "Bijou cité pour illustrer les effets situationnels du nouvel équipement.",
+      "en": "Trinket illustrating situational gear effects."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24303313/recapitulatif-de-la-presentation-au-cur-de-world-of-warcraft-forever",
+        "title": "Récapitulatif de la présentation « Au cœur de World of Warcraft: Forever »",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+        "title": "World of Warcraft: Forever Deep Dive Panel Recap",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-creature-onyxia",
+    "title": {
+      "fr": "Onyxia",
+      "en": "Onyxia"
+    },
+    "category": "creatures",
+    "subcategory": "rencontre-citee-par-heritage",
+    "description": {
+      "fr": "Vaincre Onyxia figure parmi les défis d’héritage de la catégorie Raids.",
+      "en": "Defeating Onyxia is listed as a raid-category Legacy Challenge."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24307383/decouvrez-le-systeme-dheritage-de-world-of-warcraft-forever",
+        "title": "Découvrez le système d’héritage de World of Warcraft: Forever",
+        "language": "fr",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-creature-family-fox",
+    "title": {
+      "fr": "Renards",
+      "en": "Foxes"
+    },
+    "category": "creatures",
+    "subcategory": "famille-de-familiers-annoncee",
+    "description": {
+      "fr": "Nouvelle famille de familiers de chasseur annoncée pour Forever.",
+      "en": "New Hunter pet family announced for Forever."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "title": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+        "language": "en",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+        "license": "Droits réservés Blizzard Entertainment ; source citée, synthèse originale à relire. Réutilisation des textes et médias non autorisée par la simple consultation."
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "version": 1,
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat issu de sources consultées ; relecture humaine des faits, traductions et droits requise ; périmètre du wiki non confirmé. Aucune publication.",
+        "version": 1
+      }
+    ]
+  }
+]

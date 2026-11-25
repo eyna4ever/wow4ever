@@ -1,0 +1,389 @@
+[
+  {
+    "id": "forever-class-hunter",
+    "title": {
+      "fr": "Chasseur / Chasseresse",
+      "en": "Hunter"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le chasseur de Forever combat à distance avec son familier et ses pièges. Ses voies sont Maîtrise des bêtes, Précision et Survie. Selon l’aperçu officiel, les pièges deviennent utilisables pendant le combat. Ces annonces de bêta peuvent encore évoluer.",
+      "en": "Forever Hunters pair ranged attacks with companions and traps. Their talent paths are Beast Mastery, Marksmanship, and Survival. The official preview describes traps becoming usable during combat, extending their tactical options. These beta announcements remain subject to further changes."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "title": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse",
+        "title": "World of Warcraft: Forever — chasseur/chasseresse et druide/druidesse",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-druid",
+    "title": {
+      "fr": "Druide / Druidesse",
+      "en": "Druid"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le druide de Forever combine magie naturelle, métamorphoses et soins. Ses voies sont Équilibre, Combat farouche et Restauration. L’aperçu annonce que les potions peuvent être utilisées sans annuler la transformation. Cette présentation correspond à une bêta, dont les détails peuvent évoluer.",
+      "en": "Forever Druids combine nature magic, shapeshifting, and healing through Balance, Feral Combat, and Restoration. The official preview introduces potion use without cancelling a shapeshift, making transformed play more flexible. This summary covers beta announcements rather than a final specification."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "title": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse",
+        "title": "World of Warcraft: Forever — chasseur/chasseresse et druide/druidesse",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-priest",
+    "title": {
+      "fr": "Prêtre / Prêtresse",
+      "en": "Priest"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Dans Forever, le prêtre mobilise la Lumière et l’ombre pour soigner, protéger ou infliger des dégâts. Discipline, Sacré et Ombre structurent ses talents. L’aperçu officiel rend Gardien de peur accessible à toutes les races dès le niveau 20. Ces informations décrivent une bêta encore évolutive.",
+      "en": "Forever Priests use Light and Shadow for healing, protection, and damage, with Discipline, Holy, and Shadow talent paths. One announced change gives every Priest race access to Fear Ward at level 20. The overview reflects a beta preview whose abilities and talents can still change."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "title": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere",
+        "title": "Présentation des classes de World of Warcraft: Forever — prêtre/prêtresse et guerrier/guerrière",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-warrior",
+    "title": {
+      "fr": "Guerrier / Guerrière",
+      "en": "Warrior"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le guerrier de Forever s’appuie sur ses armes, sa rage et ses postures pour combattre en première ligne. Ses voies sont Armes, Fureur et Protection. L’aperçu annonce Maîtrise tactique au niveau 14, conservant de la rage après un changement de posture. Le fonctionnement décrit reste susceptible d’évoluer.",
+      "en": "Forever Warriors fight through weapon mastery, Rage, and stances, with Arms, Fury, and Protection talent paths. The official preview makes Tactical Mastery available at level 14 so changing stances retains some Rage. This describes announced beta behavior, which remains open to further balance and ability changes."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "title": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere",
+        "title": "Présentation des classes de World of Warcraft: Forever — prêtre/prêtresse et guerrier/guerrière",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-paladin",
+    "title": {
+      "fr": "Paladin",
+      "en": "Paladin"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le paladin de Forever manie la Lumière pour soutenir ses alliés et combattre, en articulant ses techniques autour des sceaux et des jugements. Sacré, Protection et Vindicte constituent ses trois voies. Selon l’aperçu officiel, Jugement ne consomme plus le sceau actif. Ces informations de bêta ne sont pas définitives.",
+      "en": "Forever Paladins channel the Light through a toolkit built around Seals and Judgements, supporting allies while fighting their enemies. Holy, Protection, and Retribution offer three talent paths. The official preview announces that Judgement no longer consumes the active Seal. This description reflects beta information and may change."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302099/world-of-warcraft-forever-class-deep-dives-paladin",
+        "title": "World of Warcraft: Forever Class Deep Dives — Paladin",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302099/apercu-detaille-des-classes-de-world-of-warcraft-forever-paladins",
+        "title": "Aperçu détaillé des classes de World of Warcraft: Forever — paladins",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-mage",
+    "title": {
+      "fr": "Mage",
+      "en": "Mage"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le mage de Forever dispose de trois voies, Arcanes, Feu et Givre, pour combiner dégâts à distance et contrôle. L’aperçu officiel présente Compréhension, un nouveau métier secondaire réservé à la classe permettant de déchiffrer des parchemins trouvés sur des créatures. Son fonctionnement relève encore des annonces de bêta.",
+      "en": "Forever Mages draw on Arcane, Fire, and Frost talent paths for ranged spell damage and control. The official preview introduces Comprehension, a new Mage-specific minor tradeskill used to decipher scrolls obtained from creatures. This overview reflects announced beta features, with further class changes still possible before release."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "title": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans",
+        "title": "Aperçu détaillé des classes de World of Warcraft: Forever — mages et chamans",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-shaman",
+    "title": {
+      "fr": "Chaman",
+      "en": "Shaman"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le chaman de Forever associe magie élémentaire, imprégnations d’armes et totems. Ses voies sont Élémentaire, Amélioration et Restauration, couvrant sorts, mêlée et soins. L’aperçu officiel introduit Projection totémique au niveau 22 pour déplacer ses totems. Cette présentation porte sur une bêta dont les techniques peuvent encore évoluer.",
+      "en": "Forever Shaman combine elemental magic, weapon imbues, and totems through Elemental Combat, Enhancement, and Restoration talent paths, supporting spellcasting, melee, and healing. The official preview introduces Totemic Projection at level 22 to reposition their totems. These are announced beta features, and abilities remain subject to further changes."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "title": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans",
+        "title": "Aperçu détaillé des classes de World of Warcraft: Forever — mages et chamans",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-rogue",
+    "title": {
+      "fr": "Voleur / Voleuse",
+      "en": "Rogue"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le voleur de Forever exploite la furtivité, les poisons et le contrôle pour préparer ses attaques. Assassinat, Combat et Finesse organisent ses talents. L’aperçu officiel autorise désormais les poisons en même temps que des enchantements temporaires sur une arme. Ces possibilités restent liées à une bêta susceptible de changer.",
+      "en": "Forever Rogues prepare openings through stealth, poisons, control, and precise weapon attacks, with Assassination, Combat, and Subtlety talent paths. The official preview allows poisons to coexist with temporary weapon enchantments on a weapon. These announced options describe a beta environment and should not be treated as final."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "title": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes",
+        "title": "Aperçu détaillé des classes de World of Warcraft: Forever — voleurs et démonistes",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  },
+  {
+    "id": "forever-class-warlock",
+    "title": {
+      "fr": "Démoniste",
+      "en": "Warlock"
+    },
+    "category": "classes",
+    "subcategory": "classes",
+    "description": {
+      "fr": "Le démoniste de Forever combine pouvoirs d’ombre, de feu et démoniaques. Affliction, Démonologie et Destruction structurent ses talents, entre dégâts persistants, démons et sorts offensifs. L’aperçu officiel sépare les effets nuisibles des plaies des malédictions utilitaires. Cette synthèse correspond aux annonces de bêta, qui peuvent encore être ajustées.",
+      "en": "Forever Warlocks combine Shadow, Fire, and demonic power through Affliction, Demonology, and Destruction talent paths, spanning persistent damage, demons, and offensive spells. The official preview separates damaging Banes from utility Curses. This summary describes announced beta changes rather than an immutable class specification, and further adjustments remain possible."
+    },
+    "sources": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "title": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      },
+      {
+        "url": "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes",
+        "title": "Aperçu détaillé des classes de World of Warcraft: Forever — voleurs et démonistes",
+        "license": "Droits réservés Blizzard ; référence et synthèse originale, réutilisation à vérifier lors de la revue humaine.",
+        "accessedAt": "2026-10-19",
+        "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19"
+      }
+    ],
+    "status": "draft",
+    "identityConfirmed": false,
+    "updatedAt": "2026-10-19",
+    "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+    "version": 1,
+    "relations": [],
+    "history": [
+      {
+        "at": "2026-10-19",
+        "actor": "AI-documentary-draft",
+        "note": "Brouillon candidat rédigé à partir de sources officielles ouvertes en FR et EN ; l’identité du projet visé par le wiki, les droits, la traduction et la relecture humaine restent à confirmer. Aucune publication.",
+        "version": 1
+      }
+    ]
+  }
+]

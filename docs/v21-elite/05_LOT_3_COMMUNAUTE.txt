@@ -1,0 +1,16 @@
+MISSION ÉLITE WOWKIPEDIA V2.1 — JcJ, événements, collections, économie, lore, communauté
+
+PROJET : Wowkipedia.com — exclusivement World of Warcraft: Forever.
+EXÉCUTANT : GrokBot, qui vérifie ses accès existants avant de réclamer des informations.
+RÈGLES PERMANENTES : conserver l'architecture, les données, les comptes, Discord, les forums et la direction artistique dark fantasy bleu/or. Ne toucher à aucun autre projet. Ne jamais inventer d'informations ou prétendre avoir testé/déployé sans preuve. Toute donnée doit porter source, date, build, statut de vérification et droits de réutilisation. Les chiffres évoqués précédemment (5167 quêtes, 48 factions, 65 défis, etc.) sont à vérifier et ne sont pas des objectifs. Pas de mélange avec Classic/Retail. Travail par branche, changements révisables, secrets jamais publiés. Autonomie sur opérations réversibles ; arrêt et demande d'accord en cas de destruction, risque critique ou restauration impossible.
+
+OBJECTIF DE CETTE ÉTAPE
+Compléter :
+A. JcJ : champs de bataille, objectifs, factions et récompenses vérifiés.
+B. Événements : calendrier avec actif/annoncé/historique/non confirmé ; dates uniquement sourcées.
+C. Collections : montures, mascottes, apparences et récompenses.
+D. Économie : activités, recettes, commissions et routes de collecte ; aucun prix inventé.
+E. Lore : histoire propre à Forever, distinguer faits et interprétations.
+F. Communauté : favoris/checklists, signalements et corrections modérées, historique, minimisation RGPD.
+Préparer contrat d'intégration futur de Cartographe Forever sans collecte automatique non consentie ni promesse d'API personnage inexistante.
+LIVRABLE : PR/commits, inventaire des modules, tests, provenance, déploiements vérifiés, anomalies.

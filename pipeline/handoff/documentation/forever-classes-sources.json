@@ -1,0 +1,435 @@
+{
+  "format": 1,
+  "batch": "data/batches/forever-classes.json",
+  "collectedAt": "2026-10-19",
+  "status": "candidate-drafts-only",
+  "gameVersion": "World of Warcraft: Forever — annonces et bêta, état documentaire 2026-10-19",
+  "identity": {
+    "officialProject": "World of Warcraft: Forever, présenté par Blizzard Entertainment",
+    "wikiScopeConfirmedByHuman": false,
+    "note": "La concordance avec le projet que l’utilisateur souhaite documenter n’est pas attestée par un humain ; identityConfirmed demeure false pour chaque fiche."
+  },
+  "rights": {
+    "sourceTextStored": false,
+    "fullArticleCopied": false,
+    "imagesCopied": false,
+    "licenseGranted": false,
+    "note": "Références publiques et synthèses originales ; aucune autorisation de réutilisation générale ni de publication n’est présumée."
+  },
+  "openedSources": [
+    {
+      "article": "24301514",
+      "locale": "en",
+      "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+      "title": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24301514",
+      "locale": "fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere",
+      "title": "Présentation des classes de World of Warcraft: Forever — prêtre/prêtresse et guerrier/guerrière",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24301515",
+      "locale": "en",
+      "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+      "title": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24301515",
+      "locale": "fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse",
+      "title": "World of Warcraft: Forever — chasseur/chasseresse et druide/druidesse",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24302097",
+      "locale": "en",
+      "url": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+      "title": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24302097",
+      "locale": "fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans",
+      "title": "Aperçu détaillé des classes de World of Warcraft: Forever — mages et chamans",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24302099",
+      "locale": "en",
+      "url": "https://news.blizzard.com/en-us/article/24302099/world-of-warcraft-forever-class-deep-dives-paladin",
+      "title": "World of Warcraft: Forever Class Deep Dives — Paladin",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24302099",
+      "locale": "fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24302099/apercu-detaille-des-classes-de-world-of-warcraft-forever-paladins",
+      "title": "Aperçu détaillé des classes de World of Warcraft: Forever — paladins",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24310968",
+      "locale": "en",
+      "url": "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+      "title": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    },
+    {
+      "article": "24310968",
+      "locale": "fr",
+      "url": "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes",
+      "title": "Aperçu détaillé des classes de World of Warcraft: Forever — voleurs et démonistes",
+      "accessedAt": "2026-10-19",
+      "method": "search_service_web_run.open",
+      "result": "opened-readable-official-article",
+      "wordLimit": 200
+    }
+  ],
+  "languageReview": {
+    "method": "Lecture automatique des versions officielles FR et EN ; rédaction originale bilingue.",
+    "humanReviewed": false,
+    "titles": "Les intitulés des classes et des voies de talents ont été retrouvés dans les pages officielles FR et EN. Les titres de fiches sont des libellés éditoriaux normalisés, parfois au singulier ou avec une barre oblique ; leur adoption finale demande une revue humaine.",
+    "descriptions": "Les descriptions FR et EN sont des synthèses éditoriales originales, pas des traductions officielles publiées par Blizzard. Équivalence terminologique et sens à confirmer lors de la revue humaine."
+  },
+  "entries": [
+    {
+      "id": "forever-class-hunter",
+      "article": "24301515",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse"
+      ],
+      "sectionsRead": [
+        "Taking Aim at the Hunter Class",
+        "On vise la classe de chasseur/chasseresse"
+      ],
+      "descriptionWords": {
+        "fr": 39,
+        "en": 39
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-druid",
+      "article": "24301515",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+        "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse"
+      ],
+      "sectionsRead": [
+        "Shifting Forms with the Druid Class",
+        "Changer de forme avec la classe de druide/druidesse"
+      ],
+      "descriptionWords": {
+        "fr": 41,
+        "en": 39
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-priest",
+      "article": "24301514",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere"
+      ],
+      "sectionsRead": [
+        "Walking the Path of Light and Shadow with the Priest Class",
+        "Arpenter la voie de la Lumière et de l’ombre avec la classe prêtre/prêtresse"
+      ],
+      "descriptionWords": {
+        "fr": 45,
+        "en": 45
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-warrior",
+      "article": "24301514",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+        "https://news.blizzard.com/fr-fr/article/24301514/presentation-des-classes-de-world-of-warcraft-forever-pretre-pretresse-et-guerrier-guerriere"
+      ],
+      "sectionsRead": [
+        "Forged in Battle: Warrior Class Updates",
+        "Forgés par le combat : mises à jour apportées à la classe guerrier/guerrière"
+      ],
+      "descriptionWords": {
+        "fr": 47,
+        "en": 46
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-paladin",
+      "article": "24302099",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24302099/world-of-warcraft-forever-class-deep-dives-paladin",
+        "https://news.blizzard.com/fr-fr/article/24302099/apercu-detaille-des-classes-de-world-of-warcraft-forever-paladins"
+      ],
+      "sectionsRead": [
+        "Paladin: Champions of the Light",
+        "Paladins : les champions de la Lumière",
+        "Baseline Abilities / Techniques de base"
+      ],
+      "descriptionWords": {
+        "fr": 49,
+        "en": 47
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-mage",
+      "article": "24302097",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans"
+      ],
+      "sectionsRead": [
+        "Mage: Building Around the Right Spell at the Right Time",
+        "Mages : l’art de savoir lancer le bon sort au bon moment"
+      ],
+      "descriptionWords": {
+        "fr": 48,
+        "en": 47
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-shaman",
+      "article": "24302097",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+        "https://news.blizzard.com/fr-fr/article/24302097/apercu-detaille-des-classes-de-world-of-warcraft-forever-mages-et-chamans"
+      ],
+      "sectionsRead": [
+        "Shaman: Commanding Totems in the Flow of Combat",
+        "Chamans : la maîtrise des totems au cœur du combat"
+      ],
+      "descriptionWords": {
+        "fr": 47,
+        "en": 47
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-rogue",
+      "article": "24310968",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes"
+      ],
+      "sectionsRead": [
+        "Rogue: Every Advantage Counts",
+        "Voleurs : chaque avantage compte"
+      ],
+      "descriptionWords": {
+        "fr": 49,
+        "en": 47
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    },
+    {
+      "id": "forever-class-warlock",
+      "article": "24310968",
+      "sourceURLs": [
+        "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+        "https://news.blizzard.com/fr-fr/article/24310968/apercu-detaille-des-classes-de-world-of-warcraft-forever-voleurs-et-demonistes"
+      ],
+      "sectionsRead": [
+        "Introduction; Warlock; Talent updates",
+        "Introduction; Démonistes; Talents"
+      ],
+      "descriptionWords": {
+        "fr": 48,
+        "en": 48
+      },
+      "reviewRequired": [
+        "périmètre du wiki",
+        "droits",
+        "exactitude et actualité",
+        "traduction"
+      ],
+      "runtimeImported": false,
+      "published": false
+    }
+  ],
+  "sourceBudgets": [
+    {
+      "article": "24301514",
+      "descriptionWordsAcrossBothLanguages": 183,
+      "limit": 200,
+      "note": "Budget de l’article réservé au lot classes ; aucune longue citation ni reprise intégrale."
+    },
+    {
+      "article": "24301515",
+      "descriptionWordsAcrossBothLanguages": 158,
+      "limit": 200,
+      "note": "Budget partagé avec le lot créatures : 158 mots de descriptions, 6 mots de titres de classes ; réserver la place restante à la notice Renards."
+    },
+    {
+      "article": "24302097",
+      "descriptionWordsAcrossBothLanguages": 189,
+      "limit": 200,
+      "note": "Budget de l’article réservé au lot classes ; aucune longue citation ni reprise intégrale."
+    },
+    {
+      "article": "24302099",
+      "descriptionWordsAcrossBothLanguages": 96,
+      "limit": 200,
+      "note": "Budget de l’article réservé au lot classes ; aucune longue citation ni reprise intégrale."
+    },
+    {
+      "article": "24310968",
+      "descriptionWordsAcrossBothLanguages": 192,
+      "limit": 200,
+      "note": "Budget de l’article réservé au lot classes ; aucune longue citation ni reprise intégrale."
+    }
+  ],
+  "contradictions": [
+    {
+      "article": "24301515",
+      "field": "partage du temps de recharge de Flèches multiples / Multi-Shot et Visée / Aimed Shot",
+      "type": "official-localization-disagreement",
+      "sources": [
+        "https://news.blizzard.com/fr-fr/article/24301515/world-of-warcraft-forever-chasseur-chasseresse-et-druide-druidesse",
+        "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid"
+      ],
+      "action": "Détail écarté des fiches candidates ; comparaison et confirmation humaine nécessaires avant tout ajout."
+    }
+  ],
+  "limitations": [
+    "Sources d’annonce et de bêta consultées le 19 octobre 2026 ; les annonces ne garantissent pas l’état d’une future version publiée.",
+    "Aucune observation du client de jeu, aucun test de mécanique et aucune donnée de personnage ou statistique d’équipement.",
+    "Les pages officielles ont été ouvertes réellement ; leurs dates de publication ne sont pas supposées à partir des dates incohérentes de l’index de recherche.",
+    "Pas de transplantation de données depuis Classic, Retail, Season of Discovery, un serveur privé ou un wiki tiers.",
+    "Le lot est une introduction aux classes, pas une documentation complète des talents, rotations, équipements, statistiques ou optimisations.",
+    "Le minimum initial de 45 mots est abaissé pour Hunter et Druid afin de respecter le plafond partagé de l’article source."
+  ],
+  "failedAccess": [
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301515",
+      "accessedAt": "2026-10-19",
+      "result": "403 Forbidden via outil ; aucune synthèse fondée sur cette tentative"
+    },
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301514",
+      "accessedAt": "2026-10-19",
+      "result": "403 Forbidden via outil ; aucune synthèse fondée sur cette tentative"
+    },
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24302099",
+      "accessedAt": "2026-10-19",
+      "result": "403 Forbidden via outil ; aucune synthèse fondée sur cette tentative"
+    },
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24302097",
+      "accessedAt": "2026-10-19",
+      "result": "403 Forbidden via outil ; aucune synthèse fondée sur cette tentative"
+    },
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24310968",
+      "accessedAt": "2026-10-19",
+      "result": "403 Forbidden via outil ; aucune synthèse fondée sur cette tentative"
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24301515/apercu-detaille-des-classes-de-world-of-warcraft-forever-chasseurs-et-druides",
+      "accessedAt": "2026-10-19",
+      "result": "Non accessible via outil ; le lien officiel lisible a été résolu ensuite."
+    },
+    {
+      "url": "https://news.blizzard.com/fr-fr/article/24301514/apercu-detaille-des-classes-de-world-of-warcraft-forever-pretres-et-guerriers",
+      "accessedAt": "2026-10-19",
+      "result": "Non accessible via outil ; le lien officiel lisible a été résolu ensuite."
+    }
+  ]
+}
